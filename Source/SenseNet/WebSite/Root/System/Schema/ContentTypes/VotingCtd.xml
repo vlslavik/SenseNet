@@ -1,0 +1,237 @@
+<ContentType name="Voting" parentType="Survey" handler="SenseNet.ContentRepository.Voting" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Voting,DisplayName</DisplayName>
+  <Description>$Ctd-Voting,Description</Description>
+  <Icon>ContentList</Icon>
+  <AllowedChildTypes>
+    VotingItem Folder
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-Voting,Description-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,Description-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ValidFrom" type="DateTime">
+      <DisplayName>$Ctd-Voting,ValidFrom-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,ValidFrom-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ValidTill" type="DateTime">
+      <DisplayName>$Ctd-Voting,ValidTill-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,ValidTill-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="LandingPage" type="Reference">
+      <DisplayName>$Ctd-Voting,LandingPage-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="LandingPageContentView" type="Reference">
+      <DisplayName>$Ctd-Voting,LandingPageContentView-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,LandingPageContentView-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InvalidSurveyPage" type="Reference">
+      <DisplayName>$Ctd-Voting,InvalidSurveyPage-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ResultPageContentView" type="Reference">
+      <DisplayName>$Ctd-Voting,ResultPageContentView-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="VotingPageContentView" type="Reference">
+      <DisplayName>$Ctd-Voting,VotingPageContentView-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="CannotSeeResultContentView" type="Reference">
+      <DisplayName>$Ctd-Voting,CannotSeeResultContentView-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ContentListDefinition" type="LongText">
+      <DisplayName>$Ctd-Voting,ContentListDefinition-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,ContentListDefinition-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <DefaultValue>
+          <![CDATA[<ContentListDefinition xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentListDefinition">
+            <DisplayName>Voting</DisplayName>
+            <Description>Voting</Description>
+            <Fields></Fields>
+          </ContentListDefinition>]]>
+        </DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option selected="true" value="0">$Ctd-Voting,InheritableVersioningMode-0</Option>
+          <Option value="1">$Ctd-Voting,InheritableVersioningMode-1</Option>
+          <Option value="2">$Ctd-Voting,InheritableVersioningMode-2</Option>
+          <Option value="3">$Ctd-Voting,InheritableVersioningMode-3</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option selected="true" value="0">$Ctd-Voting,InheritableApprovingMode-0</Option>
+          <Option value="1">$Ctd-Voting,InheritableApprovingMode-1</Option>
+          <Option value="2">$Ctd-Voting,InheritableApprovingMode-2</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <DisplayName>$Ctd-Voting,Version-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,Version-Description</Description>
+      <Indexing>
+        <Store>Yes</Store>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <DisplayName>$Ctd-Voting,Index-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,Index-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableLifespan" type="Boolean">
+      <DisplayName>$Ctd-Voting,EnableLifespan-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,EnableLifespan-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableNotificationMail" type="Boolean">
+      <DisplayName>$Ctd-Voting,EnableNotificationMail-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,EnableNotificationMail-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="SenderAddress" type="ShortText">
+      <DisplayName>$Ctd-Voting,SenderAddress-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,SenderAddress-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Evaluators" type="Reference">
+      <DisplayName>$Ctd-Voting,Evaluators-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,Evaluators-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>true</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+          <Type>Group</Type>
+        </AllowedTypes>
+        <SelectionRoot>
+          <Path>/Root/IMS</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+    <Field name="MailTemplatePage" type="Reference">
+      <DisplayName>$Ctd-Voting,MailTemplatePage-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,MailTemplatePage-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableMoreFilling" type="Boolean">
+      <DisplayName>$Ctd-Voting,EnableMoreFilling-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,EnableMoreFilling-Description</Description>
+    </Field>
+    <Field name="IsResultVisibleBefore" type="Boolean">
+      <DisplayName>$Ctd-Voting,IsResultVisibleBefore-DisplayName</DisplayName>
+    </Field>
+    <Field name="PageContentView" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="DefaultView" type="ShortText">
+      <DisplayName>$Ctd-Voting,DefaultView-DisplayName</DisplayName>
+      <Description>$Ctd-Voting,DefaultView-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

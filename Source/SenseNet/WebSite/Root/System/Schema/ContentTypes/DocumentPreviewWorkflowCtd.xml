@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="DocumentPreviewWorkflow" parentType="Workflow" handler="SenseNet.Workflow.WorkflowHandlerBase" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-DocumentPreviewWorkflow,DisplayName</DisplayName>
+  <Description>$Ctd-DocumentPreviewWorkflow,Description</Description>
+  <Icon>workflow</Icon>
+  <AllowIncrementalNaming>true</AllowIncrementalNaming>
+  <Fields>
+    <Field name="StartIndex" type="Integer">
+      <DisplayName>$Ctd-DocumentPreviewWorkflow,StartIndex-DisplayName</DisplayName>
+      <Description>$Ctd-DocumentPreviewWorkflow,StartIndex-Description</Description>
+    </Field>
+    <Field name="ContentVersion" type="ShortText">
+      <DisplayName>$Ctd-DocumentPreviewWorkflow,ContentVersion-DisplayName</DisplayName>
+      <Description>$Ctd-DocumentPreviewWorkflow,ContentVersion-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

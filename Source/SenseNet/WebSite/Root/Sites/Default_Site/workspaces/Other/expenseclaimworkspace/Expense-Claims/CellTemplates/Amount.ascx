@@ -1,0 +1,1 @@
+﻿<%# Eval("@@bindingName@@") %> USD

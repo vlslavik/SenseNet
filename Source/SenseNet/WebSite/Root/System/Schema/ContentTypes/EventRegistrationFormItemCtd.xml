@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="EventRegistrationFormItem" parentType="FormItem" handler="SenseNet.Portal.Portlets.ContentHandlers.EventRegistrationFormItem" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-EventRegistrationFormItem,DisplayName</DisplayName>
+  <Description>$Ctd-EventRegistrationFormItem,Description</Description>
+  <Icon>FormItem</Icon>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Name" type="ShortText">
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.KeywordAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationFormItem,Description-DisplayName</DisplayName>
+      <Configuration>
+        <ControlHint>sn:RichText</ControlHint>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <DisplayName>$Ctd-EventRegistrationFormItem,Index-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationFormItem,Index-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <DisplayName>$Ctd-EventRegistrationFormItem,Version-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationFormItem,Version-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="TrashDisabled" type="Boolean">
+      <DisplayName>$Ctd-EventRegistrationFormItem,TrashDisabled-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationFormItem,TrashDisabled-Description</Description>
+      <Configuration>
+        <DefaultValue>false</DefaultValue>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Email" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationFormItem,Email-DisplayName</DisplayName>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <Regex>^[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,4}$</Regex>
+      </Configuration>
+    </Field>
+    <Field name="GuestNumber" type="Integer">
+      <DisplayName>$Ctd-EventRegistrationFormItem,GuestNumber-DisplayName</DisplayName>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <MinValue>0</MinValue>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

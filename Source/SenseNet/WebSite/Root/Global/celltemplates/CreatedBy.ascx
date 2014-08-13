@@ -1,0 +1,3 @@
+﻿<sn:ActionLinkButton runat='server' NodePath='<%# ((SNCR.Content)Container.DataItem).ContentHandler.CreatedBy.Path%>' ActionName='Browse' IconVisible="false" 
+    Text='<%# ((SNCR.User)((SNCR.Content)Container.DataItem).ContentHandler.CreatedBy).FullName %>'
+ToolTip='<%# ((SNCR.User)((SNCR.Content)Container.DataItem).ContentHandler.CreatedBy).Domain + "/" + ((SNCR.Content)Container.DataItem).ContentHandler.CreatedBy.Name %>'  />

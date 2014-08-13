@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="KPIDatasources" parentType="Folder" handler="SenseNet.ContentRepository.Folder" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-KPIDatasources,DisplayName</DisplayName>
+  <Description>$Ctd-KPIDatasources,Description</Description>
+  <Icon>Folder</Icon>
+  <AllowedChildTypes>
+    KPIDatasource
+  </AllowedChildTypes>
+  <Fields></Fields>
+</ContentType>

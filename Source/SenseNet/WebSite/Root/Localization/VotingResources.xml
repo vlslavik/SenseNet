@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="Voting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Voting</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This portlet presents a voting</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Error: ContextNode cannot be null!</value>
+        </data>
+        <data name="ContextNodePermissionError" xml:space="preserve">
+          <value>You need more permissions to see this.</value>
+        </data>
+        <data name="BindingError" xml:space="preserve">
+          <value>Error: Binding root cannot be null!</value>
+        </data>
+        <data name="VotingOnlyError" xml:space="preserve">
+          <value>In VotingOnly PortletMode the state ResultView is not supported!</value>
+        </data>
+        <data name="VoteAndGotoResultError" xml:space="preserve">
+          <value>An error occurred in VoteAndGotoResult portlet mode!</value>
+        </data>
+        <data name="ResultAndVotingError" xml:space="preserve">
+          <value>An error occurred in ResultAndVoting portlet mode!</value>
+        </data>
+        <data name="NoResult" xml:space="preserve">
+          <value>There is no result view for voting.</value>
+        </data>
+        <data name="NoContentView" xml:space="preserve">
+          <value>There is no content view to display.</value>
+        </data>
+        <data name="OnlyOneVoteError" xml:space="preserve">
+          <value>You cannot vote more than once at this time.</value>
+        </data>
+        <data name="GoToResultLink" xml:space="preserve">
+          <value>Go to results</value>
+        </data>
+        <data name="GoToVotingLink" xml:space="preserve">
+          <value>Go to voting</value>
+        </data>
+        <data name="ContentViewCreateError" xml:space="preserve">
+          <value>Error: ContentView cannot be created!</value>
+        </data>
+        <data name="ContentCreateError" xml:space="preserve">
+          <value>Error: Content cannot be created!</value>
+        </data>
+        <data name="PlaceHolderError" xml:space="preserve">
+          <value>PlaceHolder cannot be found in the ContentView!</value>
+        </data>
+        <data name="NoQuestion" xml:space="preserve">
+          <value>There is no avalaible question in the Voting yet!</value>
+        </data>
+        <data name="CannotFindLink" xml:space="preserve">
+          <value>Error: VotingAndResult control cannot be found!</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Error: ContextNode cannot be represented as Voting!</value>
+        </data>
+        <data name="LandingPage" xml:space="preserve">
+          <value>Landing Page</value>
+        </data>
+        <data name="LandingPageError" xml:space="preserve">
+          <value>Error: Landing Page cannot be null!</value>
+        </data>
+        <data name="InvalidSurveyPageError" xml:space="preserve">
+          <value>Error: Invalid Survey Page!</value>
+        </data>
+        <data name="Result" xml:space="preserve">
+          <value>Result</value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Add</value>
+        </data>
+        <data name="VotingQuestion" xml:space="preserve">
+          <value>Voting question</value>
+        </data>
+        <data name="EditDelete" xml:space="preserve">
+          <value>Edit/Delete</value>
+        </data>
+        <data name="QuestionName" xml:space="preserve">
+          <value>Question Name</value>
+        </data>
+        <data name="FieldType" xml:space="preserve">
+          <value>Field type</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Edit</value>
+        </data>
+        <data name="Delete" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="FieldTitle" xml:space="preserve">
+          <value>Field title</value>
+        </data>
+        <data name="NoQuestions" xml:space="preserve">
+          <value>There is no question for this voting.</value>
+        </data>
+        <data name="CopySelected" xml:space="preserve">
+          <value>Copy selected</value>
+        </data>
+        <data name="MoveSelected" xml:space="preserve">
+          <value>Move selected</value>
+        </data>
+        <data name="DeleteSelected" xml:space="preserve">
+          <value>Delete selected</value>
+        </data>
+        <data name="CreateContentLinks" xml:space="preserve">
+          <value>Create content links</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Szavazás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Portlet szavazás megjelenítéséhez</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Hiba: A hivatkozott tartalom mező nem lehet üres!</value>
+        </data>
+        <data name="ContextNodePermissionError" xml:space="preserve">
+          <value>Nincs megfelelő jogosultsága ehhez.</value>
+        </data>
+        <data name="BindingError" xml:space="preserve">
+          <value>Hiba: Nincs megadva tartalom!</value>
+        </data>
+        <data name="VotingOnlyError" xml:space="preserve">
+          <value>A csak szavazást megjelenítő módban nincs lehetőség az eredménynézet beállítására!</value>
+        </data>
+        <data name="VoteAndGotoResultError" xml:space="preserve">
+          <value>Hiba a szavazás és eredmény nézetben!</value>
+        </data>
+        <data name="ResultAndVotingError" xml:space="preserve">
+          <value>Hiba az eredmény és szavazás nézetben!</value>
+        </data>
+        <data name="NoResult" xml:space="preserve">
+          <value>A szavazásnak nincsen eredmény megjelenítője.</value>
+        </data>
+        <data name="NoContentView" xml:space="preserve">
+          <value>Nincs megjeleníthető nézet.</value>
+        </data>
+        <data name="OnlyOneVoteError" xml:space="preserve">
+          <value>Csak egyszer szavazhat.</value>
+        </data>
+        <data name="GoToResultLink" xml:space="preserve">
+          <value>Tovább az eredményekhez</value>
+        </data>
+        <data name="GoToVotingLink" xml:space="preserve">
+          <value>Tovább a szavazáshoz</value>
+        </data>
+        <data name="ContentViewCreateError" xml:space="preserve">
+          <value>Hiba: A tartalomnézetet nem lehet létrehozni!</value>
+        </data>
+        <data name="ContentCreateError" xml:space="preserve">
+          <value>Hiba: A tartalmat nem lehet létrehozni!</value>
+        </data>
+        <data name="PlaceHolderError" xml:space="preserve">
+          <value>A tartalom nézetben nem található meg a szükséges elem!</value>
+        </data>
+        <data name="NoQuestion" xml:space="preserve">
+          <value>Nincs kérdés felvéve a szavazáshoz!</value>
+        </data>
+        <data name="CannotFindLink" xml:space="preserve">
+          <value>Hiba: A szavazás és eredmény vezérlő nem található!</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Hiba: A contextnode nem lehet szavazás!</value>
+        </data>
+        <data name="LandingPage" xml:space="preserve">
+          <value>Nyitóoldal</value>
+        </data>
+        <data name="LandingPageError" xml:space="preserve">
+          <value>Hiba: A nyitóoldal mező nem lehet üres!</value>
+        </data>
+        <data name="InvalidSurveyPageError" xml:space="preserve">
+          <value>Hiba: Helytelen szavazás oldal!</value>
+        </data>
+        <data name="Result" xml:space="preserve">
+          <value>Eredmény</value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Hozzáadás</value>
+        </data>
+        <data name="VotingQuestion" xml:space="preserve">
+          <value>Kérdés</value>
+        </data>
+        <data name="EditDelete" xml:space="preserve">
+          <value>Szerkesztés/Törlés</value>
+        </data>
+        <data name="QuestionName" xml:space="preserve">
+          <value>Kérdés neve</value>
+        </data>
+        <data name="FieldType" xml:space="preserve">
+          <value>Mező típus</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="Delete" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="FieldTitle" xml:space="preserve">
+          <value>Mező címe</value>
+        </data>
+        <data name="NoQuestions" xml:space="preserve">
+          <value>Ehhez a szavazáshoz még nincs kérdés</value>
+        </data>
+        <data name="CopySelected" xml:space="preserve">
+          <value>Kijelöltek másolása</value>
+        </data>
+        <data name="MoveSelected" xml:space="preserve">
+          <value>Kijelöltek mozgatása</value>
+        </data>
+        <data name="DeleteSelected" xml:space="preserve">
+          <value>Kijelöltek törlése</value>
+        </data>
+        <data name="CreateContentLinks" xml:space="preserve">
+          <value>Tartalomhivatkozások létrehozása</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

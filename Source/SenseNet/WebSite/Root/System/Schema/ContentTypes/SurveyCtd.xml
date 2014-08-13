@@ -1,0 +1,187 @@
+<ContentType name="Survey" parentType="ItemList" handler="SenseNet.ContentRepository.Survey" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Survey,DisplayName</DisplayName>
+  <Description>$Ctd-Survey,Description</Description>
+  <Icon>ContentList</Icon>
+  <AllowedChildTypes>
+    SurveyItem
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-Survey,Description-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,Description-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ValidFrom" type="DateTime">
+      <DisplayName>$Ctd-Survey,ValidFrom-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,ValidFrom-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ValidTill" type="DateTime">
+      <DisplayName>$Ctd-Survey,ValidTill-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,ValidTill-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="LandingPage" type="Reference">
+      <DisplayName>$Ctd-Survey,LandingPage-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,LandingPage-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="PageContentView" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InvalidSurveyPage" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ContentListDefinition" type="LongText">
+      <DisplayName>$Ctd-Survey,ContentListDefinition-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,ContentListDefinition-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <DefaultValue>
+          <![CDATA[<ContentListDefinition xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentListDefinition">
+            <DisplayName>Survey</DisplayName>
+            <Description>Survey</Description>
+            <Fields></Fields>
+          </ContentListDefinition>]]>
+        </DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option selected="true" value="0">$Ctd-Survey,InheritableVersioningMode-0</Option>
+          <Option value="1">$Ctd-Survey,InheritableVersioningMode-1</Option>
+          <Option value="2">$Ctd-Survey,InheritableVersioningMode-2</Option>
+          <Option value="3">$Ctd-Survey,InheritableVersioningMode-3</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option selected="true" value="0">$Ctd-Survey,InheritableApprovingMode-0</Option>
+          <Option value="1">$Ctd-Survey,InheritableApprovingMode-1</Option>
+          <Option value="2">$Ctd-Survey,InheritableApprovingMode-2</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <DisplayName>$Ctd-Survey,Version-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,Version-Description</Description>
+      <Indexing>
+        <Store>Yes</Store>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <DisplayName>$Ctd-Survey,Index-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,Index-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableLifespan" type="Boolean">
+      <DisplayName>$Ctd-Survey,EnableLifespan-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,EnableLifespan-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableNotificationMail" type="Boolean">
+      <DisplayName>$Ctd-Survey,EnableNotificationMail-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,EnableNotificationMail-Description</Description>
+    </Field>
+    <Field name="SenderAddress" type="ShortText">
+      <DisplayName>$Ctd-Survey,SenderAddress-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,SenderAddress-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Evaluators" type="Reference">
+      <DisplayName>$Ctd-Survey,Evaluators-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,Evaluators-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+        <AllowMultiple>true</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+          <Type>Group</Type>
+        </AllowedTypes>
+        <SelectionRoot>
+          <Path>/Root/IMS</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+    <Field name="MailTemplatePage" type="Reference">
+      <DisplayName>$Ctd-Survey,MailTemplatePage-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,MailTemplatePage-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="EnableMoreFilling" type="Boolean">
+      <DisplayName>$Ctd-Survey,EnableMoreFilling-DisplayName</DisplayName>
+      <Description>$Ctd-Survey,EnableMoreFilling-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

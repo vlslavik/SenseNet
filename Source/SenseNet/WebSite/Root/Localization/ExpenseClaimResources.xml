@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="ExpenseClaim">
+    <Languages>
+      <Language cultureName="en">
+        <data name="NewClaim" xml:space="preserve">
+				  <value>New claim</value>
+				</data>
+        <data name="SaveClaim" xml:space="preserve">
+				  <value>Save</value>
+				</data>
+        <data name="NewClaimItem" xml:space="preserve">
+				  <value>New item</value>
+				</data>
+        <data name="SaveClaimItem" xml:space="preserve">
+				  <value>Save</value>
+				</data>
+        <data name="NoPublishWithoutItems" xml:space="preserve">
+				  <value>You cannot send this expense claim for approval without adding one or more expense claim items.</value>
+				</data>
+        <data name="PublishClaim" xml:space="preserve">
+				  <value>Send expense claim for approval</value>
+				</data>
+        <data name="ClaimIsWaitingForApproval" xml:space="preserve">
+				  <value>This expense claim is waiting for approval.</value>
+				</data>
+        <data name="ClaimIsApproved" xml:space="preserve">
+				  <value>This expense claim is approved.</value>
+				</data>
+        <data name="ModifyItems" xml:space="preserve">
+				  <value>If you modify expense claim items, you will need to send the claim for approval again.</value>
+				</data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="NewClaim" xml:space="preserve">
+				  <value>Új igény</value>
+				</data>
+        <data name="SaveClaim" xml:space="preserve">
+				  <value>Mentés</value>
+				</data>
+        <data name="NewClaimItem" xml:space="preserve">
+				  <value>Új tétel</value>
+				</data>
+        <data name="SaveClaimItem" xml:space="preserve">
+				  <value>Mentés</value>
+				</data>
+        <data name="NoPublishWithoutItems" xml:space="preserve">
+				  <value>Az igénylista nem küldhető jóváhagyásra, amíg nem vett fel hozzá tételeket.</value>
+				</data>
+        <data name="PublishClaim" xml:space="preserve">
+				  <value>Igény küldése jóváhagyásra</value>
+				</data>
+        <data name="ClaimIsWaitingForApproval" xml:space="preserve">
+				  <value>Az igény jóváhagyásra vár</value>
+				</data>
+        <data name="ClaimIsApproved" xml:space="preserve">
+				  <value>Az igényt jóváhagyták.</value>
+				</data>
+        <data name="ModifyItems" xml:space="preserve">
+				  <value>Ha módosítja vagy törli a tételek valamelyikét, újra jóváhagyásra kell küldenie az igényt.</value>
+				</data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

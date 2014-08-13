@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SenseNet.Search.Indexing.Activities.DistributedLuceneActivity">
+    <Position X="5.75" Y="2" Width="2" />
+    <NestedTypes>
+      <Enum Name="SenseNet.Search.Indexing.Activities.DistributedLuceneActivity.MSMQLogStatusType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Search\Indexing\Activities\DistributedLuceneActivity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="SenseNet.Search.Indexing.Activities.DistributedLuceneActivity.LuceneActivityDistributor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Search\Indexing\Activities\DistributedLuceneActivity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAkAAABIAQAAAAEABAAAAAABAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\Activities\DistributedLuceneActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.BackupActivity">
+    <Position X="6.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\BackupActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneIndexingActivity">
+    <Position X="9.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEYAAAAAAAAAACAAAACAAEEAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneIndexingActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.WriterRestartActivity">
+    <Position X="4.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\WriterRestartActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneDocumentActivity">
+    <Position X="14.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAgEAAAAAEAAAAACAAAAAAAAACAAAAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneTreeActivity">
+    <Position X="9.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.AddDocumentActivity">
+    <Position X="13" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\AddDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.RemoveDocumentActivity">
+    <Position X="14.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\RemoveDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.UpdateDocumentActivity">
+    <Position X="15.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\UpdateDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.AddTreeActivity">
+    <Position X="8.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Search\Indexing\Activities\AddTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.RemoveTreeActivity">
+    <Position X="10.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\RemoveTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.LuceneActivity">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAAQAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Search\Indexing\LuceneActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

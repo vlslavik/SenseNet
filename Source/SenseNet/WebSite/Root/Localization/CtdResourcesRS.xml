@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-ReferenceFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Reference field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Referencia mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-RegisteredUser">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Registered User</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+         <value>
+          This content type is used to store information for users registered through a form.
+          It has extra fields and functionality compared to a simple User, such as activation through e-mail,
+          security question and answer, etc.</value>
+        </data>
+        <data name="MailDefinition" xml:space="preserve">
+          <value>
+            Click the following link to activate your account:
+            
+            ##ActivationLink##</value>
+        </data>
+        <data name="MailSubject" xml:space="preserve">
+          <value>Activation email</value>
+        </data>
+        <data name="ResetKey-DisplayName" xml:space="preserve">
+          <value>Reset key</value>
+        </data>
+        <data name="ResetKey-Description" xml:space="preserve">
+          <value>Reset key guid used by the reset password link.</value>
+        </data>
+        <data name="ActivationId-DisplayName" xml:space="preserve">
+          <value>Activation</value>
+        </data>
+        <data name="ActivationId-Description" xml:space="preserve">
+          <value>Activation guid used by the registered user activation links.</value>
+        </data>
+        <data name="Activated-DisplayName" xml:space="preserve">
+          <value>Activated</value>
+        </data>
+        <data name="Activated-Description" xml:space="preserve">
+          <value>User is activated by the activation email. (or you can activate user by enabling this option).</value>
+        </data>
+        <data name="SecurityQuestion-DisplayName" xml:space="preserve">
+          <value>Question</value>
+        </data>
+        <data name="SecurityQuestion-Description" xml:space="preserve">
+          <value>Password recovery information entered by the user.</value>
+        </data>
+        <data name="SecurityAnswer-DisplayName" xml:space="preserve">
+          <value>Answer</value>
+        </data>
+        <data name="SecurityAnswer-Description" xml:space="preserve">
+          <value>Password recovery answer to the end user's question.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Regisztrált felhasználó</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+         <value>
+          Ez a tartalomtípus szolgál az űrlapon keresztül regisztrált felhasználók adatainak tárolására.
+          Extra mezőkkel és funkciókkal rendelkezik az egyszerű 'Felhasználó'-hoz képest, pl. e-mailes aktiváció, biztonsági kérdés is beállítható, stb.
+        </value>
+        </data>
+        <data name="MailDefinition" xml:space="preserve">
+          <value>
+            Kattintson az alábbi linkre felhasználói fiókja aktiválásához!
+            
+            ##ActivationLink##
+          </value>
+        </data>
+        <data name="MailSubject" xml:space="preserve">
+          <value>Aktivációs levél</value>
+        </data>
+        <data name="ResetKey-DisplayName" xml:space="preserve">
+          <value>Reset key</value>
+        </data>
+        <data name="ResetKey-Description" xml:space="preserve">
+          <value>Azonosító a jelszóvisszaállításkor keletkező link előállításához.</value>
+        </data>
+        <data name="ActivationId-DisplayName" xml:space="preserve">
+          <value>Aktivációs azonosító</value>
+        </data>
+        <data name="ActivationId-Description" xml:space="preserve">
+          <value>Azonosító az aktivációs e-mailben kiküldött link előállításához..</value>
+        </data>
+        <data name="Activated-DisplayName" xml:space="preserve">
+          <value>Aktivált</value>
+        </data>
+        <data name="Activated-Description" xml:space="preserve">
+          <value>A felhasználót aktiválták (aktivációs e-mailen keresztül, vagy az admin felületen).</value>
+        </data>
+        <data name="SecurityQuestion-DisplayName" xml:space="preserve">
+          <value>Biztonsági kérdés</value>
+        </data>
+        <data name="SecurityQuestion-Description" xml:space="preserve">
+          <value>Jelszó visszaállításkor használt, a felhasználó által megadott biztonsági kérdés.</value>
+        </data>
+        <data name="SecurityAnswer-DisplayName" xml:space="preserve">
+          <value>Válasz</value>
+        </data>
+        <data name="SecurityAnswer-Description" xml:space="preserve">
+          <value>Válasz a jelszó visszaállításkor használt, a felhasználó által megadott kérdésre.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-RegistrationWorkflow">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Registration Workflow</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A Content representation of an Approval Workflow instance.</value>
+        </data>
+        <data name="FullName-DisplayName" xml:space="preserve">
+          <value>Full name</value>
+        </data>
+        <data name="FullName-Description" xml:space="preserve">
+          <value>Please enter your full name here.</value>
+        </data>
+        <data name="UserName-DisplayName" xml:space="preserve">
+          <value>User name</value>
+        </data>
+        <data name="UserName-Description" xml:space="preserve">
+          <value>Please enter the username you would like.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>E-mail</value>
+        </data>
+        <data name="Email-Description" xml:space="preserve">
+          <value>Type your e-mail address here.</value>
+        </data>
+        <data name="InitialPassword-DisplayName" xml:space="preserve">
+          <value>Initial password</value>
+        </data>
+        <data name="InitialPassword-Description" xml:space="preserve">
+          <value>Please enter the password you would like.</value>
+        </data>
+        <data name="RegistrationType-DisplayName" xml:space="preserve">
+          <value>Registration type</value>
+        </data>
+        <data name="RegistrationType-Description" xml:space="preserve">
+          <value>Please select which one of the following describes you best.</value>
+        </data>
+        <data name="RegistrationType-client" xml:space="preserve">
+          <value>Prospective enterprise client</value>
+        </data>
+        <data name="RegistrationType-media" xml:space="preserve">
+          <value>Technical journalist or media worker</value>
+        </data>
+        <data name="RegistrationType-community" xml:space="preserve">
+          <value>Open source developer or advocate</value>
+        </data>
+        <data name="RegistrationType-public" xml:space="preserve">
+          <value>None of the above</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Regisztrációs folyamat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Egy regisztrációs munkafolyamat (workflow) tárolására szolgáló típus.</value>
+        </data>
+        <data name="FullName-DisplayName" xml:space="preserve">
+          <value>Teljes név</value>
+        </data>
+        <data name="FullName-Description" xml:space="preserve">
+          <value>Kérjük, adja meg teljes nevét.</value>
+        </data>
+        <data name="UserName-DisplayName" xml:space="preserve">
+          <value>Felhasználónév</value>
+        </data>
+        <data name="UserName-Description" xml:space="preserve">
+          <value>Kérjük, adja meg a kívánt felhasználónevet.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>E-mail cím</value>
+        </data>
+        <data name="Email-Description" xml:space="preserve">
+          <value>Kérjük, adja meg e-mail címét.</value>
+        </data>
+        <data name="InitialPassword-DisplayName" xml:space="preserve">
+          <value>Jelszó</value>
+        </data>
+        <data name="InitialPassword-Description" xml:space="preserve">
+          <value>Kérjük, adja meg választott jelszavát.</value>
+        </data>
+        <data name="RegistrationType-DisplayName" xml:space="preserve">
+          <value>Regisztráció típusa</value>
+        </data>
+        <data name="RegistrationType-Description" xml:space="preserve">
+          <value>Kérjük, válassza ki, melyik illik legjobban Önre.</value>
+        </data>
+        <data name="RegistrationType-client" xml:space="preserve">
+          <value>Leendő vállalati ügyfél</value>
+        </data>
+        <data name="RegistrationType-media" xml:space="preserve">
+          <value>Technikai újságíró vagy médiában dolgozó</value>
+        </data>
+        <data name="RegistrationType-community" xml:space="preserve">
+          <value>Nyílt forráskódú szoftver fejlesztő</value>
+        </data>
+        <data name="RegistrationType-public" xml:space="preserve">
+          <value>Egyik sem</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Resource">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Resource</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>String or binary resource used to localize the system. Its format is the same as the internal part of a standard .Net resx file.</value>
+        </data>
+        <data name="Binary-DisplayName" xml:space="preserve">
+          <value>Binary</value>
+        </data>
+        <data name="Downloads-DisplayName" xml:space="preserve">
+          <value>Downloads</value>
+        </data>
+        <data name="Downloads-Description" xml:space="preserve">
+          <value>The number of downloads.</value>
+        </data>
+        <data name="Size-DisplayName" xml:space="preserve">
+          <value>Size</value>
+        </data>
+        <data name="Size-Description" xml:space="preserve">
+          <value>Size of this version.</value>
+        </data>
+        <data name="FullSize-DisplayName" xml:space="preserve">
+          <value>Full size</value>
+        </data>
+        <data name="FullSize-Description" xml:space="preserve">
+          <value>Size of all versions together.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Erőforrás fájl</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Szöveges vagy bináris fájl a rendszer lokalizálására. Formátuma megegyezik a resx fájlokéval.</value>
+        </data>
+        <data name="Binary-DisplayName" xml:space="preserve">
+          <value>Bináris</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>A dokumentum binárisa.</value>
+        </data>
+        <data name="Size-DisplayName" xml:space="preserve">
+          <value>Méret</value>
+        </data>
+        <data name="Size-Description" xml:space="preserve">
+          <value>Bináris dokumentum mérete.</value>
+        </data>
+        <data name="FullSize-DisplayName" xml:space="preserve">
+          <value>Teljes méret</value>
+        </data>
+        <data name="FullSize-Description" xml:space="preserve">
+          <value>A dokumentum teljes mérete, amely tartalmazza a dokumentum összes korábbi verzióját is.</value>
+        </data>
+        <data name="Downloads-DisplayName" xml:space="preserve">
+          <value>Letöltések</value>
+        </data>
+        <data name="Downloads-Description" xml:space="preserve">
+          <value>Letöltések száma.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Resources">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Resources</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for resources. Only a single instance is allowed at /Root/Localization.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Erőforrások</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Erőforrások gyűjtője. Csak egy lehet, itt: /Root/Localization.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-RssApplication">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>RSS application</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Generates RSS feed from a content.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>RSS alkalmazás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>RSS feedet generál a tartalomhoz.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-RuntimeContentContainer">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Runtime Content Container</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>For internal use only.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Runtime Content Container</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Csak belső használatra.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SalesWorkspace">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales workspace</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A workspace for sales-oriented cooperation.</value>
+        </data>
+        <data name="Manager-DisplayName" xml:space="preserve">
+          <value>Responsible salesperson</value>
+        </data>
+        <data name="Customer-DisplayName" xml:space="preserve">
+          <value>Customer</value>
+        </data>
+        <data name="ExpectedRevenue-DisplayName" xml:space="preserve">
+          <value>Expected revenue</value>
+        </data>
+        <data name="ChanceOfWinning-DisplayName" xml:space="preserve">
+          <value>Chance of winning</value>
+        </data>
+        <data name="StartDate-DisplayName" xml:space="preserve">
+          <value>Start date</value>
+        </data>
+        <data name="Deadline-DisplayName" xml:space="preserve">
+          <value>Deadline for submission</value>
+        </data>
+        <data name="Contacts-DisplayName" xml:space="preserve">
+          <value>Contacts</value>
+        </data>
+        <data name="Notes-DisplayName" xml:space="preserve">
+          <value>Notes</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Progress</value>
+        </data>
+        <data name="ContractSigned-DisplayName" xml:space="preserve">
+          <value>Contract signed</value>
+        </data>
+        <data name="ContractSignedDate-DisplayName" xml:space="preserve">
+          <value>Contract signed date</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Client contact</value>
+        </data>
+        <data name="ClientContact-Desctription" xml:space="preserve">
+          <value>The person responsible for the project</value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Website url</value>
+        </data>
+        <data name="Country-DisplayName" xml:space="preserve">
+          <value>Country</value>
+        </data>
+        <data name="TimeZone-DisplayName" xml:space="preserve">
+          <value>Time Zone (UTC)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales munkaterület</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Sales lehetőségek kezelésére szolgáló munkaterület (workspace).</value>
+        </data>
+        <data name="Manager-DisplayName" xml:space="preserve">
+          <value>Felelős</value>
+        </data>
+        <data name="Customer-DisplayName" xml:space="preserve">
+          <value>Ügyfél</value>
+        </data>
+        <data name="ExpectedRevenue-DisplayName" xml:space="preserve">
+          <value>Várható bevétel</value>
+        </data>
+        <data name="ChanceOfWinning-DisplayName" xml:space="preserve">
+          <value>Esély</value>
+        </data>
+        <data name="StartDate-DisplayName" xml:space="preserve">
+          <value>Kezdődátum</value>
+        </data>
+        <data name="Deadline-DisplayName" xml:space="preserve">
+          <value>Benyújtás határideje</value>
+        </data>
+        <data name="Contacts-DisplayName" xml:space="preserve">
+          <value>Elérhetőségek</value>
+        </data>
+        <data name="Notes-DisplayName" xml:space="preserve">
+          <value>Emlékeztetők</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Állapot</value>
+        </data>
+        <data name="ContractSigned-DisplayName" xml:space="preserve">
+          <value>Aláírt szerződés</value>
+        </data>
+        <data name="ContractSignedDate-DisplayName" xml:space="preserve">
+          <value>Szerződés aláírásának dátuma</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Ügyféloldali projektfelelős</value>
+        </data>
+        <data name="ClientContact-Desctription" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Weboldal url-je</value>
+        </data>
+        <data name="Country-DisplayName" xml:space="preserve">
+          <value>Ország</value>
+        </data>
+        <data name="TimeZone-DisplayName" xml:space="preserve">
+          <value>Időzóna (UTC)</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SalesWorkspaceFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales Workspace Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Sales Workspace.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales munkaterület gyűjtő</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Sales munkaterületek gyűjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Settings">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Settings</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Content type for storing application or module settings in text format or in custom fields.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Beállítás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Beállítások tárolására szolgáló tartalom típus.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass> 
+  <ResourceClass name="Ctd-ShortTextFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>ShortText field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Rövid szöveges mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Site">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Site</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>The Site provides a primary entry point to your Portal.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display name of the Site</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>This name will appear when the site is presented somewhere.</value>
+        </data>
+        <data name="Language-DisplayName" xml:space="preserve">
+          <value>Language</value>
+        </data>
+        <data name="Language-Description" xml:space="preserve">
+          <value>Please define the default language of this site.</value>
+        </data>
+        <data name="Language-Hu" xml:space="preserve">
+          <value>Hungarian</value>
+        </data>
+        <data name="Language-En" xml:space="preserve">
+          <value>English</value>
+        </data>
+        <data name="EnableClientBasedCulture-DisplayName" xml:space="preserve">
+          <value>Enable client-based culture</value>
+        </data>
+        <data name="EnableClientBasedCulture-Description" xml:space="preserve">
+          <value>Enable this to allow user browser settings override default site language settings.</value>
+        </data>
+        <data name="EnableUserBasedCulture-DisplayName" xml:space="preserve">
+          <value>Enable user-based culture</value>
+        </data>
+        <data name="EnableUserBasedCulture-Description" xml:space="preserve">
+          <value>Enable this to allow user language settings override default site language settings.</value>
+        </data>
+        <data name="UrlList-DisplayName" xml:space="preserve">
+          <value>URL list</value>
+        </data>
+        <data name="UrlList-Description" xml:space="preserve">
+          <value>Select the URLs to associate with this Site.</value>
+        </data>
+        <data name="StartPage-DisplayName" xml:space="preserve">
+          <value>Alternative start page</value>
+        </data>
+        <data name="StartPage-Description" xml:space="preserve">
+          <value>If set, the site will use this start page instead of the default.</value>
+        </data>
+        <data name="LoginPage-DisplayName" xml:space="preserve">
+          <value>Login page</value>
+        </data>
+        <data name="LoginPage-Description" xml:space="preserve">
+          <value>The login page to display when a user tries to access restricted Content (Forms authentication only).</value>
+        </data>
+        <data name="SiteSkin-DisplayName" xml:space="preserve">
+          <value>Skin</value>
+        </data>
+        <data name="SiteSkin-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DenyCrossSiteAccess-DisplayName" xml:space="preserve">
+          <value>Deny cross-site access</value>
+        </data>
+        <data name="DenyCrossSiteAccess-Description" xml:space="preserve">
+          <value>If set, content under this site can only be accessed via this site and not via other sites using a Root relative path.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Site</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A site jelenti a fő belépési pontot a portálra.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Felhasználóbarát név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Ez a név fog megjelenni, amikor a site-okat listázzuk, vagy megjelenítjük valahol.</value>
+        </data>
+        <data name="Language-DisplayName" xml:space="preserve">
+          <value>Nyelv</value>
+        </data>
+        <data name="Language-Description" xml:space="preserve">
+          <value>Adja meg a szájt alapértelmezett nyelvét.</value>
+        </data>
+        <data name="Language-Hu" xml:space="preserve">
+          <value>magyar</value>
+        </data>
+        <data name="Language-En" xml:space="preserve">
+          <value>angol</value>
+        </data>
+        <data name="EnableClientBasedCulture-DisplayName" xml:space="preserve">
+          <value>Kliens oldali nyelvek engedélyezése</value>
+        </data>
+        <data name="EnableClientBasedCulture-Description" xml:space="preserve">
+          <value>Ha engedélyezi, a böngészők nyelvi beállítása felülírja a szájton beállított alapértelmezett nyelvet.</value>
+        </data>
+        <data name="EnableUserBasedCulture-DisplayName" xml:space="preserve">
+          <value>Felhasználói nyelvválasztás engedélyezése</value>
+        </data>
+        <data name="EnableUserBasedCulture-Description" xml:space="preserve">
+          <value>Ha engedélyezi, a felhasználó nyelvi beállítása felülírja a szájton beállított alapértelmezett nyelvet.</value>
+        </data>
+        <data name="UrlList-DisplayName" xml:space="preserve">
+          <value>URL lista</value>
+        </data>
+        <data name="UrlList-Description" xml:space="preserve">
+          <value>Adja meg az ehhez a site-hoz társított URL címeket.</value>
+        </data>
+        <data name="StartPage-DisplayName" xml:space="preserve">
+          <value>Alternatív kezdőoldal</value>
+        </data>
+        <data name="StartPage-Description" xml:space="preserve">
+          <value>Ha kitölti, a site ezt a tartalmat jeleníti meg az alapértelmezetett (például This/Browse oldal) helyett.</value>
+        </data>
+        <data name="LoginPage-DisplayName" xml:space="preserve">
+          <value>Belépés oldal</value>
+        </data>
+        <data name="LoginPage-Description" xml:space="preserve">
+          <value>Ezt a belépés oldalt jelenítjük meg, ha a felhasználó belépést igénylő tartalomhoz szeretne hozzáférni (Forms autentikáció esetén).</value>
+        </data>
+        <data name="SiteSkin-DisplayName" xml:space="preserve">
+          <value>Téma</value>
+        </data>
+        <data name="SiteSkin-Description" xml:space="preserve">
+          <value>Meghatározza a site kinézetét, a használt stílusfájlokat és képeket.</value>
+        </data>
+        <data name="DenyCrossSiteAccess-DisplayName" xml:space="preserve">
+          <value>Más site-okról történő elérés tiltása</value>
+        </data>
+        <data name="DenyCrossSiteAccess-Description" xml:space="preserve">
+          <value>Ha beállítja, ezen site alatti tartalmak csak ezen a site-on át lesznek elérhetőek, más site-okon át A '/Root/...' címzést használva sem.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Sites">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sites</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for sites. Only a single instance is allowed at /Root/Sites.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sites</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Site-ok gyűjtője. Egy lehet belőle, a /Root/Sites.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Skin">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Skin</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Skin structure base folder.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Téma</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A téma struktúra mappája. Ebben tárolódnak a téma által használt stílusfájlok, szkriptek, képek, megjelenítők.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Olvasható név</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Skins">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Skins</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for skins. Only a single instance is allowed at /Root/Skins.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Témák</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Témák gyűjtője. Egy lehet belőle, a /Root/Skins.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SmartFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Smart Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Use smart folders to group information (content) by Repository query.</value>
+        </data>
+        <data name="Query-DisplayName" xml:space="preserve">
+          <value>Query</value>
+        </data>
+        <data name="Query-Description" xml:space="preserve">
+          <value>Please give a query here that you want to use for collecting the children of this smart folder.</value>
+        </data>
+        <data name="EnableAutofilters-DisplayName" xml:space="preserve">
+          <value>Enable autofilters</value>
+        </data>
+        <data name="EnableAutofilters-Description" xml:space="preserve">
+          <value>If autofilters are enabled, system content will be filtered from the query.</value>
+        </data>
+        <data name="EnableLifespanFilter-DisplayName" xml:space="preserve">
+          <value>Enable lifespan filter</value>
+        </data>
+        <data name="EnableLifespanFilter-Description" xml:space="preserve">
+          <value>If lifespan filter is enabled, only valid content will be in the result.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Okosmappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Különböző szűrési feltételek alapján kigyűjtött tartalmak tárolására.</value>
+        </data>
+        <data name="Query-DisplayName" xml:space="preserve">
+          <value>Query</value>
+        </data>
+        <data name="Query-Description" xml:space="preserve">
+          <value>Adja meg azokat a feltételeket, amelyek alapján a mappába szeretne gyűjteni tartalmakat.</value>
+        </data>
+        <data name="EnableAutofilters-DisplayName" xml:space="preserve">
+          <value>Automata szűrési feltételek bekapcsolása</value>
+        </data>
+        <data name="EnableAutofilters-Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, a rendszer fájlok nem kerülnek bele a mappába.</value>
+        </data>
+        <data name="EnableLifespanFilter-DisplayName" xml:space="preserve">
+          <value>Élettartam szűrés bekapcsolása</value>
+        </data>
+        <data name="EnableLifespanFilter-Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor csak az időben aktuális tartalmak kerülnek be.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Subscription">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Subscription</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>It stores a subscription for a user.</value>
+        </data>
+        <data name="ContentPath-DisplayName" xml:space="preserve">
+          <value>ContentPath</value>
+        </data>
+        <data name="UserPath-DisplayName" xml:space="preserve">
+          <value>UserPath</value>
+        </data>
+        <data name="UserEmail-DisplayName" xml:space="preserve">
+          <value>Notification address</value>
+        </data>
+        <data name="UserEmail-Description" xml:space="preserve">
+          <value>Notification emails will be sent to this address.</value>
+        </data>
+        <data name="UserId-DisplayName" xml:space="preserve">
+          <value>UserId</value>
+        </data>
+        <data name="UserName-DisplayName" xml:space="preserve">
+          <value>UserName</value>
+        </data>
+        <data name="IsActive-DisplayName" xml:space="preserve">
+          <value>Active notification</value>
+        </data>
+        <data name="IsActive-Description" xml:space="preserve">
+          <value>Defines whether the portal sends notification emails or not.</value>
+        </data>
+        <data name="Frequency-DisplayName" xml:space="preserve">
+          <value>Frequency</value>
+        </data>
+        <data name="Frequency-Description" xml:space="preserve">
+          <value>
+            Defines the frequency of the notification<br />
+            <br /><i>Immediately:</i> immediate email when a content changes.
+            <br /><i>Daily:</i> one email per day with the summary of changes.
+            <br /><i>Weekly:</i> one email per week with the summary of changes.
+            <br /><i>Monthly:</i>  one email per month with the summary of changes.</value>
+        </data>
+        <data name="Frequency-0" xml:space="preserve">
+          <value>Immediately</value>
+        </data>
+        <data name="Frequency-1" xml:space="preserve">
+          <value>Daily</value>
+        </data>
+        <data name="Frequency-2" xml:space="preserve">
+          <value>Weekly</value>
+        </data>
+        <data name="Frequency-3" xml:space="preserve">
+          <value>Monthly</value>
+        </data>
+        <data name="Language-DisplayName" xml:space="preserve">
+          <value>Language</value>
+        </data>
+        <data name="Language-Description" xml:space="preserve">
+          <value>Defines the language of the notification.</value>
+        </data>
+        <data name="Language-en" xml:space="preserve">
+          <value>English</value>
+        </data>
+        <data name="Language-hu" xml:space="preserve">
+          <value>Hungarian</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Feliratkozás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Egy felhasználó egy tartalomra való feliratkozását tárolja.</value>
+        </data>
+        <data name="ContentPath-DisplayName" xml:space="preserve">
+          <value>Tartalom</value>
+        </data>
+        <data name="UserPath-DisplayName" xml:space="preserve">
+          <value>Felhasználó</value>
+        </data>
+        <data name="UserEmail-DisplayName" xml:space="preserve">
+          <value>Éretsítési cmí</value>
+        </data>
+        <data name="UserEmail-Description" xml:space="preserve">
+          <value>Az az e-mail cím, amire az értesítéseket küldi a rendszer.</value>
+        </data>
+        <data name="UserId-DisplayName" xml:space="preserve">
+          <value>Felhasználó azonosító</value>
+        </data>
+        <data name="UserName-DisplayName" xml:space="preserve">
+          <value>Felhasználónév</value>
+        </data>
+        <data name="IsActive-DisplayName" xml:space="preserve">
+          <value>Értesítés aktiválása</value>
+        </data>
+        <data name="IsActive-Description" xml:space="preserve">
+          <value>Küld-e a portál értesítést, vagy sem.</value>
+        </data>
+        <data name="Frequency-DisplayName" xml:space="preserve">
+          <value>Gyakoriság</value>
+        </data>
+        <data name="Frequency-Description" xml:space="preserve">
+          <value>
+            Értesítések kiküldésének gyakorisága<br />
+            <br /><i>Azonnali:</i> a tartalom változásakor azonnal megy az értesítést.
+            <br /><i>Napi:</i> egy e-mail megy ki naponta, összesítve a változásokat.
+            <br /><i>Heti:</i> egy e-mail megy ki hetente, összesítve a változásokat.
+            <br /><i>Havi:</i>  egy e-mailt megy ki havonta, összesítve a változásokat.</value>
+        </data>
+        <data name="Frequency-0" xml:space="preserve">
+          <value>Azonnali</value>
+        </data>
+        <data name="Frequency-1" xml:space="preserve">
+          <value>Napi</value>
+        </data>
+        <data name="Frequency-2" xml:space="preserve">
+          <value>Heti</value>
+        </data>
+        <data name="Frequency-3" xml:space="preserve">
+          <value>Havi</value>
+        </data>
+        <data name="Language-DisplayName" xml:space="preserve">
+          <value>Nyelv</value>
+        </data>
+        <data name="Language-Description" xml:space="preserve">
+          <value>Megadja az értesítés nyelvét.</value>
+        </data>
+        <data name="Language-en" xml:space="preserve">
+          <value>angol</value>
+        </data>
+        <data name="Language-hu" xml:space="preserve">
+          <value>magyar</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Survey">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Survey</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A special List for storing survey.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Description.</value>
+        </data>
+        <data name="ValidFrom-DisplayName" xml:space="preserve">
+          <value>Valid From</value>
+        </data>
+        <data name="ValidFrom-Description" xml:space="preserve">
+          <value>This content will appear on the date you set if lifespan handling is enabled for this content.</value>
+        </data>
+        <data name="ValidTill-DisplayName" xml:space="preserve">
+          <value>Valid Till</value>
+        </data>
+        <data name="ValidTill-Description" xml:space="preserve">
+          <value>This content will disappear on the date you set if lifespan handling is enabled for this content.</value>
+        </data>
+        <data name="ContentListDefinition-DisplayName" xml:space="preserve">
+          <value>List Definition</value>
+        </data>
+        <data name="ContentListDefinition-Description" xml:space="preserve">
+          <value>XML definition for additional fields.</value>
+        </data>
+        <data name="InheritableVersioningMode-0" xml:space="preserve">
+          <value>Inherited</value>
+        </data>
+        <data name="InheritableVersioningMode-1" xml:space="preserve">
+          <value>None</value>
+        </data>
+        <data name="InheritableVersioningMode-2" xml:space="preserve">
+          <value>Major only</value>
+        </data>
+        <data name="InheritableVersioningMode-3" xml:space="preserve">
+          <value>Major and minor</value>
+        </data>
+        <data name="InheritableApprovingMode-0" xml:space="preserve">
+          <value>Inherited</value>
+        </data>
+        <data name="InheritableApprovingMode-1" xml:space="preserve">
+          <value>False</value>
+        </data>
+        <data name="InheritableApprovingMode-2" xml:space="preserve">
+          <value>True</value>
+        </data>
+        <data name="Version-DisplayName" xml:space="preserve">
+          <value>Version</value>
+        </data>
+        <data name="Version-Description" xml:space="preserve">
+          <value>Version number.</value>
+        </data>
+        <data name="Index-DisplayName" xml:space="preserve">
+          <value>Index</value>
+        </data>
+        <data name="Index-Description" xml:space="preserve">
+          <value>Content order in navigation. Numbers closer to 0 will appear first.</value>
+        </data>
+        <data name="EnableLifespan-DisplayName" xml:space="preserve">
+          <value>Enable Lifespan</value>
+        </data>
+        <data name="EnableLifespan-Description" xml:space="preserve">
+          <value>Specify whether you want to define starting and end date for the validity of this content.</value>
+        </data>
+        <data name="EnableNotificationMail-DisplayName" xml:space="preserve">
+          <value>Enable notification e-mail</value>
+        </data>
+        <data name="EnableNotificationMail-Description" xml:space="preserve">
+          <value>Enable sending notification e-mails.</value>
+        </data>
+        <data name="SenderAddress-DisplayName" xml:space="preserve">
+          <value>Sender Address</value>
+        </data>
+        <data name="SenderAddress-Description" xml:space="preserve">
+          <value>The e-mail address which will appear in the From field of the message.</value>
+        </data>
+        <data name="Evaluators-DisplayName" xml:space="preserve">
+          <value>Evaluators</value>
+        </data>
+        <data name="Evaluators-Description" xml:space="preserve">
+          <value>Users or groups who will receive a notification e-mail after the survey was filled and can be evaluated.</value>
+        </data>
+        <data name="MailTemplatePage-DisplayName" xml:space="preserve">
+          <value>Notification e-mail template file</value>
+        </data>
+        <data name="MailTemplatePage-Description" xml:space="preserve">
+          <value>The path of the HTML file which gives the template of the notification e-mail.</value>
+        </data>
+        <data name="EnableMoreFilling-DisplayName" xml:space="preserve">
+          <value>Allow multiple responses</value>
+        </data>
+        <data name="EnableMoreFilling-Description" xml:space="preserve">
+          <value>Do You want to allow a user to submit this survey more than once?</value>
+        </data>
+        <data name="LandingPage-DisplayName" xml:space="preserve">
+          <value>Landing page</value>
+        </data>
+        <data name="LandingPage-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Kérdőív</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Speciális lista kérdőív készítéshez.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Leírás.</value>
+        </data>
+        <data name="ValidFrom-DisplayName" xml:space="preserve">
+          <value>Érvényesség kezdete</value>
+        </data>
+        <data name="ValidFrom-Description" xml:space="preserve">
+          <value>E dátumtól érvényes a tartalom, amennyiben a megfelelő beállítást megtettük.</value>
+        </data>
+        <data name="ValidTill-DisplayName" xml:space="preserve">
+          <value>Érvényesség vége</value>
+        </data>
+        <data name="ValidTill-Description" xml:space="preserve">
+          <value>E dátumig érvényes a tartalom, amennyiben a megfelelő beállítást megtettük.</value>
+        </data>
+        <data name="ContentListDefinition-DisplayName" xml:space="preserve">
+          <value>Lista definíció</value>
+        </data>
+        <data name="ContentListDefinition-Description" xml:space="preserve">
+          <value>XML definíció extra mezők megadásához.</value>
+        </data>
+        <data name="InheritableVersioningMode-0" xml:space="preserve">
+          <value>Örökölt</value>
+        </data>
+        <data name="InheritableVersioningMode-1" xml:space="preserve">
+          <value>Nincs</value>
+        </data>
+        <data name="InheritableVersioningMode-2" xml:space="preserve">
+          <value>Főverziók</value>
+        </data>
+        <data name="InheritableVersioningMode-3" xml:space="preserve">
+          <value>Fő- és alverziók</value>
+        </data>
+        <data name="InheritableApprovingMode-0" xml:space="preserve">
+          <value>Örökölt</value>
+        </data>
+        <data name="InheritableApprovingMode-1" xml:space="preserve">
+          <value>Nincs</value>
+        </data>
+        <data name="InheritableApprovingMode-2" xml:space="preserve">
+          <value>Van</value>
+        </data>
+        <data name="Version-DisplayName" xml:space="preserve">
+          <value>Verzió</value>
+        </data>
+        <data name="Version-Description" xml:space="preserve">
+          <value>Verziószám.</value>
+        </data>
+        <data name="Index-DisplayName" xml:space="preserve">
+          <value>Sorszám</value>
+        </data>
+        <data name="Index-Description" xml:space="preserve">
+          <value>A tartalmak sorrendje navigációs felületeken. A kisebb indexű tartalmak lesznek elöl.</value>
+        </data>
+        <data name="EnableLifespan-DisplayName" xml:space="preserve">
+          <value>Élettartam szűrés</value>
+        </data>
+        <data name="EnableLifespan-Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor csak az időben aktuális elemek jelennek meg.</value>
+        </data>
+        <data name="EnableNotificationMail-DisplayName" xml:space="preserve">
+          <value>E-mail értesítés bekapcsolása</value>
+        </data>
+        <data name="EnableNotificationMail-Description" xml:space="preserve">
+          <value>Értesítő e-mail küldés engedélyezése.</value>
+        </data>
+        <data name="SenderAddress-DisplayName" xml:space="preserve">
+          <value>Feladó e-mail címe</value>
+        </data>
+        <data name="SenderAddress-Description" xml:space="preserve">
+          <value>Ez az e-mailcím jelenik meg a kiküldött e-mailértesítés feladó mezőjében.</value>
+        </data>
+        <data name="Evaluators-DisplayName" xml:space="preserve">
+          <value>Értékelők</value>
+        </data>
+        <data name="Evaluators-Description" xml:space="preserve">
+          <value>Azon felhasználók vagy csoportok listája, akik e-mail értesítést kapnak, ha a kérdőívet kitöltötték és értékelhető.</value>
+        </data>
+        <data name="MailTemplatePage-DisplayName" xml:space="preserve">
+          <value>Értesítő e-mail sablon.</value>
+        </data>
+        <data name="MailTemplatePage-Description" xml:space="preserve">
+          <value>Az a HTML fájl, ami leírja a kiküldendő e-mailt.</value>
+        </data>
+        <data name="EnableMoreFilling-DisplayName" xml:space="preserve">
+          <value>Többszörös válaszadás engedélyezése</value>
+        </data>
+        <data name="EnableMoreFilling-Description" xml:space="preserve">
+          <value>Engedélyezze, ha szeretné, ha a felhasználó többször is kitölthetné a szavazást.</value>
+        </data>
+        <data name="LandingPage-DisplayName" xml:space="preserve">
+          <value>Cél oldal</value>
+        </data>
+        <data name="LandingPage-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SurveyItem">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Survey Item</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Base content type for survey items.</value>
+        </data>
+        <data name="EvaluatedBy-DisplayName" xml:space="preserve">
+          <value>Evaluated by</value>
+        </data>
+        <data name="EvaluatedBy-Description" xml:space="preserve">
+          <value>The user who has evaluated the survey.</value>
+        </data>
+        <data name="EvaluatedAt-DisplayName" xml:space="preserve">
+          <value>Evaluated at</value>
+        </data>
+        <data name="EvaluatedAt-Description" xml:space="preserve">
+          <value>The date and time of the evaluation.</value>
+        </data>
+        <data name="Evaluation-DisplayName" xml:space="preserve">
+          <value>Evaluation</value>
+        </data>
+        <data name="Evaluation-Description" xml:space="preserve">
+          <value>The evaluation text of the survey.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Kérdőív kitöltés tartalom</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="EvaluatedBy-DisplayName" xml:space="preserve">
+          <value>Értékelte</value>
+        </data>
+        <data name="EvaluatedBy-Description" xml:space="preserve">
+          <value>A felhasználó, aki értékelte ezt a kérdőív kitöltést.</value>
+        </data>
+        <data name="EvaluatedAt-DisplayName" xml:space="preserve">
+          <value>Értékelés dátuma</value>
+        </data>
+        <data name="EvaluatedAt-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Evaluation-DisplayName" xml:space="preserve">
+          <value>Értékelés</value>
+        </data>
+        <data name="Evaluation-Description" xml:space="preserve">
+          <value>A kérdőív szöveges értékelése.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SystemFile">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>System file</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A special file for internal use in the system.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Rendszer fájl</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Speciális rendszer fájl.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SystemFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>System Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>System Folders provide a way to store configuration and logic.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>System folder name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Display name of the content. You can set any name you prefer without any restrictions.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Rendszer mappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Konfigurációk és egyéb rendszerelemek tárolására.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Rendszer mappa neve</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

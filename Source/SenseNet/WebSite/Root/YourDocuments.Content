@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>DocumentLibrary</ContentType>
+  <ContentName>YourDocuments</ContentName>  
+  <Fields>
+    <AllowedChildTypes>
+      Folder File Image
+    </AllowedChildTypes>
+    <DefaultView>Default.ascx</DefaultView>
+    <DisplayName>YourDocuments</DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <Open>Allow</Open>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Visitor">
+      <Open>Allow</Open>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

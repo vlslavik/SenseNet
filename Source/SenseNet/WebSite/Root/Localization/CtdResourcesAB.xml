@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Enum-SmartFolder-EnableAutofilters-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableAutofilters-Enabled" xml:space="preserve">
+          <value>Enabled</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableAutofilters-Disabled" xml:space="preserve">
+          <value>Disabled</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Enabled" xml:space="preserve">
+          <value>Enabled</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Disabled" xml:space="preserve">
+          <value>Disabled</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Enabled" xml:space="preserve">
+          <value>Enabled</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Disabled" xml:space="preserve">
+          <value>Disabled</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Enabled" xml:space="preserve">
+          <value>Enabled</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Disabled" xml:space="preserve">
+          <value>Disabled</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-True" xml:space="preserve">
+          <value>True</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-False" xml:space="preserve">
+          <value>False</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Created" xml:space="preserve">
+          <value>Created</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Running" xml:space="preserve">
+          <value>Running</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Aborted" xml:space="preserve">
+          <value>Aborted</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Completed" xml:space="preserve">
+          <value>Completed</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-DeleteWhenCompleted" xml:space="preserve">
+          <value>Delete when completed</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-DeleteWhenCompletedOrAborted" xml:space="preserve">
+          <value>Delete when completed or aborted</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-AlwaysKeep" xml:space="preserve">
+          <value>Always keep</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-DropDown" xml:space="preserve">
+          <value>DropDown</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-RadioButtons" xml:space="preserve">
+          <value>RadioButtons</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-CheckBoxes" xml:space="preserve">
+          <value>CheckBoxes</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Show" xml:space="preserve">
+          <value>Show</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Hide" xml:space="preserve">
+          <value>Hide</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Advanced" xml:space="preserve">
+          <value>Advanced</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Show" xml:space="preserve">
+          <value>Show</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Hide" xml:space="preserve">
+          <value>Hide</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Advanced" xml:space="preserve">
+          <value>Advanced</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Show" xml:space="preserve">
+          <value>Show</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Hide" xml:space="preserve">
+          <value>Hide</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Advanced" xml:space="preserve">
+          <value>Advanced</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-LongText" xml:space="preserve">
+          <value>LongText</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-RichText" xml:space="preserve">
+          <value>RichText</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-AdvancedRichText" xml:space="preserve">
+          <value>AdvancedRichText</value>
+        </data>
+        <data name="Enum-FieldSettingContent-YesNo-Yes" xml:space="preserve">
+          <value>Yes</value>
+        </data>
+        <data name="Enum-FieldSettingContent-YesNo-No" xml:space="preserve">
+          <value>No</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-None" xml:space="preserve">
+          <value>None</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-Date" xml:space="preserve">
+          <value>Date</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-DateAndTime" xml:space="preserve">
+          <value>Date and time</value>
+        </data>
+        <data name="Enum-FieldSettingContent-UrlFormat-Hyperlink" xml:space="preserve">  
+          <value>Hyperlink</value>
+        </data>
+        <data name="Enum-FieldSettingContent-UrlFormat-Picture" xml:space="preserve">
+          <value>Picture</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Default" xml:space="preserve">
+          <value>Default</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Raw" xml:space="preserve">
+          <value>Raw</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Text" xml:space="preserve">
+          <value>Text</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Html" xml:space="preserve">
+          <value>Html</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Enum-SmartFolder-EnableAutofilters-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableAutofilters-Enabled" xml:space="preserve">
+          <value>Engedélyezett</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableAutofilters-Disabled" xml:space="preserve">
+          <value>Tiltott</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Enabled" xml:space="preserve">
+          <value>Engedélyezett</value>
+        </data>
+        <data name="Enum-SmartFolder-EnableLifespanFilter-Disabled" xml:space="preserve">
+          <value>Tiltott</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Enabled" xml:space="preserve">
+          <value>Engedélyezett</value>
+        </data>
+        <data name="Enum-ViewBase-EnableAutofilters-Disabled" xml:space="preserve">
+          <value>Tiltott</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Enabled" xml:space="preserve">
+          <value>Engedélyezett</value>
+        </data>
+        <data name="Enum-ViewBase-EnableLifespanFilter-Disabled" xml:space="preserve">
+          <value>Tiltott</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-True" xml:space="preserve">
+          <value>Igen</value>
+        </data>
+        <data name="Enum-Application-IncludeBackUrl-False" xml:space="preserve">
+          <value>Nem</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Created" xml:space="preserve">
+          <value>Létrejött</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Running" xml:space="preserve">
+          <value>Fut</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Aborted" xml:space="preserve">
+          <value>Megszakadt</value>
+        </data>
+        <data name="Enum-Workflow-WorkflowStatus-Completed" xml:space="preserve">
+          <value>Befejeződött</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-DeleteWhenCompleted" xml:space="preserve">
+          <value>Törlés, ha befejeződött</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-DeleteWhenCompletedOrAborted" xml:space="preserve">
+          <value>Törlés, ha befejeződött vagy megszakadt</value>
+        </data>
+        <data name="Enum-WorkflowDefinition-DeleteInstanceAfterFinished-AlwaysKeep" xml:space="preserve">
+          <value>Nincs törlés</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-DropDown" xml:space="preserve">
+          <value>Lenyíló menü</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-RadioButtons" xml:space="preserve">
+          <value>Rádiógombok</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DisplayChoices-CheckBoxes" xml:space="preserve">
+          <value>Jelölőnégyzetek</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Show" xml:space="preserve">
+          <value>Megtekint</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Hide" xml:space="preserve">
+          <value>Elrejt</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleBrowse-Advanced" xml:space="preserve">
+          <value>Haladó mező</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Show" xml:space="preserve">
+          <value>Megjelenít</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Hide" xml:space="preserve">
+          <value>Elrejt</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleEdit-Advanced" xml:space="preserve">
+          <value>Továbbiak</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Show" xml:space="preserve">
+          <value>Megjelenít</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Hide" xml:space="preserve">
+          <value>Elrejt</value>
+        </data>
+        <data name="Enum-FieldSettingContent-VisibleNew-Advanced" xml:space="preserve">
+          <value>Továbbiak</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-LongText" xml:space="preserve">
+          <value>Hosszú szöveg</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-RichText" xml:space="preserve">
+          <value>Formázott szöveg</value>
+        </data>
+        <data name="Enum-FieldSettingContent-TextType-AdvancedRichText" xml:space="preserve">
+          <value>Haladó formázott szöveg</value>
+        </data>
+        <data name="Enum-FieldSettingContent-YesNo-Yes" xml:space="preserve">
+          <value>Igen</value>
+        </data>
+        <data name="Enum-FieldSettingContent-YesNo-No" xml:space="preserve">
+          <value>Nem</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-None" xml:space="preserve">
+          <value>Szövegmező</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-Date" xml:space="preserve">
+          <value>Dátum</value>
+        </data>
+        <data name="Enum-FieldSettingContent-DateTimeMode-DateAndTime" xml:space="preserve">
+          <value>Dátum és idő</value>
+        </data>
+        <data name="Enum-FieldSettingContent-UrlFormat-Hyperlink" xml:space="preserve">
+          <value>Szöveges hivatkozás</value>
+        </data>
+        <data name="Enum-FieldSettingContent-UrlFormat-Picture" xml:space="preserve">
+          <value>Kép</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Default" xml:space="preserve">
+          <value>Alapértelmezett</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Raw" xml:space="preserve">
+          <value>Nyers adat</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Text" xml:space="preserve">
+          <value>Egyszerű szöveg</value>
+        </data>
+        <data name="Enum-FieldSettingContent-OutputMethod-Html" xml:space="preserve">
+          <value>Html</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ADFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>AD Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Folder is the representative of an AD container object.</value>
+        </data>
+        <data name="SyncGuid-DisplayName" xml:space="preserve">
+          <value>SyncGuid</value>
+        </data>
+        <data name="SyncGuid-Description" xml:space="preserve">
+          <value>GUID of corresponding AD object.</value>
+        </data>
+        <data name="LastSync-DisplayName" xml:space="preserve">
+          <value>LastSync</value>
+        </data>
+        <data name="LastSync-Description" xml:space="preserve">
+          <value>Date of last synchronization.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>AD mappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Egy Active Directory konténert reprezentáló mappa.</value>
+        </data>
+        <data name="SyncGuid-DisplayName" xml:space="preserve">
+          <value>Szinkronizációs azonosító</value>
+        </data>
+        <data name="SyncGuid-Description" xml:space="preserve">
+          <value>A kapcsolódó Active Directory objektum azonosítója (GUID).</value>
+        </data>
+        <data name="LastSync-DisplayName" xml:space="preserve">
+          <value>Utolsó szinkronizálás</value>
+        </data>
+        <data name="LastSync-Description" xml:space="preserve">
+          <value>Utolsó szinkronizálás dátuma.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ApplicationCacheFile">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Application Cache File</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Used for caching repository events, notification configurations and other internal objects. This type is for internal use only.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Alkalmazás cache fájl</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Repository események, értesítés beállítások és egyéb, csak a rendszer által használt objektumok gyorsítótárazására használt típus. Kérjük ne használja!</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Application">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+            <value>Application</value>
+          </data>
+        <data name="Description" xml:space="preserve">
+            <value>This is the base type for all executable content types.</value>
+          </data>
+        <data name="AppName-DisplayName" xml:space="preserve">
+            <value>Application identifier</value>
+          </data>
+        <data name="Scenario-DisplayName" xml:space="preserve">
+            <value>Scenario</value>
+          </data>
+        <data name="Scenario-Description" xml:space="preserve">
+            <value>Enter a list of scenarios to display this application in, separated with ',' or ';'.</value>
+          </data>
+        <data name="ActionTypeName-DisplayName" xml:space="preserve">
+            <value>Action type name</value>
+          </data>
+        <data name="ActionTypeName-Description" xml:space="preserve">
+            <value>For developers only. The name of the class that executes the action if it is not the default.</value>
+          </data>
+        <data name="ModalAction-DisplayName" xml:space="preserve">
+            <value>Modal action</value>
+          </data>
+        <data name="ModalAction-Description" xml:space="preserve">
+            <value>Check this box if this application is a modal dialog that, after completion, returns the user to where he came from.</value>
+          </data>
+        <data name="Disabled-DisplayName" xml:space="preserve">
+            <value>Disabled</value>
+          </data>
+        <data name="Disabled-Description" xml:space="preserve">
+            <value>Check this box if you wish to disable this application. This setting only disables this application, all apps above it will remain active!</value>
+          </data>
+        <data name="Clear-DisplayName" xml:space="preserve">
+            <value>Clear</value>
+          </data>
+        <data name="Clear-Description" xml:space="preserve">
+            <value>Check this box if you wish to clear this application and all applications above with this name.</value>
+          </data>
+        <data name="IconIdentifier-DisplayName" xml:space="preserve">
+            <value>Icon identifier</value>
+          </data>
+        <data name="IconIdentifier-Description" xml:space="preserve">
+            <value>The string identifier of the Application's icon. This icon will be displayed in menus and action links.</value>
+          </data>
+        <data name="StyleHint-DisplayName" xml:space="preserve">
+            <value>Style hint</value>
+          </data>
+        <data name="StyleHint-Description" xml:space="preserve">
+            <value>A style hint to be interpreted by the rendering engine.</value>
+          </data>
+        <data name="RequiredPermissions-DisplayName" xml:space="preserve">
+            <value>Required permissions</value>
+          </data>
+        <data name="RequiredPermissions-Description" xml:space="preserve">
+            <value>Select the permissions needed to run the application on a Node.</value>
+          </data>
+        <data name="DeepPermissionCheck-DisplayName" xml:space="preserve">
+            <value>Deep permission check</value>
+          </data>
+        <data name="DeepPermissionCheck-Description" xml:space="preserve">
+            <value>Check the required permissions for the entire subtree under the context.</value>
+          </data>
+        <data name="IncludeBackUrl-DisplayName" xml:space="preserve">
+            <value>Include back url</value>
+          </data>
+        <data name="IncludeBackUrl-Description" xml:space="preserve">
+            <value>If set to False, the action link will not contain a back url.</value>
+          </data>
+        <data name="CacheControl-DisplayName" xml:space="preserve">
+            <value>Cache-Control</value>
+          </data>
+        <data name="CacheControl-Description" xml:space="preserve">
+            <value>The response is generated with the selected Cache-control headers.</value>
+          </data>
+        <data name="CacheControl-Nondefined" xml:space="preserve">
+            <value>Nondefined</value>
+          </data>
+        <data name="CacheControl-NoCache" xml:space="preserve">
+            <value>NoCache</value>
+          </data>
+        <data name="CacheControl-Private" xml:space="preserve">
+            <value>Private</value>
+          </data>
+        <data name="CacheControl-Public" xml:space="preserve">
+            <value>Public</value>
+          </data>
+        <data name="CacheControl-Server" xml:space="preserve">
+            <value>Server</value>
+          </data>
+        <data name="CacheControl-ServerAndNoCache" xml:space="preserve">
+            <value>ServerAndNoCachel</value>
+          </data>
+        <data name="CacheControl-ServerAndPrivate" xml:space="preserve">
+            <value>ServerAndPrivate</value>
+          </data>
+        <data name="MaxAge-DisplayName" xml:space="preserve">
+            <value>Max-age</value>
+          </data>
+        <data name="MaxAge-Description" xml:space="preserve">
+            <value>An integer value in seconds for Cache-control: maxage=x header to be sent out.</value>
+          </data>
+        <data name="CustomUrlParameters-DisplayName" xml:space="preserve">
+            <value>Custom url parameters</value>
+          </data>
+        <data name="CustomUrlParameters-Description" xml:space="preserve">
+            <value>Add custom parameters here to extend the functionality of the action. E.g. type=customvalue&amp;mode=2.</value>
+          </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+            <value>Alkalmazás</value>
+          </data>
+        <data name="Description" xml:space="preserve">
+            <value>Minden végrehajtható tartalomtípus őse.</value>
+          </data>
+        <data name="AppName-DisplayName" xml:space="preserve">
+            <value>Alkalmazás azonosító</value>
+          </data>
+        <data name="Scenario-DisplayName" xml:space="preserve">
+            <value>Szcenárió</value>
+          </data>
+        <data name="Scenario-Description" xml:space="preserve">
+            <value>Adja meg a szcenáriók listáját, amelyekben használná, vesszővel vagy pontosvesszővel elválasztva.</value>
+          </data>
+        <data name="ActionTypeName-DisplayName" xml:space="preserve">
+            <value>Művelettípus név</value>
+          </data>
+        <data name="ActionTypeName-Description" xml:space="preserve">
+            <value>Csak fejlesztőknek. Az műveletet végrehajtó osztály neve, amennyiben eltér az alapértelmezettől.</value>
+          </data>
+        <data name="ModalAction-DisplayName" xml:space="preserve">
+            <value>Modális művelet</value>
+          </data>
+        <data name="ModalAction-Description" xml:space="preserve">
+            <value>Kapcsolja be, ha szeretné hogy ez az alkalmazás modális ablakban nyíljon meg, majd a befejezés után térjen vissza oda ahonnan megnyitották.</value>
+          </data>
+        <data name="Disabled-DisplayName" xml:space="preserve">
+            <value>Tiltott</value>
+          </data>
+        <data name="Disabled-Description" xml:space="preserve">
+            <value>Kapcsolja be, ha szeretné tiltani ezt az alkalmazást. Csak ezt az application-t tiltja, a láncban feljebb állók aktívak maradnak.</value>
+          </data>
+        <data name="Clear-DisplayName" xml:space="preserve">
+            <value>Kikapcsolás</value>
+          </data>
+        <data name="Clear-Description" xml:space="preserve">
+            <value>Állítsa be, ha szeretné kikapcsolni ezt az alkalmazást és a láncban feljebb az összes ugyanilyen nevűt.</value>
+          </data>
+        <data name="IconIdentifier-DisplayName" xml:space="preserve">
+            <value>Ikon</value>
+          </data>
+        <data name="IconIdentifier-Description" xml:space="preserve">
+            <value>Az alkalmazáshoz tartozó ikon neve. Ez az ikon fog megjelenni a menükben és művelet gombokon.</value>
+          </data>
+        <data name="StyleHint-DisplayName" xml:space="preserve">
+            <value>Stílus beállítás</value>
+          </data>
+        <data name="StyleHint-Description" xml:space="preserve">
+            <value>Egyedi megjelenítési beállítás. Csak belső használatra, a portál motor számára.</value>
+          </data>
+        <data name="RequiredPermissions-DisplayName" xml:space="preserve">
+            <value>Szükséges jogosultságok</value>
+          </data>
+        <data name="RequiredPermissions-Description" xml:space="preserve">
+            <value>Válassza ki a jogosultságokat, amik szükségesek az alkalmazás futtatásához!</value>
+          </data>
+        <data name="DeepPermissionCheck-DisplayName" xml:space="preserve">
+            <value>Szükséges jogosultságok mélységben</value>
+          </data>
+        <data name="DeepPermissionCheck-Description" xml:space="preserve">
+            <value>Kapcsolja be, ha a szükséges jogosultságok a tartalom alatti teljes struktúrára értendők!</value>
+          </data>
+        <data name="IncludeBackUrl-DisplayName" xml:space="preserve">
+            <value>Visszatérési url használata</value>
+          </data>
+        <data name="IncludeBackUrl-Description" xml:space="preserve">
+            <value>Ha nem állítjuk be, a művelethivatkozás nem fogja tartalmazni a visszatérési urlt.</value>
+          </data>
+        <data name="CacheControl-DisplayName" xml:space="preserve">
+            <value>Cache-Control</value>
+          </data>
+        <data name="CacheControl-Description" xml:space="preserve">
+            <value>Kliens oldali gyorsítótárazás vezérlése. Milyen header kerüljön a web-response-ba (cache-control headers).</value>
+          </data>
+        <data name="CacheControl-Nondefined" xml:space="preserve">
+            <value>Nincs megadva (Nondefined)</value>
+          </data>
+        <data name="CacheControl-NoCache" xml:space="preserve">
+            <value>Nincs (NoCache)</value>
+          </data>
+        <data name="CacheControl-Private" xml:space="preserve">
+            <value>Privát (Private)</value>
+          </data>
+        <data name="CacheControl-Public" xml:space="preserve">
+            <value>Publikus (Public)</value>
+          </data>
+        <data name="CacheControl-Server" xml:space="preserve">
+            <value>Szerver (Server)</value>
+          </data>
+        <data name="CacheControl-ServerAndNoCache" xml:space="preserve">
+            <value>Szerver és nincs (ServerAndNoCache)</value>
+          </data>
+        <data name="CacheControl-ServerAndPrivate" xml:space="preserve">
+            <value>Szerver és privát (ServerAndPrivate)</value>
+          </data>
+        <data name="MaxAge-DisplayName" xml:space="preserve">
+            <value>Max-age</value>
+          </data>
+        <data name="MaxAge-Description" xml:space="preserve">
+            <value>Ezt a másodpercekben megadott számot küldje ki a portál a Cache-control-hoz a maxage header-ben.</value>
+          </data>
+        <data name="CustomUrlParameters-DisplayName" xml:space="preserve">
+            <value>Saját url-paraméterek</value>
+          </data>
+        <data name="CustomUrlParameters-Description" xml:space="preserve">
+            <value>Saját url-paraméterek megadása a művelet funkcionalitásának kiegészítéséhez, pl. type=customvalue&amp;mode=2.</value>
+          </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ApplicationOverride">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Application Override</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Modifies one or more attributes of the original application.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Alkalmazás módosító</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Módosítja az eredeti alkalmazás egy vagy több tulajdonságát.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ApprovalWorkflow">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Approval Workflow</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Approval workflow can be used to launch an approval process on a list item. If you assign this workflow to a content list, users will be able to start the approval process on the Start workflow page of list items. During the assign process you will have to set the approver users and approve time frame for that content list.</value>
+        </data>
+        <data name="RelatedContent-DisplayName" xml:space="preserve">
+          <value>Content to approve</value>
+        </data>
+        <data name="RelatedContent-Description" xml:space="preserve">
+          <value>The content that the approvers have to approve.</value>
+        </data>
+        <data name="FirstLevelApprover-DisplayName" xml:space="preserve">
+          <value>First level approver</value>
+        </data>
+        <data name="FirstLevelApprover-Description" xml:space="preserve">
+          <value>The user who need to approve the selected content.</value>
+        </data>
+        <data name="FirstLevelTimeFrame-DisplayName" xml:space="preserve">
+          <value>First level approve time frame</value>
+        </data>
+        <data name="FirstLevelTimeFrame-Description" xml:space="preserve">
+          <value>Time frame that first level approver has for approving the content (timespan format: '[d.]hh:mm:ss', or a single number - e.g. '3' - for days).</value>
+        </data>
+        <data name="SecondLevelApprover-DisplayName" xml:space="preserve">
+          <value>Second level approvers</value>
+        </data>
+        <data name="SecondLevelApprover-Description" xml:space="preserve">
+          <value>Users who can approve the selected content if first level approvers did not approve it in the given time frame.</value>
+        </data>
+        <data name="SecondLevelTimeFrame-DisplayName" xml:space="preserve">
+          <value>Second level approve time frame</value>
+        </data>
+        <data name="SecondLevelTimeFrame-Description" xml:space="preserve">
+          <value>Time frame that second level approvers have for approving the content (timespan format: '[d.]hh:mm:ss', or a single number - e.g. '3' - for days).</value>
+        </data>
+        <data name="WaitForAll-DisplayName" xml:space="preserve">
+          <value>Wait for all</value>
+        </data>
+        <data name="WaitForAll-Description" xml:space="preserve">
+          <value>If this option is set to true, all second level approvers should approve the content. If false, one approver is enough.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Jóváhagyás munkafolyamat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Jóváhagyás folyamat elindítására használható egy listában. Ha hozzárendeli egy listához, a folyamat elindulhat automatikusan, vagy a felhasználók el tudják indítani kézzel a lista elemekhez tartozó <i>Folyamat indítása</i> oldalon. Listához rendeléskor meg kell adnia a jóváhagyó személyeket, és a jóváhagyásra rendelkezésre álló időkeretet.</value>
+        </data>
+        <data name="RelatedContent-DisplayName" xml:space="preserve">
+          <value>Jóváhagyandó tartalom</value>
+        </data>
+        <data name="RelatedContent-Description" xml:space="preserve">
+          <value>Ezt a tartalmat kell a szereplőknek jóváhagyniuk.</value>
+        </data>
+        <data name="FirstLevelApprover-DisplayName" xml:space="preserve">
+          <value>Első szintű jóváhagyó</value>
+        </data>
+        <data name="FirstLevelApprover-Description" xml:space="preserve">
+          <value>A felhasználó akinek jóvá kell hagynia a kiválasztott tartalmat.</value>
+        </data>
+        <data name="FirstLevelTimeFrame-DisplayName" xml:space="preserve">
+          <value>Első szintű időkeret</value>
+        </data>
+        <data name="FirstLevelTimeFrame-Description" xml:space="preserve">
+          <value>A munkafolyamat ennyi ideig várakozik az első szintű jóváhagyóra (időtartam formátum: '[d.]hh:mm:ss', vagy csak egy szám - pl. '3' - a napok számára).</value>
+        </data>
+        <data name="SecondLevelApprover-DisplayName" xml:space="preserve">
+          <value>Második szintű jóváhagyók</value>
+        </data>
+        <data name="SecondLevelApprover-Description" xml:space="preserve">
+          <value>Az első szintű jóváhagyó helyettesei, akik akkor tudják jóváhagyni a kiválasztott tartalmat, amikor az első szintű jóváhagyó túllépte az időkeretet.</value>
+        </data>
+        <data name="SecondLevelTimeFrame-DisplayName" xml:space="preserve">
+          <value>Második szintű időkeret</value>
+        </data>
+        <data name="SecondLevelTimeFrame-Description" xml:space="preserve">
+          <value>A munkafolyamat ennyi ideig várakozik a második szintű jóváhagyókra (időtartam formátum: '[d.]hh:mm:ss', vagy csak egy szám - pl. '3' - a napok számára).</value>
+        </data>
+        <data name="WaitForAll-DisplayName" xml:space="preserve">
+          <value>Mindenki jóváhagy</value>
+        </data>
+        <data name="WaitForAll-Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a második szinten mindenkinek jóvá kell hagynia a kiválaztott tartalmat, egyébként egy jóváhagyás elegendő.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ApprovalWorkflowTask">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Approval Workflow Task</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A content representation for a delayed user interaction in a Workflow.</value>
+        </data>
+        <data name="Comment-DisplayName" xml:space="preserve">
+          <value>Comment</value>
+        </data>
+        <data name="Comment-Description" xml:space="preserve">
+          <value>Type the reason for your decision here.</value>
+        </data>
+        <data name="Result-DisplayName" xml:space="preserve">
+          <value>Answer</value>
+        </data>
+        <data name="Result-Description" xml:space="preserve">
+          <value>Select your answer here.</value>
+        </data>
+        <data name="Result-Approved" xml:space="preserve">
+          <value>Approved</value>
+        </data>
+        <data name="Result-Rejected" xml:space="preserve">
+          <value>Rejected</value>
+        </data>
+        <data name="ContentToApprove-DisplayName" xml:space="preserve">
+          <value>Content to approve</value>
+        </data>
+        <data name="ContentToApprove-Description" xml:space="preserve">
+          <value>The content that will be approved or rejected.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Jóváhagyás munkafolyamat feladat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Felhasználói feladatot reprezentál a jóváhagyási munkafolyamatban.</value>
+        </data>
+        <data name="Comment-DisplayName" xml:space="preserve">
+          <value>Megjegyzés</value>
+        </data>
+        <data name="Comment-Description" xml:space="preserve">
+          <value>A felhasználó itt tud magyarázatot adni a döntésével kapcsolatban.</value>
+        </data>
+        <data name="Result-DisplayName" xml:space="preserve">
+          <value>Válasz</value>
+        </data>
+        <data name="Result-Description" xml:space="preserve">
+          <value>Válasszon egyet!</value>
+        </data>
+        <data name="Result-Approved" xml:space="preserve">
+          <value>Jóváhagyva</value>
+        </data>
+        <data name="Result-Rejected" xml:space="preserve">
+          <value>Visszautasítva</value>
+        </data>
+        <data name="ContentToApprove-DisplayName" xml:space="preserve">
+          <value>Jóváhagyandó tartalom</value>
+        </data>
+        <data name="ContentToApprove-Description" xml:space="preserve">
+          <value>A tartalom, amely jóvá lesz hagyva, vagy vissza lesz utasítva.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Article">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Article</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>You can store and display textual information on the site.</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>The headline of the article.</value>
+        </data>
+        <data name="Subtitle-DisplayName" xml:space="preserve">
+          <value>Subtitle</value>
+        </data>
+        <data name="Subtitle-Description" xml:space="preserve">
+          <value>A secondary headline. Displayed in the article pages.</value>
+        </data>
+        <data name="Lead-DisplayName" xml:space="preserve">
+          <value>Lead</value>
+        </data>
+        <data name="Lead-Description" xml:space="preserve">
+          <value>Short lead of article.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>Body</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Body.</value>
+        </data>
+        <data name="Pinned-DisplayName" xml:space="preserve">
+          <value>Highlights</value>
+        </data>
+        <data name="Pinned-Description" xml:space="preserve">
+          <value>Content is always showing on the main page's [Highlights] collection.</value>
+        </data>
+        <data name="Keywords-DisplayName" xml:space="preserve">
+          <value>Keywords</value>
+        </data>
+        <data name="Keywords-Description" xml:space="preserve">
+          <value>Use the portal's builtin search functionality to search for articles with specific keywords ie.: Keywords:mykeyword.</value>
+        </data>
+        <data name="Author-DisplayName" xml:space="preserve">
+          <value>Author</value>
+        </data>
+        <data name="Author-Description" xml:space="preserve">
+          <value>The name of the author (format: Firstname Lastname or Lastname, Firstname).</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Cover image (reference)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Cover image (binarydata)</value>
+        </data>
+        <data name="Image-DisplayName" xml:space="preserve">
+          <value>Cover image (composite)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Cikk</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Szöveges tartalmak tárolására és megjelenítésére.</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A cikk címe.</value>
+        </data>
+        <data name="Subtitle-DisplayName" xml:space="preserve">
+          <value>Alcím</value>
+        </data>
+        <data name="Subtitle-Description" xml:space="preserve">
+          <value>Cikkoldalakon megjelenő alcím.</value>
+        </data>
+        <data name="Lead-DisplayName" xml:space="preserve">
+          <value>Bevezető</value>
+        </data>
+        <data name="Lead-Description" xml:space="preserve">
+          <value>Cikk rövid bevezetője.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>Törzsszöveg</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Törzsszöveg.</value>
+        </data>
+        <data name="Pinned-DisplayName" xml:space="preserve">
+          <value>Kiemelt</value>
+        </data>
+        <data name="Pinned-Description" xml:space="preserve">
+          <value>A tartalom mindig látszik a főoldal kiemelt hírei között.</value>
+        </data>
+        <data name="Keywords-DisplayName" xml:space="preserve">
+          <value>Kulcsszavak</value>
+        </data>
+        <data name="Keywords-Description" xml:space="preserve">
+          <value>A portál keresőjében kereshet a kulcsszavak között is. Pl.: Keywords:kulcsszó.</value>
+        </data>
+        <data name="Author-DisplayName" xml:space="preserve">
+          <value>Szerző</value>
+        </data>
+        <data name="Author-Description" xml:space="preserve">
+          <value>A cikk szerzőjének neve.</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Bevezető kép (linkelve)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Bevezető kép (csatolva)</value>
+        </data>
+        <data name="Image-DisplayName" xml:space="preserve">
+          <value>Bevezető kép (összevont)</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ArticleSection">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Article Section</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>An Article Section is a kind folder that can contain articles and other Article Sections with a default presentation.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Section title</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Rovat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A rovat cikkeket vagy alrovatokat tartalmaz.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Rovat címe</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Aspect">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Aspect</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Aspect base type.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Aspect title</value>
+        </data>
+        <data name="AspectDefinition-DisplayName" xml:space="preserve">
+          <value>Aspect definition</value>
+        </data>
+        <data name="AspectDefinition-Description" xml:space="preserve">
+          <value>Definition of the extension in XML format.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Aspektus</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Aspektus alaptípus.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Aspektus címe</value>
+        </data>
+        <data name="AspectDefinition-DisplayName" xml:space="preserve">
+          <value>Aspektus definíció</value>
+        </data>
+        <data name="AspectDefinition-Description" xml:space="preserve">
+          <value>A kiegészítés definiciója XML formátumban.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-BackupIndexHandler">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Backup Index</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>An Application type. An instance of this backups Lucene index.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Biztonsági index mentés</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Alkalmazás típus, amelynek egyetlen futó példánya a Lucene index-ről biztonsági mentést készít.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-BinaryFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Binary field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Bináris mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Blog">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.</value>
+        </data>
+        <data name="ShowAvatar-DisplayName" xml:space="preserve">
+          <value>Show avatar</value>
+        </data>
+        <data name="ShowAvatar-Description" xml:space="preserve">
+          <value>According to your settings the blogger's avatar is shown by the title of the post.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A blog általában egy személy által periodikusan frissített véleménygyűjtemény, gyakran egy téma körül. Bejegyzései általában szövegesek, de tartalmazhat grafikát, videót is.</value>
+        </data>
+        <data name="ShowAvatar-DisplayName" xml:space="preserve">
+          <value>Avatár megjelenítése</value>
+        </data>
+        <data name="ShowAvatar-Description" xml:space="preserve">
+          <value>A blog írójának avatárja megjelenjen-e a cikk címe mellett.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-BlogPost">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog post</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A simple post for an existing blog.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Post title</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Display name of the blog post. You can set any name you prefer without any restrictions.</value>
+        </data>
+        <data name="LeadingText-DisplayName" xml:space="preserve">
+          <value>Blog post leading text</value>
+        </data>
+        <data name="BodyText-DisplayName" xml:space="preserve">
+          <value>Blog post body text</value>
+        </data>
+        <data name="Published-DisplayName" xml:space="preserve">
+          <value>Published</value>
+        </data>
+        <data name="Published-Description" xml:space="preserve">
+          <value>Specifies whether this blog post is published and can be seen in the blog.</value>
+        </data>
+        <data name="PublishedOn-DisplayName" xml:space="preserve">
+          <value>Publish date</value>
+        </data>
+        <data name="PublishedOn-Description" xml:space="preserve">
+          <value>The blog post will appear after this date.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Specify a name for the post that will appear in the URL.</value>
+        </data>
+        <data name="ModificationDate-DisplayName" xml:space="preserve">
+          <value>Modification Date</value>
+        </data>
+        <data name="ModificationDate-Description" xml:space="preserve">
+          <value>The post was last modified on this date.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog bejegyzés</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Cím</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A blog bejegyzés címeként fog megjelenni.</value>
+        </data>
+        <data name="LeadingText-DisplayName" xml:space="preserve">
+          <value>Bevezető szöveg</value>
+        </data>
+        <data name="BodyText-DisplayName" xml:space="preserve">
+          <value>A blog bejegyzés szövege.</value>
+        </data>
+        <data name="Published-DisplayName" xml:space="preserve">
+          <value>Publikus</value>
+        </data>
+        <data name="Published-Description" xml:space="preserve">
+          <value>A bejegyzés publikus-e, látszik-e már a blogban.</value>
+        </data>
+        <data name="PublishedOn-DisplayName" xml:space="preserve">
+          <value>Publikálás dátuma</value>
+        </data>
+        <data name="PublishedOn-Description" xml:space="preserve">
+          <value>A blogbejegyzés ettől a dátumtól kezdve publikus.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>A blogbejegyzés URL-ben megjelenő neve.</value>
+        </data>
+        <data name="ModificationDate-DisplayName" xml:space="preserve">
+          <value>Módosítás dátuma.</value>
+        </data>
+        <data name="ModificationDate-Description" xml:space="preserve">
+          <value>Amikor a blogbejegyzés utoljára módosult.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

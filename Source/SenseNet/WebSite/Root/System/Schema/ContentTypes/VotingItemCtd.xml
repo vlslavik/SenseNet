@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="VotingItem" parentType="ListItem" handler="SenseNet.ContentRepository.VotingItem" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-VotingItem,DisplayName</DisplayName>
+  <Description>$Ctd-VotingItem,Description</Description>
+  <Icon>FormItem</Icon>
+  <Fields>
+    <Field name="Version" type="Version">
+      <DisplayName>$Ctd-VotingItem,Version-DisplayName</DisplayName>
+      <Description>$Ctd-VotingItem,Version-Description</Description>
+      <Indexing>
+        <Store>Yes</Store>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <DisplayName>$Ctd-VotingItem,Index-DisplayName</DisplayName>
+      <Description>$Ctd-VotingItem,Index-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ModifiedBy" type="Reference">
+      <DisplayName>$Ctd-VotingItem,ModifiedBy-DisplayName</DisplayName>
+      <Description>$Ctd-VotingItem,ModifiedBy-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="ModificationDate" type="DateTime">
+      <DisplayName>$Ctd-VotingItem,ModificationDate-DisplayName</DisplayName>
+      <Description>$Ctd-VotingItem,ModificationDate-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

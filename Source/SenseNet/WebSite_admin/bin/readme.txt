@@ -1,0 +1,1 @@
+This directory will contain SnAdmin.exe, his referenced assemblies and files.

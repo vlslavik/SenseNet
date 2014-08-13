@@ -1,0 +1,1 @@
+<%# ListHelper.GetFormattedValueOrEmpty(Container.DataItem, "@@fieldName@@") %>

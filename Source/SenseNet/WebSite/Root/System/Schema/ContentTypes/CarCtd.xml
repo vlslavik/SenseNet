@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Car" parentType="ListItem" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Car,DisplayName</DisplayName>
+  <Description>$Ctd-Car,Description</Description>
+  <Icon>Car</Icon>
+  <AllowIncrementalNaming>true</AllowIncrementalNaming>
+  <Fields>
+    <Field name="Name" type="ShortText">
+      <Configuration>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Advanced</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name='Make' type='ShortText'>
+      <DisplayName>$Ctd-Car,Make-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Make-Description</Description>
+    </Field>
+    <Field name='Model' type='ShortText'>
+      <DisplayName>$Ctd-Car,Model-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Model-Description</Description>
+    </Field>
+    <Field name='Style' type='Choice'>
+      <DisplayName>$Ctd-Car,Style-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Style-Description</Description>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>true</AllowExtraValue>
+        <Options>
+          <Option value="Sedan" selected='true'>$Ctd-Car,Style-Sedan</Option>
+          <Option value="Coupe">$Ctd-Car,Style-Coupe</Option>
+          <Option value="Cabrio">$Ctd-Car,Style-Cabrio</Option>
+          <Option value="Roadster">$Ctd-Car,Style-Roadster</Option>
+          <Option value="SUV">$Ctd-Car,Style-SUV</Option>
+          <Option value="Van">$Ctd-Car,Style-Van</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name='StartingDate' type='DateTime'>
+      <DisplayName>$Ctd-Car,StartingDate-DisplayName</DisplayName>
+      <Description>$Ctd-Car,StartingDate-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+      </Configuration>
+    </Field>
+    <Field name='Color' type='Color'>
+      <DisplayName>$Ctd-Car,Color-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Color-Description</Description>
+      <Configuration>
+        <DefaultValue>#ff0000</DefaultValue>
+        <Palette>#ff0000;#f0d0c9;#e2a293;#d4735e;#65281a</Palette>
+      </Configuration>
+    </Field>
+    <Field name='EngineSize' type='ShortText'>
+      <DisplayName>$Ctd-Car,EngineSize-DisplayName</DisplayName>
+      <Description>$Ctd-Car,EngineSize-Description</Description>
+    </Field>
+    <Field name='Power' type='ShortText'>
+      <DisplayName>$Ctd-Car,Power-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Power-Description</Description>
+    </Field>
+    <Field name='Price' type='Number'>
+      <DisplayName>$Ctd-Car,Price-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Price-Description</Description>
+    </Field>
+    <Field name='Description' type='LongText'>
+      <DisplayName>$Ctd-Car,Description-DisplayName</DisplayName>
+      <Description>$Ctd-Car,Description-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="ContentTemplates">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Posts" xml:space="preserve">
+          <value>Posts</value>
+        </data>
+        <data name="Blog" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="CustomList" xml:space="preserve">
+          <value>Custom List</value>
+        </data>
+        <data name="DocumentLibrary" xml:space="preserve">
+          <value>Document library</value>
+        </data>
+        <data name="DocumentWorkspace" xml:space="preserve">
+          <value>Document workspace</value>
+        </data>
+        <data name="EmptyContentViews" xml:space="preserve">
+          <value>Empty Content view folder</value>
+        </data>
+        <data name="DefaultContentViews" xml:space="preserve">
+          <value>Folder containing default Content views</value>
+        </data>
+        <data name="EmptyFieldControlTemplates" xml:space="preserve">
+          <value>Empty Field control folder</value>
+        </data>
+        <data name="DefaultFieldControlTemplates" xml:space="preserve">
+          <value>Folder containing default field control templates</value>
+        </data>
+        <data name="ContentViewBrowse" xml:space="preserve">
+          <value>Content view (browse)</value>
+        </data>
+        <data name="ContentViewEdit" xml:space="preserve">
+          <value>Content view (edit)</value>
+        </data>
+        <data name="ContentViewNew" xml:space="preserve">
+          <value>Content view (new)</value>
+        </data>
+        <data name="ContentViewCustom" xml:space="preserve">
+          <value>Content view (custom)</value>
+        </data>
+        <data name="FieldControlTemplateBrowse" xml:space="preserve">
+          <value>Field control template (browse)</value>
+        </data>
+        <data name="FieldControlTemplateEdit" xml:space="preserve">
+          <value>Field control template (edit)</value>
+        </data>
+        <data name="UserControl" xml:space="preserve">
+          <value>User control</value>
+        </data>
+        <data name="ListView" xml:space="preserve">
+          <value>List view</value>
+        </data>
+        <data name="PageTemplate" xml:space="preserve">
+          <value>Page template</value>
+        </data>
+        <data name="Calendar" xml:space="preserve">
+          <value>Calendar</value>
+        </data>
+        <data name="Groups" xml:space="preserve">
+          <value>Groups</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Members</value>
+        </data>
+        <data name="Owners" xml:space="preserve">
+          <value>Owners</value>
+        </data>
+        <data name="Visitors" xml:space="preserve">
+          <value>Visitors</value>
+        </data>
+        <data name="Links" xml:space="preserve">
+          <value>Links</value>
+        </data>
+        <data name="Memos" xml:space="preserve">
+          <value>Memos</value>
+        </data>
+        <data name="Tasks" xml:space="preserve">
+          <value>Tasks</value>
+        </data>
+        <data name="ExpenseClaim" xml:space="preserve">
+          <value>Expense claim</value>
+        </data>
+        <data name="ExpenseClaims" xml:space="preserve">
+          <value>Expense claims</value>
+        </data>
+        <data name="Topic" xml:space="preserve">
+          <value>Topic</value>
+        </data>
+        <data name="GalleryLight" xml:space="preserve">
+          <value>Gallery (light)</value>
+        </data>
+        <data name="ImageLibrary" xml:space="preserve">
+          <value>Image gallery</value>
+        </data>
+        <data name="ProjectWorkspace" xml:space="preserve">
+          <value>Project workspace</value>
+        </data>
+        <data name="SalesWorkspace" xml:space="preserve">
+          <value>Sales workspace</value>
+        </data>
+        <data name="Survey" xml:space="preserve">
+          <value>Survey</value>
+        </data>
+        <data name="UserProfile" xml:space="preserve">
+          <value>UserProfile</value>
+        </data>
+        <data name="Photos" xml:space="preserve">
+          <value>Photos</value>
+        </data>
+        <data name="Voting" xml:space="preserve">
+          <value>Voting</value>
+        </data>
+        <data name="Wiki" xml:space="preserve">
+          <value>Wiki</value>
+        </data>
+        <data name="Articles" xml:space="preserve">
+          <value>Articles</value>
+        </data>
+        <data name="Main" xml:space="preserve">
+          <value>Main</value>
+        </data>
+        <data name="Images" xml:space="preserve">
+          <value>Images</value>
+        </data>
+        <data name="Workspace" xml:space="preserve">
+          <value>Workspace</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Posts" xml:space="preserve">
+          <value>Posztok</value>
+        </data>
+        <data name="Blog" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="CustomList" xml:space="preserve">
+          <value>Egyéni lista</value>
+        </data>
+        <data name="DocumentLibrary" xml:space="preserve">
+          <value>Dokumentumtár</value>
+        </data>
+        <data name="DocumentWorkspace" xml:space="preserve">
+          <value>Dokumentum munkaterület</value>
+        </data>
+        <data name="EmptyContentViews" xml:space="preserve">
+          <value>Üres tartalom nézet gyűjtő</value>
+        </data>
+        <data name="DefaultContentViews" xml:space="preserve">
+          <value>Alapértelmezett tartalom nézetek</value>
+        </data>
+        <data name="EmptyFieldControlTemplates" xml:space="preserve">
+          <value>Üres mezővezérlő-sablon gyűjtő</value>
+        </data>
+        <data name="DefaultFieldControlTemplates" xml:space="preserve">
+          <value>Alapértelmezett mezővezérlő-sablonok</value>
+        </data>
+        <data name="ContentViewBrowse" xml:space="preserve">
+          <value>Tartalom megjelenítő (böngésző nézet)</value>
+        </data>
+        <data name="ContentViewEdit" xml:space="preserve">
+          <value>Tartalom megjelenítő (szerkesztés)</value>
+        </data>
+        <data name="ContentViewNew" xml:space="preserve">
+          <value>Tartalom megjelenítő (új)</value>
+        </data>
+        <data name="ContentViewCustom" xml:space="preserve">
+          <value>Tartalom megjelenítő (egyedi)</value>
+        </data>
+        <data name="FieldControlTemplateBrowse" xml:space="preserve">
+          <value>Mezővezérlő sablon (böngésző nézet)</value>
+        </data>
+        <data name="FieldControlTemplateEdit" xml:space="preserve">
+          <value>Mezővezérlő sablon (szerkesztés)</value>
+        </data>
+        <data name="UserControl" xml:space="preserve">
+          <value>Egyedi vezérlő</value>
+        </data>
+        <data name="ListView" xml:space="preserve">
+          <value>Lista nézet</value>
+        </data>
+        <data name="PageTemplate" xml:space="preserve">
+          <value>Oldal sablon</value>
+        </data>
+        <data name="Calendar" xml:space="preserve">
+          <value>Naptár</value>
+        </data>
+        <data name="Groups" xml:space="preserve">
+          <value>Csoportok</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Tagok</value>
+        </data>
+        <data name="Owners" xml:space="preserve">
+          <value>Tulajdonosok</value>
+        </data>
+        <data name="Visitors" xml:space="preserve">
+          <value>Látogatók</value>
+        </data>
+        <data name="Links" xml:space="preserve">
+          <value>Hivatkozások</value>
+        </data>
+        <data name="Memos" xml:space="preserve">
+          <value>Emlékeztetők</value>
+        </data>
+        <data name="Tasks" xml:space="preserve">
+          <value>Feladatok</value>
+        </data>
+        <data name="ExpenseClaim" xml:space="preserve">
+          <value>Költségelszámolás</value>
+        </data>
+        <data name="ExpenseClaims" xml:space="preserve">
+          <value>Költségelszámolások</value>
+        </data>
+        <data name="Topic" xml:space="preserve">
+          <value>Topik</value>
+        </data>
+        <data name="GalleryLight" xml:space="preserve">
+          <value>Galéria (régi)</value>
+        </data>
+        <data name="ImageLibrary" xml:space="preserve">
+          <value>Galéria</value>
+        </data>
+        <data name="ProjectWorkspace" xml:space="preserve">
+          <value>Projekt munkaterület</value>
+        </data>
+        <data name="SalesWorkspace" xml:space="preserve">
+          <value>Sales munkaterület</value>
+        </data>
+        <data name="Survey" xml:space="preserve">
+          <value>Kérdőív</value>
+        </data>
+        <data name="UserProfile" xml:space="preserve">
+          <value>Felhasználói profil</value>
+        </data>
+        <data name="Photos" xml:space="preserve">
+          <value>Fényképek</value>
+        </data>
+        <data name="Voting" xml:space="preserve">
+          <value>Szavazás</value>
+        </data>
+        <data name="Wiki" xml:space="preserve">
+          <value>Wiki</value>
+        </data>
+        <data name="Articles" xml:space="preserve">
+          <value>Cikkek</value>
+        </data>
+        <data name="Main" xml:space="preserve">
+          <value>Indító cikk</value>
+        </data>
+        <data name="Images" xml:space="preserve">
+          <value>Képek</value>
+        </data>
+        <data name="Workspace" xml:space="preserve">
+          <value>Munkaterület</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

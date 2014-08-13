@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ForumTopic" parentType="ItemList" handler="SenseNet.ContentRepository.ContentList" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ForumTopic,DisplayName</DisplayName>
+  <Description>$Ctd-ForumTopic,Description</Description>
+  <Icon>forumtopic</Icon>
+  <AllowedChildTypes>
+    ForumEntry
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-ForumTopic,DisplayName-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-ForumTopic,Description-DisplayName</DisplayName>
+      <Description>$Ctd-ForumTopic,Description-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+        <OutputMethod>Html</OutputMethod>
+      </Configuration>
+    </Field>
+    <Field name="Hidden" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="TrashDisabled" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="AllowedChildTypes" type="AllowedChildTypes">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="OwnerWhenVisitor" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

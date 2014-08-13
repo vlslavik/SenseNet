@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>File</ContentType>
+  <ContentName>Share.aspx</ContentName>
+  <Fields>
+    <Binary attachment="Share.aspx" />
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+      <Open>Allow</Open>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

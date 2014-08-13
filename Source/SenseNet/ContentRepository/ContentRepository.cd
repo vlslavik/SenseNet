@@ -1,0 +1,2415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SenseNet.ContentRepository.ApplicationCache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAQAAoAAAAAAAAAAKAAAAAAAAAAAAAAAIJCA=</HashCode>
+      <FileName>ApplicationCache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ApplicationCacheFile" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAA=</HashCode>
+      <FileName>ApplicationCacheFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.BinaryTypeResolver" Collapsed="true">
+    <Position X="8.75" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAgAAAABAAEAAAAAAAAQAAiAAAA=</HashCode>
+      <FileName>BinaryTypeResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Book" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.CalendarEvent" Collapsed="true">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAgAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalendarEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SerializationOptions" Collapsed="true">
+    <Position X="22.75" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAIAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Content" Collapsed="true">
+    <Position X="26" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kMiytphyKBCplI9krcqMQgwIAgEMBEkhCNgWoAuQxaw=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.StringValueList&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.NodeValueList&lt;T&gt;" Collapsed="true">
+    <Position X="21" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ChoiceOptionValueList&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentLink" Collapsed="true">
+    <Position X="20.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAABAAAAAAAAAEAAAAAAAAAAAEACAAAAAAAQAEAEQA=</HashCode>
+      <FileName>ContentLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentList" Collapsed="true">
+    <Position X="20.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mJiggMAsAgIAiUAFQCTMQgQAgbEggACICACACASgQAQ=</HashCode>
+      <FileName>ContentList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentNamingHelper" Collapsed="true">
+    <Position X="17.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAEIUgABAAAAAJAMQkAgABAAAABCAIIAIAAAAAAAE=</HashCode>
+      <FileName>ContentNamingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentRotator" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FBAAAAAAAABAQAACAAAAAQIABAEAAAAAABEAAAAAAAA=</HashCode>
+      <FileName>ContentRotator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentTemplate" Collapsed="true">
+    <Position X="24.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAgAAAAQAAAAAAAAAAAEEAAAgEAAABBQBAA=</HashCode>
+      <FileName>ContentTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ContentTemplateResolver" Collapsed="true">
+    <Position X="26.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAwEAAAABAAAA=</HashCode>
+      <FileName>ContentTemplateResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.CryptoApi" Collapsed="true">
+    <Position X="12.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAQCAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CryptoApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Domain" Collapsed="true">
+    <Position X="23.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAACAAAAAAACAA=</HashCode>
+      <FileName>Domain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.DefaultDownloadCounter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DownloadCounter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.DownloadCounter" Collapsed="true">
+    <Position X="12.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DownloadCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ExpenseClaim" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ExpenseClaim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ExportContext" Collapsed="true">
+    <Position X="17.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAACAAAEAAgAAAAAAAAAAAAAAAAIAAACAAA=</HashCode>
+      <FileName>ExportContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.FeedContent" Collapsed="true">
+    <Position X="25" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAAAAAAAAAAAAEAIAAAAgAAAAAA=</HashCode>
+      <FileName>FeedContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Field" Collapsed="true">
+    <Position X="19.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEChsLAhkgihMQAAIShKREwgzAAAAGCFAFBsgVEAAEA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.FieldParsingException" Collapsed="true">
+    <Position X="28" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FieldParsingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.File" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAMACAA=</HashCode>
+      <FileName>File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.FileBase" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAAAAAgAAAAAAAAAAAAAEAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Folder" Collapsed="true">
+    <Position X="22.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEAIAAAAAAAEAAAAAAEAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Folder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.GenericContent" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kOwgEOREg0BjHQiFiEKFDAAJQAEIQItAgCgQCAMEZpI=</HashCode>
+      <FileName>GenericContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Group" Collapsed="true">
+    <Position X="24.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAOAAAAKAoEAAoAAAABAQAwEsEIAAAAAEABACCAI=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.HttpEndpointDemoContent" Collapsed="true">
+    <Position X="31" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAAABAAAAAAAAEAAAAAAAAAIAEACAA=</HashCode>
+      <FileName>HttpEndpointDemoContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Image" Collapsed="true">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQIAAAAAAAAAAAAAAIABCAAAQAAAhEQAEAACAA=</HashCode>
+      <FileName>Image.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ImageResizer" Collapsed="true">
+    <Position X="8.75" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAIAAAAAAAIgAAAAAAAABAAAEAAAACA=</HashCode>
+      <FileName>ImageResizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ImportContext" Collapsed="true">
+    <Position X="10.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAAAAAAAgEAAQAUAAAAEAAAAAA=</HashCode>
+      <FileName>ImportContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.InvalidContentActionException" Collapsed="true">
+    <Position X="19.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidContentActionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.InvalidContentException" Collapsed="true">
+    <Position X="21" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidContentException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.JscriptEvaluator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAQAAAAAAAAAgAAAAAAAAAAAAACAAAACAE=</HashCode>
+      <FileName>JscriptEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.KPIData" Collapsed="true">
+    <Position X="24.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>KPIData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.KPIDatasource" Collapsed="true">
+    <Position X="26.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAQABAAAAQAACAAAAAAUAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>KPIDatasource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.NewsArticle" Collapsed="true">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>NewsArticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.OrganizationalUnit" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAoAAAgAAAAIAQAAAIAIAAAAAAAAAACAA=</HashCode>
+      <FileName>OrganizationalUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.PortalRoot" Collapsed="true">
+    <Position X="28.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PortalRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.ReferenceNotFoundException" Collapsed="true">
+    <Position X="14" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Repository" Collapsed="true">
+    <Position X="15.75" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGCALUAABCOdhSQAoA2IQUAEJMdgAQjIkBEQHAYIhgg=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.RepositoryInstance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wABUEAQAACBEwAQAgAVAAQEEoALAAwAKQIKAgAAAQRA=</HashCode>
+      <FileName>RepositoryInstance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.RepositoryQueryTemplateReplacer" Collapsed="true">
+    <Position X="22.75" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>RepositoryQueryTemplateReplacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.RepositoryStartSettings" Collapsed="true">
+    <Position X="26.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASCAAAEAAAAAAAAAAAGAIAACMAAAIAAACAgGgAACAAA=</HashCode>
+      <FileName>RepositoryStartSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.RestoreException" Collapsed="true">
+    <Position X="8.75" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAABgAJAAAAAAAAAAICAAAAA=</HashCode>
+      <FileName>RestoreException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.RuntimeContentContainer" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>GAAQBAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RuntimeContentContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SavingAction" Collapsed="true">
+    <Position X="10.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgwgIACAgQIQBCQAAEIgARDBEAYIAGJRAEAAAAQBAIg=</HashCode>
+      <FileName>SavingAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SearchFolder" Collapsed="true">
+    <Position X="23.75" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgAAAEAAAAAAAAAEAAAAAAgAAAAAA=</HashCode>
+      <FileName>SearchFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SmartFolder" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAACAAAEAQAgCAAAAAAAACAA=</HashCode>
+      <FileName>SmartFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SR" Collapsed="true">
+    <Position X="12.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Survey" Collapsed="true">
+    <Position X="20.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAIAAAAAAAAAAQAAADQAAAAEAAAAAIAAAIQAAAAA=</HashCode>
+      <FileName>Survey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SurveyItem" Collapsed="true">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAABAAAAABCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SurveyItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.SystemFolder" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SystemFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Task" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAEAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.TemplateReplacerBase" Collapsed="true">
+    <Position X="21" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.TemplateManager" Collapsed="true">
+    <Position X="19.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAQAAACAAQAAAAAgAAQAAAAAEEAAACAAAAACA=</HashCode>
+      <FileName>TemplateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Tools" Collapsed="true">
+    <Position X="24.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgBgAIAAAEAAAAAACAAAAJQAQAAAAAAEAACAAAA=</HashCode>
+      <FileName>Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.TransferException" Collapsed="true">
+    <Position X="26.25" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransferException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.TrashBag" Collapsed="true">
+    <Position X="27.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIBAAAAAAgAEAgAAAAAAAARFAAAAAACQAQAEAIAA=</HashCode>
+      <FileName>TrashBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.TrashBin" Collapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAIAAACAAgJAAgAACAAAEAAEoAAABRAAAAAAAAAA=</HashCode>
+      <FileName>TrashBin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.UnknownActionException" Collapsed="true">
+    <Position X="28" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>UnknownActionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.User" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASC0IEDACCE9IAIgQiACAFQBkEIAIiCCFAQQoQICAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.UserProfile" Collapsed="true">
+    <Position X="17" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAIAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Voting" Collapsed="true">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAIAAAAAACAAAAAAAAAQAAAEAAAAAIAgAAAAAQAA=</HashCode>
+      <FileName>Voting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.VotingItem" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VotingItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.WorkflowNotificationEventArgs" Collapsed="true">
+    <Position X="12.25" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>WorkflowNotificationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionBase" Collapsed="true">
+    <Position X="8.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAxQgAQApABAgkAQiAAABAgCoCKEACAEAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionComparerByType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionComparerByText" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionComparerHelper" Collapsed="true">
+    <Position X="15.75" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionComparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionFactory" Collapsed="true">
+    <Position X="17.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\ActionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionFramework" Collapsed="true">
+    <Position X="19.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICBAAAAAAAAAAAAAABAQAAgAABAAAAQIAAA=</HashCode>
+      <FileName>ApplicationModel\ActionFramework.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ActionIcon" Collapsed="true">
+    <Position X="21" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ApplicationModel\ActionIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.Application" Collapsed="true">
+    <Position X="31.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ETBAkIAkAQAgAQgMAACgASAjIAEAQBAEAAACCANAAAo=</HashCode>
+      <FileName>ApplicationModel\Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.ApplicationStorage" Collapsed="true">
+    <Position X="24.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgEACAECRgEAAAACAAEAAAAQEAMACAAQAwAACmCAgQ=</HashCode>
+      <FileName>ApplicationModel\ApplicationStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.AppStorageInvalidator" Collapsed="true">
+    <Position X="26.25" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAABAAABAAAEAgAAAgAAAEAAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\AppStorageInvalidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.Device" Collapsed="true">
+    <Position X="26.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIgAAABAAEAAAAAAEAAAAAAAAAAAUACAA=</HashCode>
+      <FileName>ApplicationModel\Device.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ApplicationModel.DeviceManager" Collapsed="true">
+    <Position X="26.25" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACCAAAIABQEAAAAAAAAAAAAAAAAEQgAAAABAABA=</HashCode>
+      <FileName>ApplicationModel\DeviceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ActivationFieldSetting" Collapsed="true">
+    <Position X="24.25" Y="22" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAwCAIAIRAAAAJCBAIAAACAAIEQAAgIQIAAAMCBBAAI=</HashCode>
+      <FileName>Fields\ActivationFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.AllowedChildTypesField" Collapsed="true">
+    <Position X="8" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAgAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\AllowedChildTypesField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ApprovingModeField" Collapsed="true">
+    <Position X="14.25" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAIAAAggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\ApprovingModeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.BinaryField" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAQAAAAAAAAIAAggAAAAAAAAAABAIAAAAAA=</HashCode>
+      <FileName>Fields\BinaryField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.BinaryFieldSetting" Collapsed="true">
+    <Position X="32.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAQAAAAAAAAAAAAgEABAAAAAGAAAAAEAAAAAI=</HashCode>
+      <FileName>Fields\BinaryFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.BooleanField" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBgAAAAAgAAAAAAAAIAAgggAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>Fields\BooleanField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.CaptchaField" Collapsed="true">
+    <Position X="25.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAIAAAgAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\CaptchaField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.CaptchaFieldSetting" Collapsed="true">
+    <Position X="20" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAEAQAABAAAAAABAgAAAAEAACCAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Fields\CaptchaFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ChoiceField" Collapsed="true">
+    <Position X="17.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABgBAAAAgAAAAAAEAIAAgghAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\ChoiceField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ChoiceFieldSetting" Collapsed="true">
+    <Position X="27.25" Y="21.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAEABAQYIgEAIAAAAgIAFABCEAAACQAQAIEABQAAI=</HashCode>
+      <FileName>Fields\ChoiceFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ChoiceOption" Collapsed="true">
+    <Position X="10.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIAAAAAAAAAAAAAAAAEYAAAgiAAAAAI=</HashCode>
+      <FileName>Fields\ChoiceOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ColorField" Collapsed="true">
+    <Position X="24" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgBAAAAgAAAAABAAIAAgggAAAACAAAAAAAAAAACA=</HashCode>
+      <FileName>Fields\ColorField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.CurrencyField" Collapsed="true">
+    <Position X="27.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\CurrencyField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.CurrencyFieldSetting" Collapsed="true">
+    <Position X="33.5" Y="20.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAAAAAAAAAAAEAAAkAAACAAACAEAAAQEI=</HashCode>
+      <FileName>Fields\CurrencyFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.DateTimeField" Collapsed="true">
+    <Position X="30.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAgAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\DateTimeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.DateTimeFieldSetting" Collapsed="true">
+    <Position X="29.25" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EACIAAAAAAAAAAAwAAAAAAEABAEgAACAAAAAEAAAECI=</HashCode>
+      <FileName>Fields\DateTimeFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.HyperLinkField" Collapsed="true">
+    <Position X="5.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABgBAAAAAIAAAAAAAIAgggAgAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\HyperLinkField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.HyperLinkFieldSetting" Collapsed="true">
+    <Position X="30.5" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAAAAAAAAEABAEAAACBAAAAEAAAAEI=</HashCode>
+      <FileName>Fields\HyperLinkFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ImageField" Collapsed="true">
+    <Position X="10.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABwBAEBogAAAQAAAAIAAAgAAAgACAAAEAAAEQAABA=</HashCode>
+      <FileName>Fields\ImageField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.InheritableApprovingModeField" Collapsed="true">
+    <Position X="16.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAIAAAggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\InheritableApprovingModeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.InheritableVersioningModeField" Collapsed="true">
+    <Position X="18" Y="14.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAIAAAggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\InheritableVersioningModeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.IntegerField" Collapsed="true">
+    <Position X="13.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAAgAAAAAAAAIAAgggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\IntegerField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.IntegerFieldSetting" Collapsed="true">
+    <Position X="21.25" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAgEAAAQAAIAQgAAAEAAAUABAEAgACACAAwECAAEAI=</HashCode>
+      <FileName>Fields\IntegerFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.LockField" Collapsed="true">
+    <Position X="19.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\LockField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.LongTextField" Collapsed="true">
+    <Position X="21" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAgAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\LongTextField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.LongTextFieldSetting" Collapsed="true">
+    <Position X="24.25" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAABAAAAECAAAAAEBEABAEAAACAIAAAEAEAAAM=</HashCode>
+      <FileName>Fields\LongTextFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.NodeTypeField" Collapsed="true">
+    <Position X="26.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\NodeTypeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.NullFieldSetting" Collapsed="true">
+    <Position X="23.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEBAAAAA=</HashCode>
+      <FileName>Fields\NullFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.NumberField" Collapsed="true">
+    <Position X="27.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAAgAAAAAAAAIAAgggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\NumberField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.NumberFieldSetting" Collapsed="true">
+    <Position X="33.5" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAgEAAAQAAIAQgAAQEAAAUABAEAgACACAQwECAAEAI=</HashCode>
+      <FileName>Fields\NumberFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PageBreakField" Collapsed="true">
+    <Position X="22" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\PageBreakField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PageBreakFieldSetting" Collapsed="true">
+    <Position X="28" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAAEAAAAEAAABAAAEAAAAAAACAAAAREAAAAAI=</HashCode>
+      <FileName>Fields\PageBreakFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PasswordField" Collapsed="true">
+    <Position X="6.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgBAAAAAAAAAAAAAIAgAgAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\PasswordField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PasswordCheckResult" Collapsed="true">
+    <Position X="24.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAJAAAAAA=</HashCode>
+      <FileName>Fields\PasswordFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PasswordFieldValidationResult" Collapsed="true">
+    <Position X="15" Y="34" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\PasswordFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PasswordFieldSetting" Collapsed="true">
+    <Position X="25.25" Y="21" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAREAAAQIAAAAAAAQAAAAGABQAAAADAMBAgEIAIAgI=</HashCode>
+      <FileName>Fields\PasswordFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.PermissionChoiceFieldSetting" Collapsed="true">
+    <Position X="28.25" Y="22.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\PermissionChoiceFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.RatingField" Collapsed="true">
+    <Position X="11.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgBAAAAgAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\RatingField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.VoteData" Collapsed="true">
+    <Position X="10.5" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAEACAAAAAQGAACAABAFAAiAACAAQAAAAAAgAAAA=</HashCode>
+      <FileName>Fields\RatingField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.RatingFieldSetting" Collapsed="true">
+    <Position X="29.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEAAgQAAACAAAEAAABAAAAAAAAAAQAAAABAAAAgI=</HashCode>
+      <FileName>Fields\RatingFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ReferenceField" Collapsed="true">
+    <Position X="15.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABgBAAAAAAAAAAAAAIAAggAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\ReferenceField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ReferenceFieldSetting" Collapsed="true">
+    <Position X="22.25" Y="19.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAkQgAAEAgoQAAACCEQBiGAAhiUAAAAEIAEMAI=</HashCode>
+      <FileName>Fields\ReferenceFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.SecurityField" Collapsed="true">
+    <Position X="23" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\SecurityField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ShortTextField" Collapsed="true">
+    <Position X="25.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAgAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\ShortTextField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.ShortTextFieldSetting" Collapsed="true">
+    <Position X="26.75" Y="19.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAABAAAAAAAAAEAABAAAACAAAIAEAAAAAI=</HashCode>
+      <FileName>Fields\ShortTextFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.SiteRelativeUrlField" Collapsed="true">
+    <Position X="29.5" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAIAAAAAAA=</HashCode>
+      <FileName>Fields\SiteRelativeUrlField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.SurveyRule" Collapsed="true">
+    <Position X="15.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAQAAAIgAAAAAAAAAAAIIAAAAAAAggAAAAA=</HashCode>
+      <FileName>Fields\SurveyRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.TextFieldSetting" Collapsed="true">
+    <Position X="25.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAQAAAABAAAAAAAAEAAAACAACAAAAQEAAQAAI=</HashCode>
+      <FileName>Fields\TextFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.VersionField" Collapsed="true">
+    <Position X="31.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAAAAAAAAIAAAAgAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\VersionField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.VersioningModeField" Collapsed="true">
+    <Position X="19.5" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAIAAAggAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\VersioningModeField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.WhoAndWhenField" Collapsed="true">
+    <Position X="28.25" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAIAAAgAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\WhoAndWhenField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.XmlField" Collapsed="true">
+    <Position X="7.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAAAAAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\XmlField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.XmlFieldSetting" Collapsed="true">
+    <Position X="31.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAAAAAAAAAQAEAEAAAAACAQAAAEAAAAAM=</HashCode>
+      <FileName>Fields\XmlFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.YesNoField" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\YesNoField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Fields.YesNoFieldSetting" Collapsed="true">
+    <Position X="26.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Fields\YesNoFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.i18n.Resource" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>i18n\Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.i18n.SenseNetResourceManager" Collapsed="true">
+    <Position X="17.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYIgAAAAQBALABSAgCgREAAgBAIgAAAAAACBABACQA=</HashCode>
+      <FileName>i18n\SenseNetResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.i18n.SenseNetResourceProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAABAAAAAAAAA=</HashCode>
+      <FileName>i18n\SenseNetResourceProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.i18n.SenseNetResourceProviderFactory" Collapsed="true">
+    <Position X="21" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>i18n\SenseNetResourceProviderFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ContentHandlerAttribute" Collapsed="true">
+    <Position X="15.75" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\ContentHandlerAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ContentRegistrationException" Collapsed="true">
+    <Position X="22.75" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAACAAAAACAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\ContentRegistrationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ContentType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIBQEIAEhEEpB0AFAHBEQJAEALURwcDmAIAZigUEyAo=</HashCode>
+      <FileName>Schema\ContentType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ContentTypeInstaller" Collapsed="true">
+    <Position X="8.75" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAgAAEAAgAAAAEAAAAAAAAAAQAAEAAAAAQAAAACAA=</HashCode>
+      <FileName>Schema\ContentTypeInstaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ContentTypeManager" Collapsed="true">
+    <Position X="10.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIBAQAAAJCIABQABhADAQACQAAEPAAAAIACSDABAYDA=</HashCode>
+      <FileName>Schema\ContentTypeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.DataSlotAttribute" Collapsed="true">
+    <Position X="15.75" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAgQIAAEA=</HashCode>
+      <FileName>Schema\DataSlotAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.DataSlotInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>Schema\DataSlotInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.DefaultFieldControlAttribute" Collapsed="true">
+    <Position X="21" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Schema\DefaultFieldControlAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.DefaultFieldSettingAttribute" Collapsed="true">
+    <Position X="22.75" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\DefaultFieldSettingAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.DynamicContentTools" Collapsed="true">
+    <Position X="14" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\DynamicContentTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldDataTypeAttribute" Collapsed="true">
+    <Position X="19.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\FieldDataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldDescriptor" Collapsed="true">
+    <Position X="21" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEACAAAMiAgAQAAAIAIAAABSAAAAAAGAAAQkAQAA=</HashCode>
+      <FileName>Schema\FieldDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldManager" Collapsed="true">
+    <Position X="24.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAIiQgCBkAIQoQAALAAAAgAEQAAABCAABAAAIgACA=</HashCode>
+      <FileName>Schema\FieldManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldMetadata" Collapsed="true">
+    <Position X="26.25" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEABAAAAhAAAAEAAAAAAAAACAAAAAAAACAAAIAAA=</HashCode>
+      <FileName>Schema\FieldMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldSetting" Collapsed="true">
+    <Position X="27.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIUwsLCSSAajH4AFgAhCpjdWB4FFAuKMBUwp0AMAsPM=</HashCode>
+      <FileName>Schema\FieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldSettingContent" Collapsed="true">
+    <Position X="13.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GAAAAISAAAAAEQCAAAEAAAAAAAEAAAAIAAAQAAEAoAA=</HashCode>
+      <FileName>Schema\FieldSettingContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.FieldValidationResult" Collapsed="true">
+    <Position X="15.25" Y="32.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAEAAAAAAAAAAAiAAAAAAAAAAIAAAAACAA=</HashCode>
+      <FileName>Schema\FieldValidationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.NodeTypeRegistration" Collapsed="true">
+    <Position X="19.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEAAAAAARAAAAAAABAAQAAAAAAAAA=</HashCode>
+      <FileName>Schema\NodeTypeRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.PropertyTypeRegistration" Collapsed="true">
+    <Position X="8.75" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAEAAAAQAQAAAAAAAAAAIACAAAAAAA=</HashCode>
+      <FileName>Schema\PropertyTypeRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.RepositoryPropertyAttribute" Collapsed="true">
+    <Position X="21" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Schema\RepositoryPropertyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.RepositorySchema" Collapsed="true">
+    <Position X="24.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAiEgAAAABAIAgAAAAAAEAAACQABQAEAAACA=</HashCode>
+      <FileName>Schema\RepositorySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Schema.ShortNameAttribute" Collapsed="true">
+    <Position X="24.5" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\ShortNameAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.ContentQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASBAQAAAAAAABAQCgAAAAQGAgACBACkAgCBACIAAEAA=</HashCode>
+      <FileName>Search\ContentQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.CommitUserData" Collapsed="true">
+    <Position X="14" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Search\IndexManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.IndexManager" Collapsed="true">
+    <Position X="12.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoAAAAACAAAAEAAAAADAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\IndexManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.LuceneSearchEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACgAAAAIAwACAAggAACAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Search\LuceneSearchEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.LucObject" Collapsed="true">
+    <Position X="10.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAyAJgGAAAAgQAkGAAAABAAEAQAAAAAAg=</HashCode>
+      <FileName>Search\LucObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.LucQuery" Collapsed="true">
+    <Position X="12.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQApKACQAAAABBQEAAAAQQiAAAgJAMgCAAAAEIAYMBA=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor" Collapsed="true">
+    <Position X="17.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASCAAgICAAAFAQKQgAAEAAAAAEAAAAAACDAgBAAAAQ=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor20100630" Collapsed="true">
+    <Position X="16" Y="24.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAA=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor20100701" Collapsed="true">
+    <Position X="18.25" Y="24.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAQ=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor20100701CountOnly" Collapsed="true">
+    <Position X="18" Y="26.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor2" Collapsed="true">
+    <Position X="8" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAACAAABAQAAgAAAAAAAAAAAAAAACBAAAAAAAQ=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.QueryExecutor20110503" Collapsed="true">
+    <Position X="7.75" Y="33.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAgAAQ=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.SearchResult" Collapsed="true">
+    <Position X="12.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAgAAAAAABAYIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.SearchTimer" Collapsed="true">
+    <Position X="14" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAEAAKQAAAEAAAAAEAAAAAACCAgBAAAAQ=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.QueryTraceInfo" Collapsed="true">
+    <Position X="12.25" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAKHAAAAEUAAAAACAAgAACAAAAIEEQQ=</HashCode>
+      <FileName>Search\QueryTraceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.SnLucCompiler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAAgAQAgIQAAAAAAwAFAAABMAAgIGAAAKCEQ=</HashCode>
+      <FileName>Search\SnLucCompiler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.TextExtractor" Collapsed="true">
+    <Position X="19.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQEAAAAAAAAACgAAABAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.DocxTextExtractor" Collapsed="true">
+    <Position X="20.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.XlsxTextExtractor" Collapsed="true">
+    <Position X="21.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.PptxTextExtractor" Collapsed="true">
+    <Position X="22.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.PdfTextExtractor" Collapsed="true">
+    <Position X="23.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.XmlTextExtractor" Collapsed="true">
+    <Position X="16.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.DocTextExtractor" Collapsed="true">
+    <Position X="17.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.XlsTextExtractor" Collapsed="true">
+    <Position X="18.5" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.PlainTextExtractor" Collapsed="true">
+    <Position X="19.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.TextSplitter" Collapsed="true">
+    <Position X="22.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Search\TextSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.AddDocumentActivity" Collapsed="true">
+    <Position X="27.25" Y="31" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\AddDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.AddTreeActivity" Collapsed="true">
+    <Position X="32.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Search\Indexing\Activities\AddTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.BackupActivity" Collapsed="true">
+    <Position X="27.5" Y="28" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\BackupActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.DistributedLuceneActivity" Collapsed="true">
+    <Position X="29.25" Y="26.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAkAAABIAQAAAAEABAAAAAABAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\Activities\DistributedLuceneActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneDocumentActivity" Collapsed="true">
+    <Position X="28.5" Y="29.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAgEAAAAAEAAAAACAAAAAAAAACAAAAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneIndexingActivity" Collapsed="true">
+    <Position X="29.5" Y="28.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAEYAAAAAAAAAACAAAACAAEEAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneIndexingActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.LuceneTreeActivity" Collapsed="true">
+    <Position X="30.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\LuceneTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.RemoveDocumentActivity" Collapsed="true">
+    <Position X="26.75" Y="31.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\RemoveDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.RemoveTreeActivity" Collapsed="true">
+    <Position X="32" Y="31" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\RemoveTreeActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.UpdateDocumentActivity" Collapsed="true">
+    <Position X="27" Y="30.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\UpdateDocumentActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Activities.WriterRestartActivity" Collapsed="true">
+    <Position X="31.5" Y="28" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\Activities\WriterRestartActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.RequestBackupIndexMessage" Collapsed="true">
+    <Position X="28" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\BackupTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexBackupStartedMessage" Collapsed="true">
+    <Position X="15.75" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Search\Indexing\BackupTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexBackupFinishedMessage" Collapsed="true">
+    <Position X="12.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Search\Indexing\BackupTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexBackupProgressMessage" Collapsed="true">
+    <Position X="14" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgIAAAAAA=</HashCode>
+      <FileName>Search\Indexing\BackupTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.BackupTools" Collapsed="true">
+    <Position X="28" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GQEAAIEAAQgICAEgAAAACABEAhACEgggNACDAICAAIA=</HashCode>
+      <FileName>Search\Indexing\BackupTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.DocumentPopulator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAIIAIABCAgAAAIQIEAAABAgAAAEAAAgQAAAAABA=</HashCode>
+      <FileName>Search\Indexing\DocumentPopulator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.FieldIndexHandler" Collapsed="true">
+    <Position X="7" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAICBAACAAAAAACAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.NotIndexedIndexFieldHandler" Collapsed="true">
+    <Position X="8.25" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.BinaryIndexHandler" Collapsed="true">
+    <Position X="5.5" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.TypeTreeIndexHandler" Collapsed="true">
+    <Position X="11" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.HyperLinkIndexHandler" Collapsed="true">
+    <Position X="3.25" Y="21.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.ChoiceIndexHandler" Collapsed="true">
+    <Position X="5.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.LowerStringIndexHandler" Collapsed="true">
+    <Position X="8" Y="20.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.BooleanIndexHandler" Collapsed="true">
+    <Position X="15.25" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIIACAAAAAQAAABAAAAAAgAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IntegerIndexHandler" Collapsed="true">
+    <Position X="13" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAACBAACAAAgAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.NumberIndexHandler" Collapsed="true">
+    <Position X="8" Y="21.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAACBAACAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.DateTimeIndexHandler" Collapsed="true">
+    <Position X="10.5" Y="21.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAACBAACAAQAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.LongTextIndexHandler" Collapsed="true">
+    <Position X="3.25" Y="20.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.ReferenceIndexHandler" Collapsed="true">
+    <Position X="3.25" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAACAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.ExclusiveTypeIndexHandler" Collapsed="true">
+    <Position X="8" Y="19" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.InFolderIndexHandler" Collapsed="true">
+    <Position X="5.5" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.InTreeIndexHandler" Collapsed="true">
+    <Position X="10.5" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.TagIndexHandler" Collapsed="true">
+    <Position X="10.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAMAAABAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.DepthIndexHandler" Collapsed="true">
+    <Position X="13" Y="20" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.SystemContentIndexHandler" Collapsed="true">
+    <Position X="15" Y="20" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexDocumentProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexFieldInfo" Collapsed="true">
+    <Position X="21" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAQEgAQAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexDocumentInfo" Collapsed="true">
+    <Position X="17.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsCQABAEAAAAAIiIAAAAAAAAQAAEAECAAAgCABAAggg=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.CustomIndexFieldManager" Collapsed="true">
+    <Position X="14" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAQgAAAAIAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexFilePathHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAACAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexFilePathHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexHealthMonitor" Collapsed="true">
+    <Position X="24.5" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAAAAAAAAAgAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexHealthMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexingActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAgFFQJAAYAQUpgUEMoACANyCERQAiBAECASAsKAAg=</HashCode>
+      <FileName>Search\Indexing\IndexingActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexingDataContext" Collapsed="true">
+    <Position X="12" Y="33.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexingActivityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexingActivityManager" Collapsed="true">
+    <Position X="28" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAAQAACACAAABAAIAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexingActivityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexingHistory" Collapsed="true">
+    <Position X="8.75" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAAAAQAAAAQBAEAAAhAQAAEgACABAAACAAAEAgAA=</HashCode>
+      <FileName>Search\Indexing\IndexingHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexingTasksDataContext" Collapsed="true">
+    <Position X="12" Y="32.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAIAAAAAAAAAAACAAAAEAAAgAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexReaderFrame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexReaderFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexWriterFrame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAABAAAAEAAAAAAAAAAAAIAAAAAAAAIA=</HashCode>
+      <FileName>Search\Indexing\IndexWriterFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IndexWriterUsage" Collapsed="true">
+    <Position X="30" Y="34.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAACAAAAAAAEAAEgAAAAAAAABAAwAgAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexWriterFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.FastIndexWriterUsage" Collapsed="true">
+    <Position X="29" Y="35.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexWriterFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.SafeIndexWriterUsage" Collapsed="true">
+    <Position X="31" Y="35.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexWriterFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Difference" Collapsed="true">
+    <Position X="28" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABIAAYEAAAAAAAAACAEAABCAEAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IntegrityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.IntegrityChecker" Collapsed="true">
+    <Position X="17.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAghAAAgAAEAAAAAAGAAAAAQAAAAAAEAA=</HashCode>
+      <FileName>Search\Indexing\IntegrityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.LuceneActivity" Collapsed="true">
+    <Position X="29.5" Y="25.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAAQAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Search\Indexing\LuceneActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.LuceneManager" Collapsed="true">
+    <Position X="28" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EwkgAEEkAiAoNBIAUBKE+BEKPwEgOhQIAhZhQwYqBZw=</HashCode>
+      <FileName>Search\Indexing\LuceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.MissingActivityHandler" Collapsed="true">
+    <Position X="14" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACIAQAYAAQAAAAAABAAEAAAAAoCAAAgAQAAAAAA=</HashCode>
+      <FileName>Search\Indexing\MissingActivityHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.PerFieldIndexingInfo" Collapsed="true">
+    <Position X="26.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEAAAAAAAAIIAAAAAAAQAAAACCCAQAAAAE=</HashCode>
+      <FileName>Search\Indexing\PerFieldIndexingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Indexing.Configuration.RepositoryIndexBehaviorSection" Collapsed="true">
+    <Position X="17.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACkAAAAQAAAEQACAAgAEAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Search\Indexing\Configuration\RepositoryIndexBehaviorSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Search.Indexing.ExplicitPerFieldIndexingInfo" Collapsed="true">
+    <Position X="15.75" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAgAEAAAAAEACKIAAAAACAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexingTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Search.Indexing.IndexingTools" Collapsed="true">
+    <Position X="10.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\IndexingTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.DumpVisitor" Collapsed="true">
+    <Position X="22.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgEACIAQAAAoAAkAgABAAARIAQAgAAQAAiKAQAIJEA=</HashCode>
+      <FileName>Search\Parser\DumpVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.SnLucToSqlCompiler" Collapsed="true">
+    <Position X="10.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Search\Parser\DumpVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.SqlWhereVisitor" Collapsed="true">
+    <Position X="23.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIAQBAEIAAkCgAAQAAAAAQAiAAAAIAAAQAIgAA=</HashCode>
+      <FileName>Search\Parser\DumpVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.LineInfo" Collapsed="true">
+    <Position X="26.25" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Search\Parser\LineInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.LucQueryTemplateReplacer" Collapsed="true">
+    <Position X="19.25" Y="33.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACABAASAAQAAAAAAAAQAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Search\Parser\LucQueryTemplateReplacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.LucQueryVisitor" Collapsed="true">
+    <Position X="24.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgEACIAQAEAoAQgAgABQAABIAQAgAAQAAiKAQEIJAA=</HashCode>
+      <FileName>Search\Parser\LucQueryVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.ToStringVisitor" Collapsed="true">
+    <Position X="25.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAIAAABAIAAkAgAAQAAAEAQAAAIIAAgIAQAAAFA=</HashCode>
+      <FileName>Search\Parser\LucQueryVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.EmptyTermVisitor" Collapsed="true">
+    <Position X="24.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAIAAAAgAAQAAAAAQAgAAAAAgIAQAAAAA=</HashCode>
+      <FileName>Search\Parser\LucQueryVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.ParserException" Collapsed="true">
+    <Position X="22.75" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Search\Parser\ParserException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.RepositoryLucQueryTemplateReplacer" Collapsed="true">
+    <Position X="19" Y="34.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Search\Parser\RepositoryLucQueryTemplateReplacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.SnLucLexer" Collapsed="true">
+    <Position X="28" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkIAAAgAQhAAIAAQIBAAAAASAAYAAABggQAAAAIAJgA=</HashCode>
+      <FileName>Search\Parser\SnLucLexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.QueryFieldValue" Collapsed="true">
+    <Position X="10.5" Y="44.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAUgABAAEAAAAAAAEAgAAAAAAABAAA=</HashCode>
+      <FileName>Search\Parser\SnLucParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.Search.Parser.SnLucParser" Collapsed="true">
+    <Position X="8.75" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAosFkCAAAUQeQQAKCEEAE4CChBGKIqRKAUgAAyEogA=</HashCode>
+      <FileName>Search\Parser\SnLucParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.ADSync.ADFolder" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgoAAAgAAAAAAQAAAIAIAAAAAAAAAACAA=</HashCode>
+      <FileName>Security\ADSync\ADFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.ADSync.DirectoryProvider" Collapsed="true">
+    <Position X="8.75" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAQAEAAAABoCADgAAAAAAAAAAEEBAAABAAEAAA=</HashCode>
+      <FileName>Security\ADSync\DirectoryProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.SystemPrincipal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="46.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQA=</HashCode>
+      <FileName>Security\DesktopAccessProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.DesktopAccessProvider" Collapsed="true">
+    <Position X="24.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAACAAAAIAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\DesktopAccessProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.PortalPrincipal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAA=</HashCode>
+      <FileName>Security\PortalPrincipal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.SenseNetMembershipProvider" Collapsed="true">
+    <Position X="15.75" Y="45.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAQAGgUiMEYAEAAAQAQIAAAICHAEAAAkAAAY=</HashCode>
+      <FileName>Security\SenseNetMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Security.UserAccessProvider" Collapsed="true">
+    <Position X="8.75" Y="47.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAACAAAAIAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\UserAccessProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Workspaces.Workspace" Collapsed="true">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEIAAIAACABAgAAAECAAAAAAAAEAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Workspaces\Workspace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.NavigatorContext" Collapsed="true">
+    <Position X="17.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAAAAAACAAAACEAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.NavigableContent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ContentNavigator" Collapsed="true">
+    <Position X="19.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAACIAAQTEAAAAgBAQDACALAAISBAAgAAAAABQ=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ElementBase" Collapsed="true">
+    <Position X="9" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAgCCIAgAAAAMBAIQAQAQAAAAAAAgDAIAAAAAAAAE=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ContainerElement" Collapsed="true">
+    <Position X="10.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.RootElement" Collapsed="true">
+    <Position X="11.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ChildrenElement" Collapsed="true">
+    <Position X="12.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ContentElement" Collapsed="true">
+    <Position X="8.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAIAAAAAAAAAAgAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.TextElement" Collapsed="true">
+    <Position X="12.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACCAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAACAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ContentHeadElement" Collapsed="true">
+    <Position X="8" Y="26.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAIAAAAAIAAAAAAACAAAAAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.FieldsElement" Collapsed="true">
+    <Position X="9.25" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAIAAIAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.FieldElement" Collapsed="true">
+    <Position X="5.75" Y="27" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAQAAAAAAAAAQEABAAAAAAAAgAE=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.SimpleFieldElement" Collapsed="true">
+    <Position X="4.5" Y="29.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAIAAAAAIAAAAAAACAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ItemContainerElement" Collapsed="true">
+    <Position X="5.75" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAIAEIAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ChildItemElement" Collapsed="true">
+    <Position X="7" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ActionsElement" Collapsed="true">
+    <Position X="10.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAIAAIAAAAAAAAAABAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.ActionElement" Collapsed="true">
+    <Position X="9" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAAAQAAAAAAAAAAEABAAAAgAAAAAE=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.XmlNodeWrapper" Collapsed="true">
+    <Position X="11.25" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACCAAAAAAAIAAAQAAAAAAAAAAEABAAAgACAAAAE=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.XmlFieldElement" Collapsed="true">
+    <Position X="7" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAgACAKAAAAAIAAAAAAAACAEQAAAAAAAAAAAAoAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenseNet.ContentRepository.Xpath.FieldEnumerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="40.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAABAAAgACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\Elements.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="SenseNet.ContentRepository.IActionLinkResolver" Collapsed="true">
+    <Position X="10.5" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.IDownloadCounter" Collapsed="true">
+    <Position X="17.5" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DownloadCounter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.IAction" Collapsed="true">
+    <Position X="8.75" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAIAAAAAAAAQAAAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>IAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.ICustomSingleNode" Collapsed="true">
+    <Position X="15.75" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ICustomSingleNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.IFile" Collapsed="true">
+    <Position X="19.25" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.IViewManager" Collapsed="true">
+    <Position X="15.75" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IViewManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.Schema.ISupportsDynamicFields" Collapsed="true">
+    <Position X="12.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schema\ISupportsDynamicFields.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.IQueryExecutor" Collapsed="true">
+    <Position X="8.75" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\LucQuery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.ITextExtractor" Collapsed="true">
+    <Position X="14" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\TextExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.IIndexableDocument" Collapsed="true">
+    <Position X="22.75" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.IIndexableField" Collapsed="true">
+    <Position X="24.5" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAQAAAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.IIndexValueConverter&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.IIndexValueConverter" Collapsed="true">
+    <Position X="28" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.IHasCustomIndexField" Collapsed="true">
+    <Position X="21" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.Search.Indexing.ICustomIndexFieldProvider" Collapsed="true">
+    <Position X="14" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.Security.ADSync.IADSyncable" Collapsed="true">
+    <Position X="12.25" Y="48.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\ADSync\IADSyncable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.Xpath.IXmlAttributeOwner" Collapsed="true">
+    <Position X="17.5" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.Xpath.IXmlChildList" Collapsed="true">
+    <Position X="19.25" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SenseNet.ContentRepository.Xpath.IRawXmlContainer" Collapsed="true">
+    <Position X="10.5" Y="49.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xpath\ContentNavigator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SenseNet.ContentRepository.FieldSerializationOptions" Collapsed="true">
+    <Position X="22.75" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.ActionSerializationOptions" Collapsed="true">
+    <Position X="8.75" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Content.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.FieldSubType" Collapsed="true">
+    <Position X="24.5" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.SavingMode" Collapsed="true">
+    <Position X="24.5" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQBAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>GenericContent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.CheckInCommentsMode" Collapsed="true">
+    <Position X="12.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>GenericContent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.RestoreResultType" Collapsed="true">
+    <Position X="22.75" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAgAAIABAgAQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>RestoreResultType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ApplicationModel.IncludeBackUrlMode" Collapsed="true">
+    <Position X="8.75" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ApplicationModel\Application.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.DisplayChoice" Collapsed="true">
+    <Position X="19.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAA=</HashCode>
+      <FileName>Fields\ChoiceFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.DateTimeMode" Collapsed="true">
+    <Position X="15.75" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAEAAAA=</HashCode>
+      <FileName>Fields\DateTimeFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.DateTimePrecision" Collapsed="true">
+    <Position X="17.5" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAAAAAAAAAAIAAAAAACIAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\DateTimeFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.UrlFormat" Collapsed="true">
+    <Position X="8.75" Y="52" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\HyperLinkFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.ImageRequestMode" Collapsed="true">
+    <Position X="28" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAA=</HashCode>
+      <FileName>Fields\ImageField.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Fields.TextType" Collapsed="true">
+    <Position X="28" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\LongTextFieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Schema.FieldVisibility" Collapsed="true">
+    <Position X="26.25" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Schema\FieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Schema.OutputMethod" Collapsed="true">
+    <Position X="19.25" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAIAAAAAAABAAAAAAACAAAAAA=</HashCode>
+      <FileName>Schema\FieldSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Schema.RepositoryDataType" Collapsed="true">
+    <Position X="21" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACAAAAAAAAAQAAAAAAACAAAAAQAAAAACgAAACA=</HashCode>
+      <FileName>Schema\RepositoryDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Indexing.IndexFieldType" Collapsed="true">
+    <Position X="14" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAQAAAAAAAAAACAAQAAAAAAAAgACA=</HashCode>
+      <FileName>Search\Indexing\FieldIndexHandler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Indexing.FieldInfoType" Collapsed="true">
+    <Position X="21" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAIAAAgAAAAAAAABEAAAA=</HashCode>
+      <FileName>Search\Indexing\IndexDocumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Indexing.IndexingActivityType" Collapsed="true">
+    <Position X="15.75" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAACAAEAAAAgAAAAAABAA=</HashCode>
+      <FileName>Search\Indexing\IndexingActivity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Indexing.IndexDifferenceKind" Collapsed="true">
+    <Position X="12.25" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAABAAAAAAAIAAAACAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Search\Indexing\IntegrityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Indexing.CommitHint" Collapsed="true">
+    <Position X="14" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAMAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Search\Indexing\LuceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.Search.Parser.IndexableDataType" Collapsed="true">
+    <Position X="10.5" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAgACA=</HashCode>
+      <FileName>Search\Parser\SnLucParser.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Versioning.VersioningType" Collapsed="true">
+    <Position X="10.5" Y="52" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Versioning\VersioningType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Versioning.InheritableVersioningType" Collapsed="true">
+    <Position X="17.5" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Versioning\VersioningType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Versioning.ApprovingType" Collapsed="true">
+    <Position X="10.5" Y="50.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Versioning\VersioningType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SenseNet.ContentRepository.Versioning.StateAction" Collapsed="true">
+    <Position X="26.25" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAIAABAAABAAAAEIAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Versioning\VersioningType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

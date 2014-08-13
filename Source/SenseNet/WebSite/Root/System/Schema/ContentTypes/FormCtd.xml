@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Form" parentType="ItemList" handler="SenseNet.Portal.Portlets.ContentHandlers.Form" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Form,DisplayName</DisplayName>
+  <Description>$Ctd-Form,Description</Description>
+  <Icon>Form</Icon>
+  <AllowedChildTypes>
+    FormItem
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-Form,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-Form,DisplayName-Description</Description>
+    </Field>
+    <Field name="TitleSubmitter" type="ShortText">
+      <DisplayName>$Ctd-Form,TitleSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-Form,TitleSubmitter-Description</Description>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-Form,Description-DisplayName</DisplayName>
+      <Description>$Ctd-Form,Description-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="AfterSubmitText" type="LongText">
+      <DisplayName>$Ctd-Form,AfterSubmitText-DisplayName</DisplayName>
+      <Description>$Ctd-Form,AfterSubmitText-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="EmailList" type="LongText">
+      <DisplayName>$Ctd-Form,EmailList-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailList-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="EmailFrom" type="ShortText">
+      <DisplayName>$Ctd-Form,EmailFrom-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailFrom-Description</Description>
+    </Field>
+    <Field name="EmailFromSubmitter" type="ShortText">
+      <DisplayName>$Ctd-Form,EmailFromSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailFromSubmitter-Description</Description>
+    </Field>
+    <Field name="EmailField" type="ShortText">
+      <DisplayName>$Ctd-Form,EmailField-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailField-Description</Description>
+    </Field>
+    <Field name="EmailTemplate" type="LongText">
+      <DisplayName>$Ctd-Form,EmailTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailTemplate-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="EmailTemplateSubmitter" type="LongText">
+      <DisplayName>$Ctd-Form,EmailTemplateSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-Form,EmailTemplateSubmitter-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+  </Fields>
+</ContentType>

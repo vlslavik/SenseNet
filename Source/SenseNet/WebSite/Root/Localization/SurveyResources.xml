@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="Survey">
+    <Languages>
+      <Language cultureName="en">
+        <data name="FillOut" xml:space="preserve">
+				  <value>Fill out</value>
+        </data>
+        <data name="CannotFillMore" xml:space="preserve">
+				  <value>You have already filled out this survey.</value>
+        </data>
+        <data name="TypeEvaluation" xml:space="preserve">
+				  <value>Type your evalution here:</value>
+        </data>
+        <data name="AfterSubmitPage" xml:space="preserve">
+				  <value>After submit page: </value>
+        </data>
+        <data name="InvalidSurveyPage" xml:space="preserve">
+				  <value>Invalid survey page: </value>
+        </data>
+        <data name="MailtTemplatePage" xml:space="preserve">
+				  <value>Mail template page: </value>
+        </data>
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Voting</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This portlet presents a voting</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Error: ContextNode cannot be null!</value>
+        </data>
+        <data name="BindingError" xml:space="preserve">
+          <value>Error: Binding root cannot be null!</value>
+        </data>
+        <data name="VotingOnlyError" xml:space="preserve">
+          <value>In VotingOnly PortletMode the state ResultView is not supported!</value>
+        </data>
+        <data name="VoteAndGotoResultError" xml:space="preserve">
+          <value>An error occurred in VoteAndGotoResult portlet mode!</value>
+        </data>
+        <data name="ResultAndVotingError" xml:space="preserve">
+          <value>An error occurred in ResultAndVoting portlet mode!</value>
+        </data>
+        <data name="NoResult" xml:space="preserve">
+          <value>There is no result view for voting.</value>
+        </data>
+        <data name="OnlyOneVoteError" xml:space="preserve">
+          <value>You cannot vote more than one at this time. You can set this in the 'Enable More Filing' property.</value>
+        </data>
+        <data name="GoToResultLink" xml:space="preserve">
+          <value>Go to results</value>
+        </data>
+        <data name="GoToVotingLink" xml:space="preserve">
+          <value>Go to voting</value>
+        </data>
+        <data name="NoContentView" xml:space="preserve">
+          <value>Error: No content view is set!</value>
+        </data>
+        <data name="NoPermission" xml:space="preserve">
+				  <value>You have no permission to fill out this survey.</value>
+        </data>
+        <data name="ReferenceFieldError" xml:space="preserve">
+				  <value>Error in SetQuestions(): Cannot get ReferenceField!</value>
+        </data>
+        <data name="ReferenceFieldError" xml:space="preserve">
+				  <value>Error in SetQuestions(): Cannot get customFields.OriginalValue!</value>
+        </data>
+        <data name="ListViewDataItemError" xml:space="preserve">
+				  <value>Error in ListItemDataBound(): Cannot get e.Item as ListViewDataItem!</value>
+        </data>
+        <data name="SurveyRuleError" xml:space="preserve">
+				  <value>Error in ListItemDataBound(): Cannot get SurveyRule!</value>
+        </data>
+        <data name="NoQuestion" xml:space="preserve">
+				  <value>There is no question in the Survey yet!</value>
+        </data>
+        <data name="FillOutPortletTitle" xml:space="preserve">
+				  <value>Fill out survey</value>
+        </data>
+        <data name="ExtraValueText" xml:space="preserve">
+				  <value>Other choice</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+				  <value>Edit</value>
+        </data>
+        <data name="AddField" xml:space="preserve">
+				  <value>Add field</value>
+        </data>
+        <data name="ExistingFilledSurvey" xml:space="preserve">
+				  <value>Cannot modify questions due to existing filled survey(s).</value>
+        </data>
+        <data name="FieldDisplayName" xml:space="preserve">
+				  <value>Field DisplayName</value>
+        </data>
+        <data name="FieldType" xml:space="preserve">
+				  <value>Field type</value>
+        </data>
+        <data name="EditField" xml:space="preserve">
+				  <value>Edit field</value>
+        </data>
+        <data name="DeleteField" xml:space="preserve">
+				  <value>Delete field</value>
+        </data>
+        <data name="MoveUp" xml:space="preserve">
+				  <value>Move up</value>
+        </data>
+        <data name="MoveDown" xml:space="preserve">
+				  <value>Move down</value>
+        </data>
+        <data name="NoEditableFieldsFound" xml:space="preserve">
+				  <value>No editable fields found.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="FillOut" xml:space="preserve">
+				  <value>Kitöltés</value>
+        </data>
+        <data name="CannotFillMore" xml:space="preserve">
+				  <value>Ön már kitöltötte ezt a kérdőívet.</value>
+        </data>
+        <data name="TypeEvaluation" xml:space="preserve">
+				  <value>Írja ide értékelését:</value>
+        </data>
+        <data name="AfterSubmitPage" xml:space="preserve">
+				  <value>Beküldés utáni oldal: </value>
+        </data>
+        <data name="InvalidSurveyPage" xml:space="preserve">
+				  <value>Hibás kérdőív oldal: </value>
+        </data>
+        <data name="MailtTemplatePage" xml:space="preserve">
+				  <value>Email sablon: </value>
+        </data>
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Szavazás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Ez a portlet szavazást jelenít meg</value>
+        </data>
+        <data name="ContextNodeError" xml:space="preserve">
+          <value>Error: ContextNode cannot be null!</value>
+        </data>
+        <data name="BindingError" xml:space="preserve">
+          <value>Error: Binding root cannot be null!</value>
+        </data>
+        <data name="VotingOnlyError" xml:space="preserve">
+          <value>A csak szavazást megjelenítő portlet módban nem lehetséges eredmény nézetet beállítani!</value>
+        </data>
+        <data name="VoteAndGotoResultError" xml:space="preserve">
+          <value>Hiba történt a szavazás után az eredmények mutatását beállító portlet mód beállításakor!</value>
+        </data>
+        <data name="ResultAndVotingError" xml:space="preserve">
+          <value>Hiba történt az eredmény és szavazás nézet beállításakor!</value>
+        </data>
+        <data name="NoResult" xml:space="preserve">
+          <value>Nincs a szavazásnak eredmény nézete</value>
+        </data>
+        <data name="OnlyOneVoteError" xml:space="preserve">
+          <value>Csak egyszer lehet szavazni. A többszörös kitöltés beállításával módosíthatja ezt a tulajdonságot.</value>
+        </data>
+        <data name="GoToResultLink" xml:space="preserve">
+          <value>Tovább az eredményekhez</value>
+        </data>
+        <data name="GoToVotingLink" xml:space="preserve">
+          <value>Tovább a szavazáshoz</value>
+        </data>
+        <data name="NoContentView" xml:space="preserve">
+          <value>Hiba: Nincs beállítva tartalom-megjelenítő!</value>
+        </data>
+        <data name="NoPermission" xml:space="preserve">
+				  <value>Nincs joga kitölteni ezt a kérdőívet</value>
+        </data>
+        <data name="ReferenceFieldError" xml:space="preserve">
+				  <value>Error in SetQuestions(): Cannot get ReferenceField!</value>
+        </data>
+        <data name="ReferenceFieldError" xml:space="preserve">
+				  <value>Error in SetQuestions(): Cannot get customFields.OriginalValue!</value>
+        </data>
+        <data name="ListViewDataItemError" xml:space="preserve">
+				  <value>Error in ListItemDataBound(): Cannot get e.Item as ListViewDataItem!</value>
+        </data>
+        <data name="SurveyRuleError" xml:space="preserve">
+				  <value>Error in ListItemDataBound(): Cannot get SurveyRule!</value>
+        </data>
+        <data name="NoQuestion" xml:space="preserve">
+				  <value>A kérdőív még nem tartalmaz kérdéseket!</value>
+        </data>
+        <data name="FillOutPortletTitle" xml:space="preserve">
+				  <value>Töltse ki a kérdőívet</value>
+        </data>
+        <data name="ExtraValueText" xml:space="preserve">
+				  <value>Egyéb</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+				  <value>Szerkesztés</value>
+        </data>
+        <data name="ExistingFilledSurvey" xml:space="preserve">
+				  <value>Nem lehet módosítani, mivel már van kitöltőtt kérdőív.</value>
+        </data>
+        <data name="FieldDisplayName" xml:space="preserve">
+				  <value>Mező megjelenítendő neve</value>
+        </data>
+        <data name="FieldType" xml:space="preserve">
+				  <value>Mező típusa</value>
+        </data>
+        <data name="EditField" xml:space="preserve">
+				  <value>Mező módosítása</value>
+        </data>
+        <data name="DeleteField" xml:space="preserve">
+				  <value>Mező törlése</value>
+        </data>
+        <data name="MoveUp" xml:space="preserve">
+				  <value>Mozgatás fel</value>
+        </data>
+        <data name="MoveDown" xml:space="preserve">
+				  <value>Mozgatás le</value>
+        </data>
+        <data name="NoEditableFieldsFound" xml:space="preserve">
+				  <value>Nincsenek szerkeszthető mezők.</value>
+        </data>
+        <data name="AddField" xml:space="preserve">
+				  <value>Mező felvétele</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

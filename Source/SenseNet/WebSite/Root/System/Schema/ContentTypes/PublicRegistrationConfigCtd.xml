@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="PublicRegistrationConfig" parentType="GenericContent" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-PublicRegistrationConfig,DisplayName</DisplayName>
+  <Description>$Ctd-PublicRegistrationConfig,Description</Description>
+  <Icon>PubReg</Icon>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="SecurityGroups" type="Reference">
+      <DisplayName>$Ctd-PublicRegistrationConfig,SecurityGroups-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,SecurityGroups-Description</Description>
+      <Configuration>
+        <AllowMultiple>true</AllowMultiple>
+        <AllowedTypes>
+          <Type>Group</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+    <Field name="DefaultDomainPath" type="Reference">
+      <DisplayName>$Ctd-PublicRegistrationConfig,DefaultDomainPath-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,DefaultDomainPath-Description</Description>
+      <Icon>DefaultDomainPath</Icon>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>Domain</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+    <Field name="UserTypeName" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,UserTypeName-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,UserTypeName-Description</Description>
+      <Icon>UserTypeName</Icon>
+    </Field>
+    <Field name="DuplicateErrorMessage" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,DuplicateErrorMessage-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,DuplicateErrorMessage-Description</Description>
+      <Icon>DuplicateErrorMessage</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="IsBodyHtml" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,IsBodyHtml-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,IsBodyHtml-Description</Description>
+      <Icon>IsBodyHtml</Icon>
+    </Field>
+    <Field name="ActivationEnabled" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivationEnabled-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivationEnabled-Description</Description>
+      <Icon>ActivationEnabled</Icon>
+    </Field>
+    <Field name="ActivationEmailTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivationEmailTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivationEmailTemplate-Description</Description>
+      <Icon>ActivationEmailTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ActivationSuccessTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivationSuccessTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivationSuccessTemplate-Description</Description>
+      <Icon>ActivationSuccessTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="AlreadyActivatedMessage" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,AlreadyActivatedMessage-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,AlreadyActivatedMessage-Description</Description>
+      <Icon>AlreadyActivatedMessage</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="MailSubjectTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,MailSubjectTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,MailSubjectTemplate-Description</Description>
+      <Icon>MailSubjectTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="MailFrom" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,MailFrom-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,MailFrom-Description</Description>
+      <Icon>MailFrom</Icon>
+    </Field>
+    <Field name="AdminEmailAddress" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,AdminEmailAddress-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,AdminEmailAddress-Description</Description>
+      <Icon>AdminEmailAddress</Icon>
+    </Field>
+    <Field name="RegistrationSuccessTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,RegistrationSuccessTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,RegistrationSuccessTemplate-Description</Description>
+      <Icon>RegistrationSuccessTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ResetPasswordTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ResetPasswordTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ResetPasswordTemplate-Description</Description>
+      <Icon>ResetPasswordTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ResetPasswordSubjectTemplate" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ResetPasswordSubjectTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ResetPasswordSubjectTemplate-Description</Description>
+      <Icon>ResetPasswordSubjectTemplate</Icon>
+    </Field>
+    <Field name="ResetPasswordSuccessfulTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ResetPasswordSuccessfulTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ResetPasswordSuccessfulTemplate-Description</Description>
+      <Icon>ResetPasswordSuccessfulTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ChangePasswordUserInterfacePath" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ChangePasswordUserInterfacePath-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ChangePasswordUserInterfacePath-Description</Description>
+      <Icon>ChangePasswordUserInterfacePath</Icon>
+    </Field>
+    <Field name="ChangePasswordSuccessfulMessage" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ChangePasswordSuccessfulMessage-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ChangePasswordSuccessfulMessage-Description</Description>
+      <Icon>ChangePasswordSuccessfulMessage</Icon>
+    </Field>
+    <Field name="ForgottenPasswordUserInterfacePath" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ForgottenPasswordUserInterfacePath-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ForgottenPasswordUserInterfacePath-Description</Description>
+      <Icon>ForgottenPasswordUserInterfacePath</Icon>
+    </Field>
+    <Field name="NewRegistrationContentView" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,NewRegistrationContentView-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,NewRegistrationContentView-Description</Description>
+      <Icon>NewRegistrationContentView</Icon>
+    </Field>
+    <Field name="EditProfileContentView" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,EditProfileContentView-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,EditProfileContentView-Description</Description>
+      <Icon>EditProfileContentView</Icon>
+    </Field>
+    <Field name="AutoGeneratePassword" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,AutoGeneratePassword-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,AutoGeneratePassword-Description</Description>
+      <Icon>AutoGeneratePassword</Icon>
+    </Field>
+    <Field name="DisableCreatedUser" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,DisableCreatedUser-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,DisableCreatedUser-Description</Description>
+      <Icon>DisableCreatedUser</Icon>
+    </Field>
+    <Field name="IsUniqueEmail" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,IsUniqueEmail-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,IsUniqueEmail-Description</Description>
+      <Icon>UniqueEmail</Icon>
+    </Field>
+    <Field name="AutomaticLogon" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,AutomaticLogon-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,AutomaticLogon-Description</Description>
+      <Icon>AutomaticLogon</Icon>
+    </Field>
+    <Field name="ChangePasswordPagePath" type="Reference">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ChangePasswordPagePath-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ChangePasswordPagePath-Description</Description>
+      <Icon>ChangePasswordPagePath</Icon>
+    </Field>
+    <Field name="ChangePasswordRestrictedText" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ChangePasswordRestrictedText-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ChangePasswordRestrictedText-Description</Description>
+      <Icon>ChangePasswordRestrictedText</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="AlreadyRegisteredUserMessage" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,AlreadyRegisteredUserMessage-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,AlreadyRegisteredUserMessage-Description</Description>
+      <Icon>AlreadyRegisteredUserMessage</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="UpdateProfileSuccessTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,UpdateProfileSuccessTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,UpdateProfileSuccessTemplate-Description</Description>
+      <Icon>UpdateProfileSuccessTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="EmailNotValid" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,EmailNotValid-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,EmailNotValid-Description</Description>
+      <Icon>EmailNotValid</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="NoEmailGiven" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,NoEmailGiven-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,NoEmailGiven-Description</Description>
+      <Icon>NoEmailGiven</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ActivateByAdmin" type="Boolean">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivateByAdmin-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivateByAdmin-Description</Description>
+      <Icon>ActivateByAdmin</Icon>
+    </Field>
+    <Field name="ActivateEmailSubject" type="ShortText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivateEmailSubject-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivateEmailSubject-Description</Description>
+      <Icon>ActivateEmailSubject</Icon>
+    </Field>
+    <Field name="ActivateEmailTemplate" type="LongText">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivateEmailTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivateEmailTemplate-Description</Description>
+      <Icon>ActivateEmailTemplate</Icon>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="ActivateAdmins" type="Reference">
+      <DisplayName>$Ctd-PublicRegistrationConfig,ActivateAdmins-DisplayName</DisplayName>
+      <Description>$Ctd-PublicRegistrationConfig,ActivateAdmins-Description</Description>
+      <Icon>ActivateAdminList</Icon>
+      <Configuration>
+        <AllowMultiple>true</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

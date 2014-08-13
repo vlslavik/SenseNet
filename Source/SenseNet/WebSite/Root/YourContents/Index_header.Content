@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>HTMLContent</ContentType>
+  <ContentName>Index_header</ContentName>
+  <Fields>
+    <HTMLFragment>
+      <![CDATA[<div class="sn-index-header sn-index-header1 active">
+  <div class="inner">
+          <h1>Brutal performance.<br>
+            Extreme customization.
+          </h1>
+          <div class="desc">Build your intranet, extranet and internet site in one system using our open source ECM &amp; Portal platform. From WYSIWYG publishing to SAP integration all in one system.
+          </div>
+        <div class="buttons">
+          <a href="/workspaces/Project/budapestprojectworkspace">
+            <div class="sn-index-header-button">
+              Collaboration demo
+            </div>
+            </a>
+          <a href="/features">
+          <div class="sn-index-header-button">Web CMS features demo</div>
+          </a>
+        </div>
+        <div class="clear">&nbsp;</div>
+  </div>
+      </div>
+<div class="sn-index-header sn-index-header2">
+  <div class="inner">
+          <h1>Fastest content repository
+<br>
+on Earth.
+          </h1>
+          <div class="desc">We have tested it. We have saved over 100 million documents to Sense/Net Content Repository with over 300 documents per second on average. All documents indexed and searchable immediately.
+          </div>
+        <div class="buttons">
+           <a href="http://wiki.sensenet.com/index.php?title=Benchmark_Tool" target="_blank">
+          <div class="sn-index-header-button">Benchmark Sense/Net</div>
+          </a>
+        </div>
+ 
+        <div class="clear">&nbsp;</div>
+    </div>
+      </div>
+      <div class="sn-index-header sn-index-header3">
+  <div class="inner">
+          <h1>View documents without downloading
+          </h1>
+          <div class="desc">No more waiting for large documents to download. Preview documents in your desktop or tablet browser, plus highlight, annotate and redact documents as you wish.
+          </div>
+        <div class="buttons">
+           <a href="/workspaces/Project/budapestprojectworkspace/Document_Library">
+          <div class="sn-index-header-button">
+              Preview files now
+            </div>
+          </a>
+        </div>
+ 
+        <div class="clear">&nbsp;</div>
+    </div>
+      </div>
+       <div class="sn-index-header sn-index-header4">
+  <div class="inner">
+          <h1>Query content like never before
+          </h1>
+          <div class="desc">Content is the heart and soul of Sense/Net. The new Query Builder tool allows end users to write, save and run queries to find relevant content faster.
+          </div>
+        <div class="buttons">
+           <a href="/features/Query-builder">
+          <div class="sn-index-header-button">
+              Try Query Builder Now
+            </div>
+          </a>
+        </div>
+ 
+        <div class="clear">&nbsp;</div>
+    </div>
+      </div>
+<div class="pager">
+        <div class="sn-head-pager-left">«</div>
+  <div class="sn-head-pager-right">»</div>
+
+</div>
+​
+]]></HTMLFragment>
+    <ReviewDate>0001-01-01T00:00:00</ReviewDate>
+    <ArchiveDate>0001-01-01T00:00:00</ArchiveDate>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <DisplayName><![CDATA[Index_header]]></DisplayName>
+    <Description><![CDATA[]]></Description>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2012-05-21T09:48:04.787</CreationDate>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2012-05-22T09:51:08.877</ModificationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateStr><![CDATA[0|1|0|0|0|0|0]]></RateStr>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

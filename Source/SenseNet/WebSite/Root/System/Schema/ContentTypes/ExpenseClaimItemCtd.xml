@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ExpenseClaimItem" parentType="ListItem" handler="SenseNet.ContentRepository.ExpenseClaimItem" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ExpenseClaimItem,DisplayName</DisplayName>
+  <Description>$Ctd-ExpenseClaimItem,Description</Description>
+  <Icon>expenseclaimitem</Icon>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-ExpenseClaimItem,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimItem,DisplayName-Description</Description>
+    </Field>
+    <Field name="Amount" type="Integer">
+      <DisplayName>$Ctd-ExpenseClaimItem,Amount-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimItem,Amount-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Date" type="DateTime">
+      <DisplayName>$Ctd-ExpenseClaimItem,Date-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimItem,Date-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ImageRef" type="Reference">
+      <DisplayName>$Ctd-ExpenseClaimItem,ImageRef-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+      </Configuration>
+    </Field>
+    <Field name="ImageData" type="Binary">
+      <DisplayName>$Ctd-ExpenseClaimItem,ImageData-DisplayName</DisplayName>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ScannedImage" type="Image">
+      <DisplayName>$Ctd-ExpenseClaimItem,ScannedImage-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimItem,ScannedImage-Description</Description>
+      <Bind property="ImageRef" />
+      <Bind property="ImageData" />
+      <Configuration>
+        <Visible>true</Visible>
+        <ControlHint>sn:Image</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ModifiedBy" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ModificationDate" type="DateTime">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Locked" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

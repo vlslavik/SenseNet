@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ExpenseClaimWorkflow" parentType="Workflow" handler="SenseNet.Workflow.WorkflowHandlerBase" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ExpenseClaimWorkflow,DisplayName</DisplayName>
+  <Description>$Ctd-ExpenseClaimWorkflow,Description</Description>
+  <Icon>workflow</Icon>
+  <AllowIncrementalNaming>true</AllowIncrementalNaming>
+  <Fields>
+    <Field name="CEO" type="Reference">
+      <DisplayName>$Ctd-ExpenseClaimWorkflow,CEO-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimWorkflow,CEO-Description</Description>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <AllowMultiple>false</AllowMultiple>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+        <AllowedTypes>
+          <Type>User</Type>
+        </AllowedTypes>
+        <SelectionRoot>
+          <Path>/Root/IMS</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+    <Field name="BudgetLimit" type="Integer">
+      <DisplayName>$Ctd-ExpenseClaimWorkflow,BudgetLimit-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimWorkflow,BudgetLimit-Description</Description>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+        <DefaultValue>1000</DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="FinanceEmail" type="ShortText">
+      <DisplayName>$Ctd-ExpenseClaimWorkflow,FinanceEmail-DisplayName</DisplayName>
+      <Description>$Ctd-ExpenseClaimWorkflow,FinanceEmail-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

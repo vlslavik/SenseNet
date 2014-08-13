@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ContentRotator" parentType="SmartFolder" handler="SenseNet.ContentRepository.ContentRotator" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ContentRotator,DisplayName</DisplayName>
+  <Description>$Ctd-ContentRotator,Description</Description>
+  <Icon>SmartFolder</Icon>
+  <Fields>
+    <Field name="SelectionMode" type="Choice">
+      <DisplayName>$Ctd-ContentRotator,SelectionMode-DisplayName</DisplayName>
+      <Description>$Ctd-ContentRotator,SelectionMode-Description</Description>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option value="Random" selected="true">$Ctd-ContentRotator,SelectionMode-Random</Option>
+          <Option value="First">$Ctd-ContentRotator,SelectionMode-First</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="OrderingMode" type="Choice">
+      <DisplayName>$Ctd-ContentRotator,OrderingMode-DisplayName</DisplayName>
+      <Description>$Ctd-ContentRotator,OrderingMode-Description</Description>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>false</AllowExtraValue>
+        <Options>
+          <Option value="DefaultOrder" selected="true">$Ctd-ContentRotator,OrderingMode-DefaultOrder</Option>
+          <Option value="ValidityOrder">$Ctd-ContentRotator,OrderingMode-ValidityOrder</Option>
+        </Options>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

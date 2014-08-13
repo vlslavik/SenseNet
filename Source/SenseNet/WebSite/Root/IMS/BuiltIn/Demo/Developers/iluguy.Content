@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>ilguy</ContentName>
+  <Fields>
+    <Enabled>true</Enabled>
+    <FullName>Ilo Ilang</FullName>
+    <JobTitle>Software Engineer</JobTitle>
+    <Password>
+      <Text>sensenet6</Text>
+    </Password>
+    <Email>ilo.ilang@example.com</Email>
+    <ImageRef>
+      <Path>/Root/Sites/Default_Site/demoavatars/ilguy.jpg</Path>
+    </ImageRef>
+    <Phone>1212121212</Phone>
+    <Manager>
+      <Path>/Root/IMS/BuiltIn/Demo/ProjectManagers/rupertbrown</Path>
+    </Manager>
+  </Fields>
+</ContentMetaData>

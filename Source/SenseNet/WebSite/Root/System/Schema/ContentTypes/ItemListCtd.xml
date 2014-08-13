@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ItemList" parentType="ContentList" handler="SenseNet.ContentRepository.ContentList" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ItemList,DisplayName</DisplayName>
+  <Description>$Ctd-ItemList,Description</Description>
+  <Icon>ContentList</Icon>
+  <Fields>
+    <Field name="OwnerWhenVisitor" type="Reference">
+      <DisplayName>$Ctd-ContentList,OwnerWhenVisitor-DisplayName</DisplayName>
+      <Description>$Ctd-ContentList,OwnerWhenVisitor-Description</Description>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+        </AllowedTypes>
+        <SelectionRoot>
+          <Path>/Root/IMS</Path>
+        </SelectionRoot>
+        <DefaultValue>/Root/IMS/BuiltIn/Portal/Admin</DefaultValue>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Advanced</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

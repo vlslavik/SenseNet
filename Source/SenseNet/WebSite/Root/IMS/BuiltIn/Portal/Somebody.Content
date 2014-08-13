@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>Somebody</ContentName>
+  <Fields>
+    <Enabled>true</Enabled>
+    <FullName>Somebody</FullName>
+    <Password>
+      <Text>somebody</Text>
+    </Password>
+    <Index>7</Index>
+  </Fields>
+</ContentMetaData>

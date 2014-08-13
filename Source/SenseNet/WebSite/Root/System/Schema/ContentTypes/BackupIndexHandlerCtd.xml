@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="BackupIndexHandler" parentType="Application" handler="SenseNet.Portal.Handlers.BackupIndexHandler" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-BackupIndexHandler,DisplayName</DisplayName>
+  <Description>$Ctd-BackupIndexHandler,Description</Description>
+  <Icon>Application</Icon>
+</ContentType>

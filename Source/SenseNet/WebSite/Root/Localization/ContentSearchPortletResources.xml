@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="ContentSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Content search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Search (context bound)</value>
+        </data>
+        <data name="SearchBtnText" xml:space="preserve">
+          <value>Search</value>
+        </data>
+        <data name="SearchFormCtdTitle" xml:space="preserve">
+          <value>Search form content type</value>
+        </data>
+        <data name="SearchFormCtdDescription" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="SearchFormRendererTitle" xml:space="preserve">
+          <value>Search form view</value>
+        </data>
+        <data name="SearchFormRendererDescription" xml:space="preserve">
+          <value>Select an .ascx view for rendering the search form</value>
+        </data>
+
+        <data name="PluginFullPathTitle" xml:space="preserve">
+          <value>Query builder</value>
+        </data>
+        <data name="PluginFullPathDescription" xml:space="preserve">
+          <value>You can specify custom query builder type</value>
+        </data>
+
+        <data name="EmptyQueryTermHandlerTitle" xml:space="preserve">
+          <value>Empty term handler</value>
+        </data>
+        <data name="EmptyQueryTermHandlerDescription" xml:space="preserve">
+          <value>You can specify what will happen if the term is empty</value>
+        </data>
+        <data name="RunSearchWithDefaultContentTitle" xml:space="preserve">
+          <value>Run search with default content</value>
+        </data>
+        <data name="RunSearchWithDefaultContentDescription" xml:space="preserve">
+          <value>If set, search results will be displayed immediately, without user interaction.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletTitle" xml:space="preserve">
+          <value>Tartalom kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Kereső (kontextusfüggő)</value>
+        </data>
+        <data name="SearchBtnText" xml:space="preserve">
+          <value>Keresés</value>
+        </data>
+        <data name="SearchFormCtdTitle" xml:space="preserve">
+          <value>Content típus a kereső ürlaphoz</value>
+        </data>
+        <data name="SearchFormCtdDescription" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="SearchFormRendererTitle" xml:space="preserve">
+          <value>Megjelenítő a kereső űrlaphoz</value>
+        </data>
+        <data name="SearchFormRendererDescription" xml:space="preserve">
+          <value>Válassz egy ASCX megjelenítőt a kereső űrlap megjelenítéséhez</value>
+        </data>
+
+
+        <data name="PluginFullPathTitle" xml:space="preserve">
+          <value>Lekérdezés szerkesztő</value>
+        </data>
+        <data name="PluginFullPathDescription" xml:space="preserve">
+          <value>Használni kívánt szerkesztő típusa</value>
+        </data>
+
+        <data name="EmptyQueryTermHandlerTitle" xml:space="preserve">
+          <value>Üres kifejezés kezelő</value>
+        </data>
+        <data name="EmptyQueryTermHandlerDescription" xml:space="preserve">
+          <value>Megadhatod mi történjen azokkal a kifejezésekkel melyek nem kapnak értéket</value>
+        </data>
+        <data name="RunSearchWithDefaultContentTitle" xml:space="preserve">
+          <value>Keresés azonnali futtatása</value>
+        </data>
+        <data name="RunSearchWithDefaultContentDescription" xml:space="preserve">
+          <value>Ha bekapcsolja, a keresési eredmények azonnal megjelennek, felhasználói beavatkozás nélkül.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

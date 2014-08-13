@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="HttpEndpointDemoContent" parentType="Application" handler="SenseNet.ContentRepository.HttpEndpointDemoContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-HttpEndpointDemoContent,DisplayName</DisplayName>
+  <Description>$Ctd-HttpEndpointDemoContent,Description</Description>
+  <Icon>Page</Icon>
+  <Fields>
+    <Field name="A" type="Integer">
+      <DisplayName>$Ctd-HttpEndpointDemoContent,A-DisplayName</DisplayName>
+      <Description>$Ctd-HttpEndpointDemoContent,A-Description</Description>
+    </Field>
+    <Field name="B" type="Integer">
+      <DisplayName>$Ctd-HttpEndpointDemoContent,B-DisplayName</DisplayName>
+      <Description>$Ctd-HttpEndpointDemoContent,B-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

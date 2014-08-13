@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-Email">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Email</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Email content type containing attachments as children content.</value>
+        </data>
+        <data name="From-DisplayName" xml:space="preserve">
+          <value>From</value>
+        </data>
+        <data name="From-Description" xml:space="preserve">
+          <value>Sender name and address.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Subject</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Subject of email.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>Body</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Body of email.</value>
+        </data>
+        <data name="Sent-DisplayName" xml:space="preserve">
+          <value>Sent</value>
+        </data>
+        <data name="Sent-Description" xml:space="preserve">
+          <value>Date of sending.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Email</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Email tartalomtípus, melynek gyermekelemei lehetnek a csatolmányai.</value>
+        </data>
+        <data name="From-DisplayName" xml:space="preserve">
+          <value>Feladó</value>
+        </data>
+        <data name="From-Description" xml:space="preserve">
+          <value>Feladó neve és címe.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Tárgy</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Az email tárgya.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>Törzsszöveg</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Az email törzsszövege.</value>
+        </data>
+        <data name="Sent-DisplayName" xml:space="preserve">
+          <value>Elküldve</value>
+        </data>
+        <data name="Sent-Description" xml:space="preserve">
+          <value>Küldés dátuma.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-EventList">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Event List</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A special List type to store schedule Events.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Calendar name</value>
+        </data>
+        <data name="RegistrationFolder-DisplayName" xml:space="preserve">
+          <value>Registration folder</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Eseménylista</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Speciális lista események tárolására.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Eseménylista neve</value>
+        </data>
+        <data name="RegistrationFolder-DisplayName" xml:space="preserve">
+          <value>Regisztrációs mappa</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-EventRegistrationForm">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Event Registration Form</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>This is the friendly name of the form.</value>
+        </data>
+        <data name="TitleSubmitter-DisplayName" xml:space="preserve">
+          <value>Submitter Mail Title</value>
+        </data>
+        <data name="TitleSubmitter-Description" xml:space="preserve">
+          <value>This is the title of the submitter mail.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Please give a short description of this form.</value>
+        </data>
+        <data name="AfterSubmitText-DisplayName" xml:space="preserve">
+          <value>After Submit Text</value>
+        </data>
+        <data name="AfterSubmitText-Description" xml:space="preserve">
+          <value>This is the text displayed after the form is submitted.</value>
+        </data>
+        <data name="EmailList-DisplayName" xml:space="preserve">
+          <value>Email List</value>
+        </data>
+        <data name="EmailList-Description" xml:space="preserve">
+          <value>The list of email addresses to where a notification message containing submitted values are sent after submitting the form. The addresses should be separated by ";", "," or new line.</value>
+        </data>
+        <data name="EmailFrom-DisplayName" xml:space="preserve">
+          <value>Email From</value>
+        </data>
+        <data name="EmailFrom-Description" xml:space="preserve">
+          <value>This address is displayed in the "From" field of the notification email.</value>
+        </data>
+        <data name="EmailFromSubmitter-DisplayName" xml:space="preserve">
+          <value>Submitter EmailFrom</value>
+        </data>
+        <data name="EmailFromSubmitter-Description" xml:space="preserve">
+          <value>This address is displayed in the "From" field of the user notification email. Default is "mailerservice@example.com".</value>
+        </data>
+        <data name="EmailField-DisplayName" xml:space="preserve">
+          <value>EmailField</value>
+        </data>
+        <data name="EmailField-Description" xml:space="preserve">
+          <value>The name of the field specified among ContentList fields containing the submitter's email address. Ie.: "#Email" or "#SubmitterEmail".</value>
+        </data>
+        <data name="EmailTemplate-DisplayName" xml:space="preserve">
+          <value>EmailTemplate</value>
+        </data>
+        <data name="EmailTemplate-Description" xml:space="preserve">
+          <value>The template of the email message sent to the administrators. By default the template of notification email sent to the submitter is the same as the one sent to the recipients given in the email list above. Form content can be inserted with the "{0}" string.</value>
+        </data>
+        <data name="EmailTemplateSubmitter-DisplayName" xml:space="preserve">
+          <value>Submitter EmailTemplate</value>
+        </data>
+        <data name="EmailTemplateSubmitter-Description" xml:space="preserve">
+          <value>The template of the email message sent to the submitter. By default the template of notification email sent to the submitter is the same as the one sent to the recipients given in the email list above. Form content can be inserted with the "{0}" string.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Esemény regisztrációs űrlap</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Cím</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Az űrlap neve.</value>
+        </data>
+        <data name="TitleSubmitter-DisplayName" xml:space="preserve">
+          <value>Beküldő e-mail címe</value>
+        </data>
+        <data name="TitleSubmitter-Description" xml:space="preserve">
+          <value>Az űrlapot beküldő felhasználó visszaigazoló e-mailjének címe.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Az űrlap rövid leírása.</value>
+        </data>
+        <data name="AfterSubmitText-DisplayName" xml:space="preserve">
+          <value>Beküldést követő szöveg</value>
+        </data>
+        <data name="AfterSubmitText-Description" xml:space="preserve">
+          <value>Ha a kitöltő menti az űrlapot, ez az üzenet jelenik meg.</value>
+        </data>
+        <data name="EmailList-DisplayName" xml:space="preserve">
+          <value>E-mailcím lista</value>
+        </data>
+        <data name="EmailList-Description" xml:space="preserve">
+          <value>Azon e-mailcímek listája, melyekre űrlap kitöltés után értesítést kell küldeni. A címeket új sorba törve, vagy vesszővel, pontosvesszővel elválasztva kell megadni.</value>
+        </data>
+        <data name="EmailFrom-DisplayName" xml:space="preserve">
+          <value>E-mail feladója</value>
+        </data>
+        <data name="EmailFrom-Description" xml:space="preserve">
+          <value>Ez az e-mailcím kerül az email értesítés 'Feladó' mezőjébe.</value>
+        </data>
+        <data name="EmailFromSubmitter-DisplayName" xml:space="preserve">
+          <value>Feladó e-mailcíme</value>
+        </data>
+        <data name="EmailFromSubmitter-Description" xml:space="preserve">
+          <value>Ez az emailcím kerül a kitöltő felhasználónak kiküldött email értesítés 'Feladó' mezőjébe. Az alapértelmezett cím: "mailerservice@example.com".</value>
+        </data>
+        <data name="EmailField-DisplayName" xml:space="preserve">
+          <value>E-mail mező</value>
+        </data>
+        <data name="EmailField-Description" xml:space="preserve">
+          <value>Annak a mezőnek neve, amely tartalmazza a kitöltő e-mail címét. Pl.: "#Email" vagy "#SubmitterEmail".</value>
+        </data>
+        <data name="EmailTemplate-DisplayName" xml:space="preserve">
+          <value>E-mail sablon</value>
+        </data>
+        <data name="EmailTemplate-Description" xml:space="preserve">
+          <value>Az a sablon, amellyel az adminisztrátorok számára az e-mail értesítések kiküldésre kerülnek. Az űrlap adatai "{0}" formában adhatók meg.</value>
+        </data>
+        <data name="EmailTemplateSubmitter-DisplayName" xml:space="preserve">
+          <value>Kitöltők e-mail sablonja</value>
+        </data>
+        <data name="EmailTemplateSubmitter-Description" xml:space="preserve">
+          <value>Az a sablon, amellyel a kitöltők számára az e-mail értesítések kiküldésre kerülnek. Az űrlap adatai "{0}" formában adhatók meg.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-EventRegistrationFormItem">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Event Registration Form Item</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Content type for event registration form list items.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="Index-DisplayName" xml:space="preserve">
+          <value>Index</value>
+        </data>
+        <data name="Index-Description" xml:space="preserve">
+          <value>Content order in navigation.</value>
+        </data>
+        <data name="Version-DisplayName" xml:space="preserve">
+          <value>Version</value>
+        </data>
+        <data name="Version-Description" xml:space="preserve">
+          <value>Latest version number.</value>
+        </data>
+        <data name="TrashDisabled-DisplayName" xml:space="preserve">
+          <value>Disable trash</value>
+        </data>
+        <data name="TrashDisabled-Description" xml:space="preserve">
+          <value>Disable trash for this Content and its children. Delete operations will result in a forced purge if set.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>E-mail</value>
+        </data>
+        <data name="GuestNumber-DisplayName" xml:space="preserve">
+          <value>Additional guests</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Esemény regisztráció</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Tartalomtípus esemény regisztrációk listában való tárolására.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="Index-DisplayName" xml:space="preserve">
+          <value>Sorszám</value>
+        </data>
+        <data name="Index-Description" xml:space="preserve">
+				  <value>Esemény sorszáma a felületen.</value>
+        </data>
+        <data name="Version-DisplayName" xml:space="preserve">
+          <value>Verzió</value>
+        </data>
+        <data name="Version-Description" xml:space="preserve">
+          <value>Utolsó verzió száma.</value>
+        </data>
+        <data name="TrashDisabled-DisplayName" xml:space="preserve">
+          <value>Kuka kikapcsolása</value>
+        </data>
+        <data name="TrashDisabled-Description" xml:space="preserve">
+          <value>Kuka alkalmazás kikapcsolása az adott elemre és gyermekelemeire. A törölt elemek azonnali törlésre kerülnek a rendszerből.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>E-mail cím</value>
+        </data>
+        <data name="GuestNumber-DisplayName" xml:space="preserve">
+          <value>Hozott vendégek száma</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ExpenseClaim">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Expense Claim</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the base type for any type of expense claims.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Display name of the Expense Claim.</value>
+        </data>
+        <data name="Sum-DisplayName" xml:space="preserve">
+          <value>Sum</value>
+        </data>
+        <data name="Sum-Description" xml:space="preserve">
+          <value>The summation of the children items' money.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Költségelszámolás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A költségelszámolások alaptípusa.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Olvasható név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Sum-DisplayName" xml:space="preserve">
+          <value>Összeg</value>
+        </data>
+        <data name="Sum-Description" xml:space="preserve">
+          <value>Az egyes tételek összege.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ExpenseClaimItem">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Expense Claim Item</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the base type for items in Expense Claims.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Claim item title</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Title of claim item.</value>
+        </data>
+        <data name="Amount-DisplayName" xml:space="preserve">
+          <value>Amount</value>
+        </data>
+        <data name="Amount-Description" xml:space="preserve">
+          <value>The amount of money.</value>
+        </data>
+        <data name="Date-DisplayName" xml:space="preserve">
+          <value>Date</value>
+        </data>
+        <data name="Date-Description" xml:space="preserve">
+          <value>The date of the claim.</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Image of the Expense Claim (reference)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Image of the Expense Claim (binarydata)</value>
+        </data>
+        <data name="ScannedImage-DisplayName" xml:space="preserve">
+          <value>Scanned image</value>
+        </data>
+        <data name="ScannedImage-Description" xml:space="preserve">
+          <value>Scanned image of the invoice.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Költségelszámolás-tétel</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A költségelszámolás-elemek alaptípusa.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Elem címe</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Amount-DisplayName" xml:space="preserve">
+          <value>Összeg</value>
+        </data>
+        <data name="Amount-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Date-DisplayName" xml:space="preserve">
+          <value>Dátum</value>
+        </data>
+        <data name="Date-Description" xml:space="preserve">
+          <value>Követelés dátuma.</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Az elemhez tartozó kép (linkelve)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Az elemhez tartozó kép (binárisan)</value>
+        </data>
+        <data name="ScannedImage-DisplayName" xml:space="preserve">
+          <value>Scannelt számla</value>
+        </data>
+        <data name="ScannedImage-Description" xml:space="preserve">
+          <value>Scannelt számla képe.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ExpenseClaimWorkflow">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Expense Claim Workflow</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Expense Claim.</value>
+        </data>
+        <data name="CEO-DisplayName" xml:space="preserve">
+          <value>CEO</value>
+        </data>
+        <data name="CEO-Description" xml:space="preserve">
+          <value>The CEO of the department.</value>
+        </data>
+        <data name="BudgetLimit-DisplayName" xml:space="preserve">
+          <value>Budget Limit</value>
+        </data>
+        <data name="BudgetLimit-Description" xml:space="preserve">
+          <value>Set a limit for your money that you are able to spend.</value>
+        </data>
+        <data name="FinanceEmail-DisplayName" xml:space="preserve">
+          <value>Finance e-mail</value>
+        </data>
+        <data name="FinanceEmail-Description" xml:space="preserve">
+          <value>The e-mail address of a member of the finance who will receive a message of the approved expense claim.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Költségelszámolási munkafolyamat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="CEO-DisplayName" xml:space="preserve">
+          <value>Vezető</value>
+        </data>
+        <data name="CEO-Description" xml:space="preserve">
+          <value>Az aktuális részleg vezetője (jóváhagyó).</value>
+        </data>
+        <data name="BudgetLimit-DisplayName" xml:space="preserve">
+          <value>Költségkeret</value>
+        </data>
+        <data name="BudgetLimit-Description" xml:space="preserve">
+          <value>Az itt megadott összegnél nagyobbat nem fogad el a folyamat.</value>
+        </data>
+        <data name="FinanceEmail-DisplayName" xml:space="preserve">
+          <value>Könyvelő e-mail címe</value>
+        </data>
+        <data name="FinanceEmail-Description" xml:space="preserve">
+          <value>A könyvelő vagy egyéb pénzügyes e-mail címe, ahová a jóváhagyott elszámolást el kell küldeni.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ExpenseClaimWorkflowTask">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Expense Claim Workflow Task</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A content representation for a delayed user interaction in an Expense Claim Workflow.</value>
+        </data>
+        <data name="Comment-DisplayName" xml:space="preserve">
+          <value>Comment</value>
+        </data>
+        <data name="Comment-Description" xml:space="preserve">
+          <value>Type the reason for your decision here.</value>
+        </data>
+        <data name="Reason-DisplayName" xml:space="preserve">
+          <value>Reject reason</value>
+        </data>
+        <data name="Reason-Description" xml:space="preserve">
+          <value>The reason why the Expense Claim was rejected.</value>
+        </data>
+        <data name="ExpenseClaim-DisplayName" xml:space="preserve">
+          <value>Expense Claim</value>
+        </data>
+        <data name="ExpenseClaim-Description" xml:space="preserve">
+          <value>The expense claim list.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Költségelszámolási munkafolyamat-feladat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Felhasználói feladatot reprezentál a Költségelszámolási munkafolyamatban.</value>
+        </data>
+        <data name="Comment-DisplayName" xml:space="preserve">
+          <value>Megjegyzés</value>
+        </data>
+        <data name="Comment-Description" xml:space="preserve">
+          <value>A felhasználó itt tud magyarázatot adni a döntésével kapcsolatban.</value>
+        </data>
+        <data name="Result-DisplayName" xml:space="preserve">
+          <value>Válasz</value>
+        </data>
+        <data name="Reason-DisplayName" xml:space="preserve">
+          <value>Visszautasítás indoklása</value>
+        </data>
+        <data name="Reason-Description" xml:space="preserve">
+          <value>A jóváhagyó itt indokolhatja meg, ha visszautasította az elszámolást.</value>
+        </data>
+        <data name="ExpenseClaim-DisplayName" xml:space="preserve">
+          <value>Költségelszámolás</value>
+        </data>
+        <data name="ExpenseClaim-Description" xml:space="preserve">
+          <value>Referencia a folyamatban szereplő költségelszámolásra.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ExportToCsvApplication">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Export To CSV application</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Generates CSV file from a content list.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Exportálás CSV-be</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Alkalmazás, amely listából letölthető CSV-fájlt generál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-FieldControlTemplate">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>FieldControlTemplate</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A type for FieldControl templates.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mező vezérlő sablon</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Mező vezérlő sablont tároló fájl</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-FieldControlTemplates">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>FieldControlTemplates</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for ContentViews. Instances are allowed only at /Root/Global/fieldcontroltemplates.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mező vezérlő sablonok</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Mező vezérlő sablonokat tároló mappa. Csak egy lehet, itt: /Root/Global/fieldcontroltemplates.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-FieldSettingContent">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Field Setting</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>System type to handle field editing in ContentLists.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Specify a name for the field that you will use in content views and queries.  
+            <div class='ui-helper-clearfix sn-dialog-editportlet-warning'><img class='sn-icon sn-icon16 sn-floatleft' src='/Root/Global/images/icons/16/warning.png' />
+              <i>Please do not use any special characters, for example comma, dash ('-') or brackets ( '(' )</i>
+            </div>
+          </value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mező leíró</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Csak a rendszer által használható típus lista mezők szerkesztésére.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Adjon meg egy nevet a mezőnek, amelyet megjelenítőkben és lekérdezésekben szeretne használni.  
+            <div class='ui-helper-clearfix sn-dialog-editportlet-warning'><img class='sn-icon sn-icon16 sn-floatleft' src='/Root/Global/images/icons/16/warning.png' />
+              <i>Kérem, ne használjon speciális karaktereket, például szóköz, vessző, kötőjel ('-') vagy zárójel.</i>
+            </div>
+          </value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-File">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>File</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A type for binary documents, images, etc.</value>
+        </data>
+        <data name="Binary-DisplayName" xml:space="preserve">
+          <value>Binary</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>The binary content of the document.</value>
+        </data>
+        <data name="Size-DisplayName" xml:space="preserve">
+          <value>Size</value>
+        </data>
+        <data name="Size-Description" xml:space="preserve">
+          <value>Size of the binary document.</value>
+        </data>
+        <data name="FullSize-DisplayName" xml:space="preserve">
+          <value>Full size</value>
+        </data>
+        <data name="FullSize-Description" xml:space="preserve">
+          <value>The total amount of space the Document occupies, counting all versions.</value>
+        </data>
+        <data name="MimeType-DisplayName" xml:space="preserve">
+          <value>Document MIME type</value>
+        </data>
+        <data name="PageCount-DisplayName" xml:space="preserve">
+          <value>Page count</value>
+        </data>
+        <data name="PageCount-Description" xml:space="preserve">
+          <value>Read-only field for storing the number of pages in the document. It is filled by the document preview generator.</value>
+        </data>
+        <data name="Shapes-DisplayName" xml:space="preserve">
+          <value>Shapes</value>
+        </data>
+        <data name="Shapes-Description" xml:space="preserve">
+          <value>Stores data used for document preview (redaction, highlight, annotation shapes). This value can be modified by the document preview plugin.</value>
+        </data>
+        <data name="Watermark-DisplayName" xml:space="preserve">
+          <value>Watermark</value>
+        </data>
+        <data name="Watermark-Description" xml:space="preserve">
+          <value>The text that is displayed as a watermark on the document preview. The format can be set by modifying the Document Preview settings.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Fájl</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Dokumentumok, képek és egyéb szöveges vagy bináris tartalmak tárolására szolgáló típus.</value>
+        </data>
+        <data name="Binary-DisplayName" xml:space="preserve">
+          <value>Bináris</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>A dokumentum binárisa.</value>
+        </data>
+        <data name="Size-DisplayName" xml:space="preserve">
+          <value>Méret</value>
+        </data>
+        <data name="Size-Description" xml:space="preserve">
+          <value>Bináris dokumentum mérete.</value>
+        </data>
+        <data name="FullSize-DisplayName" xml:space="preserve">
+          <value>Teljes méret</value>
+        </data>
+        <data name="FullSize-Description" xml:space="preserve">
+          <value>A dokumentum teljes mérete, amely tartalmazza a dokumentum összes korábbi verzióját is.</value>
+        </data>
+        <data name="MimeType-DisplayName" xml:space="preserve">
+          <value>A dokumentum MIME type-ja (például css, jpeg, egyszerű szöveg)</value>
+        </data>
+        <data name="PageCount-DisplayName" xml:space="preserve">
+          <value>Oldalak száma</value>
+        </data>
+        <data name="PageCount-Description" xml:space="preserve">
+          <value>Csak olvasható mező a dokumentumban található oldalak számának tárolására. Az előnézet generáló alkalmazás tölti ki.</value>
+        </data>
+        <data name="Shapes-DisplayName" xml:space="preserve">
+          <value>Előnézeti kiegészítő formák</value>
+        </data>
+        <data name="Shapes-Description" xml:space="preserve">
+          <value>A kiemelés, titkosítás, megjegyzés dobozok adatait tartalmazó mező.</value>
+        </data>
+        <data name="Watermark-DisplayName" xml:space="preserve">
+          <value>Vízjel</value>
+        </data>
+        <data name="Watermark-Description" xml:space="preserve">
+          <value>Vízjel szöveg, amely az előnézeti képeken látható. A formátum az Előnézet beállításoknál módosítható.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Folder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Use folders to group content.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Folder name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Display name of the content. You can set any name you prefer without any restrictions.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Mappa tartalmak csoportosítására.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Mappa neve</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ForgottenPasswordWorkflow">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Forgotten password workflow</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A workflow designed to start when a user forgot his/her password and wants to provide a new one.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>Email address</value>
+        </data>
+        <data name="Email-Description" xml:space="preserve">
+          <value>Please provide your email address here. If a user exists with that address, we will send you a confimation email with a link for resetting your password.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Elfelejtett jelszó folyamat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Ez a workflow akkor indul el, amikor a felhasználó elfelejtette jelszavát, és szeretne újat megadni.</value>
+        </data>
+        <data name="Email-DisplayName" xml:space="preserve">
+          <value>Email cím</value>
+        </data>
+        <data name="Email-Description" xml:space="preserve">
+          <value>Kérem adja meg email címét. Ha ezzel a címmel létezik felhasználó, akkor küldünk önnek egy levelet egy linkkel, amellyel megváltoztathatja jelszavát.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Form">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Form</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Form is a special List type. You can place a Form portlet on a page to show this form. Form submissions are sent out in an e-mail, and also stored in the Sense/Net Content Repository.</value>
+        </data>0
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>This is the title of the form.</value>
+        </data>
+        <data name="TitleSubmitter-DisplayName" xml:space="preserve">
+          <value>Submitter Mail Title</value>
+        </data>
+        <data name="TitleSubmitter-Description" xml:space="preserve">
+          <value>This is the title of the submitter mail.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Please give a short description of this form.</value>
+        </data>
+        <data name="AfterSubmitText-DisplayName" xml:space="preserve">
+          <value>AfterSubmitText</value>
+        </data>
+        <data name="AfterSubmitText-Description" xml:space="preserve">
+          <value>This is the text displayed after the form is submitted.</value>
+        </data>
+        <data name="EmailList-DisplayName" xml:space="preserve">
+          <value>Email List</value>
+        </data>
+        <data name="EmailList-Description" xml:space="preserve">
+          <value>The list of email addresses to where a notification message containing submitted values are sent after submitting the form. The addresses should be separated by ";" or ",".</value>
+        </data>
+        <data name="EmailFrom-DisplayName" xml:space="preserve">
+          <value>Email From</value>
+        </data>
+        <data name="EmailFrom-Description" xml:space="preserve">
+          <value>This address is displayed in the "From" field of the notification email. Default is "mailerservice@example.com".</value>
+        </data>
+        <data name="EmailFromSubmitter-DisplayName" xml:space="preserve">
+          <value>Submitter Email From</value>
+        </data>
+        <data name="EmailFromSubmitter-Description" xml:space="preserve">
+          <value>This address is displayed in the "From" field of the user notification email. Default is "mailerservice@example.com".</value>
+        </data>
+        <data name="EmailField-DisplayName" xml:space="preserve">
+          <value>Email Field</value>
+        </data>
+        <data name="EmailField-Description" xml:space="preserve">
+          <value>The name of the field specified among ContentList fields containing the submitter's email address. Ie.: "#Email" or "#SubmitterEmail".</value>
+        </data>
+        <data name="EmailTemplate-DisplayName" xml:space="preserve">
+          <value>EmailTemplate</value>
+        </data>
+        <data name="EmailTemplate-Description" xml:space="preserve">
+          <value>The template of the email message sent to the administrators. By default the template of notification email sent to the submitter is the same as the one sent to the recipients given in the email list above. Form content can be inserted with the "{0}" string.</value>
+        </data>
+        <data name="EmailTemplateSubmitter-DisplayName" xml:space="preserve">
+          <value>SubmitterEmailTemplate</value>
+        </data>
+        <data name="EmailTemplateSubmitter-Description" xml:space="preserve">
+          <value>The template of the email message sent to the submitter. By default the template of notification email sent to the submitter is the same as the one sent to the recipients given in the email list above. Form content can be inserted with the "{0}" string.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Űrlap</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Az űrlap egy speciális listatípus. Megjelenítéséhez Űrlap (Form) portletet kell használni. Az űrlap kitöltésekről e-mail értesítés küldhető és tárolódnak tartalomként a Sense/Net Content Repository-ban is.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Cím</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Űrlap címe.</value>
+        </data>
+        <data name="TitleSubmitter-DisplayName" xml:space="preserve">
+          <value>Beküldő e-mail címe.</value>
+        </data>
+        <data name="TitleSubmitter-Description" xml:space="preserve">
+          <value>Az űrlapot beküldő felhasználó visszaigazoló e-mailjének címe.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Az űrlap rövid leírása.</value>
+        </data>
+        <data name="AfterSubmitText-DisplayName" xml:space="preserve">
+          <value>Beküldést után megjelenő szöveg</value>
+        </data>
+        <data name="AfterSubmitText-Description" xml:space="preserve">
+          <value>Ha a kitöltő menti az űrlapot, ez az üzenet jelenik meg.</value>
+        </data>
+        <data name="EmailList-DisplayName" xml:space="preserve">
+          <value>E-mailcím lista</value>
+        </data>
+        <data name="EmailList-Description" xml:space="preserve">
+          <value>Azon e-mailcímek listája, melyekre űrlap kitöltés után értesítést kell küldeni. A címeket új sorba törve, vagy vesszővel, pontosvesszővel elválasztva kell megadni.</value>
+        </data>
+        <data name="EmailFrom-DisplayName" xml:space="preserve">
+          <value>E-mail feladója</value>
+        </data>
+        <data name="EmailFrom-Description" xml:space="preserve">
+          <value>Ez az e-mailcím kerül az email értesítés 'Feladó' mezőjébe.</value>
+        </data>
+        <data name="EmailFromSubmitter-DisplayName" xml:space="preserve">
+          <value>Feladó e-mailcíme</value>
+        </data>
+        <data name="EmailFromSubmitter-Description" xml:space="preserve">
+          <value>Ez az emailcím kerül a kitöltő felhasználónak kiküldött email értesítés 'Feladó' mezőjébe. Az alapértelmezett cím: "mailerservice@example.com".</value>
+        </data>
+        <data name="EmailField-DisplayName" xml:space="preserve">
+          <value>E-mail mező</value>
+        </data>
+        <data name="EmailField-Description" xml:space="preserve">
+          <value>Annak a mezőnek neve, amely tartalmazza a kitöltő e-mail címét. Pl.: "#Email" vagy "#SubmitterEmail".</value>
+        </data>
+        <data name="EmailTemplate-DisplayName" xml:space="preserve">
+          <value>E-mail sablon</value>
+        </data>
+        <data name="EmailTemplate-Description" xml:space="preserve">
+          <value>Az a sablon, amellyel az adminisztrátorok számára az e-mail értesítések kiküldésre kerülnek. Az űrlap adatai "{0}" formában adhatók meg.</value>
+        </data>
+        <data name="EmailTemplateSubmitter-DisplayName" xml:space="preserve">
+          <value>Kitöltők e-mail sablonja</value>
+        </data>
+        <data name="EmailTemplateSubmitter-Description" xml:space="preserve">
+          <value>Az a sablon, amellyel a kitöltők számára az e-mail értesítések kiküldésre kerülnek. Az űrlap adatai "{0}" formában adhatók meg.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-FormItem">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Form Item</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Base content type for form list items.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Kitöltött űrlap</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Tartalom típus a kitöltött űrlapok számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ForumEntry">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Forum entry</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A type for forum entries.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Subject</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>The subject of the entry.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Entry text</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>The text body of the entry.</value>
+        </data>
+        <data name="ReplyTo-DisplayName" xml:space="preserve">
+          <value>Reply to</value>
+        </data>
+        <data name="ReplyTo-Description" xml:space="preserve">
+          <value>The previous message in the thread.</value>
+        </data>
+        <data name="ReplyToNo-DisplayName" xml:space="preserve">
+          <value>Reply to number</value>
+        </data>
+        <data name="ReplyToNo-Description" xml:space="preserve">
+          <value>The number of the previous message in the thread.</value>
+        </data>
+        <data name="SerialNo-DisplayName" xml:space="preserve">
+          <value>Number</value>
+        </data>
+        <data name="SerialNo-Description" xml:space="preserve">
+          <value>Entry number.</value>
+        </data>
+        <data name="PostedBy-DisplayName" xml:space="preserve">
+          <value>Posted by</value>
+        </data>
+        <data name="PostedBy-Description" xml:space="preserve">
+          <value>The user who posted the message.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Fórum bejegyzés</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A fórum bejegyzések tartalomtípusa.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Tárgy</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Fórum bejegyzés tárgya.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Bejegyzés</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Bejegyzés szövege.</value>
+        </data>
+        <data name="ReplyTo-DisplayName" xml:space="preserve">
+          <value>Válasz erre</value>
+        </data>
+        <data name="ReplyTo-Description" xml:space="preserve">
+          <value>A bejegyzés előzménye.</value>
+        </data>
+        <data name="ReplyToNo-DisplayName" xml:space="preserve">
+          <value>Előzmény bejegyzés</value>
+        </data>
+        <data name="ReplyToNo-Description" xml:space="preserve">
+          <value>Hivatkozás az előzmény bejegyzésre.</value>
+        </data>
+        <data name="SerialNo-DisplayName" xml:space="preserve">
+          <value>Sorszám</value>
+        </data>
+        <data name="SerialNo-Description" xml:space="preserve">
+          <value>Bejegyzés sorszáma.</value>
+        </data>
+        <data name="PostedBy-DisplayName" xml:space="preserve">
+          <value>Szerző</value>
+        </data>
+        <data name="PostedBy-Description" xml:space="preserve">
+          <value>A felhasználó, aki posztolta a bejegyzést.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ForumTopic">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Forum topic</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A type for forum topics.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Topic title</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Starter comment</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Type your starter comment for the topic.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Fórum topik</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Fórum topik (szál) tartalom típus.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Topik címe</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Nyitó szöveg</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>A topik nyitó szövege.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

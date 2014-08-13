@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Like" parentType="ListItem" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Like,DisplayName</DisplayName>
+  <Description>$Ctd-Like,Description</Description>
+  <Icon>File</Icon>
+  <Fields></Fields>
+</ContentType>

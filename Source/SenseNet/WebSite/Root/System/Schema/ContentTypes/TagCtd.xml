@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Tag" parentType="GenericContent" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Tag,DisplayName</DisplayName>
+  <Description>$Ctd-Tag,Description</Description>
+  <Icon>Content</Icon>
+  <Fields>
+    <Field name="Description2" type="ShortText">
+      <DisplayName>$Ctd-Tag,Description2-DisplayName</DisplayName>
+    </Field>
+    <Field name="BlackListPath" type="LongText">
+      <DisplayName>$Ctd-Tag,BlackListPath-DisplayName</DisplayName>
+      <Description>$Ctd-Tag,BlackListPath-Description</Description>
+      <Indexing>
+        <IndexHandler>SenseNet.Search.Indexing.TagIndexHandler</IndexHandler>
+      </Indexing>
+    </Field>
+  </Fields>
+</ContentType>

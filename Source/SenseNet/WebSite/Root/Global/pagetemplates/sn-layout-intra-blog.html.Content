@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>PageTemplate</ContentType>
+  <ContentName>sn-layout-intra-blog.html</ContentName>
+  <Fields>
+    <Binary attachment="sn-layout-intra-blog.html" />
+    <DisplayName><![CDATA[sn-layout-intra-blog.html]]></DisplayName>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2012-09-17T13:30:06.377</CreationDate>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

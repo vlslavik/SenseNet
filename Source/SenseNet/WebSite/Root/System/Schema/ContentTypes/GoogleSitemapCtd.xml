@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="GoogleSitemap" parentType="Application" handler="SenseNet.ApplicationModel.Application" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-GoogleSitemap,DisplayName</DisplayName>
+  <Description>$Ctd-GoogleSitemap,Description</Description>
+  <Icon>File</Icon>
+  <Fields>
+    <Field name="Query" type="LongText">
+      <DisplayName>$Ctd-GoogleSitemap,Query-DisplayName</DisplayName>
+      <Description>$Ctd-GoogleSitemap,Query-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+      </Indexing>
+    </Field>
+    <Field name="ListHidden" type="Boolean">
+      <DisplayName>$Ctd-GoogleSitemap,ListHidden-DisplayName</DisplayName>
+      <Description>$Ctd-GoogleSitemap,ListHidden-Description</Description>
+    </Field>
+    <Field name="SiteUrl" type="ShortText">
+      <DisplayName>$Ctd-GoogleSitemap,SiteUrl-DisplayName</DisplayName>
+      <Description>$Ctd-GoogleSitemap,SiteUrl-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

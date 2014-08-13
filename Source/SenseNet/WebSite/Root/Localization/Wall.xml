@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="Wall">
+    <Languages>
+      <Language cultureName="en">
+        <data name="OnePerson" xml:space="preserve">
+          <value>1 person</value>
+        </data>
+        <data name="NPeople" xml:space="preserve">
+          <value>{0} people</value>
+        </data>
+        <data name="YouLikeThis" xml:space="preserve">
+          <value>You like this</value>
+        </data>
+        <data name="YouAndAnotherLikesThis" xml:space="preserve">
+          <value>You and &lt;a {0}&gt;another person&lt;/a&gt; likes this</value>
+        </data>
+        <data name="YouAndOthersLikesThis" xml:space="preserve">
+          <value>You and &lt;a {1=""}&gt;{0} others&lt;/a&gt; like this</value>
+        </data>
+        <data name="OnePersonLikesThis" xml:space="preserve">
+          <value>&lt;a {0}&gt;1 person&lt;/a&gt; likes this</value>
+        </data>
+        <data name="MorePersonLikeThis" xml:space="preserve">
+          <value>&lt;a {1}&gt;{0} people&lt;/a&gt; like this</value>
+        </data>
+        <data name="CommentedOnAContent" xml:space="preserve">
+          <value>commented on a Content</value>
+        </data>
+        <data name="LikesAContent" xml:space="preserve">
+          <value>likes a Content</value>
+        </data>
+        <data name="PleaseLogIn" xml:space="preserve">
+          <value>Please log in to see who liked this item!</value>
+        </data>
+        <data name="Template_Details" xml:space="preserve">
+          <value>Details</value>
+        </data>
+        <data name="Template_Like" xml:space="preserve">
+          <value>Like</value>
+        </data>
+        <data name="Template_Unlike" xml:space="preserve">
+          <value>Unlike</value>
+        </data>
+        <data name="Template_Comment" xml:space="preserve">
+          <value>Comment</value>
+        </data>
+        <data name="Template_Share" xml:space="preserve">
+          <value>Share</value>
+        </data>
+        <data name="Template_RelatedPosts" xml:space="preserve">
+          <value>related posts</value>
+        </data>
+        <data name="Template_WriteSomething" xml:space="preserve">
+          <value>Write something...</value>
+        </data>
+        <data name="Template_ViewAllComments" xml:space="preserve">
+          <value>View all {{commentcount}} comments</value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall1" xml:space="preserve">
+          <value>The current context workspace (</value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall2" xml:space="preserve">
+          <value>) is not configured to contain a Wall. This might be a problem when using sub-workspaces under this workspace and sharing Content. </value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall3" xml:space="preserve">
+          <value>Would you like to configure the current workspace as a Wall container?</value>
+        </data>
+        <data name="ConfigureWorkspaceAsWallContainer" xml:space="preserve">
+          <value>Configure Workspace as Wall Container</value>
+        </data>
+        <data name="Post" xml:space="preserve">
+          <value>Post</value>
+        </data>
+        <data name="CreateContent" xml:space="preserve">
+          <value>Create Content</value>
+        </data>
+        <data name="UploadFiles" xml:space="preserve">
+          <value>Upload Files</value>
+        </data>
+        <data name="PostSomething" xml:space="preserve">
+          <value>Post something...</value>
+        </data>
+        <data name="StartTyping" xml:space="preserve">
+          <value>Start typing...</value>
+        </data>
+        <data name="Create" xml:space="preserve">
+          <value>Create</value>
+        </data>
+        <data name="OlderPosts" xml:space="preserve">
+          <value>Older posts</value>
+        </data>
+        <data name="NoMorePosts" xml:space="preserve">
+          <value>No more posts to show.</value>
+        </data>
+        <data name="CreateOther" xml:space="preserve">
+          <value>Create other</value>
+        </data>
+        <data name="UploadFilesTo" xml:space="preserve">
+          <value>Upload files to...</value>
+        </data>
+        <data name="ChangedFields" xml:space="preserve">
+          <value>Changed fields</value>
+        </data>
+        <data name="What_Created" xml:space="preserve">
+          <value>created</value>
+        </data>
+        <data name="What_Modified" xml:space="preserve">
+          <value>modified</value>
+        </data>
+        <data name="What_Deleted" xml:space="preserve">
+          <value>deleted</value>
+        </data>
+        <data name="What_Moved" xml:space="preserve">
+          <value>moved</value>
+        </data>
+        <data name="What_Copied" xml:space="preserve">
+          <value>copied</value>
+        </data>
+        <data name="What_To" xml:space="preserve">
+          <value>to</value>
+        </data>
+        <data name="Source" xml:space="preserve">
+          <value>Source</value>
+        </data>
+        <data name="Target" xml:space="preserve">
+          <value>Target</value>
+        </data>
+        <data name="Activity" xml:space="preserve">
+          <value>Activity</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="OnePerson" xml:space="preserve">
+          <value>1 ember</value>
+        </data>
+        <data name="NPeople" xml:space="preserve">
+          <value>{0} ember</value>
+        </data>
+        <data name="YouLikeThis" xml:space="preserve">
+          <value>Önnek ez tetszik</value>
+        </data>
+        <data name="YouAndAnotherLikesThis" xml:space="preserve">
+          <value>Ez Önnek, és egy &lt;a {0}&gt;másik embernek&lt;/a&gt; tetszik</value>
+        </data>
+        <data name="YouAndOthersLikesThis" xml:space="preserve">
+          <value>Ez Önnek, és &lt;a {1=""}&gt;{0} másik embernek&lt;/a&gt; tetszik</value>
+        </data>
+        <data name="OnePersonLikesThis" xml:space="preserve">
+          <value>Ez &lt;a {0}&gt;1 embernek&lt;/a&gt; tetszik</value>
+        </data>
+        <data name="MorePersonLikeThis" xml:space="preserve">
+          <value>Ez &lt;a {1}&gt;{0} embernek&lt;/a&gt; tetszik</value>
+        </data>
+        <data name="CommentedOnAContent" xml:space="preserve">
+          <value>megjegyzést fűzött egy tartalomhoz</value>
+        </data>
+        <data name="LikesAContent" xml:space="preserve">
+          <value>tetszik egy tartalom</value>
+        </data>
+        <data name="PleaseLogIn" xml:space="preserve">
+          <value>Kérjük lépjen be, hogy láthassa kinek tetszik ez az elem!</value>
+        </data>
+        <data name="Template_Details" xml:space="preserve">
+          <value>Részletek</value>
+        </data>
+        <data name="Template_Like" xml:space="preserve">
+          <value>Tetszik</value>
+        </data>
+        <data name="Template_Unlike" xml:space="preserve">
+          <value>Nem tetszik</value>
+        </data>
+        <data name="Template_Comment" xml:space="preserve">
+          <value>Megjegyzés</value>
+        </data>
+        <data name="Template_Share" xml:space="preserve">
+          <value>Megosztás</value>
+        </data>
+        <data name="Template_RelatedPosts" xml:space="preserve">
+          <value>kapcsolódó posztok</value>
+        </data>
+        <data name="Template_WriteSomething" xml:space="preserve">
+          <value>Írjon valamit...</value>
+        </data>
+        <data name="Template_ViewAllComments" xml:space="preserve">
+          <value>Az összes ({{commentcount}}) megjegyzés megtekintése</value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall1" xml:space="preserve">
+          <value>Az aktuális munkaterület (</value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall2" xml:space="preserve">
+          <value>) nincs beállítva úgy, hogy Falat tartalmazzon. Ez probléma lehet tartalommegosztáskor, ha al-munkaterületek vannak használva.</value>
+        </data>
+        <data name="CurrentWorkspaceHasntAWall3" xml:space="preserve">
+          <value>Szeretné beállítani az aktuális munkaterületet úgy, hogy tartalmazhasson Falat?</value>
+        </data>
+        <data name="ConfigureWorkspaceAsWallContainer" xml:space="preserve">
+          <value>Munkaterület beállítása Fal konténerként</value>
+        </data>
+        <data name="Post" xml:space="preserve">
+          <value>Bejegyzés</value>
+        </data>
+        <data name="CreateContent" xml:space="preserve">
+          <value>Tartalom létrehozás</value>
+        </data>
+        <data name="UploadFiles" xml:space="preserve">
+          <value>Fájlfeltöltés</value>
+        </data>
+        <data name="PostSomething" xml:space="preserve">
+          <value>Írjon valamit...</value>
+        </data>
+        <data name="StartTyping" xml:space="preserve">
+          <value>Írjon valamit...</value>
+        </data>
+        <data name="Create" xml:space="preserve">
+          <value>Létrehozás</value>
+        </data>
+        <data name="OlderPosts" xml:space="preserve">
+          <value>Régebbi bejegyzések</value>
+        </data>
+        <data name="NoMorePosts" xml:space="preserve">
+          <value>Nincs több bejegyzés.</value>
+        </data>
+        <data name="CreateOther" xml:space="preserve">
+          <value>Egyéb létrehozása</value>
+        </data>
+        <data name="UploadFilesTo" xml:space="preserve">
+          <value>Fájlok feltöltése...</value>
+        </data>
+        <data name="ChangedFields" xml:space="preserve">
+          <value>Megváltozott mezők</value>
+        </data>
+        <data name="What_Created" xml:space="preserve">
+          <value>létrehozta: </value>
+        </data>
+        <data name="What_Modified" xml:space="preserve">
+          <value>módosította: </value>
+        </data>
+        <data name="What_Deleted" xml:space="preserve">
+          <value>törölte: </value>
+        </data>
+        <data name="What_Moved" xml:space="preserve">
+          <value>átmozgatta: </value>
+        </data>
+        <data name="What_Copied" xml:space="preserve">
+          <value>lemásolta: </value>
+        </data>
+        <data name="What_To" xml:space="preserve">
+          <value>ide: </value>
+        </data>
+        <data name="Source" xml:space="preserve">
+          <value>Forrás</value>
+        </data>
+        <data name="Target" xml:space="preserve">
+          <value>Cél</value>
+        </data>
+        <data name="Activity" xml:space="preserve">
+          <value>Hírfolyam</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="RegisteredUser" parentType="User" handler="SenseNet.ContentRepository.User" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-RegisteredUser,DisplayName</DisplayName>
+  <Description>$Ctd-RegisteredUser,Description</Description>
+  <Icon>RegisteredUser</Icon>
+  <Fields>
+    <Field name="Email" type="ShortText">
+      <Configuration handler="SenseNet.ContentRepository.Fields.ActivationFieldSetting">
+        <Enabled>true</Enabled>
+        <MailFrom></MailFrom>
+        <MailDefinition>$Ctd-RegisteredUser,MailDefinition</MailDefinition>
+        <MailSubject>$Ctd-RegisteredUser,MailSubject</MailSubject>
+        <IsBodyHtml>false</IsBodyHtml>
+        <MailPriority>Low</MailPriority>
+      </Configuration>
+    </Field>
+    <Field name="ResetKey" type="ShortText">
+      <DisplayName>$Ctd-RegisteredUser,ResetKey-DisplayName</DisplayName>
+      <Description>$Ctd-RegisteredUser,ResetKey-Description</Description>
+    </Field>
+    <Field name="ActivationId" type="ShortText">
+      <DisplayName>$Ctd-RegisteredUser,ActivationId-DisplayName</DisplayName>
+      <Description>$Ctd-RegisteredUser,ActivationId-Description</Description>
+    </Field>
+    <Field name="Activated" type="Boolean">
+      <DisplayName>$Ctd-RegisteredUser,Activated-DisplayName</DisplayName>
+      <Description>$Ctd-RegisteredUser,Activated-Description</Description>
+    </Field>
+    <Field name="SecurityQuestion" type="ShortText">
+      <DisplayName>$Ctd-RegisteredUser,SecurityQuestion-DisplayName</DisplayName>
+      <Description>$Ctd-RegisteredUser,SecurityQuestion-Description</Description>
+    </Field>
+    <Field name="SecurityAnswer" type="ShortText">
+      <DisplayName>$Ctd-RegisteredUser,SecurityAnswer-DisplayName</DisplayName>
+      <Description>$Ctd-RegisteredUser,SecurityAnswer-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

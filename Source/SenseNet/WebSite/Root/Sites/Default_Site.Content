@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Site</ContentType>
+  <ContentName>Default_Site</ContentName>
+  <Fields>
+    <AllowedChildTypes>
+      Page Folder Blog DocumentLibrary ImageLibrary EventList MemoList LinkList TaskList
+      Survey Voting DiscussionForum Form CustomList ArticleSection WebContentDemo
+      Image GoogleSitemap Workspace SmartFolder
+      OtherWorkspaceFolder DocumentWorkspaceFolder ProjectWorkspaceFolder SalesWorkspaceFolder
+    </AllowedChildTypes>    
+    <Language>en</Language>
+    <UrlList>
+      <Url authType='Forms'>localhost</Url>
+      <Url authType='Forms'>localhost:1315</Url>
+      <Url authType='Windows'>127.0.0.1</Url>
+    </UrlList>
+    <DisplayName>Default Site</DisplayName>
+    <Hidden>false</Hidden>
+    <LoginPage>
+      <Path>/Root/Sites/Default_Site/login</Path>
+    </LoginPage>
+    <DenyCrossSiteAccess>true</DenyCrossSiteAccess>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <Open>Allow</Open>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Visitor">
+      <Open>Allow</Open>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

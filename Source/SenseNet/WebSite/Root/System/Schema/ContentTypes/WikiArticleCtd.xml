@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="WikiArticle" parentType="GenericContent" handler="SenseNet.Portal.WikiArticle" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-WikiArticle,DisplayName</DisplayName>
+  <Description>$Ctd-WikiArticle,Description</Description>
+  <Icon>WikiArticle</Icon>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-WikiArticle,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-WikiArticle,DisplayName-Description</Description>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <ControlHint>sn:DisplayName</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="WikiArticleText" type="LongText">
+      <DisplayName>$Ctd-WikiArticle,WikiArticleText-DisplayName</DisplayName>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <ControlHint>sn:WikiEditor</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="ReferencedWikiTitles" type="LongText">
+      <DisplayName>$Ctd-WikiArticle,ReferencedWikiTitles-DisplayName</DisplayName>
+      <Indexing>
+        <Store>No</Store>
+        <IndexHandler>SenseNet.Search.Indexing.WikiReferencedTitlesIndexHandler</IndexHandler>
+      </Indexing>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="Description" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Name" type="ShortText">
+      <Description>$Ctd-WikiArticle,Name-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ModifiedBy" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="ModificationDate" type="DateTime">
+      <DisplayName>$Ctd-WikiArticle,ModificationDate-DisplayName</DisplayName>
+      <Description>$Ctd-WikiArticle,ModificationDate-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Locked" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

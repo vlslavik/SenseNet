@@ -1,0 +1,1 @@
+<%# ListHelper.GetValueByOutputMethod(Container.DataItem, "@@fieldName@@") %>

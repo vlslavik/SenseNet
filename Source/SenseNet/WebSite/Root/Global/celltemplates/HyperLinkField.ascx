@@ -1,0 +1,9 @@
+﻿<asp:HyperLink runat="server" 
+    ImageUrl ='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@") && ((SNCR.Fields.HyperLinkFieldSetting)((SNCR.Content)Container.DataItem).Fields["@@fieldName@@"].FieldSetting).UrlFormat == SNCR.Fields.UrlFormat.Picture 
+        ? SNCR.Security.Sanitizer.Sanitize(((SNCR.Fields.HyperLinkField.HyperlinkData)((SNCR.Content)Container.DataItem)["@@fieldName@@"]).Href) 
+        : string.Empty %>'
+    NavigateUrl='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@") ? SNCR.Security.Sanitizer.Sanitize(((SNCR.Fields.HyperLinkField.HyperlinkData)((SNCR.Content)Container.DataItem)["@@fieldName@@"]).Href) : string.Empty %>'
+    Text='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@") ? SNCR.Security.Sanitizer.Sanitize(((SNCR.Fields.HyperLinkField.HyperlinkData)((SNCR.Content)Container.DataItem)["@@fieldName@@"]).Text) : string.Empty %>'
+    ToolTip='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@") ? SNCR.Security.Sanitizer.Sanitize(((SNCR.Fields.HyperLinkField.HyperlinkData)((SNCR.Content)Container.DataItem)["@@fieldName@@"]).Title) : string.Empty %>'
+    Target='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@") ? HttpUtility.HtmlEncode(((SNCR.Fields.HyperLinkField.HyperlinkData)((SNCR.Content)Container.DataItem)["@@fieldName@@"]).Target) : string.Empty %>'
+    CssClass='<%# ListHelper.HasField(Container.DataItem, "@@fieldName@@")  && ((SNCR.Fields.HyperLinkFieldSetting)((SNCR.Content)Container.DataItem).Fields["@@fieldName@@"].FieldSetting).UrlFormat == SNCR.Fields.UrlFormat.Picture ? "sn-listgrid-image" : string.Empty %>' />

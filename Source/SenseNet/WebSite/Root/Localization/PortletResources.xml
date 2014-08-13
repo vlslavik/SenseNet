@@ -1,0 +1,4111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="AbortWorkflowPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Abort workflow</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a workflow to be aborted (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Munkafolyamat megszakítás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Lehetővé teszi futó munkafolyamat megszakítását.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ActionListPresenterPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Action list presenter</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet shows an ActionMenu (context bound)</value>
+        </data>
+        <data name="Prop_Scenario_DisplayName" xml:space="preserve">
+          <value>Scenario name</value>
+        </data>
+        <data name="Prop_ScenarioParameters_DisplayName" xml:space="preserve">
+          <value>Scenario parameters</value>
+        </data>
+        <data name="Prop_Mode_DisplayName" xml:space="preserve">
+          <value>ActionMenu mode</value>
+        </data>
+        <data name="Prop_ActionListText_DisplayName" xml:space="preserve">
+          <value>Text</value>
+        </data>
+        <data name="Prop_IconUrl_DisplayName" xml:space="preserve">
+          <value>Icon path</value>
+        </data>
+        <data name="Prop_WrapperCssClass_DisplayName" xml:space="preserve">
+          <value>Wrapper css class</value>
+        </data>
+        <data name="Prop_ItemHoverCssClass_DisplayName" xml:space="preserve">
+          <value>Item hover css class</value>
+        </data>
+        <data name="Prop_ActionIconVisible_DisplayName" xml:space="preserve">
+          <value>Action icons are visible</value>
+        </data>
+        <data name="Prop_Scenario_Description" xml:space="preserve">
+          <value>Name of the Scenario.</value>
+        </data>
+        <data name="Prop_ScenarioParameters_Description" xml:space="preserve">
+          <value>Additional advanced scenario parameters (ie. Portlet ID when service actions require it).</value>
+        </data>
+        <data name="Prop_Mode_Description" xml:space="preserve">
+          <value>Defines action menu layout.</value>
+        </data>
+        <data name="Prop_ActionListText_Description" xml:space="preserve">
+          <value>Displayed text of the action list.</value>
+        </data>
+        <data name="Prop_IconUrl_Description" xml:space="preserve">
+          <value>The full path of the icon of the action menu.</value>
+        </data>
+        <data name="Prop_WrapperCssClass_Description" xml:space="preserve">
+          <value>Container div css class for the ActionMenu.</value>
+        </data>
+        <data name="Prop_ItemHoverCssClass_Description" xml:space="preserve">
+          <value>Item hover css class for the ActionMenu items.</value>
+        </data>
+        <data name="Prop_ActionIconVisible_Description" xml:space="preserve">
+          <value>Controls the visibility of the action icons.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Műveletlista megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy művelet menüt vagy listát jelenít meg.</value>
+        </data>
+        <data name="Prop_Scenario_DisplayName" xml:space="preserve">
+          <value>Scenario név</value>
+        </data>
+        <data name="Prop_ScenarioParameters_DisplayName" xml:space="preserve">
+          <value>Scenario paraméterek</value>
+        </data>
+        <data name="Prop_Mode_DisplayName" xml:space="preserve">
+          <value>Mevelet menü mód</value>
+        </data>
+        <data name="Prop_ActionListText_DisplayName" xml:space="preserve">
+          <value>szöveg</value>
+        </data>
+        <data name="Prop_IconUrl_DisplayName" xml:space="preserve">
+          <value>Ikon útvonal</value>
+        </data>
+        <data name="Prop_WrapperCssClass_DisplayName" xml:space="preserve">
+          <value>Wrapper css class</value>
+        </data>
+        <data name="Prop_ItemHoverCssClass_DisplayName" xml:space="preserve">
+          <value>Item hover css class</value>
+        </data>
+        <data name="Prop_ActionIconVisible_DisplayName" xml:space="preserve">
+          <value>A műveletek ikonjai láthatóak</value>
+        </data>
+        <data name="Prop_Scenario_Description" xml:space="preserve">
+          <value>Szcenarió leírás.</value>
+        </data>
+        <data name="Prop_ScenarioParameters_Description" xml:space="preserve">
+          <value>További szcenarió parameterek haladóknak (pl.: Portlet ID ha a szolgáltatás igényli).</value>
+        </data>
+        <data name="Prop_Mode_Description" xml:space="preserve">
+          <value>Az műveletlista elrendezését határozza meg.</value>
+        </data>
+        <data name="Prop_ActionListText_Description" xml:space="preserve">
+          <value>Az műveletlista szövege jelenjen meg.</value>
+        </data>
+        <data name="Prop_IconUrl_Description" xml:space="preserve">
+          <value>Az műveletlista ikonjának teljes útvonala.</value>
+        </data>
+        <data name="Prop_WrapperCssClass_Description" xml:space="preserve">
+          <value>Container div css class a műveletlistához.</value>
+        </data>
+        <data name="Prop_ItemHoverCssClass_Description" xml:space="preserve">
+          <value>Hover css class az műveletlista elemekhez.</value>
+        </data>
+        <data name="Prop_ActionIconVisible_Description" xml:space="preserve">
+          <value>A művelet ikonok láthatóságát vezérli.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ActionPresenterPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Action presenter</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet shows an ActionLink (context bound)</value>
+        </data>
+        <data name="Prop_ActionName_DisplayName" xml:space="preserve">
+          <value>Action name</value>
+        </data>
+        <data name="Prop_ActionText_DisplayName" xml:space="preserve">
+          <value>Action text</value>
+        </data>
+        <data name="Prop_ParameterString_DisplayName" xml:space="preserve">
+          <value>Parameters</value>
+        </data>
+        <data name="Prop_IconUrl_DisplayName" xml:space="preserve">
+          <value>Icon path</value>
+        </data>
+        <data name="Prop_IconVisible_DisplayName" xml:space="preserve">
+          <value>Icon is visible</value>
+        </data>
+        <data name="Prop_IncludeBackUrl_DisplayName" xml:space="preserve">
+          <value>Include back url in action link</value>
+        </data>
+        <data name="Prop_ActionName_Description" xml:space="preserve">
+          <value>Name of the Action.</value>
+        </data>
+        <data name="Prop_ActionText_Description" xml:space="preserve">
+          <value>Displayed text of the Action.</value>
+        </data>
+        <data name="Prop_ParameterString_Description" xml:space="preserve">
+          <value>Advanced action parameters. Ie. 'ContentTypeName=Article'. Separate more parameters with ';', '&amp;' or ','.</value>
+        </data>
+        <data name="Prop_IconUrl_Description" xml:space="preserve">
+          <value>The full path of the icon of the action link.</value>
+        </data>
+        <data name="Prop_IconVisible_Description" xml:space="preserve">
+          <value>Controls the visibility of the action link icon.</value>
+        </data>
+        <data name="Prop_IncludeBackUrl_Description" xml:space="preserve">
+          <value>If set to True, action url will contain a back url. System default is <strong>True</strong> except for the <strong>Browse</strong> action.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Művelet megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy művelet link megjelenítésére szolgáló portlet.</value>
+        </data>
+        <data name="Prop_ActionName_DisplayName" xml:space="preserve">
+          <value>Művelet név</value>
+        </data>
+        <data name="Prop_ActionText_DisplayName" xml:space="preserve">
+          <value>Művelet szövege</value>
+        </data>
+        <data name="Prop_ParameterString_DisplayName" xml:space="preserve">
+          <value>Paraméterek</value>
+        </data>
+        <data name="Prop_IconUrl_DisplayName" xml:space="preserve">
+          <value>Ikon útvonal</value>
+        </data>
+        <data name="Prop_IconVisible_DisplayName" xml:space="preserve">
+          <value>Ikon látható</value>
+        </data>
+        <data name="Prop_IncludeBackUrl_DisplayName" xml:space="preserve">
+          <value>Visszatérési url a művelet hivatkozásban</value>
+        </data>
+        <data name="Prop_ActionName_Description" xml:space="preserve">
+          <value>A művelet neve azonosítás céljából.</value>
+        </data>
+        <data name="Prop_ActionText_Description" xml:space="preserve">
+          <value>A művelet megjelenő szövege.</value>
+        </data>
+        <data name="Prop_ParameterString_Description" xml:space="preserve">
+          <value>Művelet paraméterek haladók számára. Pl.: 'ContentTypeName=Article'. Az egyes paramétereket a következő jelekel lehet elválasztani: ';', '&amp;' vagy ','.</value>
+        </data>
+        <data name="Prop_IconUrl_Description" xml:space="preserve">
+          <value>A művelet ikonjának teljes elérési útvonala.</value>
+        </data>
+        <data name="Prop_IconVisible_Description" xml:space="preserve">
+          <value>A művelet ikonjának láthatóságát vezérli.</value>
+        </data>
+        <data name="Prop_IncludeBackUrl_Description" xml:space="preserve">
+          <value>Ha értéke true, akkor a művelet url tartalmazni fogja a visszatérési url-t is. Ha nincs megadva, akkor a rendszer true-nak értelmezi, kivéve a Browse művelet esetén.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="AdvancedLoginPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Login</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Users can log in and out using this portlet</value>
+        </data>
+        <data name="Prop_DefaultDomainPrefix_DisplayName" xml:space="preserve">
+          <value>Default domain prefix</value>
+        </data>
+        <data name="Prop_SSOEnabled_DisplayName" xml:space="preserve">
+          <value>Enable Single Sign-On (SSO)</value>
+        </data>
+        <data name="Prop_SSOCookieName_DisplayName" xml:space="preserve">
+          <value>SSO-token</value>
+        </data>
+        <data name="Prop_DefaultDomainPrefix_Description" xml:space="preserve">
+          <value>You can override default domain prefix settings defined in the web.config.</value>
+        </data>
+        <data name="Prop_SSOEnabled_Description" xml:space="preserve">
+          <value>Set this to true to enable SSO behavior.</value>
+        </data>
+        <data name="Prop_SSOCookieName_Description" xml:space="preserve">
+          <value>Cookie name used for SSO.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Bejelentkezés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A felhasználól ki- és belépését lehetővé tevő portlet.</value>
+        </data>
+        <data name="Prop_DefaultDomainPrefix_DisplayName" xml:space="preserve">
+          <value>Alapértelmezett tartomány</value>
+        </data>
+        <data name="Prop_SSOEnabled_DisplayName" xml:space="preserve">
+          <value>Single Sign-On (SSO) engedélyezés</value>
+        </data>
+        <data name="Prop_SSOCookieName_DisplayName" xml:space="preserve">
+          <value>SSO-token</value>
+        </data>
+        <data name="Prop_DefaultDomainPrefix_Description" xml:space="preserve">
+          <value>Az alapértelmezett tartomány a web.config-ban megváltoztatható.</value>
+        </data>
+        <data name="Prop_SSOEnabled_Description" xml:space="preserve">
+          <value>Kapcsolja be az engedélyezéshez!</value>
+        </data>
+        <data name="Prop_SSOCookieName_Description" xml:space="preserve">
+          <value>Cookie név, amit az SSO használ.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ApplicationListPresenterPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Application list presenter</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet shows the relevant applications for a content (context bound)</value>
+        </data>
+        <data name="Prop_IsHidden_DisplayName" xml:space="preserve">
+          <value>Hidden</value>
+        </data>
+        <data name="Prop_IsHidden_Description" xml:space="preserve">
+          <value>The initial state of the application list.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Alkalmazás lista megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalomra vonatkozó alkalmazások megjelenítésére szolgáló portlet.</value>
+        </data>
+        <data name="Prop_IsHidden_DisplayName" xml:space="preserve">
+          <value>Rejtett</value>
+        </data>
+        <data name="Prop_IsHidden_Description" xml:space="preserve">
+          <value>Az alkalmazás lista alapállapota.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ApprovePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workflow based approval portlet</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Use this Portlet with workflow approval tasks</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Jóváhagyás (munkafolyamat során)</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Jóváhagyási feladatok kezelésére szolgáló portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="AssignWorkflowPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workflow assign</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet assignes a workflow to a content list (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Munkafolyamat hozzárendelés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Ennek a portletnek a segítségével listához rendelhet egy munkafolyamatot.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="AuditLogViewPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Audit log viewer</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>List and filter audit log entries</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Audit log megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Audit log bejegyzések listázása és szűrése.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="BookCalendarPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Book calendar</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for displaying upcoming books in calendar view (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Könyves naptár</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Hamarosan megjelenő könyvek megjelenítése naptár nézetben (demó portlet).</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="BreadCrumbPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Breadcrumb trail</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Helps to keep track of location relative to the site root (context bound)</value>
+        </data>
+        <data name="Prop_ItemCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class name for items</value>
+        </data>
+        <data name="Prop_LinkCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class name for links</value>
+        </data>
+        <data name="Prop_SeparatorCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class name for separator</value>
+        </data>
+        <data name="Prop_Separator_DisplayName" xml:space="preserve">
+          <value>Breadcrumb separator</value>
+        </data>
+        <data name="Prop_ActiveItemCssClass_DisplayName" xml:space="preserve">
+          <value>Active item CSS class name</value>
+        </data>
+        <data name="Prop_StartBindTarget_DisplayName" xml:space="preserve">
+          <value>Start breadcrumb from</value>
+        </data>
+        <data name="Prop_ShowFirstElement_DisplayName" xml:space="preserve">
+          <value>Show first element</value>
+        </data>
+        <data name="Prop_FirstDisplayName_DisplayName" xml:space="preserve">
+          <value>First element displayed name</value>
+        </data>
+        <data name="Prop_ItemCssClass_Description" xml:space="preserve">
+          <value>This is the css class name for the items in list mode.</value>
+        </data>
+        <data name="Prop_LinkCssClass_Description" xml:space="preserve">
+          <value>This is the css class name for the links.</value>
+        </data>
+        <data name="Prop_SeparatorCssClass_Description" xml:space="preserve">
+          <value>This is the css class name for the separator string.</value>
+        </data>
+        <data name="Prop_Separator_Description" xml:space="preserve">
+          <value>This is the separator string between elements in linear mode.</value>
+        </data>
+        <data name="Prop_ActiveItemCssClass_Description" xml:space="preserve">
+          <value>This is the css class name for the active item.</value>
+        </data>
+        <data name="Prop_StartBindTarget_Description" xml:space="preserve">
+          <value>The first element in the breadcrumb.</value>
+        </data>
+        <data name="Prop_ShowFirstElement_Description" xml:space="preserve">
+          <value>Show the display name of the first element in the beginning of the breadcrumb or not.</value>
+        </data>
+        <data name="Prop_FirstDisplayName_Description" xml:space="preserve">
+          <value>This will be displayed as the name of the first element, if visible.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Morzsamenü</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Megjeleníti az aktuális oldal helyzetét, a foldalhoz viszonyítva.</value>
+        </data>
+        <data name="Prop_ItemCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class név az elemeknek</value>
+        </data>
+        <data name="Prop_LinkCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class név a linkeknek</value>
+        </data>
+        <data name="Prop_SeparatorCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class név az elválasztóknak</value>
+        </data>
+        <data name="Prop_Separator_DisplayName" xml:space="preserve">
+          <value>Breadcrumb elválasztó</value>
+        </data>
+        <data name="Prop_ActiveItemCssClass_DisplayName" xml:space="preserve">
+          <value>CSS class név az aktív elemnek</value>
+        </data>
+        <data name="Prop_StartBindTarget_DisplayName" xml:space="preserve">
+          <value>Innen kezdje a listát</value>
+        </data>
+        <data name="Prop_ShowFirstElement_DisplayName" xml:space="preserve">
+          <value>Az első elem megjelenítése</value>
+        </data>
+        <data name="Prop_FirstDisplayName_DisplayName" xml:space="preserve">
+          <value>Az első elem olvasható neve</value>
+        </data>
+        <data name="Prop_ItemCssClass_Description" xml:space="preserve">
+          <value>Ezzel a css class-szal jelennek meg az elemek lista módban.</value>
+        </data>
+        <data name="Prop_LinkCssClass_Description" xml:space="preserve">
+          <value>Ezzel a css class-szal jelennek meg a linkek.</value>
+        </data>
+        <data name="Prop_SeparatorCssClass_Description" xml:space="preserve">
+          <value>Ezzel a css class-szal jelennek meg az elválasztók.</value>
+        </data>
+        <data name="Prop_Separator_Description" xml:space="preserve">
+          <value>Ez az elválasztó szöveg az elemek között vízszintes módban.</value>
+        </data>
+        <data name="Prop_ActiveItemCssClass_Description" xml:space="preserve">
+          <value>Ezzel a css class-szal jelenik meg az aktív elem.</value>
+        </data>
+        <data name="Prop_StartBindTarget_Description" xml:space="preserve">
+          <value>A lista első eleme.</value>
+        </data>
+        <data name="Prop_ShowFirstElement_Description" xml:space="preserve">
+          <value>Szabályozza, hogy megjelenjen-e az első elem neve a lista elején.</value>
+        </data>
+        <data name="Prop_FirstDisplayName_Description" xml:space="preserve">
+          <value>Ez jelenik meg az első elem neveként, ha látszik.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="CacheablePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_Cacheable_DisplayName" xml:space="preserve">
+          <value>Portlet is cached</value>
+        </data>
+        <data name="Prop_CacheableFor_DisplayName" xml:space="preserve">
+          <value>Portlet is cached for</value>
+        </data>
+        <data name="Prop_CacheByPath_DisplayName" xml:space="preserve">
+          <value>Request path influences caching</value>
+        </data>
+        <data name="Prop_CacheByParams_DisplayName" xml:space="preserve">
+          <value>Url query params influence caching</value>
+        </data>
+        <data name="Prop_CacheByLanguage_DisplayName" xml:space="preserve">
+          <value>Language influences caching</value>
+        </data>
+        <data name="Prop_AbsoluteExpiration_DisplayName" xml:space="preserve">
+          <value>Absolute expiration</value>
+        </data>
+        <data name="Prop_SlidingExpirationMinutes_DisplayName" xml:space="preserve">
+          <value>Sliding expiration</value>
+        </data>
+        <data name="Prop_CustomCacheKey_DisplayName" xml:space="preserve">
+          <value>Custom cache key</value>
+        </data>
+        <data name="Prop_Debug_DisplayName" xml:space="preserve">
+          <value>Debug</value>
+        </data>
+        <data name="Prop_Cacheable_Description" xml:space="preserve">
+          <value>If set the output of the portlet will be cached. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Switching off portlet cache may cause performance issues!</i></div></value>
+        </data>
+        <data name="Prop_CacheableFor_Description" xml:space="preserve">
+          <value>In case of 'Everyone' the output of the portlet will be cached for logged in users as well. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Choose 'Everyone' only if you do not need personalized content!</i></div></value>
+        </data>
+        <data name="Prop_CacheByPath_Description" xml:space="preserve">
+          <value>Defines whether the requested content path is included in the cache key. When unchecked portlet output is preserved regardless of the page's current context content or request path. Check it if you want to cache portlet output depending on the requested context content.</value>
+        </data>
+        <data name="Prop_CacheByParams_Description" xml:space="preserve">
+          <value>Defines whether the url query params are also included in the cache key. When unchecked portlet output is preserved regardless of changing url params.</value>
+        </data>
+        <data name="Prop_CacheByLanguage_Description" xml:space="preserve">
+          <value>Defines whether the language code is also included in the cache key. When unchecked portlet output is preserved regardless of the language that the users use to browse the site.</value>
+        </data>
+        <data name="Prop_AbsoluteExpiration_Description" xml:space="preserve">
+          <value>Given in seconds. The portlet will be refreshed periodically with the given time period. -1 means that the value is defined by 'AbsoluteExpirationSeconds' setting in the web.config.</value>
+        </data>
+        <data name="Prop_SlidingExpirationMinutes_Description" xml:space="preserve">
+          <value>Given in seconds. The portlet is refreshed when it has not been accessed for the given seconds. -1 means that the value is defined by 'SlidingExpirationSeconds' setting in the web.config.</value>
+        </data>
+        <data name="Prop_CustomCacheKey_Description" xml:space="preserve">
+          <value>Defines a custom cache key independent of requested path and query params. Useful when the same static output is rendered at various pages. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>For experts only! Leave empty if unsure.</i></div></value>
+        </data>
+        <data name="Prop_Debug_Description" xml:space="preserve">
+          <value>Check this property to show debug info about portlet cache state at the bottom of the portlet's layout.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Prop_Cacheable_DisplayName" xml:space="preserve">
+          <value>Gyorsítótár bekapcsolása</value>
+        </data>
+        <data name="Prop_CacheableFor_DisplayName" xml:space="preserve">
+          <value>Akik számára gyorsítótárba kerül</value>
+        </data>
+        <data name="Prop_CacheByPath_DisplayName" xml:space="preserve">
+          <value>Webcím szerinti tárazás</value>
+        </data>
+        <data name="Prop_CacheByParams_DisplayName" xml:space="preserve">
+          <value>Url paraméterek szerinti tárazás</value>
+        </data>
+        <data name="Prop_CacheByLanguage_DisplayName" xml:space="preserve">
+          <value>Nyelv szerinti tárazás</value>
+        </data>
+        <data name="Prop_AbsoluteExpiration_DisplayName" xml:space="preserve">
+          <value>Abszolút gyorsítótár lejárat</value>
+        </data>
+        <data name="Prop_SlidingExpirationMinutes_DisplayName" xml:space="preserve">
+          <value>Csúszó gyorsítótár lejárat</value>
+        </data>
+        <data name="Prop_CustomCacheKey_DisplayName" xml:space="preserve">
+          <value>Egyedi gyorsítótár kulcs</value>
+        </data>
+        <data name="Prop_Debug_DisplayName" xml:space="preserve">
+          <value>Debug</value>
+        </data>
+        <data name="Prop_Cacheable_Description" xml:space="preserve">
+          <value>A portlet kimenete gyorsítótárba kerül. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Kikapcsolása nagy terhelés alatt sebesség problémákat okozhat.</i></div></value>
+        </data>
+        <data name="Prop_CacheableFor_Description" xml:space="preserve">
+          <value>'Mindenki' választása esetén belépett felhasználók számára is bekerül a kimenet a gyorsítótárba. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Csak akkor válassza a 'Mindenki' opciót, ha nincs szükség felhasználónkénti egyedi tartalom megjelenítésére!</i></div></value>
+        </data>
+        <data name="Prop_CacheByPath_Description" xml:space="preserve">
+          <value>Beállíthatja, hogy az aktuális tartalom útvonala belekerüljön-e a gyorsítótár kulcsba. Ha nincs bekapcsolva, a portlet kimenete mindig ugyanaz lesz, függetlenül a lekért tartalomtól.</value>
+        </data>
+        <data name="Prop_CacheByParams_Description" xml:space="preserve">
+          <value>Beállíthatja, hogy az URL paraméterek is kerüljenek bele a gyorsítótár kulcsba. Ha nincs bekapcsolva, a kimenet független lesz az aktuális URL paraméterektől.</value>
+        </data>
+        <data name="Prop_CacheByLanguage_Description" xml:space="preserve">
+          <value>Beállíthatja, hogy az aktuális nyelv is kerüljön bele a gyorsítótár kulcsba. Ha nincs bekapcsolva, a kimenet független lesz attól, hogy a felhasználók milyen nyelven nézik az oldalt.</value>
+        </data>
+        <data name="Prop_AbsoluteExpiration_Description" xml:space="preserve">
+          <value>Másodpercben megadott lejárat. A kimenet rendszeresen frissülni fog a megadott idő után. <br/>-1 azt jelenti, hogy az értéket az <i>AbsoluteExpirationSeconds</i> web.config beállítás határozza meg.</value>
+        </data>
+        <data name="Prop_SlidingExpirationMinutes_Description" xml:space="preserve">
+          <value>Másodpercben megadott lejárat. A kimenet frissülni fog, ha nem érkezett kérés a megadott időn belül. <br/>-1 azt jelenti, hogy az értéket az <i>SlidingExpirationSeconds</i> web.config beállítás határozza meg.</value>
+        </data>
+        <data name="Prop_CustomCacheKey_Description" xml:space="preserve">
+          <value>Megadhat egyedi gyorsítótár kulcsot, függetlenül az aktuális tartalomtól és URL paraméterektől. Akkor érdemes használni, ha ugyanazt a statikus tartalmat szeretné megjeleníteni több különböző oldalon. <div class='ui-helper-clearfix sn-dialog-editportlet-warning'><img class='sn-icon sn-icon16 sn-floatleft' src='/Root/Global/images/icons/16/warning.png' /><i>Csak adminisztrátoroknak. Hagyja üresen, ha nem biztos a dologban.</i></div></value>
+        </data>
+        <data name="Prop_Debug_Description" xml:space="preserve">
+          <value>Kapcsolja be, ha gyorsítótár információkat szeretne látni a portlet alján. Csak adminisztrátoroknak.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="CancelEventPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Cancel event</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet handles event cancel operations (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Esemény leíratkozás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Eseményekről történő leíratkozások kezelésére szolgáló portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="CommentPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Comment</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet displays a comment section and a simple wall for a specific content (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Komment</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalomhoz tartozó kommentek megjelenítéséhez.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ConfirmPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workflow based confirmation portlet</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Use this Portlet for e-mail confirmations and similar tasks</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Munkafolyamat alapú jóváhagyás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>E-mail jóváhagyásra és hasonló feladatokra használható portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentQueryPresenterPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Content query presenter</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Display list of content based on flexible queries against the Sense/Net Content Repository (context bound)</value>
+        </data>
+        <data name="Prop_QueryString_DisplayName" xml:space="preserve">
+          <value>Content query</value>
+        </data>
+        <data name="Prop_QueryString_Description" xml:space="preserve">
+          <value>Query defining the set of content to be presented using Content Query Language.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom keresési gyűjtemény</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Általános gyűjtő portlet tartalmak listájának megjelenítésére. Bármilyen lekérdezés eredménye megjeleníthető.</value>
+        </data>
+        <data name="Prop_QueryString_DisplayName" xml:space="preserve">
+          <value>Tartalom lekérdezés</value>
+        </data>
+        <data name="Prop_QueryString_Description" xml:space="preserve">
+          <value>Lekérdezés definíció CQL-ben (Content Query Language).</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>  
+  <ResourceClass name="ContentAddNewPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Creator</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet creates a new content with the specified Node (context bound)</value>
+        </data>
+        <data name="Prop_CreateRelativePath_DisplayName" xml:space="preserve">
+          <value>Create relative path if not exist</value>
+        </data>
+        <data name="Prop_RelativeContentTypeName_DisplayName" xml:space="preserve">
+          <value>Relative container type name</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_DisplayName" xml:space="preserve">
+          <value>Allowed content types</value>
+        </data>
+        <data name="Prop_AdvancedMode_DisplayName" xml:space="preserve">
+          <value>Advanced mode</value>
+        </data>
+        <data name="Prop_CreateRelativePath_Description" xml:space="preserve">
+          <value>If the given relative subpath (defined with context binding) does not exist the portlet creates the structure.</value>
+        </data>
+        <data name="Prop_RelativeContentTypeName_Description" xml:space="preserve">
+          <value>If you selected the 'Create relative path' option, this content type will be used to create the containers. Default is Folder.</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_Description" xml:space="preserve">
+          <value>List of CTD names that will appear in the type selector dropdown. Leave empty for automatic fill. Names must be separated with commas, semicolons or spaces.</value>
+        </data>
+        <data name="Prop_AdvancedMode_Description" xml:space="preserve">
+          <value>Shows Content Types as links instead of items in a dropdown.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom létrehozó</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Tartalmak létrehozásához használható portlet. Alapértelmezett, vagy egyedi nézettel, akár egyedi célmappába is létrehozhat tartalmakat.</value>
+        </data>
+        <data name="Prop_CreateRelativePath_DisplayName" xml:space="preserve">
+          <value>Almappák létrehozása</value>
+        </data>
+        <data name="Prop_RelativeContentTypeName_DisplayName" xml:space="preserve">
+          <value>Relatív mappák típusneve</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_DisplayName" xml:space="preserve">
+          <value>Engedélyezett típusok</value>
+        </data>
+        <data name="Prop_AdvancedMode_DisplayName" xml:space="preserve">
+          <value>Haladó mód</value>
+        </data>
+        <data name="Prop_CreateRelativePath_Description" xml:space="preserve">
+          <value>Ha a megadott relatív útvonal nem létezik, a portlet létrehozza a struktúrát.</value>
+        </data>
+        <data name="Prop_RelativeContentTypeName_Description" xml:space="preserve">
+          <value>Ha bekapcsolta az 'Almappák létrehozása' funkciót, ez lesz a létrehozott mappák típusa. Az alapértelmezett az egyszerű Mappa.</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_Description" xml:space="preserve">
+          <value>A lehetséges tartalom típusok neve, vesszővel vagy pontosveszővel elválasztva. Automatikus működéshez hagyja üresen.</value>
+        </data>
+        <data name="Prop_AdvancedMode_Description" xml:space="preserve">
+          <value>A tartalom típusokat linkként jeleníti meg, lenyíló lista helyett.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentApprovalPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Approval</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a content to be approved or rejected (context bound)</value>
+        </data>
+        <data name="Prop_NeedValidation_DisplayName" xml:space="preserve">
+          <value>Publish with validation</value>
+        </data>
+        <data name="Prop_NeedValidation_Description" xml:space="preserve">
+          <value>Set this checkbox for content validation.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Jóváhagyás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Tartalmak jóváhagyására vagy visszautasítására használható portlet.</value>
+        </data>
+        <data name="Prop_NeedValidation_DisplayName" xml:space="preserve">
+          <value>Publikálás a tartalom validációjával</value>
+        </data>
+        <data name="Prop_NeedValidation_Description" xml:space="preserve">
+          <value>Kapcsolja be az ellenőrzés engedélyezéséhez!</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentCheckInPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Checkin</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a content to be checked in (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Visszatétel</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Tartalmak visszatevésére szolgáló portlet (check in).</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentCheckOutPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Checkout</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a content to be checked out (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Kivétel</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Ez a portlet tartalmak kivételére (zárolására) szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentCollectionPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Content collection</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>An all-purpose portlet for interacting with collections (context bound)</value>
+        </data>
+        <data name="Prop_CustomPortletKey_DisplayName" xml:space="preserve">
+          <value>Custom portlet URL key</value>
+        </data>
+        <data name="Prop_CollectionAxis_DisplayName" xml:space="preserve">
+          <value>Collection source</value>
+        </data>
+        <data name="Prop_ReferenceAxisName_DisplayName" xml:space="preserve">
+          <value>Reference property name</value>
+        </data>
+        <data name="Prop_UriParameterName_DisplayName" xml:space="preserve">
+          <value>Uri parameter name</value>
+        </data>
+        <data name="Prop_AllChildren_DisplayName" xml:space="preserve">
+          <value>All children</value>
+        </data>
+        <data name="Prop_QueryFilter_DisplayName" xml:space="preserve">
+          <value>Children filter</value>
+        </data>
+        <data name="Prop_SortBy_DisplayName" xml:space="preserve">
+          <value>Sort by</value>
+        </data>
+        <data name="Prop_SortDescending_DisplayName" xml:space="preserve">
+          <value>Sort descending</value>
+        </data>
+        <data name="Prop_PagingEnabled_DisplayName" xml:space="preserve">
+          <value>Enable paging</value>
+        </data>
+        <data name="Prop_ShowPagerControl_DisplayName" xml:space="preserve">
+          <value>Show pager control</value>
+        </data>
+        <data name="Prop_Top_DisplayName" xml:space="preserve">
+          <value>Top</value>
+        </data>
+        <data name="Prop_SkipFirst_DisplayName" xml:space="preserve">
+          <value>Skip first</value>
+        </data>
+        <data name="Prop_EnableAutofilters_DisplayName" xml:space="preserve">
+          <value>Enable autofilters</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_DisplayName" xml:space="preserve">
+          <value>Enable lifespan filter</value>
+        </data>
+        <data name="Prop_VisibleFields_DisplayName" xml:space="preserve">
+          <value>Visible fields</value>
+        </data>
+        <data name="Prop_CustomPortletKey_Description" xml:space="preserve">
+          <value>Give a custom key to refer to this portlet from the URL.</value>
+        </data>
+        <data name="Prop_CollectionAxis_Description" xml:space="preserve">
+          <value>The source for the listed collection. 'Children' lists child content of target, 'ReferenceProperty' lists referenced contents using given Reference property, 'VersionHistory' lists target's versions and 'External' uses ids from url parameters as source.</value>
+        </data>
+        <data name="Prop_ReferenceAxisName_Description" xml:space="preserve">
+          <value>The property name to use as the reference source</value>
+        </data>
+        <data name="Prop_UriParameterName_Description" xml:space="preserve">
+          <value>The Uri parameter name to use as external source</value>
+        </data>
+        <data name="Prop_AllChildren_Description" xml:space="preserve">
+          <value>Leave unchecked if you want to get only direct children of content. Check it if you want to get all children of content.</value>
+        </data>
+        <data name="Prop_QueryFilter_Description" xml:space="preserve">
+          <value>Optional filter for the children query</value>
+        </data>
+        <data name="Prop_SortBy_Description" xml:space="preserve">
+          <value>Sort field name</value>
+        </data>
+        <data name="Prop_SortDescending_Description" xml:space="preserve">
+          <value>Sort results by sort field ascending or descending</value>
+        </data>
+        <data name="Prop_PagingEnabled_Description" xml:space="preserve">
+          <value>Set it to false to list all content on one page. Set it to true and use the 'Top' parameter to show only a given number of contents simultaneously</value>
+        </data>
+        <data name="Prop_ShowPagerControl_Description" xml:space="preserve">
+          <value>Set to true to show default pager controls at the top and the bottom of results</value>
+        </data>
+        <data name="Prop_Top_Description" xml:space="preserve">
+          <value>The first given number of content are listed</value>
+        </data>
+        <data name="Prop_SkipFirst_Description" xml:space="preserve">
+          <value>The first given number of content are skipped</value>
+        </data>
+        <data name="Prop_EnableAutofilters_Description" xml:space="preserve">
+          <value>If autofilters are enabled, system content are not shown in the result</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_Description" xml:space="preserve">
+          <value>If lifespan filter is enabled, only content with valid StartDate and EndDate will be in the result</value>
+        </data>
+        <data name="Prop_VisibleFields_Description" xml:space="preserve">
+          <value>A comma separated list of fields presented in the list</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom gyűjtemény</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Általános gyűjtő portlet tartalmak listájának megjelenítésére. Adott mappa gyermekeinek, vagy hivatkozott tartalmaknak a megjelenítésére szolgál.</value>
+        </data>
+        <data name="Prop_CustomPortletKey_DisplayName" xml:space="preserve">
+          <value>Egyedi portlet URL kulcs</value>
+        </data>
+        <data name="Prop_CollectionAxis_DisplayName" xml:space="preserve">
+          <value>Tartalmak forrása</value>
+        </data>
+        <data name="Prop_ReferenceAxisName_DisplayName" xml:space="preserve">
+          <value>Hivatkozás mező</value>
+        </data>
+        <data name="Prop_UriParameterName_DisplayName" xml:space="preserve">
+          <value>Uri paraméter név</value>
+        </data>
+        <data name="Prop_AllChildren_DisplayName" xml:space="preserve">
+          <value>Összes tartalom</value>
+        </data>
+        <data name="Prop_QueryFilter_DisplayName" xml:space="preserve">
+          <value>Gyermek tartalmak szűrése</value>
+        </data>
+        <data name="Prop_SortBy_DisplayName" xml:space="preserve">
+          <value>Rendezés</value>
+        </data>
+        <data name="Prop_SortDescending_DisplayName" xml:space="preserve">
+          <value>Rendezés fordított sorrendben</value>
+        </data>
+        <data name="Prop_PagingEnabled_DisplayName" xml:space="preserve">
+          <value>Lapozás engedélyezése</value>
+        </data>
+        <data name="Prop_ShowPagerControl_DisplayName" xml:space="preserve">
+          <value>Lapozó kontrol megjelenítése</value>
+        </data>
+        <data name="Prop_Top_DisplayName" xml:space="preserve">
+          <value>Lapméret (TOP)</value>
+        </data>
+        <data name="Prop_SkipFirst_DisplayName" xml:space="preserve">
+          <value>Kihagyott tartalmak száma (SKIP)</value>
+        </data>
+        <data name="Prop_EnableAutofilters_DisplayName" xml:space="preserve">
+          <value>Rendszer tartalmak szűrése</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_DisplayName" xml:space="preserve">
+          <value>Érvényesség szűrés</value>
+        </data>
+        <data name="Prop_VisibleFields_DisplayName" xml:space="preserve">
+          <value>Látható mezők</value>
+        </data>
+        <data name="Prop_CustomPortletKey_Description" xml:space="preserve">
+          <value>URL-ben használható egyedi kulcs, amely ezt a portletet azonosítja.</value>
+        </data>
+        <data name="Prop_CollectionAxis_Description" xml:space="preserve">
+          <value>A megjeleníteni kívánt tartalmak forrása.<br/>
+          <i>Gyermek tartalmak</i>: a kiválasztott (aktuális) szülő gyermekei.<br/>
+          <i>Hivatkozás</i>: a megadott hivatkozás mezőben található tartalmak.<br/> 
+          <i>Verzió történet</i>: az aktuális tartalom verziói.<br/>
+          <i>Külső</i>: az URL-ben található paraméterben átadott azonosítók alapján listáz.</value>
+        </data>
+        <data name="Prop_ReferenceAxisName_Description" xml:space="preserve">
+          <value>Hivatkozás mező neve, ha egy hivatkozás mező a forrás.</value>
+        </data>
+        <data name="Prop_UriParameterName_Description" xml:space="preserve">
+          <value>Külső forrásként használt URL paraméter neve.</value>
+        </data>
+        <data name="Prop_AllChildren_Description" xml:space="preserve">
+          <value>Kapcsolja be, ha az almappákat, és azok tartalmát is listázni szeretné.</value>
+        </data>
+        <data name="Prop_QueryFilter_Description" xml:space="preserve">
+          <value>Opcionális szűrő a listáott gyeremek elemekre.</value>
+        </data>
+        <data name="Prop_SortBy_Description" xml:space="preserve">
+          <value>Rendező mező neve</value>
+        </data>
+        <data name="Prop_SortDescending_Description" xml:space="preserve">
+          <value>A rendezés sorrendjének megfordítása.</value>
+        </data>
+        <data name="Prop_PagingEnabled_Description" xml:space="preserve">
+          <value>Ha bekapcsolja a lapozást, egyszerre csak egy oldalnyi tartalom lesz a képernyőn. Az oldal méretét a 'Lapméret' mezőben adhatja meg.</value>
+        </data>
+        <data name="Prop_ShowPagerControl_Description" xml:space="preserve">
+          <value>Megjeleníti az alapértelmezett lapozó kontrolt a lista előtt és után.</value>
+        </data>
+        <data name="Prop_Top_Description" xml:space="preserve">
+          <value>Egyszerre ennyi tartalom lesz látható az oldalon.</value>
+        </data>
+        <data name="Prop_SkipFirst_Description" xml:space="preserve">
+          <value>Ennyi tartalmat átugrunk a lista megjelenítésekor.</value>
+        </data>
+        <data name="Prop_EnableAutofilters_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva a szűrés, a rendszer tartalmak nem láthatóak a listában.</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, csak olyan tartalmak láthatóak a listában, amelyeken nincs érvényesség figyelés, vagy a böngészés idején érvényesek.</value>
+        </data>
+        <data name="Prop_VisibleFields_Description" xml:space="preserve">
+          <value>Látható mezők nevének listája, vesszővel elválasztva.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentCopyPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Copy</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet handles content copy operations (context bound)</value>
+        </data>
+        <data name="Prop_ViewPathCopyTo_DisplayName" xml:space="preserve">
+          <value>View path for 'copy under current content'</value>
+        </data>
+        <data name="Prop_ViewPathCopy_DisplayName" xml:space="preserve">
+          <value>View path for 'copy current content'</value>
+        </data>
+        <data name="Prop_ViewPathCopyTo_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the 'COPY TO' behavior of the copy dialog.</value>
+        </data>
+        <data name="Prop_ViewPathCopy_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the 'COPY' behavior of the copy dialog.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Másolás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy vagy több tartalom másolására szolgáló portlet.</value>
+        </data>
+        <data name="Prop_ViewPathCopyTo_DisplayName" xml:space="preserve">
+          <value>Megjelenítő útvonal másoláshoz, valamit az aktuális elem alá</value>
+        </data>
+        <data name="Prop_ViewPathCopy_DisplayName" xml:space="preserve">
+          <value>Megjelenítő útvonal másoláshoz, az aktuális elemet máshova</value>
+        </data>
+        <data name="Prop_ViewPathCopyTo_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad a 'COPY TO' funkció dialógus számára.</value>
+        </data>
+        <data name="Prop_ViewPathCopy_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad a 'COPY' funkció dialógus számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentDeletePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet handles content delete operations (context bound)</value>
+        </data>
+        <data name="Prop_UserInterfacePath_DisplayName" xml:space="preserve">
+          <value>View for single delete</value>
+        </data>
+        <data name="Prop_ViewPathBatchDelete_DisplayName" xml:space="preserve">
+          <value>View for batch delete</value>
+        </data>
+        <data name="Prop_UserInterfacePath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the elements of the delete dialog.</value>
+        </data>
+        <data name="Prop_ViewPathBatchDelete_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the 'batch delete' behavior of the portlet.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy vagy több tartalom törlésére szolgáló portlet.</value>
+        </data>
+        <data name="Prop_UserInterfacePath_DisplayName" xml:space="preserve">
+          <value>View az egyszerű törléshez</value>
+        </data>
+        <data name="Prop_ViewPathBatchDelete_DisplayName" xml:space="preserve">
+          <value>View a tömeges törléshez</value>
+        </data>
+        <data name="Prop_UserInterfacePath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely a törlés dialógust tartalmazza.</value>
+        </data>
+        <data name="Prop_ViewPathBatchDelete_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely dialógust szolgáltat a csoportos törléshez.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentEditorPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Editor</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet edits the content with its edit contentview (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalom szerkesztésére szolgáló portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentHistoryPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Version history</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet shows the content version history (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Verzió történet</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalom összes verziójának megjelenítésére szolgáló portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentLinkerPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Linker</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for creating content links (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom hivatkozó</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Kapcsolt (hivatkozó) tartalmak létrehozására szolgáló portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentMovePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Move</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet handles content move operations (context bound)</value>
+        </data>
+        <data name="Prop_ViewPathMoveTo_DisplayName" xml:space="preserve">
+          <value>View path for 'move under current content'</value>
+        </data>
+        <data name="Prop_ViewPathMove_DisplayName" xml:space="preserve">
+          <value>View path for 'move current content'</value>
+        </data>
+        <data name="Prop_ViewPathMoveTo_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the 'MOVE TO' behavior of the Move dialog.</value>
+        </data>
+        <data name="Prop_ViewPathMove_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the 'MOVE' behavior of the Move dialog.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Mozgatás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy vagy több tartalom mozgatására szolgáló portlet.</value>
+        </data>
+        <data name="Prop_ViewPathMoveTo_DisplayName" xml:space="preserve">
+          <value>View útvonal mozgatáshoz, valamit az aktuális elem alá</value>
+        </data>
+        <data name="Prop_ViewPathMove_DisplayName" xml:space="preserve">
+          <value>View útvonal mozgatáshoz, az aktuális elemet máshova</value>
+        </data>
+        <data name="Prop_ViewPathMoveTo_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad a 'MOVE TO' funkció dialógus számára.</value>
+        </data>
+        <data name="Prop_ViewPathMove_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad a 'MOVE' funkció dialógus számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Content viewer</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This is a simple portlet for displaying a single content (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalom megjelenítésére szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentPublishPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Publish</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a content to be published (context bound)</value>
+        </data>
+        <data name="Prop_NeedValidation_DisplayName" xml:space="preserve">
+          <value>Publish with validation</value>
+        </data>
+        <data name="Prop_NeedValidation_Description" xml:space="preserve">
+          <value>Set this checkbox for content validation.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Publikálás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Tartalom publikálására szolgáló portlet.</value>
+        </data>
+        <data name="Prop_NeedValidation_DisplayName" xml:space="preserve">
+          <value>Publikálás a tartalom validációjával</value>
+        </data>
+        <data name="Prop_NeedValidation_Description" xml:space="preserve">
+          <value>Kapcsolja be az ellenőrzés engedélyezéséhez!</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentQueryPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Content query</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Display list of content based on flexible queries against the Sense/Net Content Repository (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tartalom kereső (régi)</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Szerkesztők számára készült kereső portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentRenamePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Rename</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows the user to rename a content (context bound)</value>
+        </data>
+        <data name="Prop_ContentViewPath_DisplayName" xml:space="preserve">
+          <value>Rename view path</value>
+        </data>
+        <data name="Prop_ContentViewPath_Description" xml:space="preserve">
+          <value>Path of the .ascx content view which displays the name and display name fields.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Átnevezés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalom átnevezésére (URL-ben látható nevének megváltoztatására) szolgáló portlet.</value>
+        </data>
+        <data name="Prop_ContentViewPath_DisplayName" xml:space="preserve">
+          <value>Az átnevezés tartalom-megjelenítő útvonala</value>
+        </data>
+        <data name="Prop_ContentViewPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad az átnevezés funkció dialógus számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentRestorePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Restore</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet restores the content from the trash (context bound)</value>
+        </data>
+        <data name="Prop_ErrorViewPath_DisplayName" xml:space="preserve">
+          <value>Error view path</value>
+        </data>
+        <data name="Prop_InfoViewPath_DisplayName" xml:space="preserve">
+          <value>Info view path</value>
+        </data>
+        <data name="Prop_ErrorViewPath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the error dialog.</value>
+        </data>
+        <data name="Prop_InfoViewPath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the UI elements for the info dialog.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Visszaállítás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalom kukából történő visszaállítását teszi lehetővé.</value>
+        </data>
+        <data name="Prop_ErrorViewPath_DisplayName" xml:space="preserve">
+          <value>A hiba nézet útvonala</value>
+        </data>
+        <data name="Prop_InfoViewPath_DisplayName" xml:space="preserve">
+          <value>Az info nézet útvonala</value>
+        </data>
+        <data name="Prop_ErrorViewPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad a hiba dialógus számára.</value>
+        </data>
+        <data name="Prop_InfoViewPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely UI elemeket ad az információs dialógus számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentRestoreVersionPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Version restore</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a specific content version to be restored (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Verzió visszaállítás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Lehetővé teszi egy korábbi tartalom verzió visszaállítását.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentUndoCheckOutPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Undo checkout</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a content to be rolled back (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Kivétel visszavonása</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy korábban kivett tartalom visszatételét teszi lehetővé. A kivétel óta történt változások elvesznek.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContextBoundPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_BindTarget_DisplayName" xml:space="preserve">
+          <value>Bind Target</value>
+        </data>
+        <data name="Prop_CustomRootPath_DisplayName" xml:space="preserve">
+          <value>Custom root path</value>
+        </data>
+        <data name="Prop_AncestorIndex_DisplayName" xml:space="preserve">
+          <value>Ancestor selector index</value>
+        </data>
+        <data name="Prop_RelativeContentPath_DisplayName" xml:space="preserve">
+          <value>Relative content selector path</value>
+        </data>
+        <data name="Prop_ReferenceFieldName_DisplayName" xml:space="preserve">
+          <value>Reference field name</value>
+        </data>
+        <data name="Prop_CacheByContext_DisplayName" xml:space="preserve">
+          <value>Portlet context influences caching</value>
+        </data>
+        <data name="Prop_BindTarget_Description" xml:space="preserve">
+          <value>Select the bound content. Set it to CustomRoot to select a content with absolute path regardless of the context.</value>
+        </data>
+        <data name="Prop_CustomRootPath_Description" xml:space="preserve">
+          <value>Define bound content with absolute path when Bind Target is set to CustomRoot.</value>
+        </data>
+        <data name="Prop_AncestorIndex_Description" xml:space="preserve">
+          <value>Set the bound content to the ancestor of Bind Target specified by index. 0 leaves the bound content as specified above, 1 selects parent, higher value selects higher order ancestor.</value>
+        </data>
+        <data name="Prop_RelativeContentPath_Description" xml:space="preserve">
+          <value>Sets the bound content relative to the above settings with a relative path. Ie.: 'CustomChildFolder/CustomNode' selects 'CustomNode' from Bind Target's 'CustomChildFolder' child folder. Relative to ancestor when Ancestor selector index is set.</value>
+        </data>
+        <data name="Prop_ReferenceFieldName_Description" xml:space="preserve">
+          <value>Selects a referenced content of the bound content. Ie.: 'Manager' selects the Manager if the Bind Target above is the current workspace.</value>
+        </data>
+        <data name="Prop_CacheByContext_Description" xml:space="preserve">
+          <value>Defines whether the current context path is included in the cache key. When unchecked portlet output is preserved regardless of the page's current context content or request path. Check it if you want to cache portlet output depending on the requested context content.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Prop_BindTarget_DisplayName" xml:space="preserve">
+          <value>Tartalom választó</value>
+        </data>
+        <data name="Prop_CustomRootPath_DisplayName" xml:space="preserve">
+          <value>Egyedi tartalom</value>
+        </data>
+        <data name="Prop_AncestorIndex_DisplayName" xml:space="preserve">
+          <value>Felmenő tartalom sorszáma</value>
+        </data>
+        <data name="Prop_RelativeContentPath_DisplayName" xml:space="preserve">
+          <value>Relatív tartalomútvonal</value>
+        </data>
+        <data name="Prop_ReferenceFieldName_DisplayName" xml:space="preserve">
+          <value>Hivatkozás mező</value>
+        </data>
+        <data name="Prop_CacheByContext_DisplayName" xml:space="preserve">
+          <value>Tartalom szerinti tárazás</value>
+        </data>
+        <data name="Prop_BindTarget_Description" xml:space="preserve">
+          <value>Válassza ki, hogy mi legyen a portlet által megjelenített tartalom. Válassza a "CustomRoot" opciót, ha teljesen egyedi tartalom útvonalat szeretne megadni.</value>
+        </data>
+        <data name="Prop_CustomRootPath_Description" xml:space="preserve">
+          <value>Ha a tartalom választóban a "CustomRoot" opciót jelölte ki, itt megadhatja a megjeleníteni kívánt tartalom útvonalát.</value>
+        </data>
+        <data name="Prop_AncestorIndex_Description" xml:space="preserve">
+          <value>Itt megadhatja, hogy a kiválasztott tartalom hanyadik szülőjét jelenítsük meg. "1" jelenti a tartalom közvetlen szülőjét.</value>
+        </data>
+        <data name="Prop_RelativeContentPath_Description" xml:space="preserve">
+          <value>A fent kiválasztott tartalom egy gyermek tartalmát jelölheti ki, bármilyen mélységben. Például 'GyermekMappa/SajátTartalom' a 'SajátTartalom' tartalmat jelöli ki a 'GyermekMappa' almappából. Ha felmenő tartalom sorszámot is megadott, akkor annak a tartalomnak a gyermekei között keresünk.</value>
+        </data>
+        <data name="Prop_ReferenceFieldName_Description" xml:space="preserve">
+          <value>A kiválasztott tartalom egy hivatkozás mezőjét jelöli ki. Például a 'Szerző' a fenti tartalom Szerző mezőjét jelöli ki.</value>
+        </data>
+        <data name="Prop_CacheByContext_Description" xml:space="preserve">
+          <value>Beállíthatja, hogy az aktuális tartalom útvonala is kerüljön bele a gyorsítótár kulcsba. Ha nincs bekapcsolva, a kimenet ugyanaz lesz, függetlenül az aktuáis tartalomtól.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContextSearch">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Context search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Run free text searches and display search results in a pageable list (context bound)</value>
+        </data>
+        <data name="Prop_ViewPath_DisplayName" xml:space="preserve">
+          <value>View path</value>
+        </data>
+        <data name="Prop_RendererPath_DisplayName" xml:space="preserve">
+          <value>Results renderer path</value>
+        </data>
+        <data name="Prop_SearchResultPagePath_DisplayName" xml:space="preserve">
+          <value>Search result page path</value>
+        </data>
+        <data name="Prop_FilterByContext_DisplayName" xml:space="preserve">
+          <value>Filter by current context</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_DisplayName" xml:space="preserve">
+          <value>Allow empty search</value>
+        </data>
+        <data name="Prop_ViewPath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the elements of the search panel.</value>
+        </data>
+        <data name="Prop_RendererPath_Description" xml:space="preserve">
+          <value>Path of the .xslt renderer which renders search results.</value>
+        </data>
+        <data name="Prop_SearchResultPagePath_Description" xml:space="preserve">
+          <value>Repository path of the page where results are listed (used only in quicksearch mode).</value>
+        </data>
+        <data name="Prop_FilterByContext_Description" xml:space="preserve">
+          <value>If checked the portlet will search only under the current context.</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_Description" xml:space="preserve">
+          <value>If checked the search will execute even if there is no visible query given.</value>
+        </data>
+        <data name="Error_GenericSearchExpression" xml:space="preserve">
+          <value>Please give a more specific search text</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Kontextusfüggő kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyszerű kereső portlet, amellyel az aktuális szájton, munkaterületen vagy mappában kereshet. Lapozható listában jeleníti meg a találatokat.</value>
+        </data>
+        <data name="Prop_ViewPath_DisplayName" xml:space="preserve">
+          <value>Nézet elérési útvonala</value>
+        </data>
+        <data name="Prop_RendererPath_DisplayName" xml:space="preserve">
+          <value>A találati eredményt megjelenítő nézet útvonala</value>
+        </data>
+        <data name="Prop_SearchResultPagePath_DisplayName" xml:space="preserve">
+          <value>A találati eredményeket megjelenítő oldal elérési útvonala</value>
+        </data>
+        <data name="Prop_FilterByContext_DisplayName" xml:space="preserve">
+          <value>Szűrő az aktuális tartalommal</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_DisplayName" xml:space="preserve">
+          <value>Üres keresés engedélyezése</value>
+        </data>
+        <data name="Prop_ViewPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonal, amely a keresőpanel elemeit tartalmazza.</value>
+        </data>
+        <data name="Prop_RendererPath_Description" xml:space="preserve">
+          <value>Egy .xslt megjelenítő útvonala, amely a találati listát képes megjeleníteni.</value>
+        </data>
+        <data name="Prop_SearchResultPagePath_Description" xml:space="preserve">
+          <value>Gyorskereső módban kell megadni. Annak az oldalnak az útvonala, amelyik a keresés eredményét megjeleníti.</value>
+        </data>
+        <data name="Prop_FilterByContext_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a portlet csak az aktuális tartalom alatt keres.</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a portlet akkor is keres, ha a felhasználó üresen hagyja a keresőkifejezés mezőt.</value>
+        </data>
+        <data name="Error_GenericSearchExpression" xml:space="preserve">
+          <value>Kérem adjon meg részletesebb keresőkifejezést</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="CreateNewWorkspaceWizard">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>New workspace wizard</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet creates a new workspace</value>
+        </data>
+        <data name="Prop_WorkspaceWizardUserControlPath_DisplayName" xml:space="preserve">
+          <value>View path</value>
+        </data>
+        <data name="Prop_WorkspaceWizardUserControlPath_Description" xml:space="preserve">
+          <value>Holds the path of the portlet user interface control.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Új munkaterület varázsló</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Ennek a portletnek a segítségével új munkaterületet hozhat létre.</value>
+        </data>
+        <data name="Prop_WorkspaceWizardUserControlPath_DisplayName" xml:space="preserve">
+          <value>Nézet útvonal</value>
+        </data>
+        <data name="Prop_WorkspaceWizardUserControlPath_Description" xml:space="preserve">
+          <value>A portlet felhasználói interfészének útvonala (.ascx).</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="DialogFileUploadPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Dialog File Upload</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A simple upload portlet displaying a fileupload control and previously uploaded files</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_DisplayName" xml:space="preserve">
+          <value>Allowed Content Types</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_Description" xml:space="preserve">
+          <value>The comma separated list of allowed Content Type names for the target upload folder to be created.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Feltöltés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyszerű feltöltés portlet, mely egy feltöltő kontrolt és a korábban feltöltött fájlokat jeleníti meg.</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_DisplayName" xml:space="preserve">
+          <value>Engedélyezett tartalomtípusok</value>
+        </data>
+        <data name="Prop_AllowedContentTypes_Description" xml:space="preserve">
+          <value>Az engedélyezett tartalomtípusok vesszővel elválasztott listája. Az adott helyre csak az itt megadott típusú fájlok tölthetők fel.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="EventCalendarPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Event calendar</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for handling events in calendar view (context bound)</value>
+        </data>
+        <data name="EventsOn" xml:space="preserve">
+          <value>Events on </value>
+        </data>
+        <data name="StartDate" xml:space="preserve">
+          <value>Start date: </value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Eseménynaptár</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Naptár nézetben jelenít meg eseményeket.</value>
+        </data>
+        <data name="EventsOn" xml:space="preserve">
+          <value>Napi események </value>
+        </data>
+        <data name="StartDate" xml:space="preserve">
+          <value>Kezdés időpontja: </value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="FieldDeletePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Field delete</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows a field to be deleted (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Mező törlés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Lista mező törlését lehetővé tévő portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="FieldEditorPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Field editor</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet edits the field setting with its edit contentview (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Mező szerkesztő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Lista mező szerkesztését lehetővé tévő portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="FieldMoverPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Field mover</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet moves a field on a content list to the specified direction</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Mező sorszám</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Lista mezők sorrendjét lehet megváltoztatni a segítségével.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="FormPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Form</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Submit new items to a form list with this porlet</value>
+        </data>
+        <data name="Prop_FormPath_DisplayName" xml:space="preserve">
+          <value>Form path</value>
+        </data>
+        <data name="Prop_AfterSubmitViewPath_DisplayName" xml:space="preserve">
+          <value>After submit view path</value>
+        </data>
+        <data name="Prop_PermissionErrorViewPath_DisplayName" xml:space="preserve">
+          <value>Permission error view path</value>
+        </data>
+        <data name="Prop_FormPath_Description" xml:space="preserve">
+          <value>Path of the form to be displayed.</value>
+        </data>
+        <data name="Prop_AfterSubmitViewPath_Description" xml:space="preserve">
+          <value>Path of the content view which provides the UI elements for the 'After submit' dialog.</value>
+        </data>
+        <data name="Prop_PermissionErrorViewPath_Description" xml:space="preserve">
+          <value>Content view path.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Űrlap</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy űrlap kitöltését teszi lehetővé.</value>
+        </data>
+        <data name="Prop_FormPath_DisplayName" xml:space="preserve">
+          <value>Űrlap útvonal</value>
+        </data>
+        <data name="Prop_AfterSubmitViewPath_DisplayName" xml:space="preserve">
+          <value>Beküldés utáni nézet útvonala</value>
+        </data>
+        <data name="Prop_PermissionErrorViewPath_DisplayName" xml:space="preserve">
+          <value>Hozzáférési hiba nézet útvonala</value>
+        </data>
+        <data name="Prop_FormPath_Description" xml:space="preserve">
+          <value>A felhasználó által kitöltendő űrlap útvonala.</value>
+        </data>
+        <data name="Prop_AfterSubmitViewPath_Description" xml:space="preserve">
+          <value>Annak a nézetnek (.ascx) az útvonala, amelyik UI elemeket tartalmaz a kitöltés utáni dialógushoz.</value>
+        </data>
+        <data name="Prop_PermissionErrorViewPath_Description" xml:space="preserve">
+          <value>Annak a nézetnek (.ascx) az útvonala, amelyik UI elemeket tartalmaz a hiba megjelenítő dialógushoz.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="GlobalKPIPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Global KPI</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for presenting a custom KPI datasource with its view</value>
+        </data>
+        <data name="Prop_KPIDataSource_DisplayName" xml:space="preserve">
+          <value>KPI Datasource</value>
+        </data>
+        <data name="Prop_KPIViewName_DisplayName" xml:space="preserve">
+          <value>KPI View</value>
+        </data>
+        <data name="Prop_KPIDataSource_Description" xml:space="preserve">
+          <value>The KPI datasource to be presented. Datasource content are defined under /Root/KPI.</value>
+        </data>
+        <data name="Prop_KPIViewName_Description" xml:space="preserve">
+          <value>The KPI view to present the datasource. Views are defined under the datasource content.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>KPI megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyedi KPI (Key Performance Indicator) adatforrás megjelenítésére.</value>
+        </data>
+        <data name="Prop_KPIDataSource_DisplayName" xml:space="preserve">
+          <value>KPI adatforrás</value>
+        </data>
+        <data name="Prop_KPIViewName_DisplayName" xml:space="preserve">
+          <value>KPI nézet</value>
+        </data>
+        <data name="Prop_KPIDataSource_Description" xml:space="preserve">
+          <value>A megjelenítendő KPI adatforrás. Az adatforrások a /Root/KPI alatt vannak.</value>
+        </data>
+        <data name="Prop_KPIViewName_Description" xml:space="preserve">
+          <value>Nézet, amely megjeleníti a KPI adatforrás információit. A nézetek az adatforrások alatt vannak.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="GoogleSiteSearchResult">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Google site search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet returns the results of Google Site Search service in XML format</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Google kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A "Google Site Search" szolgáltatás eredményeit jeleníti meg (XML formátum).</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="HtmlPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>HTML source</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>For special effects, insert raw HTML source into the page as a portlet</value>
+        </data>
+        <data name="Prop_Html_DisplayName" xml:space="preserve">
+          <value>HTML</value>
+        </data>
+        <data name="Prop_Html_Description" xml:space="preserve">
+          <value>Raw HTML fragment.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>HTML portlet</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>HTML szöveg megjelenítését teszi lehetővé.</value>
+        </data>
+        <data name="Prop_Html_DisplayName" xml:space="preserve">
+          <value>HTML</value>
+        </data>
+        <data name="Prop_Html_Description" xml:space="preserve">
+          <value>Natív HTML forráskód.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ImportExportPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Portlet import/export</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This is a pilot project for exporting, importing webparts (a.k.a. portlets), using Sense/Net 6.0 repository</value>
+        </data>
+        <data name="Prop_PortletMode_DisplayName" xml:space="preserve">
+          <value>Portlet mode</value>
+        </data>
+        <data name="Prop_PortletMode_Description" xml:space="preserve">
+          <value>Determines whether to use import or export portlet layout. 'Both' renders controls for both scenario.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Portlet import/export</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portletek exportálására és importálására szolgáló portlet. Csak belső használatra.</value>
+        </data>
+        <data name="Prop_PortletMode_DisplayName" xml:space="preserve">
+          <value>Portlet mód</value>
+        </data>
+        <data name="Prop_PortletMode_Description" xml:space="preserve">
+          <value>Meghatározza, hogy a portlet export vagy import módban működik-e. A 'Both' kezeli mindkét esetet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="IncomingEmailSettingsPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Incoming Email Settings</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for handling incoming mail settings of Content Lists.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Beérkező levelek</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Listák e-mail beállításainak szerkesztését lehetővé tévő portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="JournalPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Journal</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet shows the journal of the related content tree (XSLT only) (context bound)</value>
+        </data>
+        <data name="Prop_MaxItems_DisplayName" xml:space="preserve">
+          <value>Max visible items</value>
+        </data>
+        <data name="Prop_ShowSystemContent_DisplayName" xml:space="preserve">
+          <value>Show system content</value>
+        </data>
+        <data name="Prop_MaxItems_Description" xml:space="preserve">
+          <value>Set the maximum number of visible items.</value>
+        </data>
+        <data name="Prop_ShowSystemContent_Description" xml:space="preserve">
+          <value>If checked the portlet will display the changes of system content too.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Rendszer események</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy részfa eseményeit (tartalom létrehozás, módosítás, stb.) megjelenítő portlet.</value>
+        </data>
+        <data name="Prop_MaxItems_DisplayName" xml:space="preserve">
+          <value>Látható elemek száma</value>
+        </data>
+        <data name="Prop_ShowSystemContent_DisplayName" xml:space="preserve">
+          <value>Rendszerelemek megjelenítése</value>
+        </data>
+        <data name="Prop_MaxItems_Description" xml:space="preserve">
+          <value>A látható elemek maximális száma.</value>
+        </data>
+        <data name="Prop_ShowSystemContent_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a rendszerelemek változásai is megjelenek.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="NotificationActivatorPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Notification activator</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows you to set your subscription to active or inactive</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Értesítés aktiválás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyes értesítések ki- és bekapcsolására szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="NotificationDeletePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Notification delete</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet allows you to delete a subscription</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Értesítés törlés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy feliratkozás törlésére szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="NotificationEditorPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Notification editor</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for editing the notifications subscribed by the current user or create a new one</value>
+        </data>
+        <data name="Prop_IsSubscriptionNew_DisplayName" xml:space="preserve">
+          <value>Is Subscription New</value>
+        </data>
+        <data name="Prop_IsSubscriptionNew_Description" xml:space="preserve">
+          <value>Defines if the subscription is new or not.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Értesítés szerkesztő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Az aktuális felhasználó által beállított valamely értesítés szerkesztését teszi lehetővé.</value>
+        </data>
+        <data name="Prop_IsSubscriptionNew_DisplayName" xml:space="preserve">
+          <value>Új feliratkozás</value>
+        </data>
+        <data name="Prop_IsSubscriptionNew_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a feliratkozás új.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="NotificationListPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Notification list</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for displaying the notifications subscribed by the current user</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Értesítés lista</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Az aktuális felhasználó értesítéseinek listáját jeleníti meg.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="PageAdminPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Page administration</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet manages Portlets on a Page other than the current one (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Oldal testre szabás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy portál oldalon található portletek szerkesztését teszi lehetővé.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ParametricSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Parametric search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>An all-purpose portlet for various searches</value>
+        </data>
+        <data name="Prop_InputRenderer_DisplayName" xml:space="preserve">
+          <value>Search form view</value>
+        </data>
+        <data name="Prop_QueryTemplate_DisplayName" xml:space="preserve">
+          <value>Query Template</value>
+        </data>
+        <data name="Prop_ExactSearch_DisplayName" xml:space="preserve">
+          <value>Exact Search</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_DisplayName" xml:space="preserve">
+          <value>Allow empty search</value>
+        </data>
+        <data name="Prop_QueryTemplateDebug_DisplayName" xml:space="preserve">
+          <value>Query debug</value>
+        </data>
+        <data name="Prop_InputRenderer_Description" xml:space="preserve">
+          <value>Select an .ascx view for rendering the search form.</value>
+        </data>
+        <data name="Prop_QueryTemplate_Description" xml:space="preserve">
+          <value>Parametric query template. Include parameters with %controlID% markup where controlID is the ID of the corresponding asp.Net control in the ascx defined with Input Renderer property.</value>
+        </data>
+        <data name="Prop_ExactSearch_Description" xml:space="preserve">
+          <value>Leave unchecked to automatically add '*' as a suffix to user inputs.</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_Description" xml:space="preserve">
+          <value>If checked the search will be executed even if the resolved template query is empty.</value>
+        </data>
+        <data name="Prop_QueryTemplateDebug_Description" xml:space="preserve">
+          <value>Check this property to show debug info about resolved query template at the bottom of the portlet's layout.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Paraméteres kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Általános kereső portlet, haladó beállításokkal (mező megjelenítők, lekérdezés paraméterező modul).</value>
+        </data>
+        <data name="Prop_InputRenderer_DisplayName" xml:space="preserve">
+          <value>Kereső űrlap megjelenítő</value>
+        </data>
+        <data name="Prop_QueryTemplate_DisplayName" xml:space="preserve">
+          <value>Lekérdezés sablon</value>
+        </data>
+        <data name="Prop_ExactSearch_DisplayName" xml:space="preserve">
+          <value>Pontos keresés</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_DisplayName" xml:space="preserve">
+          <value>Üres keresés engedélyezése</value>
+        </data>
+        <data name="Prop_QueryTemplateDebug_DisplayName" xml:space="preserve">
+          <value>Lekérdezés hibakeresés</value>
+        </data>
+        <data name="Prop_InputRenderer_Description" xml:space="preserve">
+          <value>Válasszon egy .ascx fájlt a keresési űrlap megjelenítéshez!</value>
+        </data>
+        <data name="Prop_QueryTemplate_Description" xml:space="preserve">
+          <value>Lekérdezés sablon. Paramétereket a %controlID% formában használhat, ahol a kontrol azonosító a megadott megjelenítőben található megfelelő ASP.NET kontrol ID-je.</value>
+        </data>
+        <data name="Prop_ExactSearch_Description" xml:space="preserve">
+          <value>Ha nincs bejelölve, akkor a felhasználó által beírt szöveg automatikusan kiegészül a '*' karakterrel.</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a keresés lefut úgy is, hogy a lekérdezés sablon üres.</value>
+        </data>
+        <data name="Prop_QueryTemplateDebug_Description" xml:space="preserve">
+          <value>Ha be van jelölve, akkor a portlet alján hibakereséshez hasznos információk jelennek meg.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ProxyPurgePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Proxy purge</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet clears items from the proxy cache that are related to a content</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Proxy törlés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy tartalomhoz tartozó proxy gyorsítótár elemeket töröl.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="PortletBase">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_PortletTitle_DisplayName" xml:space="preserve">
+          <value>Portlet title</value>
+        </data>
+        <data name="Prop_PortletChromeType_DisplayName" xml:space="preserve">
+          <value>Appearance</value>
+        </data>
+        <data name="Prop_SkinPreFix_DisplayName" xml:space="preserve">
+          <value>Custom CSS class(es)</value>
+        </data>
+        <data name="Prop_PortletTitle_Description" xml:space="preserve">
+          <value>Sets the visible title of the current portlet. Title header visibility is controlled with Appearance property.</value>
+        </data>
+        <data name="Prop_PortletChromeType_Description" xml:space="preserve">
+          <value>Controls title and border visibility. By default both are visible.</value>
+        </data>
+        <data name="Prop_SkinPreFix_Description" xml:space="preserve">
+          <value>When set portlet container div appends extra css class(es).</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Prop_PortletTitle_DisplayName" xml:space="preserve">
+          <value>Portlet cím</value>
+        </data>
+        <data name="Prop_PortletChromeType_DisplayName" xml:space="preserve">
+          <value>Megjelenés</value>
+        </data>
+        <data name="Prop_SkinPreFix_DisplayName" xml:space="preserve">
+          <value>Egyéni CSS class(ok)</value>
+        </data>
+        <data name="Prop_PortletTitle_Description" xml:space="preserve">
+          <value>A portlet címe. ennek láthatóságát a Megjelenés alatt szabályozhatjuk.</value>
+        </data>
+        <data name="Prop_PortletChromeType_Description" xml:space="preserve">
+          <value>Vezérli a cím és keret láthatóságát. Alapállapotban mindkettő látható.</value>
+        </data>
+        <data name="Prop_SkinPreFix_Description" xml:space="preserve">
+          <value>Ha be van állítva, akkor a portletet tartalmazó div element megkapja a beírt css class-okat.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="PurgePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Trashbin purge</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet empties the trash</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Kuka ürítés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A kuka teljes tartalmát törli véglegesen.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="QuickSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Quick search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A simple search field and button for executing quick searches from each page.</value>
+        </data>
+        <data name="Prop_SearchResultPageUrl_DisplayName" xml:space="preserve">
+          <value>Search result page URL</value>
+        </data>
+        <data name="Prop_EnterKeyword_DisplayName" xml:space="preserve">
+          <value>Default search keyword</value>
+        </data>
+        <data name="Prop_SearchResultPageUrl_Description" xml:space="preserve">
+          <value>Url of the page where results are listed with a Search portlet.</value>
+        </data>
+        <data name="Prop_EnterKeyword_Description" xml:space="preserve">
+          <value>Quick search input shows this value by default.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Gyorskereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyszerű, fejlécben használható kereső, amely egy külön találati oldalra irányít.</value>
+        </data>
+        <data name="Prop_SearchResultPageUrl_DisplayName" xml:space="preserve">
+          <value>Találati oldal URL</value>
+        </data>
+        <data name="Prop_EnterKeyword_DisplayName" xml:space="preserve">
+          <value>Alapértelmezett kereső kulcsszó</value>
+        </data>
+        <data name="Prop_SearchResultPageUrl_Description" xml:space="preserve">
+          <value>A keresési ereedményeket megjelenítő oldal URL-je.</value>
+        </data>
+        <data name="Prop_EnterKeyword_Description" xml:space="preserve">
+          <value>A beviteli mező alapállapotban ezt jeleníti meg.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="RatingSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Rating search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for searching by rating (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Értékelés kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Értékelés szerinti keresést tesz lehetővé.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Run free text searches and display search results in a pageable list.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Szabad szavas kereső. Lapozható listában jeleníti meg a találatokat.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SingleContentPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Single content</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>An easy way to display a piece of Content using a Content View.</value>
+        </data>
+        <data name="Prop_UsedContentTypeName_DisplayName" xml:space="preserve">
+          <value>Content type name</value>
+        </data>
+        <data name="Prop_ContentPath_DisplayName" xml:space="preserve">
+          <value>Content path</value>
+        </data>
+        <data name="Prop_ContentViewEditPath_DisplayName" xml:space="preserve">
+          <value>Edit contentview path</value>
+        </data>
+        <data name="Prop_UseUrlPath_DisplayName" xml:space="preserve">
+          <value>Use url params to resolve content</value>
+        </data>
+        <data name="Prop_UrlQueryKey_DisplayName" xml:space="preserve">
+          <value>ContentPath url query key name</value>
+        </data>
+        <data name="Prop_ValidationSetting_DisplayName" xml:space="preserve">
+          <value>Content validity check</value>
+        </data>
+        <data name="Prop_UsedContentTypeName_Description" xml:space="preserve">
+          <value>Default content type used in 'New content' and 'Edit content' scenarios.</value>
+        </data>
+        <data name="Prop_ContentPath_Description" xml:space="preserve">
+          <value>Path of the content to be presented.</value>
+        </data>
+        <data name="Prop_ContentViewEditPath_Description" xml:space="preserve">
+          <value>Path of presented content's edit contentview. Leave empty to use default contentview resolution logic.</value>
+        </data>
+        <data name="Prop_UseUrlPath_Description" xml:space="preserve">
+          <value>If set to true content path can be given with 'Content' url query key.</value>
+        </data>
+        <data name="Prop_UrlQueryKey_Description" xml:space="preserve">
+          <value>The url query key name that will be used when Content is resolved using url params.</value>
+        </data>
+        <data name="Prop_ValidationSetting_Description" xml:space="preserve">
+          <value>Validation check uses content's 'ValidFrom' and 'ValidTill' properties. Archive check uses 'ArchiveDate' property.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Egyszerű tartalom megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egyedi tartalom megjelenítő segítségével jelenít meg egy tartalmat.</value>
+        </data>
+        <data name="Prop_UsedContentTypeName_DisplayName" xml:space="preserve">
+          <value>Tartalomtípus</value>
+        </data>
+        <data name="Prop_ContentPath_DisplayName" xml:space="preserve">
+          <value>Tartalomútvonal</value>
+        </data>
+        <data name="Prop_ContentViewEditPath_DisplayName" xml:space="preserve">
+          <value>Szerkesztőnézet</value>
+        </data>
+        <data name="Prop_UseUrlPath_DisplayName" xml:space="preserve">
+          <value>Tartalom URL paraméterből</value>
+        </data>
+        <data name="Prop_UrlQueryKey_DisplayName" xml:space="preserve">
+          <value>Url paraméternév a tartalom útvonalhoz</value>
+        </data>
+        <data name="Prop_ValidationSetting_DisplayName" xml:space="preserve">
+          <value>Tartalom érvényességének ellenőrzése</value>
+        </data>
+        <data name="Prop_UsedContentTypeName_Description" xml:space="preserve">
+          <value>Az alapértelmezett tartalomtípus új tartalom létrehozásához.</value>
+        </data>
+        <data name="Prop_ContentPath_Description" xml:space="preserve">
+          <value>a megjelenítendő tartalomútvonala.</value>
+        </data>
+        <data name="Prop_ContentViewEditPath_Description" xml:space="preserve">
+          <value>A megjelenített tartalom szerkesztőnézetének útvonala. Ha az alapértelmezett nézeteket akarja használni, akkor maradjon üresen.</value>
+        </data>
+        <data name="Prop_UseUrlPath_Description" xml:space="preserve">
+          <value>Használja az url paramétert a tartalom eléréshez.</value>
+        </data>
+        <data name="Prop_UrlQueryKey_Description" xml:space="preserve">
+          <value>A query paraméter neve, amelyet a portlet használ, amennyiben figyelembe vesszük az URL paramétert a tartalom azonosításához.</value>
+        </data>
+        <data name="Prop_ValidationSetting_Description" xml:space="preserve">
+          <value>Ellenőrzéskor az 'Érvényesség kezdete' és 'Érvényesség vége' mezőket vesszük figyelembe. Archív ellenőrzéskor az 'Archiválás dátuma' mezőt.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SiteMenu">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Site menu</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet displays a menu that users can traverse to get to different pages in your site (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Menü</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Összetett menük automatikus megjelenítésére elkalmas portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SiteMenuBase">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_Depth_DisplayName" xml:space="preserve">
+          <value>Depth</value>
+        </data>
+        <data name="Prop_ShowHiddenPages_DisplayName" xml:space="preserve">
+          <value>Show hidden</value>
+        </data>
+        <data name="Prop_ShowTypeNames_DisplayName" xml:space="preserve">
+          <value>Visible content types</value>
+        </data>
+        <data name="Prop_ShowPagesOnly_DisplayName" xml:space="preserve">
+          <value>Show pages only</value>
+        </data>
+        <data name="Prop_OmitContextNode_DisplayName" xml:space="preserve">
+          <value>Hide target content</value>
+        </data>
+        <data name="Prop_ExpandToContext_DisplayName" xml:space="preserve">
+          <value>Expand menu to context</value>
+        </data>
+        <data name="Prop_LoadFullTree_DisplayName" xml:space="preserve">
+          <value>Load full tree</value>
+        </data>
+        <data name="Prop_GetContextChildren_DisplayName" xml:space="preserve">
+          <value>Get context children</value>
+        </data>
+        <data name="Prop_PortletCssClass_DisplayName" xml:space="preserve">
+          <value>Menu CSS class</value>
+        </data>
+        <data name="Prop_QueryFilter_DisplayName" xml:space="preserve">
+          <value>Children filter</value>
+        </data>
+        <data name="Prop_Depth_Description" xml:space="preserve">
+          <value>Number of levels to display.</value>
+        </data>
+        <data name="Prop_ShowHiddenPages_Description" xml:space="preserve">
+          <value>Set it to false to hide pages and content marked as 'Hidden'.</value>
+        </data>
+        <data name="Prop_ShowTypeNames_Description" xml:space="preserve">
+          <value>Comma separated string of visible content type names.</value>
+        </data>
+        <data name="Prop_ShowPagesOnly_Description" xml:space="preserve">
+          <value>Set this to true to show pages only in the menu.</value>
+        </data>
+        <data name="Prop_OmitContextNode_Description" xml:space="preserve">
+          <value>Set this to false to show the target content in the menu.</value>
+        </data>
+        <data name="Prop_ExpandToContext_Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Prop_LoadFullTree_Description" xml:space="preserve">
+          <value>When set to true the whole tree from the selected target is shown in the given depth.</value>
+        </data>
+        <data name="Prop_GetContextChildren_Description" xml:space="preserve">
+          <value>When set to true the direct children of the selected target is shown.</value>
+        </data>
+        <data name="Prop_PortletCssClass_Description" xml:space="preserve">
+          <value>Css class of the rendered menu. Default is 'sn-menu'.</value>
+        </data>
+        <data name="Prop_QueryFilter_Description" xml:space="preserve">
+          <value>Optional filter for the children query of menu items.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Prop_Depth_DisplayName" xml:space="preserve">
+          <value>Mélység</value>
+        </data>
+        <data name="Prop_ShowHiddenPages_DisplayName" xml:space="preserve">
+          <value>Rejtettek is</value>
+        </data>
+        <data name="Prop_ShowTypeNames_DisplayName" xml:space="preserve">
+          <value>Látható tartalomtípusok</value>
+        </data>
+        <data name="Prop_ShowPagesOnly_DisplayName" xml:space="preserve">
+          <value>Csak az oldalak</value>
+        </data>
+        <data name="Prop_OmitContextNode_DisplayName" xml:space="preserve">
+          <value>Aktuális tartalom elrejtése</value>
+        </data>
+        <data name="Prop_ExpandToContext_DisplayName" xml:space="preserve">
+          <value>Kinyitás az aktuális tartalomig</value>
+        </data>
+        <data name="Prop_LoadFullTree_DisplayName" xml:space="preserve">
+          <value>Teljes fa betöltése</value>
+        </data>
+        <data name="Prop_GetContextChildren_DisplayName" xml:space="preserve">
+          <value>Aktuális elem gyerekeinek betöltése</value>
+        </data>
+        <data name="Prop_PortletCssClass_DisplayName" xml:space="preserve">
+          <value>Menü CSS class</value>
+        </data>
+        <data name="Prop_QueryFilter_DisplayName" xml:space="preserve">
+          <value>Gyerekelemek szűrője</value>
+        </data>
+        <data name="Prop_Depth_Description" xml:space="preserve">
+          <value>Megjelenített szintek száma.</value>
+        </data>
+        <data name="Prop_ShowHiddenPages_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a rejtett elemek is megjelennek.</value>
+        </data>
+        <data name="Prop_ShowTypeNames_Description" xml:space="preserve">
+          <value>A látható tartalmak típusainak vesszős listája.</value>
+        </data>
+        <data name="Prop_ShowPagesOnly_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor csak az Page típusú tartalmak látszanak.</value>
+        </data>
+        <data name="Prop_OmitContextNode_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor az aktuális tartalom eltűnik a menüből.</value>
+        </data>
+        <data name="Prop_ExpandToContext_Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Prop_LoadFullTree_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a kiválasztott tartalom alatti összes tartalom látszani fog, a megadott mélységig.</value>
+        </data>
+        <data name="Prop_GetContextChildren_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a kiválasztott tartalom gyerekei is meg lesznek jelenítve.</value>
+        </data>
+        <data name="Prop_PortletCssClass_Description" xml:space="preserve">
+          <value>A menü CSS class neve. Az alapértelmezett: 'sn-menu'.</value>
+        </data>
+        <data name="Prop_QueryFilter_Description" xml:space="preserve">
+          <value>Megadható szűrő a gyerekelemek megjelenítéséhez.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="StartWorkflowPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workflow start</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet starts a workflow</value>
+        </data>
+        <data name="Prop_WorkflowType_DisplayName" xml:space="preserve">
+          <value>Workflow type</value>
+        </data>
+        <data name="Prop_ConfirmContentPath_DisplayName" xml:space="preserve">
+          <value>Confirmation content path</value>
+        </data>
+        <data name="Prop_StartOnCurrentContent_DisplayName" xml:space="preserve">
+          <value>Start the workflow on the current content</value>
+        </data>
+        <data name="Prop_WorkflowContainerPath_DisplayName" xml:space="preserve">
+          <value>Workflow container path</value>
+        </data>
+        <data name="Prop_WorkflowTemplatePath_DisplayName" xml:space="preserve">
+          <value>Workflow template path</value>
+        </data>
+        <data name="Prop_WorkflowType_Description" xml:space="preserve">
+          <value>Please choose from the available workflow types. If you leave this entry empty, the portlet will behave like a simple add content portlet.</value>
+        </data>
+        <data name="Prop_ConfirmContentPath_Description" xml:space="preserve">
+          <value>Define a content that will be displayed to the user after the workflow is started.</value>
+        </data>
+        <data name="Prop_StartOnCurrentContent_Description" xml:space="preserve">
+          <value>If set the workflow will start on the current content. Use this option when you are building a smart application page.</value>
+        </data>
+        <data name="Prop_WorkflowContainerPath_Description" xml:space="preserve">
+          <value>Container folder for the started workflow instances. If you leave this entry empty, the system will place the workflow content under the current content.</value>
+        </data>
+        <data name="Prop_WorkflowTemplatePath_Description" xml:space="preserve">
+          <value>Template workflow content that contains all the initial data. If the workflow does not need any initial data you can leave this entry empty.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Munkafolyamat indítás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Általános munkafolyamat indító portlet.</value>
+        </data>
+        <data name="Prop_WorkflowType_DisplayName" xml:space="preserve">
+          <value>Munkafolyamat típus</value>
+        </data>
+        <data name="Prop_ConfirmContentPath_DisplayName" xml:space="preserve">
+          <value>Indításkor megjelenő tartalom</value>
+        </data>
+        <data name="Prop_StartOnCurrentContent_DisplayName" xml:space="preserve">
+          <value>Munkafolyamat indítása az aktuális tartalmon</value>
+        </data>
+        <data name="Prop_WorkflowContainerPath_DisplayName" xml:space="preserve">
+          <value>Munkafolyamat tároló útvonala</value>
+        </data>
+        <data name="Prop_WorkflowTemplatePath_DisplayName" xml:space="preserve">
+          <value>Munkafolyamat sablon útvonal</value>
+        </data>
+        <data name="Prop_WorkflowType_Description" xml:space="preserve">
+          <value>Kérjük válasszon a lehetséges munkafolyamat típusokból! Ha üresen hagyja, akkor a portlet úgy fog viselkedni, mint egy egszerű tartalom létrehozó portlet.</value>
+        </data>
+        <data name="Prop_ConfirmContentPath_Description" xml:space="preserve">
+          <value>Adja meg azt a tartalmat, ami a munkafolyamat elindítása után a felhasználónak meg fog jelenni.</value>
+        </data>
+        <data name="Prop_StartOnCurrentContent_Description" xml:space="preserve">
+          <value>Ha ki van pipálva, akkor a munkafolyamat az aktuális tartalmon fog elindulni. Akkor használja ezt a funkciót, ha okos alkalmazás oldalt épít.</value>
+        </data>
+        <data name="Prop_WorkflowContainerPath_Description" xml:space="preserve">
+          <value>Az elindított munkafolyamatokat tároló mappa. Ha üresen hagyja, akkor az elindított munkafolyamatok az aktuális tartalm alá kerülnek.</value>
+        </data>
+        <data name="Prop_WorkflowTemplatePath_Description" xml:space="preserve">
+          <value>Munkafolyamat sablon, ami az összes alapadatot tartalmazza. Ha a munkafolyamat nem igényel ilyet, akkor maradjon üresen.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="StatusCodePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Status Code</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for setting status code on page after rendering.</value>
+        </data>
+        <data name="Prop_SubStatusCode_DisplayName" xml:space="preserve">
+          <value>Sub status code</value>
+        </data>
+        <data name="Prop_StatusCode_DisplayName" xml:space="preserve">
+          <value>Status code</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Státusz kód</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Státusz kód beállítását teszi lehetővé az oldalon.</value>
+        </data>
+        <data name="Prop_SubStatusCode_DisplayName" xml:space="preserve">
+          <value>Al státusz kód</value>
+        </data>
+        <data name="Prop_StatusCode_DisplayName" xml:space="preserve">
+          <value>Státuszkód</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SyncObjectFromADPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Sync Object from AD</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>You can synchronize Users, Groups, OrganizationalUnits from Active Directory providing an LDAP path with this portlet.</value>
+        </data>
+        <data name="Prop_UseImpersonate_DisplayName" xml:space="preserve">
+          <value>Use Windows auth impersonation</value>
+        </data>
+        <data name="Prop_UseImpersonate_Description" xml:space="preserve">
+          <value>When checked the currently loggod on Windows user account will be used to connect to Active Directory, otherwise the app pool user account. <div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Using the app pool user for sync exposes the AD to security threats!</i></div></value>
+        </data>
+        <data name="CheckButtonText" xml:space="preserve">
+          <value>Check</value>
+        </data>
+        <data name="SyncButtonText" xml:space="preserve">
+          <value>Sync object</value>
+        </data>
+        <data name="LdapLabel" xml:space="preserve">
+          <value>Enter LDAP path of object to be synced to portal <i>(e.g.: CN=MyGroup,OU=MyOrg,DC=Nativ,DC=local)</i>:</value>
+        </data>
+        <data name="SyncTreeNotFound" xml:space="preserve">
+          <value>Configured SyncTree could not be found for this path. Check the <a href='/Explore.html#/Root/System/SystemPlugins/Tools/DirectoryServices/AD2PortalConfig.xml' target='_blank'>configuration</a>!</value>
+        </data>
+        <data name="SyncTreeFound" xml:space="preserve">
+          <value>Configured synctree: ({0}, {1}) -> ({2}) (<a href='/Explore.html#/Root/System/SystemPlugins/Tools/DirectoryServices/AD2PortalConfig.xml' target='_blank'>configuration</a>)<br/>Target portal path: <a href='/Explore.html#{3}' target='_blank'>{3}</a><br/>{4}<br/>{5}</value>
+        </data>
+        <data name="TargetPathExists" xml:space="preserve">
+          <value>Target path exists</value>
+        </data>
+        <data name="TargetPathDoesNotExist" xml:space="preserve">
+          <value>Target path does not exist</value>
+        </data>
+        <data name="ParentPathExists" xml:space="preserve">
+          <value>Target parent path exists</value>
+        </data>
+        <data name="ParentPathDoesNotExist" xml:space="preserve">
+          <value>Target parent path does not exist</value>
+        </data>
+        <data name="Results" xml:space="preserve">
+          <value>Results</value>
+        </data>
+        <data name="IdentityImpersonationFailed" xml:space="preserve">
+          <value>Windows identity impersonation failed for current user.</value>
+        </data>
+        <data name="SyncError" xml:space="preserve">
+          <value>An error occurred during execution ({0}).<br/>See adsync log below and eventlog for details.<br/><br/></value>
+        </data>
+        <data name="CheckResults" xml:space="preserve">
+          <value><hr/>Check the results: <a href='/Explore.html#{0}' target='_blank'>{0}</a></value>
+        </data>
+        <data name="SyncErrorSecurity" xml:space="preserve">
+          <value>A security exception occurred ({0}).<br/>See eventlog for details.</value>
+        </data>
+        <data name="SyncErrorException" xml:space="preserve">
+          <value>An exception occurred ({0}).<br/>See eventlog for details.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>AD objektum szinkronizálás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Felhasználók, csoportok és szervezeti egységek szinkronizálására szolgál. LDAP útvonal megadásával használható.</value>
+        </data>
+        <data name="Prop_UseImpersonate_DisplayName" xml:space="preserve">
+          <value>Use Windows auth impersonation</value>
+        </data>
+        <data name="Prop_UseImpersonate_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a windows-ba aktuálisan bejelenkezett felhasználó nevében lesz felépítve az Active Directory kapcsolat, egyébként az app pool felhasználó nevében.<div class="ui-helper-clearfix sn-dialog-editportlet-warning"><img class="sn-icon sn-icon16 sn-floatleft" src="/Root/Global/images/icons/16/warning.png" /><i>Az app pool felhasználó használata az AD kapcsolatban biztonsági fenyegetést jelent!</i></div></value>
+        </data>
+        <data name="CheckButtonText" xml:space="preserve">
+          <value>Ellenőrzés</value>
+        </data>
+        <data name="SyncButtonText" xml:space="preserve">
+          <value>Szinkronizálás</value>
+        </data>
+        <data name="LdapLabel" xml:space="preserve">
+          <value>Adja meg a portálra szinkronizálni kívánt LDAP objetum útvonalát <i>(pl.: CN=CsoportNév,OU=SzervEgység,DC=Nativ,DC=local)</i>:</value>
+        </data>
+        <data name="SyncTreeNotFound" xml:space="preserve">
+          <value>Nincs konfiguráció ehhez a szinkronizációs fához. Ellenőrizze a <a href='/Explore.html#/Root/System/SystemPlugins/Tools/DirectoryServices/AD2PortalConfig.xml' target='_blank'>konfigurációt</a>!</value>
+        </data>
+        <data name="SyncTreeFound" xml:space="preserve">
+          <value>Szinkronizálandó fa: ({0}, {1}) -> ({2}) (<a href='/Explore.html#/Root/System/SystemPlugins/Tools/DirectoryServices/AD2PortalConfig.xml' target='_blank'>konfiguráció</a>)<br/>Cél portál tartalom: <a href='/Explore.html#{3}' target='_blank'>{3}</a><br/>{4}<br/>{5}</value>
+        </data>
+        <data name="TargetPathExists" xml:space="preserve">
+          <value>Cél tartalom létezik</value>
+        </data>
+        <data name="TargetPathDoesNotExist" xml:space="preserve">
+          <value>Cél tartalom nem létezik</value>
+        </data>
+        <data name="ParentPathExists" xml:space="preserve">
+          <value>Cél tartalom mappája létezik</value>
+        </data>
+        <data name="ParentPathDoesNotExist" xml:space="preserve">
+          <value>Cél tartalom mappája nem létezik</value>
+        </data>
+        <data name="Results" xml:space="preserve">
+          <value>Találatok</value>
+        </data>
+        <data name="IdentityImpersonationFailed" xml:space="preserve">
+          <value>Nem sikerült azonosítani a jelenlegi felhasználót.</value>
+        </data>
+        <data name="SyncError" xml:space="preserve">
+          <value>Hiba történt ({0}).<br/>Kérem ellenőrizze az AD szinkron logot és az eseménynaplót a részletekért.<br/><br/></value>
+        </data>
+        <data name="CheckResults" xml:space="preserve">
+          <value><hr/>Ellenőrizze a találatokat: <a href='/Explore.html#{0}' target='_blank'>{0}</a></value>
+        </data>
+        <data name="SyncErrorSecurity" xml:space="preserve">
+          <value>Jogosultsági hiba történt ({0}).<br/>Kérem ellenőrizze az eseménynaplót a részletekért.</value>
+        </data>
+        <data name="SyncErrorException" xml:space="preserve">
+          <value>Hiba történt ({0}).<br/>Kérem ellenőrizze az eseménynaplót a részletekért.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagAdminPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag admin</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for administrating tags</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címke adminisztrálás</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Címkék törlésére és szerkesztésére szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagCloudPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag cloud</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for rendering a tag cloud</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címkefelhő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy címkefelhő megjelenítésére használható</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagDeletePortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag delete</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for deleting tags (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címke törlés</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Címkék törlésére használható portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagEditPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag edit</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for editing tags (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címke szerkesztő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Címkék szerkesztésére használható portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag search</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for searching by tag (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címke kereső</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Címkék alapján kereső portlet.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagToBlackListPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Tag to blacklist</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Portlet for blacklisting tags (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Címke feketelista</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Bizonyos címkék feketelistára helyezésére szolgál.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>  
+  <ResourceClass name="UserControlPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>User control</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for rendering an ASP.NET User Control</value>
+        </data>
+        <data name="Prop_ControlPath_DisplayName" xml:space="preserve">
+          <value>User Control path</value>
+        </data>
+        <data name="Prop_ControlPath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the elements of the portlet.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Egyéni vezérlőelem megjelenítő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>ASP.NET kontrolok (user control) megjelenítésére szolgáló portlet.</value>
+        </data>
+        <data name="Prop_ControlPath_DisplayName" xml:space="preserve">
+          <value>Egyéni vezérlőelem útvonal</value>
+        </data>
+        <data name="Prop_ControlPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonala, ami a portlet felhasználói felületének elemeit adja.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="UserGourpManagerPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>User Group Manager</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet is for managing group memeberships of users</value>
+        </data>
+        <data name="Prop_GroupQuery_DisplayName" xml:space="preserve">
+          <value>Group Query</value>
+        </data>
+        <data name="Prop_GroupQuery_Description" xml:space="preserve">
+          <value>Query for determinig the groups, which the user can be assigned to.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Felhasználó csoport szerkesztő</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A felhasználó csoport tagságainak szerkesztésére szolgál.</value>
+        </data>
+        <data name="Prop_GroupQuery_DisplayName" xml:space="preserve">
+          <value>Csoport lekérdezés</value>
+        </data>
+        <data name="Prop_GroupQuery_Description" xml:space="preserve">
+          <value>egy lekérdezés, amely meghatározza a csoportokat, amelyekhez a felhasználó köthető.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="UserWallPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>User wall</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet displays a wall with posts and comments (context bound)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Felhasználói fal</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy felhasználói falat jelenít meg, rajta posztokkal és kommentekkel.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="VotingPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_VotingPortletMode_DisplayName" xml:space="preserve">
+          <value>Portlet mode</value>
+        </data>
+        <data name="Prop_EnableLifeSpan_DisplayName" xml:space="preserve">
+          <value>Enable life span</value>
+        </data>
+        <data name="Prop_ViewsOrder_DisplayName" xml:space="preserve">
+          <value>Order of the views</value>
+        </data>
+        <data name="Prop_FolderingEnabled_DisplayName" xml:space="preserve">
+          <value>Enable foldering</value>
+        </data>
+        <data name="Prop_DecimalsInResult_DisplayName" xml:space="preserve">
+          <value>Number of decimals in result</value>
+        </data>
+        <data name="Prop_VotingPortletMode_Description" xml:space="preserve">
+          <value>Select mode of the portlet.</value>
+        </data>
+        <data name="Prop_EnableLifeSpan_Description" xml:space="preserve">
+          <value>Defines whether the portlet should check ValidFrom and ValidTill properties.</value>
+        </data>
+        <data name="Prop_ViewsOrder_Description" xml:space="preserve">
+          <value>Select which view should be displayed first in VoteAndResult mode.</value>
+        </data>
+        <data name="Prop_FolderingEnabled_Description" xml:space="preserve">
+          <value>Enable to store Voting Items in folders.</value>
+        </data>
+        <data name="Prop_DecimalsInResult_Description" xml:space="preserve">
+          <value>Defines the number of decimals that the result percentages will contain (it must be between 0 and 5, otherwise it will be 0).</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Prop_VotingPortletMode_DisplayName" xml:space="preserve">
+          <value>Portlet mód</value>
+        </data>
+        <data name="Prop_EnableLifeSpan_DisplayName" xml:space="preserve">
+          <value>Élettartam figyelés engedélyezése</value>
+        </data>
+        <data name="Prop_ViewsOrder_DisplayName" xml:space="preserve">
+          <value>Nézet sorrend</value>
+        </data>
+        <data name="Prop_FolderingEnabled_DisplayName" xml:space="preserve">
+          <value>Csoportosítás engedélyezése</value>
+        </data>
+        <data name="Prop_DecimalsInResult_DisplayName" xml:space="preserve">
+          <value>Tizedesjegyek száma az eredményekben</value>
+        </data>
+        <data name="Prop_VotingPortletMode_Description" xml:space="preserve">
+          <value>A portlet működési módja.</value>
+        </data>
+        <data name="Prop_EnableLifeSpan_Description" xml:space="preserve">
+          <value>Ha be van kapcsolva, akkor a portlet figyeli a tartalmak engedélyezett élettartamát.</value>
+        </data>
+        <data name="Prop_ViewsOrder_Description" xml:space="preserve">
+          <value>Az első nézet kiválasztása VoteAndResult módban.</value>
+        </data>
+        <data name="Prop_FolderingEnabled_Description" xml:space="preserve">
+          <value>A szavazatelemek mappákba csoportosítását engedélyezi.</value>
+        </data>
+        <data name="Prop_DecimalsInResult_Description" xml:space="preserve">
+          <value>Az eredmények pontosságát adhatja meg 0-5 között. Alapérteémezett: 01.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="VotingQuestionAddNewPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Voting question creator</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet creates a new question (if there is no other one) for the given voting (context bound)</value>
+        </data>
+        <data name="Prop_SecondQuestionContentViewPath_DisplayName" xml:space="preserve">
+          <value>Second question contentview path</value>
+        </data>
+        <data name="Prop_SecondQuestionContentViewPath_Description" xml:space="preserve">
+          <value>Path of the contentview which renders a message if voting already has a question.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Szavazás mező létrehozó</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy szavazáshoz vehet fel kérdést a segítségével.</value>
+        </data>
+        <data name="Prop_SecondQuestionContentViewPath_DisplayName" xml:space="preserve">
+          <value>Létező kérdés tartalom-megjelenítő</value>
+        </data>
+        <data name="Prop_SecondQuestionContentViewPath_Description" xml:space="preserve">
+          <value>Annak a megjelenítőnek az útvonala, amely akkor jelenik meg, ha a szavazáshoz már van kérdés.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="WallPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workspace wall</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>This portlet displays a wall with posts and comments (context bound)</value>
+        </data>
+        <data name="Prop_PageSize_DisplayName" xml:space="preserve">
+          <value>Page size</value>
+        </data>
+        <data name="Prop_PageSize_Description" xml:space="preserve">
+          <value>Number of posts to show.</value>
+        </data>
+        <data name="Prop_ControlPath_DisplayName" xml:space="preserve">
+          <value>User Control path</value>
+        </data>
+        <data name="Prop_ControlPath_Description" xml:space="preserve">
+          <value>Path of the .ascx user control which provides the elements of the portlet.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Munkaterület fal</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Egy munkaterület falát jeleníti meg, rajta posztokkal és kommentekkel.</value>
+        </data>
+        <data name="Prop_PageSize_DisplayName" xml:space="preserve">
+          <value>Oldal méret</value>
+        </data>
+        <data name="Prop_PageSize_Description" xml:space="preserve">
+          <value>Megjelenített posztok száma.</value>
+        </data>
+        <data name="Prop_ControlPath_DisplayName" xml:space="preserve">
+          <value>Egyéni vezérlőelem útvonal</value>
+        </data>
+        <data name="Prop_ControlPath_Description" xml:space="preserve">
+          <value>Egy .ascx user control útvonala, ami a portlet felhasználói felületének elemeit adja.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="WorkspaceAggregatedKPIPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workspace Aggregated KPI</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for displaying list of workspaces and Key Performance Indicators</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>Aggregated KPI view</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>Select an aggregated KPI view for rendering portlet output.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>KPI gyűjtő munkaterületekhez</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Munkaterületek és KPI-k megjelenítésére használható portlet.</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>Összesített KPI nézet</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>Összesített KPI nézet útvonala, amely megjeleníti a portlet kimenetét.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="WorkspaceKPIPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workspace KPI</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for presenting a KPI value with a selected KPI View</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>KPI View</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>The .ascx KPI View to be presented. Views are defined in the KPI/WorkspaceKPI folder under /Root/Global/renderers.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>KPI munkaterülethez</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Munkaterülethez tartozó KPI megjelenítésére használható portlet.</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>KPI nézet</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>A KPI (.ascx) megjelenítő útvonala. Ezek a nézetek a KPI/WorkspaceKPI mappában vannak a /Root/Global/renderers alatt.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="WorkspaceSummaryPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>Workspace Summary</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>A portlet for displaying list of workspaces and Key Performance Indicators</value>
+        </data>
+        <data name="Prop_DaysMediumWarning_DisplayName" xml:space="preserve">
+          <value>Medium warning days</value>
+        </data>
+        <data name="Prop_DaysHighWarning_DisplayName" xml:space="preserve">
+          <value>Strong warning days</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>Summary KPI view</value>
+        </data>
+        <data name="Prop_DaysMediumWarning_Description" xml:space="preserve">
+          <value>If a workspace has not changed for the given days, the indicators will show a medium warning.</value>
+        </data>
+        <data name="Prop_DaysHighWarning_Description" xml:space="preserve">
+          <value>If a workspace has not changed for the given days, the indicators will show a strong warning (please give a higher number than for medium warning).</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>Select a summary KPI view for rendering portlet output.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="PortletDisplayName" xml:space="preserve">
+          <value>KPI információk munkaterületekhez</value>
+        </data>
+        <data name="PortletDescription" xml:space="preserve">
+          <value>Munkaterületek és KPI-k megjelenítésére használható portlet.</value>
+        </data>
+        <data name="Prop_DaysMediumWarning_DisplayName" xml:space="preserve">
+          <value>Közepes figyelmeztetés napokban</value>
+        </data>
+        <data name="Prop_DaysHighWarning_DisplayName" xml:space="preserve">
+          <value>Erős figyelmeztetés napokban</value>
+        </data>
+        <data name="Prop_ViewName_DisplayName" xml:space="preserve">
+          <value>Összesítő KPI nézet</value>
+        </data>
+        <data name="Prop_DaysMediumWarning_Description" xml:space="preserve">
+          <value>Ha a munkaterület ennyi napig nem változik, az indikátor közepes erősségű figyelmeztetést ad.</value>
+        </data>
+        <data name="Prop_DaysHighWarning_Description" xml:space="preserve">
+          <value>Ha a munkaterület ennyi napig nem változik, az indikátor nagy erősségű figyelmeztetést ad (ehhez célszerűen nagyobb számot kell beírni, mint a közepes esetben).</value>
+        </data>
+        <data name="Prop_ViewName_Description" xml:space="preserve">
+          <value>Az összesítő KPI nézet útvonala, amely megjeleníti a portlet kimenetét.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="PortletTitles">
+    <Languages>
+      <Language cultureName="en">
+        <data name="ApproveTask" xml:space="preserve">
+          <value>Approve task</value>
+        </data>
+        <data name="UnpublishedPosts" xml:space="preserve">
+          <value>Unpublished posts</value>
+        </data>
+        <data name="TagCloud" xml:space="preserve">
+          <value>Tag cloud</value>
+        </data>
+        <data name="Archive" xml:space="preserve">
+          <value>Archive</value>
+        </data>
+        <data name="MainMenu" xml:space="preserve">
+          <value>Main Menu</value>
+        </data>
+        <data name="Comments" xml:space="preserve">
+          <value>Comments</value>
+        </data>
+        <data name="SearchPostByTags" xml:space="preserve">
+          <value>Search post by tags</value>
+        </data>
+        <data name="Features" xml:space="preserve">
+          <value>Features</value>
+        </data>
+        <data name="Manage" xml:space="preserve">
+          <value>Manage {0}</value>
+        </data>
+        <data name="AssignWorkflowToAList" xml:space="preserve">
+          <value>Assign workflow to list</value>
+        </data>
+        <data name="SettingsFor" xml:space="preserve">
+          <value>Settings for {0}</value>
+        </data>
+        <data name="Start" xml:space="preserve">
+          <value>Start {0}</value>
+        </data>
+        <data name="ContentView" xml:space="preserve">
+          <value>Content view</value>
+        </data>
+        <data name="Delete" xml:space="preserve">
+          <value>Delete {0}</value>
+        </data>
+        <data name="DeleteContents" xml:space="preserve">
+          <value>Delete content</value>
+        </data>
+        <data name="Items" xml:space="preserve">
+          <value>Items</value>
+        </data>
+        <data name="AllLFields" xml:space="preserve">
+          <value>All fields</value>
+        </data>
+        <data name="Approval" xml:space="preserve">
+          <value>Approval</value>
+        </data>
+        <data name="EditBinary" xml:space="preserve">
+          <value>Edit binary</value>
+        </data>
+        <data name="ImportFromCSV" xml:space="preserve">
+          <value>Import from CSV to {0}</value>
+        </data>
+        <data name="UploadDocument" xml:space="preserve">
+          <value>Upload document</value>
+        </data>
+        <data name="AllActions" xml:space="preserve">
+          <value>All actions for {0}</value>
+        </data>
+        <data name="Applications" xml:space="preserve">
+          <value>Applications</value>
+        </data>
+        <data name="Approval" xml:space="preserve">
+          <value>Applications</value>
+        </data>
+        <data name="CheckOut" xml:space="preserve">
+          <value>Checkout</value>
+        </data>
+        <data name="ContentCollectionToBeLinked" xml:space="preserve">
+          <value>Content Collection To Be Linked</value>
+        </data>
+        <data name="ContentLinker" xml:space="preserve">
+          <value>Content linker</value>
+        </data>
+        <data name="CopyContents" xml:space="preserve">
+          <value>Copy content</value>
+        </data>
+        <data name="Details" xml:space="preserve">
+          <value>Details of {0}</value>
+        </data>
+        <data name="SearchResultUnder" xml:space="preserve">
+          <value>Search result under {0}</value>
+        </data>
+        <data name="ForceUndoCheckout" xml:space="preserve">
+          <value>Force undo checkout</value>
+        </data>
+        <data name="MoveField" xml:space="preserve">
+          <value>Move field</value>
+        </data>
+        <data name="MoveContents" xml:space="preserve">
+          <value>Move content</value>
+        </data>
+        <data name="Publish" xml:space="preserve">
+          <value>Publish</value>
+        </data>
+        <data name="Rename" xml:space="preserve">
+          <value>Rename {0}</value>
+        </data>
+        <data name="RestoreVersion" xml:space="preserve">
+          <value>Restore version</value>
+        </data>
+        <data name="Search" xml:space="preserve">
+          <value>Search</value>
+        </data>
+        <data name="CommonTagSearch" xml:space="preserve">
+          <value>Common Tag Search</value>
+        </data>
+        <data name="UndoCheckout" xml:space="preserve">
+          <value>Undo checkout</value>
+        </data>
+        <data name="Unregister" xml:space="preserve">
+          <value>Unregister</value>
+        </data>
+        <data name="VersionHistory" xml:space="preserve">
+          <value>Version history of {0}</value>
+        </data>
+        <data name="WorkflowsFor" xml:space="preserve">
+          <value>Workflows for {0}</value>
+        </data>
+        <data name="Subpages" xml:space="preserve">
+          <value>Subpages</value>
+        </data>
+        <data name="Portlets" xml:space="preserve">
+          <value>Portlets</value>
+        </data>
+        <data name="Survey" xml:space="preserve">
+          <value>Survey</value>
+        </data>
+        <data name="ManageQuestions" xml:space="preserve">
+          <value>Manage Questions</value>
+        </data>
+        <data name="SurveyBrowseView" xml:space="preserve">
+          <value>Survey browse view</value>
+        </data>
+        <data name="SurveyEvaluateView" xml:space="preserve">
+          <value>Survey evaluate view</value>
+        </data>
+        <data name="EditTag" xml:space="preserve">
+          <value>Edit Tag</value>
+        </data>
+        <data name="RootConsole" xml:space="preserve">
+          <value>Root Console</value>
+        </data>
+        <data name="EditProfile" xml:space="preserve">
+          <value>Edit profile</value>
+        </data>
+        <data name="ManageGroupMemberShip" xml:space="preserve">
+          <value>Manage group memberships of {0}</value>
+        </data>
+        <data name="NotificationList" xml:space="preserve">
+          <value>Notification list</value>
+        </data>
+        <data name="InfoBox" xml:space="preserve">
+          <value>Info Box</value>
+        </data>
+        <data name="EditBinary" xml:space="preserve">
+          <value>Edit binary</value>
+        </data>
+        <data name="SetAsDefault" xml:space="preserve">
+          <value>Set as default</value>
+        </data>
+        <data name="EditQuestion" xml:space="preserve">
+          <value>Edit question</value>
+        </data>
+        <data name="EditContent" xml:space="preserve">
+          <value>Edit content: {0}</value>
+        </data>
+        <data name="WikiSearch" xml:space="preserve">
+          <value>Wiki Search</value>
+        </data>
+        <data name="Profile" xml:space="preserve">
+          <value>Profile</value>
+        </data>
+        <data name="ReferencingArticles" xml:space="preserve">
+          <value>Referencing articles</value>
+        </data>
+        <data name="Abort" xml:space="preserve">
+          <value>Abort {0}</value>
+        </data>
+        <data name="AssociatedWorkflows" xml:space="preserve">
+          <value>Associated Workflows</value>
+        </data>
+        <data name="EditSurveyTemplates" xml:space="preserve">
+          <value>Edit Templates</value>
+        </data>
+        <data name="EditUserProfile" xml:space="preserve">
+        <value>Edit user profile</value>
+        </data>
+        <data name="UpdateBlackList" xml:space="preserve">
+          <value>Update Blacklist</value>
+        </data>
+        <data name="SynchronizeObjectFromActiveDirectory" xml:space="preserve">
+          <value>Synchronize Object from Active Directory</value>
+        </data>
+        <data name="SynchronizePortlets" xml:space="preserve">
+          <value>Synchronize portlets</value>
+        </data>
+        <data name="SearchUsers" xml:space="preserve">
+          <value>Search users</value>
+        </data>
+        <data name="UserProfile" xml:space="preserve">
+          <value>User profile</value>
+        </data>
+        <data name="UserMenu" xml:space="preserve">
+          <value>User menu</value>
+        </data>
+        <data name="Links" xml:space="preserve">
+          <value>Links</value>
+        </data>
+        <data name="MyWall" xml:space="preserve">
+          <value>My wall</value>
+        </data>
+        <data name="MyWorkspaces" xml:space="preserve">
+          <value>My workspaces</value>
+        </data>
+        <data name="Calendar" xml:space="preserve">
+          <value>Calendar</value>
+        </data>
+        <data name="RecentDocuments" xml:space="preserve">
+          <value>Recent documents</value>
+        </data>
+        <data name="Attachments" xml:space="preserve">
+          <value>Attachments</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Members</value>
+        </data>
+        <data name="ExpenseClaimItems" xml:space="preserve">
+          <value>Expense claim items</value>
+        </data>
+        <data name="Create" xml:space="preserve">
+          <value>Create</value>
+        </data>
+        <data name="DetailsOf" xml:space="preserve">
+          <value>Details of {0}</value>
+        </data>
+        <data name="ContentManagementFeatures" xml:space="preserve">
+          <value>Content Management Features</value>
+        </data>
+        <data name="MiscellaneousFeatures" xml:space="preserve">
+          <value>Miscellaneous Features</value>
+        </data>
+        <data name="Top5Articles" xml:space="preserve">
+          <value>Top 5 articles</value>
+        </data>
+        <data name="InformationAboutThisPage" xml:space="preserve">
+          <value>Information about this page</value>
+        </data>
+        <data name="LikeButtonExampleStandard" xml:space="preserve">
+          <value>Like button example - Standarde</value>
+        </data>
+        <data name="ButtonAndCount" xml:space="preserve">
+          <value>Button and count</value>
+        </data>
+        <data name="FormPortletDemo" xml:space="preserve">
+          <value>Form portlet demo</value>
+        </data>
+        <data name="SubmittedForm" xml:space="preserve">
+          <value>Submitted form</value>
+        </data>
+        <data name="ImageLibrary" xml:space="preserve">
+          <value>Image library</value>
+        </data>
+        <data name="NativeMenuWithJsAndCss" xml:space="preserve">
+          <value>Native menu rendering with custom CSS and Javascript</value>
+        </data>
+        <data name="AdditionalInfo" xml:space="preserve">
+          <value>Additional info</value>
+        </data>
+        <data name="XsltMenuWithCss" xml:space="preserve">
+          <value>Xslt menu rendering with custom CSS and Javascript</value>
+        </data>
+        <data name="OrganizationChart" xml:space="preserve">
+          <value>Organization Chart</value>
+        </data>
+        <data name="SlideShareCodeExample" xml:space="preserve">
+          <value>SlideShare code example</value>
+        </data>
+        <data name="ListOfSurveys" xml:space="preserve">
+          <value>List of surveys</value>
+        </data>
+        <data name="VotingPortletCheckBoxField" xml:space="preserve">
+          <value>Voting Portlet - CheckBox field</value>
+        </data>
+        <data name="VotingPortletDropdownField" xml:space="preserve">
+          <value>Voting Portlet - Dropdown field</value>
+        </data>
+        <data name="VotingPortletRadiobuttonField" xml:space="preserve">
+          <value>Voting Portlet - Radiobutton field</value>
+        </data>
+        <data name="VotingPortletYesNobuttonField" xml:space="preserve">
+          <value>Voting Portlet - Yes/No field</value>
+        </data>
+        <data name="LicenseInformation" xml:space="preserve">
+          <value>License information</value>
+        </data>
+        <data name="Welcome" xml:space="preserve">
+          <value>Welcome!</value>
+        </data>
+        <data name="ArticlesInSection" xml:space="preserve">
+          <value>Articles in the {0} section</value>
+        </data>
+        <data name="Highlights" xml:space="preserve">
+          <value>Highlights</value>
+        </data>
+        <data name="Top5LatestArticles" xml:space="preserve">
+          <value>Top 5 latest articles</value>
+        </data>
+        <data name="ContactUs" xml:space="preserve">
+          <value>Contact us</value>
+        </data>
+        <data name="Registration" xml:space="preserve">
+          <value>Registration</value>
+        </data>
+        <data name="WorkspaceSearch" xml:space="preserve">
+          <value>Workspace search</value>
+        </data>
+        <data name="SalesKPIFor2008" xml:space="preserve">
+          <value>Sales KPI for 2008</value>
+        </data>
+        <data name="SalesKPIByState" xml:space="preserve">
+          <value>Sales KPI by State</value>
+        </data>
+        <data name="SalesInTime" xml:space="preserve">
+          <value>Sales in Time</value>
+        </data>
+        <data name="RecentMemos" xml:space="preserve">
+          <value>Recent memos</value>
+        </data>
+        <data name="Deadlines" xml:space="preserve">
+          <value>Deadlines</value>
+        </data>
+        <data name="ToApprove" xml:space="preserve">
+          <value>{0} to Approve</value>
+        </data>
+        <data name="Completed" xml:space="preserve">
+          <value>Completed {0}</value>
+        </data>
+        <data name="Draft" xml:space="preserve">
+          <value>Draft {0}</value>
+        </data>
+        <data name="Pending" xml:space="preserve">
+          <value>Pending {0}</value>
+        </data>
+        <data name="ApprovedWhat" xml:space="preserve">
+          <value>Approved {0}</value>
+        </data>
+        <data name="ProjectDetails" xml:space="preserve">
+          <value>Project details</value>
+        </data>
+        <data name="Wall" xml:space="preserve">
+          <value>Wall</value>
+        </data>
+        <data name="DeadlinePrognosis" xml:space="preserve">
+          <value>Deadline prognosis</value>
+        </data>
+        <data name="RecentChanges" xml:space="preserve">
+          <value>Recent changes</value>
+        </data>
+        <data name="EditPermissions" xml:space="preserve">
+          <value>Edit permissions</value>
+        </data>
+        <data name="TrashBin" xml:space="preserve">
+          <value>Trash bin</value>
+        </data>
+        <data name="EmptyTrashBin" xml:space="preserve">
+          <value>Empty Trash bin</value>
+        </data>
+        <data name="TrashBag" xml:space="preserve">
+          <value>Trash bag</value>
+        </data>
+        <data name="Restore" xml:space="preserve">
+          <value>Restore</value>
+        </data>
+        <data name="Login" xml:space="preserve">
+          <value>Login</value>
+        </data>
+        <data name="AllFields" xml:space="preserve">
+          <value>All fields</value>
+        </data>
+        <data name="CreateNewForumEntry" xml:space="preserve">
+          <value>Create new forum entry</value>
+        </data>
+        <data name="CreateNewForumTopic" xml:space="preserve">
+          <value>Create new forum topic</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="ApproveTask" xml:space="preserve">
+          <value>Feladat jóváhagyása</value>
+        </data>
+        <data name="UnpublishedPosts" xml:space="preserve">
+          <value>Nem publikus posztok</value>
+        </data>
+        <data name="TagCloud" xml:space="preserve">
+          <value>Címkefelhő</value>
+        </data>
+        <data name="Archive" xml:space="preserve">
+          <value>Archívum</value>
+        </data>
+        <data name="MainMenu" xml:space="preserve">
+          <value>Főmenü</value>
+        </data>
+        <data name="Comments" xml:space="preserve">
+          <value>Kommentek</value>
+        </data>
+        <data name="SearchPostByTags" xml:space="preserve">
+          <value>Keresés a címkék között</value>
+        </data>
+        <data name="Features" xml:space="preserve">
+          <value>Funkciók</value>
+        </data>
+        <data name="Manage" xml:space="preserve">
+          <value>{0} adminisztrálása</value>
+        </data>
+        <data name="AssignWorkflowToAList" xml:space="preserve">
+          <value>Munkafolyamat rendelése a listához</value>
+        </data>
+        <data name="SettingsFor" xml:space="preserve">
+          <value>{0} beállításai</value>
+        </data>
+        <data name="Start" xml:space="preserve">
+          <value>{0} indítása</value>
+        </data>
+        <data name="ContentView" xml:space="preserve">
+          <value>Tartalom nézet</value>
+        </data>
+        <data name="Delete" xml:space="preserve">
+          <value>{0} törlése</value>
+        </data>
+        <data name="DeleteContents" xml:space="preserve">
+          <value>Tartalmak törlése</value>
+        </data>
+        <data name="Items" xml:space="preserve">
+          <value>Elemek</value>
+        </data>
+        <data name="AllLFields" xml:space="preserve">
+          <value>Minden mező</value>
+        </data>
+        <data name="Approval" xml:space="preserve">
+          <value>Jóváhagyás</value>
+        </data>
+        <data name="EditBinary" xml:space="preserve">
+          <value>Bináris szerkesztése</value>
+        </data>
+        <data name="ImportFromCSV" xml:space="preserve">
+          <value>CSV fájl exportálása {0}-ból</value>
+        </data>
+        <data name="UploadDocument" xml:space="preserve">
+          <value>Dokumentum feltöltése</value>
+        </data>
+        <data name="AllActions" xml:space="preserve">
+          <value>{0} minden művelete</value>
+        </data>
+        <data name="Applications" xml:space="preserve">
+          <value>Alkalmazások</value>
+        </data>
+        <data name="CheckOut" xml:space="preserve">
+          <value>Kivesz</value>
+        </data>
+        <data name="ContentCollectionToBeLinked" xml:space="preserve">
+          <value>Hivatkozott tartalom gyűjtemény</value>
+        </data>
+        <data name="ContentLinker" xml:space="preserve">
+          <value>Tartalom hivatkozás</value>
+        </data>
+        <data name="CopyContents" xml:space="preserve">
+          <value>Tartalom másolása</value>
+        </data>
+        <data name="Details" xml:space="preserve">
+          <value>{0} részletei</value>
+        </data>
+        <data name="SearchResultUnder" xml:space="preserve">
+          <value>Találatok {0} alatt</value>
+        </data>
+        <data name="ForceUndoCheckout" xml:space="preserve">
+          <value>Kényszerített visszavonás</value>
+        </data>
+        <data name="MoveField" xml:space="preserve">
+          <value>Mező mozgatása</value>
+        </data>
+        <data name="MoveContents" xml:space="preserve">
+          <value>Tartalom mozgatása</value>
+        </data>
+        <data name="Publish" xml:space="preserve">
+          <value>Publikálás</value>
+        </data>
+        <data name="Rename" xml:space="preserve">
+          <value>{0} átnevezése</value>
+        </data>
+        <data name="RestoreVersion" xml:space="preserve">
+          <value>Verzió visszaállítása</value>
+        </data>
+        <data name="Search" xml:space="preserve">
+          <value>Keresés</value>
+        </data>
+        <data name="CommonTagSearch" xml:space="preserve">
+          <value>Keresés az általános címkék között</value>
+        </data>
+        <data name="UndoCheckout" xml:space="preserve">
+          <value>Kivétel visszavonása</value>
+        </data>
+        <data name="Unregister" xml:space="preserve">
+          <value>Leiratkozás</value>
+        </data>
+        <data name="VersionHistory" xml:space="preserve">
+          <value>{0} verziói</value>
+        </data>
+        <data name="WorkflowsFor" xml:space="preserve">
+          <value>{0} munkafolyamatai</value>
+        </data>
+        <data name="Subpages" xml:space="preserve">
+          <value>Aloldalak</value>
+        </data>
+        <data name="Portlets" xml:space="preserve">
+          <value>Portletek</value>
+        </data>
+        <data name="Survey" xml:space="preserve">
+          <value>Kérdőív</value>
+        </data>
+        <data name="ManageQuestions" xml:space="preserve">
+          <value>Kérdések adminisztrálása</value>
+        </data>
+        <data name="SurveyBrowseView" xml:space="preserve">
+          <value>Kérdőív megtekintés nézet</value>
+        </data>
+        <data name="SurveyEvaluateView" xml:space="preserve">
+          <value>Kérdőív értékelő nézet</value>
+        </data>
+        <data name="EditTag" xml:space="preserve">
+          <value>Címke szerkesztése</value>
+        </data>
+        <data name="RootConsole" xml:space="preserve">
+          <value>Vezérlőpult</value>
+        </data>
+        <data name="EditProfile" xml:space="preserve">
+          <value>Profil szerkesztése</value>
+        </data>
+        <data name="ManageGroupMemberShip" xml:space="preserve">
+          <value>{0} csoport tagságainak adminisztrálása</value>
+        </data>
+        <data name="NotificationList" xml:space="preserve">
+          <value>Értesítés lista</value>
+        </data>
+        <data name="InfoBox" xml:space="preserve">
+          <value>Info doboz</value>
+        </data>
+        <data name="EditBinary" xml:space="preserve">
+          <value>Bináris szerkesztése</value>
+        </data>
+        <data name="SetAsDefault" xml:space="preserve">
+          <value>Alapértelmezetté tesz</value>
+        </data>
+        <data name="EditQuestion" xml:space="preserve">
+          <value>Kérdés szerkesztése</value>
+        </data>
+        <data name="EditContent" xml:space="preserve">
+          <value>{0} szerkesztése</value>
+        </data>
+        <data name="WikiSearch" xml:space="preserve">
+          <value>Keresés a wikiben</value>
+        </data>
+        <data name="Profile" xml:space="preserve">
+          <value>Profil</value>
+        </data>
+        <data name="ReferencingArticles" xml:space="preserve">
+          <value>Kapcsolódó cikkek</value>
+        </data>
+        <data name="Abort" xml:space="preserve">
+          <value>{0} megszakítása</value>
+        </data>
+        <data name="AssociatedWorkflows" xml:space="preserve">
+          <value>Hozzárendelt munkafolyamatok</value>
+        </data>
+        <data name="EditSurveyTemplates" xml:space="preserve">
+          <value>Sablonok szerkesztése</value>
+        </data>
+        <data name="UpdateBlackList" xml:space="preserve">
+          <value>Feketelista frissítése</value>
+        </data>
+        <data name="EditUserProfile" xml:space="preserve">
+          <value>Felhasználói profil frissítése</value>
+        </data>
+        <data name="SynchronizeObjectFromActiveDirectory" xml:space="preserve">
+          <value>Felhasználók szinkronizálása Active Directory-ból</value>
+        </data>
+        <data name="SynchronizePortlets" xml:space="preserve">
+          <value>Portletek szinkronizálása</value>
+        </data>
+        <data name="SearchUsers" xml:space="preserve">
+          <value>Felhasználók keresése</value>
+        </data>
+        <data name="UserProfile" xml:space="preserve">
+          <value>Felhasználói profil</value>
+        </data>
+        <data name="UserMenu" xml:space="preserve">
+          <value>Felhasználói menü</value>
+        </data>
+        <data name="Links" xml:space="preserve">
+          <value>Hivatkozások</value>
+        </data>
+        <data name="MyWall" xml:space="preserve">
+          <value>Falam</value>
+        </data>
+        <data name="MyWorkspaces" xml:space="preserve">
+          <value>Munkaterületeim</value>
+        </data>
+        <data name="Calendar" xml:space="preserve">
+          <value>Naptár</value>
+        </data>
+        <data name="RecentDocuments" xml:space="preserve">
+          <value>Legutolsó dokumentumok</value>
+        </data>
+        <data name="Attachments" xml:space="preserve">
+          <value>Csatolmányok</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Tagok</value>
+        </data>
+        <data name="ExpenseClaimItems" xml:space="preserve">
+          <value>Költségelszámolások</value>
+        </data>
+        <data name="Create" xml:space="preserve">
+          <value>Létrehozás</value>
+        </data>
+        <data name="DetailsOf" xml:space="preserve">
+          <value>{0} részletei</value>
+        </data>
+        <data name="ContentManagementFeatures" xml:space="preserve">
+          <value>Tartalom adminisztrációs funkciók</value>
+        </data>
+        <data name="MiscellaneousFeatures" xml:space="preserve">
+          <value>Egyénb funkciók</value>
+        </data>
+        <data name="Top5Articles" xml:space="preserve">
+          <value>Öt legfrissebb cikk</value>
+        </data>
+        <data name="InformationAboutThisPage" xml:space="preserve">
+          <value>Információk</value>
+        </data>
+        <data name="LikeButtonExampleStandard" xml:space="preserve">
+          <value>Like gomb példa - Hagyományos</value>
+        </data>
+        <data name="ButtonAndCount" xml:space="preserve">
+          <value>Gomb és érték</value>
+        </data>
+        <data name="FormPortletDemo" xml:space="preserve">
+          <value>Űrlap portlet példa</value>
+        </data>
+        <data name="SubmittedForms" xml:space="preserve">
+          <value>Beküldött űrlapok</value>
+        </data>
+        <data name="ImageLibrary" xml:space="preserve">
+          <value>Galéria</value>
+        </data>
+        <data name="NativeMenuWithJsAndCss" xml:space="preserve">
+          <value>Alap menü saját stílus lappal és szkriptekkel</value>
+        </data>
+        <data name="AdditionalInfo" xml:space="preserve">
+          <value>További információk</value>
+        </data>
+        <data name="XsltMenuWithCss" xml:space="preserve">
+          <value>Xslt menu saját stílus lappal és szkriptekkel</value>
+        </data>
+        <data name="OrganizationChart" xml:space="preserve">
+          <value>Szervezeti ábra</value>
+        </data>
+        <data name="SlideShareCodeExample" xml:space="preserve">
+          <value>Tartalom lapozó példa</value>
+        </data>
+        <data name="ListOfSurveys" xml:space="preserve">
+          <value>Kérdőívek listája</value>
+        </data>
+        <data name="VotingPortletCheckBoxField" xml:space="preserve">
+          <value>Szavazás portlet - jelölőnégyzet mező</value>
+        </data>
+        <data name="VotingPortletDropdownField" xml:space="preserve">
+          <value>Szavazás portlet - lenyíló mező</value>
+        </data>
+        <data name="VotingPortletRadiobuttonField" xml:space="preserve">
+          <value>Szavazás portlet - rádiógomb mező</value>
+        </data>
+        <data name="VotingPortletYesNobuttonField" xml:space="preserve">
+          <value>Szavazás portlet - Igen/Nem mező</value>
+        </data>
+        <data name="LicenseInformation" xml:space="preserve">
+          <value>Felhasználási feltételek</value>
+        </data>
+        <data name="Welcome" xml:space="preserve">
+          <value>Üdvözöljük!</value>
+        </data>
+        <data name="ArticlesInSection" xml:space="preserve">
+          <value>Cikkek a {0} rovatban</value>
+        </data>
+        <data name="Highlights" xml:space="preserve">
+          <value>Kiemeltek</value>
+        </data>
+        <data name="Top5LatestArticles" xml:space="preserve">
+          <value>Öt legfrissebb cikk</value>
+        </data>
+        <data name="ContactUs" xml:space="preserve">
+          <value>Vegye fel velünk a kapcsolatot</value>
+        </data>
+        <data name="Registration" xml:space="preserve">
+          <value>Regisztráció</value>
+        </data>
+        <data name="WorkspaceSearch" xml:space="preserve">
+          <value>Munkaterület keresés</value>
+        </data>
+        <data name="SalesKPIFor2008" xml:space="preserve">
+          <value>Értékesítési KPI 2008</value>
+        </data>
+        <data name="SalesKPIByState" xml:space="preserve">
+          <value>Értékesítési KPI államok szerint</value>
+        </data>
+        <data name="SalesInTime" xml:space="preserve">
+          <value>Értékesítések éves bontásban</value>
+        </data>
+        <data name="RecentMemos" xml:space="preserve">
+          <value>Legutolsó emlékeztetők</value>
+        </data>
+        <data name="Deadlines" xml:space="preserve">
+          <value>Határidők</value>
+        </data>
+        <data name="ToApprove" xml:space="preserve">
+          <value>Jóváhagyandó: {0}</value>
+        </data>
+        <data name="Completed" xml:space="preserve">
+          <value>Kész: {0}</value>
+        </data>
+        <data name="Draft" xml:space="preserve">
+          <value>Vázlat: {0}</value>
+        </data>
+        <data name="Pending" xml:space="preserve">
+          <value>Függőben: {0}</value>
+        </data>
+        <data name="ApprovedWhat" xml:space="preserve">
+          <value>Jóváhagyva: {0}</value>
+        </data>
+        <data name="ProjectDetails" xml:space="preserve">
+          <value>Projekt részletei</value>
+        </data>
+        <data name="Wall" xml:space="preserve">
+          <value>Fal</value>
+        </data>
+        <data name="DeadlinePrognosis" xml:space="preserve">
+          <value>Határidő előrejelzés</value>
+        </data>
+        <data name="RecentChanges" xml:space="preserve">
+          <value>Legutóbbi változások</value>
+        </data>
+        <data name="EditPermissions" xml:space="preserve">
+          <value>Jogosultságok beállítása</value>
+        </data>
+        <data name="TrashBin" xml:space="preserve">
+          <value>Kuka</value>
+        </data>
+        <data name="EmptyTrashBin" xml:space="preserve">
+          <value>Kuka kiürítése</value>
+        </data>
+        <data name="TrashBag" xml:space="preserve">
+          <value>Törlendő elemek</value>
+        </data>
+        <data name="Restore" xml:space="preserve">
+          <value>Visszaállítás</value>
+        </data>
+        <data name="Login" xml:space="preserve">
+          <value>Bejelentkezés</value>
+        </data>
+        <data name="AllFields" xml:space="preserve">
+          <value>Összes mező</value>
+        </data>
+        <data name="CreateNewForumEntry" xml:space="preserve">
+          <value>Új fórum bejegyzés létrehozása</value>
+        </data>
+        <data name="CreateNewForumTopic" xml:space="preserve">
+          <value>Új fórum topik létrehozása</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

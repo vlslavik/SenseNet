@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>WebContentDemo</ContentType>
+  <ContentName>emailsent</ContentName>
+  <Fields>
+    <Subtitle><![CDATA[]]></Subtitle>
+    <RelatedImage />
+    <Header><![CDATA[<p>Thank you, you will receive a confirmation email soon that will help you change your password.</p>]]></Header>
+    <Body><![CDATA[]]></Body>
+    <Details><a href="" target="" title=""></a></Details>
+    <Language>English</Language>
+    <Keywords><![CDATA[]]></Keywords>
+    <Author><![CDATA[]]></Author>
+    <ReviewDate>0001-01-01T00:00:00</ReviewDate>
+    <ArchiveDate>0001-01-01T00:00:00</ArchiveDate>
+    <DisplayName><![CDATA[emailsent]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

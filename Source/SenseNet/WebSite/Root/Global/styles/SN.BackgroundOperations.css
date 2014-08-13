@@ -1,0 +1,348 @@
+﻿@font-face {
+    font-family: 'Open Sans';
+    src: url('/Root/Global/fonts/OpenSans-Light.eot');
+    src: url('/Root/Global/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('/Root/Global/fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings: "calt=0,liga=0";
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('/Root/Global/fonts/OpenSans-Regular.eot');
+    src: url('/Root/Global/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('/Root/Global/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings: "calt=0,liga=0";
+}
+
+@font-face {
+    font-family: 'WebHostingHub-Glyphs';
+    src: url('/Root/Global/fonts/webhostinghub-glyphs.eot');
+    src: url('/Root/Global/fonts/webhostinghub-glyphs.eot?#iefix') format('embedded-opentype'), url('/Root/Global/fonts/webhostinghub-glyphs.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings: "calt=0,liga=0";
+}
+
+.connected {
+    background: #1EBBA6;
+    display: inline-block;
+}
+
+.disconnected {
+    background: #F64744;
+    display: inline-block;
+}
+
+.backgroundOperations {
+    font-family: 'Open Sans';
+    padding: 20px;
+}
+
+    .backgroundOperations h1 {
+        color: #007dc6;
+        font-size: 300%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+#machines {
+    margin-top: 25px;
+    font-family: 'Open Sans Bold';
+}
+
+.machine {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 25px;
+}
+
+    .machine .machinehead {
+        width: 30%;
+        min-width: 415px;
+        display: table-cell;
+        vertical-align: top;
+    }
+
+.machinehead .name {
+    display: block;
+    color: #333;
+    font-size: 250%;
+    margin-bottom: 10px;
+    vertical-align: top;
+    font-family: 'Open Sans Bold';
+}
+
+    .machinehead .name:before {
+        font-family: 'WebHostingHub-Glyphs';
+        content: '\f026';
+        color: #333;
+    }
+
+.machinehead .cpu, .machinehead .ram {
+    display: block;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 10px;
+}
+
+.agents {
+    width: 70%;
+    display: table-cell;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.agent {
+    padding: 0px 20px 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+}
+
+/* error levels */
+.information {
+    /*border: 2px solid green;*/
+}
+
+.agent.warning:before {
+    /*border: 2px solid yellow;*/
+    font-family: 'WebHostingHub-Glyphs';
+    content: '\f316';
+    position: absolute;
+    font-size: 30px;
+    z-index: 10;
+    top: 80px;
+    right: 25px;
+}
+
+.agent.error:before {
+    /*border: 2px solid red;*/
+    font-family: 'WebHostingHub-Glyphs';
+    content: '\00d7';
+    position: absolute;
+    font-size: 30px;
+    z-index: 10;
+    bottom: 0px;
+    right: 25px;
+}
+/* modes */
+
+.agent .progress {
+    display: none;
+}
+
+.idle .icon {
+    background: #1abc9c;
+    color: #1c8470;
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.agent .icon:before {
+    font-family: 'WebHostingHub-Glyphs';
+    content: '\f0d5';
+    font-size: 50px;
+    display: block;
+    margin-top: 30px;
+}
+
+.work .icon {
+    color: #2E7199;
+    background: #36AFE8;
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+/* */
+.clear {
+    clear: both;
+}
+
+.sn-icon {
+    font-family: 'WebHostingHub-Glyphs';
+}
+
+    .sn-icon#connectionState {
+        font-size: 200%;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        width: 50px;
+        height: 40px;
+        margin-left: 5px;
+    }
+
+        .sn-icon#connectionState.disconnected:before {
+            content: '\f0ea';
+        }
+
+        .sn-icon#connectionState.connected:before {
+            content: '\f0ed';
+        }
+
+/*cpu, ram*/
+.cpu > div, .ram > div {
+    display: inline-block;
+}
+
+    .cpu > div:first-of-type, .cpu .cpu-value, .ram > div:first-of-type, .ram .ram-value {
+        width: 15%;
+        font-family: 'Open Sans Bold';
+        font-size: 200%;
+        color: #666;
+    }
+
+.ram .ram-value {
+    font-size: 120%;
+    vertical-align: bottom;
+}
+
+.cpu .cpu-value, .ram .ram-value {
+    text-align: right;
+}
+
+.cpu-chart, .ram-chart {
+    width: 70%;
+}
+
+
+.cpu .k-sparkline, .cpu .k-sparkline span, .ram .k-sparkline, .ram .k-sparkline span {
+    vertical-align: bottom;
+}
+
+.percent {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 40px;
+    text-align: center;
+    background: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    width: 70px;
+    height: 40px;
+    font-size: 240%;
+    font-family: 'Open Sans Bold';
+    padding: 20px 5px;
+    color: #2E7199;
+    line-height: 40px;
+}
+
+.sn-popup .header {
+    color: #4eace1;
+    font-size: 120%;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+/*log*/
+.logitem {
+    display: block;
+    margin-bottom: 15px;
+}
+
+    .logitem:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .logitem .logitemHead {
+        display: block;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+        .logitem .logitemHead strong {
+            font-weight: normal;
+        }
+
+    .logitem .logitemMessage {
+        display: none;
+        line-height: 25px;
+        background: whitesmoke;
+        border: solid 1px #ccc;
+        padding: 5px;
+    }
+
+.informationLevel {
+    font-weight: bold;
+    padding: 0px 4px 0px 4px;
+}
+
+    .informationLevel:before {
+        font-family: 'WebHostingHub-Glyphs';
+        content: '\2713';
+        color: #1abc9c;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+.warningLevel {
+    font-weight: bold;
+    padding: 0px 4px 0px 4px;
+}
+
+    .warningLevel:before {
+        font-family: 'WebHostingHub-Glyphs';
+        content: '\f316';
+        color: #F5D02A;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.errorLevel {
+    font-weight: bold;
+    color: yellow;
+    padding: 0px 4px 0px 4px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+    .errorLevel:before {
+        font-family: 'WebHostingHub-Glyphs';
+        content: '\00d7';
+        color: #F64744;
+    }
+
+.sn-popup {
+    max-width: 500px;
+}
+
+    .sn-popup .inner {
+        font-family: 'Open Sans Bold';
+        font-size: 100%;
+        max-height: 300px;
+        overflow: auto;
+    }
+
+.loading {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 200%;
+}
+
+    .loading:before {
+        content:url('/Root/Global/images/loading.gif');
+        display: block;
+    }

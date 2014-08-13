@@ -1,0 +1,32 @@
+﻿<div class="sn-postdiv sn-post {{postboundaryclass}} ui-helper-clearfix">
+    <input class="sn-postid" type="hidden" value="{{postid}}" />
+    <div class="sn-postdiv-avatardiv">
+        <a href="{{userlink}}">
+            <img src="{{avatar}}" class="sn-postdiv-avatar" />
+        </a>
+    </div>
+    <div class="sn-postdiv-textdiv">
+        <strong><a href="{{userlink}}">{{username}}</a></strong>&nbsp;{{action}}
+        <div class="sn-wrap">{{text}}{{contentcard}}</div>
+        <div class="sn-commentsection">
+            <span title='{{date}}' class="sn-postdiv-info">{{friendlydate}}</span><span style="display:{{interactdisplay}};"> <a class='sn-like' href='javascript:' onclick="SN.Wall.like($(this));" style="display:{{ilikedisplay}}">{{$Wall:Template_Like}}</a><a class='sn-unlike' href='javascript:' onclick="SN.Wall.unlike($(this));" style="display:{{iunlikedisplay}};">{{$Wall:Template_Unlike}}</a> <a href='javascript:' class='sn-comment' onclick="SN.Wall.comment($(this));">{{$Wall:Template_Comment}}</a></span>
+        </div>
+        {{commentsection}}
+    </div>
+</div>
+
+<script>
+        function urlify(text) {
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+            return text.replace(urlRegex, function (url) {
+                return '<a href="' + url + '">' + url + '</a>';
+            })
+        }
+
+        var text = $('.sn-wrap').text();
+        $('.sn-postdiv-textdiv>.sn-wrap').not('.sn-commentdiv-text').each(function () {
+            if ($(this).find('.sn-post-contentcard-right').length === 0) {
+                $(this).html(urlify($(this).text()));
+            }
+        });
+</script>​

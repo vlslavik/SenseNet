@@ -1,0 +1,1247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-NotificationConfig">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Notification Configuration</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Configuration content for notifications to be placed under a (config) folder anywhere in the Content Repository.</value>
+        </data>
+        <data name="Subject-DisplayName" xml:space="preserve">
+          <value>Subject</value>
+        </data>
+        <data name="Subject-Description" xml:space="preserve">
+          <value>Subject of the email to be sent as notification. Provided "{FieldName}" entities will be replaced with referenced Field values of the content triggering notification.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>Body</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Body of the email to be sent as notification. Provided "{FieldName}" entities will be replaced with referenced Field values of the content triggering notification.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Értesítés konfiguráció</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Konfigurációs tartalom értesítésekhez.</value>
+        </data>
+        <data name="Subject-DisplayName" xml:space="preserve">
+          <value>Tárgy</value>
+        </data>
+        <data name="Subject-Description" xml:space="preserve">
+          <value>Értesítő e-mail 'Tárgy' mezőjébe kerül. A "{Mezőnév}" formában megadott paramétereket lecseréljük az értesítést kiváltó tartalom adott mezőjének értékére.</value>
+        </data>
+        <data name="Body-DisplayName" xml:space="preserve">
+          <value>E-mail törzsszöveg</value>
+        </data>
+        <data name="Body-Description" xml:space="preserve">
+          <value>Az e-mail szövege. A "{Mezőnév}" formában megadott paramétereket lecseréljük az értesítést kiváltó tartalom adott mezőjének értékére.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-NullFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Null field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Null mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-NumberFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Number field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Szám mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-OrganizationalUnit">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Organizational Unit</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Organizational Unit (OU) provides a way of classifying objects located in directories.</value>
+        </data>
+        <data name="SyncGuid-DisplayName" xml:space="preserve">
+          <value>SyncGuid</value>
+        </data>
+        <data name="SyncGuid-Description" xml:space="preserve">
+          <value>GUID of corresponding AD object.</value>
+        </data>
+        <data name="LastSync-DisplayName" xml:space="preserve">
+          <value>LastSync</value>
+        </data>
+        <data name="LastSync-Description" xml:space="preserve">
+          <value>Date of last synchronization.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Szervezeti egység</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A szervezeti egység (Organizational Unit, OU) csoportok és felhasználók csoportosítására használható gyűjtőmappa (szinkronizálható Active Directory-val).</value>
+        </data>
+        <data name="SyncGuid-DisplayName" xml:space="preserve">
+          <value>AD azonosító</value>
+        </data>
+        <data name="SyncGuid-Description" xml:space="preserve">
+          <value>A megfelelő AD objektum egyedi azonosítója (GUID).</value>
+        </data>
+        <data name="LastSync-DisplayName" xml:space="preserve">
+          <value>Utolsó szinkronizálás</value>
+        </data>
+        <data name="LastSync-Description" xml:space="preserve">
+          <value>Utolsó szinkronizálás dátuma.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-OtherWorkspaceFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Other Workspace Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Workspace.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Egyéb munkaterület gyűjtőmappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Munkaterületek gyűjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PageBreakFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Page break</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Oldaltörés</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Page">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlet Page</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A web page for presenting content through Portlets.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>The name by which the Page can be accessed.</value>
+        </data>
+        <data name="PageTemplateNode-DisplayName" xml:space="preserve">
+          <value>Page Template</value>
+        </data>
+        <data name="PageTemplateNode-Description" xml:space="preserve">
+          <value>The page template defines the layout and design of your page.</value>
+        </data>
+        <data name="PageSkin-DisplayName" xml:space="preserve">
+          <value>Skin</value>
+        </data>
+        <data name="SmartUrl-DisplayName" xml:space="preserve">
+          <value>Smart URL</value>
+        </data>
+        <data name="SmartUrl-Description" xml:space="preserve">
+          <value>A URL shortcut to this page under the site root URL.</value>
+        </data>
+        <data name="SiteRelativeUrl-DisplayName" xml:space="preserve">
+          <value>Page urls</value>
+        </data>
+        <data name="SiteRelativeUrl-Description" xml:space="preserve">
+          <value>The page can be accessed on these urls.</value>
+        </data>
+        <data name="IsExternal-DisplayName" xml:space="preserve">
+          <value>Redirect page</value>
+        </data>
+        <data name="IsExternal-Description" xml:space="preserve">
+          <value>Select this to redirect requests to another URL.</value>
+        </data>
+        <data name="OuterUrl-DisplayName" xml:space="preserve">
+          <value>Redirect URL</value>
+        </data>
+        <data name="OuterUrl-Description" xml:space="preserve">
+          <value>The URL to redirect requests to.</value>
+        </data>
+        <data name="MetaTitle-DisplayName" xml:space="preserve">
+          <value>Meta Title</value>
+        </data>
+        <data name="MetaTitle-Description" xml:space="preserve">
+          <value>Title to be used in the HTML head of the page.</value>
+        </data>
+        <data name="Keywords-DisplayName" xml:space="preserve">
+          <value>Keywords</value>
+        </data>
+        <data name="Keywords-Description" xml:space="preserve">
+          <value>Enter keywords to help in search engine optimization.</value>
+        </data>
+        <data name="MetaDescription-DisplayName" xml:space="preserve">
+          <value>Meta Description</value>
+        </data>
+        <data name="MetaDescription-Description" xml:space="preserve">
+          <value>Description to be included in the HTML head of the page.</value>
+        </data>
+        <data name="MetaAuthors-DisplayName" xml:space="preserve">
+          <value>Meta Authors</value>
+        </data>
+        <data name="MetaAuthors-Description" xml:space="preserve">
+          <value>Author and copyright info to be included in the HTML head of the page.</value>
+        </data>
+        <data name="CustomMeta-DisplayName" xml:space="preserve">
+          <value>CustomMeta</value>
+        </data>
+        <data name="CustomMeta-Description" xml:space="preserve">
+          <value>Additional metadata to be included in the HTML head of the page (use well-formed XHTML).</value>
+        </data>
+        <data name="PageId-DisplayName" xml:space="preserve">
+          <value>[PageId]</value>
+        </data>
+        <data name="PageId-Description" xml:space="preserve">
+          <value>[PageId].</value>
+        </data>
+        <data name="NodeName-DisplayName" xml:space="preserve">
+          <value>[NodeName]</value>
+        </data>
+        <data name="NodeName-Description" xml:space="preserve">
+          <value>[NodeName].</value>
+        </data>
+        <data name="TemporaryPortletInfo-DisplayName" xml:space="preserve">
+          <value>Temporary Portlet Info</value>
+        </data>
+        <data name="TextExtract-DisplayName" xml:space="preserve">
+          <value>TextExtract</value>
+        </data>
+        <data name="TextExtract-Description" xml:space="preserve">
+          <value>TextExtract.</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>ASPX markup (auto-generated).</value>
+        </data>
+        <data name="PersonalizationSettings-DisplayName" xml:space="preserve">
+          <value>Portlet settings</value>
+        </data>
+        <data name="PersonalizationSettings-Description" xml:space="preserve">
+          <value>The binary settings used by the Portlet framework.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlet oldal</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Weboldal, amely a tartalommegjelenítést portleteken keresztül támogatja.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Név, amelyen keresztül az oldal elérhető (URL-ben látható név).</value>
+        </data>
+        <data name="PageTemplateNode-DisplayName" xml:space="preserve">
+          <value>Oldalsablon</value>
+        </data>
+        <data name="PageTemplateNode-Description" xml:space="preserve">
+          <value>Meghatározza az oldal kinézetét és az oldalelemek elhelyezkedését.</value>
+        </data>
+        <data name="PageSkin-DisplayName" xml:space="preserve">
+          <value>Téma</value>
+        </data>
+        <data name="SmartUrl-DisplayName" xml:space="preserve">
+          <value>Smart URL</value>
+        </data>
+        <data name="SmartUrl-Description" xml:space="preserve">
+          <value>URL egyszerűsítés, az oldal a megadott névvel lesz elérhető a szájt alatt.</value>
+        </data>
+        <data name="SiteRelativeUrl-DisplayName" xml:space="preserve">
+          <value>URL lista</value>
+        </data>
+        <data name="SiteRelativeUrl-Description" xml:space="preserve">
+          <value>Az oldal URL-jei.</value>
+        </data>
+        <data name="IsExternal-DisplayName" xml:space="preserve">
+          <value>Átirányítás</value>
+        </data>
+        <data name="IsExternal-Description" xml:space="preserve">
+          <value>Jelölje be, ha az URL-nek át kell irányítania máshova.</value>
+        </data>
+        <data name="OuterUrl-DisplayName" xml:space="preserve">
+          <value>Átirányítási URL</value>
+        </data>
+        <data name="OuterUrl-Description" xml:space="preserve">
+          <value>Az URL, ahova az oldal átirányít.</value>
+        </data>
+        <data name="MetaTitle-DisplayName" xml:space="preserve">
+          <value>Meta cím</value>
+        </data>
+        <data name="MetaTitle-Description" xml:space="preserve">
+          <value>A Title elem tartalma a HTML head elemen belül.</value>
+        </data>
+        <data name="Keywords-DisplayName" xml:space="preserve">
+          <value>Kulcsszavak</value>
+        </data>
+        <data name="Keywords-Description" xml:space="preserve">
+          <value>Kulcsszavak, melyek segítik a keresőmotorokat (SEO).</value>
+        </data>
+        <data name="MetaDescription-DisplayName" xml:space="preserve">
+          <value>Meta leírás</value>
+        </data>
+        <data name="MetaDescription-Description" xml:space="preserve">
+          <value>A Description elem tartalma a HTML head elemen belül.</value>
+        </data>
+        <data name="MetaAuthors-DisplayName" xml:space="preserve">
+          <value>Meta szerzők</value>
+        </data>
+        <data name="MetaAuthors-Description" xml:space="preserve">
+          <value>Az Author elem tartalma a HTML head elemen belül.</value>
+        </data>
+        <data name="CustomMeta-DisplayName" xml:space="preserve">
+          <value>Egyéb Meta</value>
+        </data>
+        <data name="CustomMeta-Description" xml:space="preserve">
+          <value>További metaadatok, amelyek a HTML head elembe kerülnek. Jól formázott (well-formed) XHTML-nek kell lennie.</value>
+        </data>
+        <data name="PageId-DisplayName" xml:space="preserve">
+          <value>Page Id</value>
+        </data>
+        <data name="PageId-Description" xml:space="preserve">
+          <value>Csak belső használatra.</value>
+        </data>
+        <data name="NodeName-DisplayName" xml:space="preserve">
+          <value>Tartalom név</value>
+        </data>
+        <data name="NodeName-Description" xml:space="preserve">
+          <value>Csak belső használatra.</value>
+        </data>
+        <data name="TemporaryPortletInfo-DisplayName" xml:space="preserve">
+          <value>Portlet adatok</value>
+        </data>
+        <data name="TemporaryPortletInfo-Description" xml:space="preserve">
+          <value>Csak belső használatra.</value>
+        </data>
+        <data name="TextExtract-DisplayName" xml:space="preserve">
+          <value>Szövegkivonat</value>
+        </data>
+        <data name="TextExtract-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>ASPX kód (automatikusan generált).</value>
+        </data>
+        <data name="PersonalizationSettings-DisplayName" xml:space="preserve">
+          <value>Portlet adatok</value>
+        </data>
+        <data name="PersonalizationSettings-Description" xml:space="preserve">
+          <value>Bináris portlet adatok a portlet keretrendszer számára.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PageTemplate">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Page Template</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Page Templates define the design and layout of Portlet pages.</value>
+        </data>
+        <data name="MasterPageNode-DisplayName" xml:space="preserve">
+          <value>MasterPage node</value>
+        </data>
+        <data name="MasterPageNode-Description" xml:space="preserve">
+          <value>Master page reference. Only for internal use.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Oldalsablon</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Az oldalsablon írja le egy oldal designját és layoutját.</value>
+        </data>
+        <data name="MasterPageNode-DisplayName" xml:space="preserve">
+          <value>Mester oldal</value>
+        </data>
+        <data name="MasterPageNode-Description" xml:space="preserve">
+          <value>Mester oldal referencia. Csak belső használatra.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PasswordFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Password field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Jelszó mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PermissionChoiceFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Permission choice field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Jogosultság választó mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PortalRoot">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Root</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Sense/Net Content Repository Master node. One installation can have only one Portal Root.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Gyökér</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A Sense/Net Content Repository "fa" legmagasabb szintű eleme. Egy telepítés csak egyet tartalmazhat.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PortalSettings">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portal settings</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portál beállítások</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PortletCategory">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>PortletCategory</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Organize portlets under categories.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Description of category</value>
+        </data>
+        <data name="Hidden-DisplayName" xml:space="preserve">
+          <value>Hidden</value>
+        </data>
+        <data name="Hidden-Description" xml:space="preserve">
+          <value>Doesn't show up in Add portlet dialog if checked.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlet kategória</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Kategóriákba rendezi a portleteket.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Olvasható név</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Kategória leírása</value>
+        </data>
+        <data name="Hidden-DisplayName" xml:space="preserve">
+          <value>Rejtett</value>
+        </data>
+        <data name="Hidden-Description" xml:space="preserve">
+          <value>Ha be van pipálva, az adott kategória nem jelenik meg a portlet hozzáadás ablakban.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Portlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlet</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Portlet that can be selected in the 'Add new portlet' dialog.</value>
+        </data>
+        <data name="TypeName-DisplayName" xml:space="preserve">
+          <value>Fully qualified type name</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Thumbnail image of portlet (reference)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Thumbnail image of portlet (binarydata)</value>
+        </data>
+        <data name="PortletImage-DisplayName" xml:space="preserve">
+          <value>Thumbnail image of portlet</value>
+        </data>
+        <data name="Hidden-DisplayName" xml:space="preserve">
+          <value>Hidden</value>
+        </data>
+        <data name="Hidden-Description" xml:space="preserve">
+          <value>Doesn't show up in Add portlet dialog if checked.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlet</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Portlet, ami kiválasztható a portlet hozzáadása ablakban.</value>
+        </data>
+        <data name="TypeName-DisplayName" xml:space="preserve">
+          <value>Teljes típusnév</value>
+        </data>
+        <data name="ImageRef-DisplayName" xml:space="preserve">
+          <value>Előnézeti kép (referencia)</value>
+        </data>
+        <data name="ImageData-DisplayName" xml:space="preserve">
+          <value>Előnézeti kép (bináris)</value>
+        </data>
+        <data name="PortletImage-DisplayName" xml:space="preserve">
+          <value>A portlet előnézeti képe</value>
+        </data>
+        <data name="Hidden-DisplayName" xml:space="preserve">
+          <value>Rejtett</value>
+        </data>
+        <data name="Hidden-Description" xml:space="preserve">
+          <value>Ha be van pipálva, nem jelenik meg a portlet hozzáadása ablakban.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Portlets">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portlets</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for portlets. Only a single instance is allowed at /Root/Portlets.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Portletek</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Portleteket tartalmazó gyűjtőmappa. Csak egy létezhet belőle, a /Root/Portlets címen.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Post">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Post</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Represents wall posts.</value>
+        </data>
+        <data name="JournalId-DisplayName" xml:space="preserve">
+          <value>Journal Id</value>
+        </data>
+        <data name="JournalId-Description" xml:space="preserve">
+          <value>Id of the corresponding journal item. 0 if the post is not derived from a journalitem.</value>
+        </data>
+        <data name="PostType-DisplayName" xml:space="preserve">
+          <value>Post type</value>
+        </data>
+        <data name="PostType-Description" xml:space="preserve">
+          <value>Type of post item ie. Manual, Created, Modified, etc.</value>
+        </data>
+        <data name="SharedContent-DisplayName" xml:space="preserve">
+          <value>Shared Content</value>
+        </data>
+        <data name="SharedContent-Description" xml:space="preserve">
+          <value>The shared Content if it has been attached to the post.</value>
+        </data>
+        <data name="PostDetails-DisplayName" xml:space="preserve">
+          <value>Post details</value>
+        </data>
+        <data name="PostDetails-Description" xml:space="preserve">
+          <value>Contains details of journal posts.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Poszt</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Poszt, ami a falon megjelenik.</value>
+        </data>
+        <data name="JournalId-DisplayName" xml:space="preserve">
+          <value>Journal azonosító</value>
+        </data>
+        <data name="JournalId-Description" xml:space="preserve">
+          <value>A hozzátartozó journal elem azonosítója. Értéke nulla (0) ha a poszt nem kapcsolódik a journal-hoz.</value>
+        </data>
+        <data name="PostType-DisplayName" xml:space="preserve">
+          <value>Poszt típusa</value>
+        </data>
+        <data name="PostType-Description" xml:space="preserve">
+          <value>Manuális, létrehozás, módosítás, stb.</value>
+        </data>
+        <data name="SharedContent-DisplayName" xml:space="preserve">
+          <value>Megosztott tartalom</value>
+        </data>
+        <data name="SharedContent-Description" xml:space="preserve">
+          <value>A megosztott tartalom, ha volt olyan kapcsolva a poszthoz.</value>
+        </data>
+        <data name="PostDetails-DisplayName" xml:space="preserve">
+          <value>Poszt részletei</value>
+        </data>
+        <data name="PostDetails-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Posts">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Posts</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Posts.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Posztok</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Posztok gyüjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PreviewImage">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Preview image</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A special content type for storing preview images.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Előnézeti kép</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Speciális dokumentum típus előnézeti képeknek.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>  
+  <ResourceClass name="Ctd-ProfileDomain">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>ProfileDomain</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Container for user profiles.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Display Name</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Profil tartomány</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Felhasználói profilok gyűjtője.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Olvasható név</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Profiles">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Profiles</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for profiles. Only a single instance is allowed at /Root/Profiles.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Profilok</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Profilok gyűjtője. Csak egy lehet belőle, a /Root/Profiles címen.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ProjectWorkspace">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Project workspace</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A workspace for project-oriented cooperation.</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Completion</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Client contact</value>
+        </data>
+        <data name="ClientContact-Description" xml:space="preserve">
+          <value>The person who is responsible for the project</value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Website url</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Projekt munkaterület</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Projektek kezelésére szolgáló munkaterület (workspace).</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Készültség</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Ügyféloldali projektfelelős</value>
+        </data>
+        <data name="ClientContact-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Weboldal url-je</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ProjectWorkspaceFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Project Workspace Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Project Workspace.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Projekt munkaterület mappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Projekt munkaterületek gyüjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-PublicRegistrationConfig">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Public registration configuration settings</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Stores all configuration settings of the public registration portlet.</value>
+        </data>
+        <data name="SecurityGroups-DisplayName" xml:space="preserve">
+          <value>Security groups</value>
+        </data>
+        <data name="SecurityGroups-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DefaultDomainPath-DisplayName" xml:space="preserve">
+          <value>Default domain path</value>
+        </data>
+        <data name="DefaultDomainPath-Description" xml:space="preserve">
+          <value>Default domain path where the registered user is created.</value>
+        </data>
+        <data name="UserTypeName-DisplayName" xml:space="preserve">
+          <value>Specific contenttype name</value>
+        </data>
+        <data name="UserTypeName-Description" xml:space="preserve">
+          <value>Contentype name of the user type, which is inherited from the User contenttype.</value>
+        </data>
+        <data name="DuplicateErrorMessage-DisplayName" xml:space="preserve">
+          <value>Duplicate error message</value>
+        </data>
+        <data name="DuplicateErrorMessage-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when he or she tries to give a username which is in use.</value>
+        </data>
+        <data name="IsBodyHtml-DisplayName" xml:space="preserve">
+          <value>Use html in mail messages.</value>
+        </data>
+        <data name="IsBodyHtml-Description" xml:space="preserve">
+          <value>This setting tells that, the email which is sent by the PublicRegistration portlet is configured to use html in the mail body.</value>
+        </data>
+        <data name="ActivationEnabled-DisplayName" xml:space="preserve">
+          <value>Use activation</value>
+        </data>
+        <data name="ActivationEnabled-Description" xml:space="preserve">
+          <value>Turn on/off activation process. If it is turned off, the PublicRegistration portlet will not send an activation email with activation link.</value>
+        </data>
+        <data name="ActivationEmailTemplate-DisplayName" xml:space="preserve">
+          <value>Activation email body template</value>
+        </data>
+        <data name="ActivationEmailTemplate-Description" xml:space="preserve">
+          <value>The text of the body of the activation email which will be sent to the user. The '{0}' formatting setting will hold the constructed activation link.</value>
+        </data>
+        <data name="ActivationSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>Activation successful text</value>
+        </data>
+        <data name="ActivationSuccessTemplate-Description" xml:space="preserve">
+          <value>This text will be diplayed, after the end user activation process is successfull.</value>
+        </data>
+        <data name="AlreadyActivatedMessage-DisplayName" xml:space="preserve">
+          <value>Already Activated Message</value>
+        </data>
+        <data name="AlreadyActivatedMessage-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when the user is alredy activated.</value>
+        </data>
+        <data name="MailSubjectTemplate-DisplayName" xml:space="preserve">
+          <value>Activation email subject template</value>
+        </data>
+        <data name="MailSubjectTemplate-Description" xml:space="preserve">
+          <value>Subject text of the activation email will be sent to the end user.</value>
+        </data>
+        <data name="MailFrom-DisplayName" xml:space="preserve">
+          <value>Mail From</value>
+        </data>
+        <data name="MailFrom-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="AdminEmailAddress-DisplayName" xml:space="preserve">
+          <value>Admin Email Address</value>
+        </data>
+        <data name="AdminEmailAddress-Description" xml:space="preserve">
+          <value>List of email addresses of the administrators</value>
+        </data>
+        <data name="RegistrationSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>Registration successfull text</value>
+        </data>
+        <data name="RegistrationSuccessTemplate-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when the registration process is successful.</value>
+        </data>
+        <data name="ResetPasswordTemplate-DisplayName" xml:space="preserve">
+          <value>Reset password mail body</value>
+        </data>
+        <data name="ResetPasswordTemplate-Description" xml:space="preserve">
+          <value>This text is sent to the end user via email during resetting password.</value>
+        </data>
+        <data name="ResetPasswordSubjectTemplate-DisplayName" xml:space="preserve">
+          <value>Reset password subject template</value>
+        </data>
+        <data name="ResetPasswordSubjectTemplate-Description" xml:space="preserve">
+          <value>The subject text of the email which is sent to the end user during resetting password.</value>
+        </data>
+        <data name="ResetPasswordSuccessfulTemplate-DisplayName" xml:space="preserve">
+          <value>Reset Password Successful Template </value>
+        </data>
+        <data name="ResetPasswordSuccessfulTemplate-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when his/her password reset was succesful.</value>
+        </data>
+        <data name="ChangePasswordUserInterfacePath-DisplayName" xml:space="preserve">
+          <value>Change password user interface path</value>
+        </data>
+        <data name="ChangePasswordUserInterfacePath-Description" xml:space="preserve">
+          <value>Repository path of the user interface (user control) which is displayen, when the user wants to change his/her password.</value>
+        </data>
+        <data name="ChangePasswordSuccessfulMessage-DisplayName" xml:space="preserve">
+          <value>ChangePasswordSuccessfulMessage</value>
+        </data>
+        <data name="ChangePasswordSuccessfulMessage-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, his/her password change was succesful.</value>
+        </data>
+        <data name="ForgottenPasswordUserInterfacePath-DisplayName" xml:space="preserve">
+          <value>Reset password user interface path.</value>
+        </data>
+        <data name="ForgottenPasswordUserInterfacePath-Description" xml:space="preserve">
+          <value>Repository path of the user interface (usercontrol) which will be displayed, when the user forgets his/her password.</value>
+        </data>
+        <data name="NewRegistrationContentView-DisplayName" xml:space="preserve">
+          <value>Create new registration contentview</value>
+        </data>
+        <data name="NewRegistrationContentView-Description" xml:space="preserve">
+          <value>Repository path of the new contentview. If it's not set, the default InlineNew is used.</value>
+        </data>
+        <data name="EditProfileContentView-DisplayName" xml:space="preserve">
+          <value>Edit profile contentview path</value>
+        </data>
+        <data name="EditProfileContentView-Description" xml:space="preserve">
+          <value>Repository path of the edit profile contentview (if it is not given, the default InlineEdit is used).</value>
+        </data>
+        <data name="AutoGeneratePassword-DisplayName" xml:space="preserve">
+          <value>Auto generate password</value>
+        </data>
+        <data name="AutoGeneratePassword-Description" xml:space="preserve">
+          <value>NOT WORKING!</value>
+        </data>
+        <data name="DisableCreatedUser-DisplayName" xml:space="preserve">
+          <value>Disable created user</value>
+        </data>
+        <data name="DisableCreatedUser-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="IsUniqueEmail-DisplayName" xml:space="preserve">
+          <value>Unique email</value>
+        </data>
+        <data name="IsUniqueEmail-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="AutomaticLogon-DisplayName" xml:space="preserve">
+          <value>Automatic logon</value>
+        </data>
+        <data name="AutomaticLogon-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="ChangePasswordPagePath-DisplayName" xml:space="preserve">
+          <value>Change password page path</value>
+        </data>
+        <data name="ChangePasswordPagePath-Description" xml:space="preserve">
+          <value>Repository path of the page that contains the public registration protlet with Registration mode.</value>
+        </data>
+        <data name="ChangePasswordRestrictedText-DisplayName" xml:space="preserve">
+          <value>ChangePasswordRestrictedText</value>
+        </data>
+        <data name="ChangePasswordRestrictedText-Description" xml:space="preserve">
+          <value>This text is displayed when a user tries to view the "change password" page and he/she is not logged in, OR the user has changed his/her password but is still trying to reset the password with the link sent by email.</value>
+        </data>
+        <data name="AlreadyRegisteredUserMessage-DisplayName" xml:space="preserve">
+          <value>Already Registered User Message</value>
+        </data>
+        <data name="AlreadyRegisteredUserMessage-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when a user is alredy registered with the given username.</value>
+        </data>
+        <data name="UpdateProfileSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>UpdateProfileSuccessTemplate</value>
+        </data>
+        <data name="UpdateProfileSuccessTemplate-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when his/her profile update was succesfull.</value>
+        </data>
+        <data name="EmailNotValid-DisplayName" xml:space="preserve">
+          <value>Email Not Valid</value>
+        </data>
+        <data name="EmailNotValid-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when the given email address is not valid.</value>
+        </data>
+        <data name="NoEmailGiven-DisplayName" xml:space="preserve">
+          <value>No Email Given</value>
+        </data>
+        <data name="NoEmailGiven-Description" xml:space="preserve">
+          <value>This text is displayed to the end user, when email address is not given.</value>
+        </data>
+        <data name="ActivateByAdmin-DisplayName" xml:space="preserve">
+          <value>Activate by admin</value>
+        </data>
+        <data name="ActivateByAdmin-Description" xml:space="preserve">
+          <value>If set, the user registration will be approved by admin.</value>
+        </data>
+        <data name="ActivateEmailSubject-DisplayName" xml:space="preserve">
+          <value>Activate Email Subject</value>
+        </data>
+        <data name="ActivateEmailSubject-Description" xml:space="preserve">
+          <value>Subject of the activation email.</value>
+        </data>
+        <data name="ActivateEmailTemplate-DisplayName" xml:space="preserve">
+          <value>Activate Email Template</value>
+        </data>
+        <data name="ActivateEmailTemplate-Description" xml:space="preserve">
+          <value>Template of the activation email.</value>
+        </data>
+        <data name="ActivateAdmins-DisplayName" xml:space="preserve">
+          <value>Activate admins</value>
+        </data>
+        <data name="ActivateAdmins-Description" xml:space="preserve">
+          <value>The list of administrators who can approve request of registrations.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Publikus regisztráció konfigurációs beállításai</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Publikus regisztrációhoz tartozó bellításokat tartalmazza.</value>
+        </data>
+        <data name="SecurityGroups-DisplayName" xml:space="preserve">
+          <value>Biztonsági csoportok</value>
+        </data>
+        <data name="SecurityGroups-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DefaultDomainPath-DisplayName" xml:space="preserve">
+          <value>Alapértelmezett domain</value>
+        </data>
+        <data name="DefaultDomainPath-Description" xml:space="preserve">
+          <value>Alapértelmezett domain, mely alá a felhasználók létrejönnek.</value>
+        </data>
+        <data name="UserTypeName-DisplayName" xml:space="preserve">
+          <value>Felhasználó típus</value>
+        </data>
+        <data name="UserTypeName-Description" xml:space="preserve">
+          <value>Regisztráció során létrejövő felhasználó típus.</value>
+        </data>
+        <data name="DuplicateErrorMessage-DisplayName" xml:space="preserve">
+          <value>Duplikációs hibaüzenet</value>
+        </data>
+        <data name="DuplicateErrorMessage-Description" xml:space="preserve">
+          <value>Ez a hibaüzenet jelenik meg, ha a regisztrálni kívánt felhasználónév már foglalt.</value>
+        </data>
+        <data name="IsBodyHtml-DisplayName" xml:space="preserve">
+          <value>HTML használata e-mailekben</value>
+        </data>
+        <data name="IsBodyHtml-Description" xml:space="preserve">
+          <value>A regisztráció során kiküldött e-mailbe HTML is kerülhet.</value>
+        </data>
+        <data name="ActivationEnabled-DisplayName" xml:space="preserve">
+          <value>Aktiváció használata</value>
+        </data>
+        <data name="ActivationEnabled-Description" xml:space="preserve">
+          <value>Ha be van pipálva, aktiváció szükséges, regisztráció után aktivációs linket küld a rendszer a felhasználónak.</value>
+        </data>
+        <data name="ActivationEmailTemplate-DisplayName" xml:space="preserve">
+          <value>Aktivációs e-mail sablon</value>
+        </data>
+        <data name="ActivationEmailTemplate-Description" xml:space="preserve">
+          <value>A regisztráló felhasználónak kiküldendő e-mail sablonja. A "{0}" paraméter helyén tartalmazza az aktivációs linket.</value>
+        </data>
+        <data name="ActivationSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>Sikeres akvitáció üzenet</value>
+        </data>
+        <data name="ActivationSuccessTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg, ha a felhasználó sikeresen aktiválta regisztrációját.</value>
+        </data>
+        <data name="AlreadyActivatedMessage-DisplayName" xml:space="preserve">
+          <value>Már aktivált felhasználó üzenet</value>
+        </data>
+        <data name="AlreadyActivatedMessage-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg, ha a felhasználó már korábban sikeresen aktiválta regisztrációját.</value>
+        </data>
+        <data name="MailSubjectTemplate-DisplayName" xml:space="preserve">
+          <value>Aktivációs email tárgya</value>
+        </data>
+        <data name="MailSubjectTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg az aktivációs e-mail tárgy mezőjében.</value>
+        </data>
+        <data name="MailFrom-DisplayName" xml:space="preserve">
+          <value>E-mail feladója</value>
+        </data>
+        <data name="MailFrom-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg az aktivációs e-mail 'Feladó' mezőjében.</value>
+        </data>
+        <data name="AdminEmailAddress-DisplayName" xml:space="preserve">
+          <value>Adminisztrátor e-mail címe</value>
+        </data>
+        <data name="AdminEmailAddress-Description" xml:space="preserve">
+          <value>A regisztrációt adminisztráló felhasználók e-mail címe.</value>
+        </data>
+        <data name="RegistrationSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>Sikeres regisztráció üzenet</value>
+        </data>
+        <data name="RegistrationSuccessTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg, ha a felhasználó regisztrációs folyamata sikeres volt.</value>
+        </data>
+        <data name="ResetPasswordTemplate-DisplayName" xml:space="preserve">
+          <value>Jelszóemlékeztető e-mail szövege</value>
+        </data>
+        <data name="ResetPasswordTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg a felhasználónak kiküldött e-mailben, ha új jelszót szeretne.</value>
+        </data>
+        <data name="ResetPasswordSubjectTemplate-DisplayName" xml:space="preserve">
+          <value>Jelszóemlékeztető e-mail tárgya</value>
+        </data>
+        <data name="ResetPasswordSubjectTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg a felhasználónak kiküldött e-mail tárgy mezőjében, ha új jelszót szeretne.</value>
+        </data>
+        <data name="ResetPasswordSuccessfulTemplate-DisplayName" xml:space="preserve">
+          <value>Jelszóigénylés sikeres volt üzenet</value>
+        </data>
+        <data name="ResetPasswordSuccessfulTemplate-Description" xml:space="preserve">
+          <value>Ez a szöveg jelenik meg, ha a felhasználó sikeresen módosította jelszavát.</value>
+        </data>
+        <data name="ChangePasswordUserInterfacePath-DisplayName" xml:space="preserve">
+          <value>Jelszó módosító oldal</value>
+        </data>
+        <data name="ChangePasswordUserInterfacePath-Description" xml:space="preserve">
+          <value>Jelszó módosító oldal elérési útvonala.</value>
+        </data>
+        <data name="ChangePasswordSuccessfulMessage-DisplayName" xml:space="preserve">
+          <value>Sikeres jelszómódosítás üzenet</value>
+        </data>
+        <data name="ChangePasswordSuccessfulMessage-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a felhasználónak, ha sikeresen módosította jelszavát.</value>
+        </data>
+        <data name="ForgottenPasswordUserInterfacePath-DisplayName" xml:space="preserve">
+          <value>Elfelejett jelszó oldal</value>
+        </data>
+        <data name="ForgottenPasswordUserInterfacePath-Description" xml:space="preserve">
+          <value>Elfelejett jelszó oldal elérési útvonala.</value>
+        </data>
+        <data name="NewRegistrationContentView-DisplayName" xml:space="preserve">
+          <value>Regisztráció tartalom-megjelenítő</value>
+        </data>
+        <data name="NewRegistrationContentView-Description" xml:space="preserve">
+          <value>Regisztráció megjelenítő fájl. Ha nincs beállítva, akkor az adott felhasználótípus InlineNew.ascx fájlját használja.</value>
+        </data>
+        <data name="EditProfileContentView-DisplayName" xml:space="preserve">
+          <value>Profil módosítás tartalom-megjelenítő</value>
+        </data>
+        <data name="EditProfileContentView-Description" xml:space="preserve">
+          <value>Profil módosítás megjelenítő fájl. Ha nincs beállítva, akkor az adott felhasználótípus InlineEdit.ascx fájlját használja.</value>
+        </data>
+        <data name="AutoGeneratePassword-DisplayName" xml:space="preserve">
+          <value>Jelszógenerálás</value>
+        </data>
+        <data name="AutoGeneratePassword-Description" xml:space="preserve">
+          <value>NEM MŰKÖDIK!</value>
+        </data>
+        <data name="DisableCreatedUser-DisplayName" xml:space="preserve">
+          <value>Felhasználó letiltása</value>
+        </data>
+        <data name="DisableCreatedUser-Description" xml:space="preserve">
+          <value>Ha bekapcsolja, a létrejött felhasználót engedélyezni kell, mielőtt beléphet.</value>
+        </data>
+        <data name="IsUniqueEmail-DisplayName" xml:space="preserve">
+          <value>Egyedi e-mail cím</value>
+        </data>
+        <data name="IsUniqueEmail-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="AutomaticLogon-DisplayName" xml:space="preserve">
+          <value>Automatikus belépés</value>
+        </data>
+        <data name="AutomaticLogon-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="ChangePasswordPagePath-DisplayName" xml:space="preserve">
+          <value>Jelszómódosítás oldal</value>
+        </data>
+        <data name="ChangePasswordPagePath-Description" xml:space="preserve">
+          <value>Jelszómódosítás oldal eléréri útvonala.</value>
+        </data>
+        <data name="ChangePasswordRestrictedText-DisplayName" xml:space="preserve">
+          <value>Jelszómódosítás nem lehetséges hibaüzenet</value>
+        </data>
+        <data name="ChangePasswordRestrictedText-Description" xml:space="preserve">
+          <value>Akkor jelenik meg, ha a felhasználó jelszócserét kísérel meg, de nincsen belépve.</value>
+        </data>
+        <data name="AlreadyRegisteredUserMessage-DisplayName" xml:space="preserve">
+          <value>Már regisztrált felhasználó üzenet</value>
+        </data>
+        <data name="AlreadyRegisteredUserMessage-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a felhasználónak, ha az adott felhasználónévvel már van a rendszerben regisztráció.</value>
+        </data>
+        <data name="UpdateProfileSuccessTemplate-DisplayName" xml:space="preserve">
+          <value>A profil módosítása sikeres volt üzenet</value>
+        </data>
+        <data name="UpdateProfileSuccessTemplate-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a felhasználónak, ha sikeresen módosította profilját.</value>
+        </data>
+        <data name="EmailNotValid-DisplayName" xml:space="preserve">
+          <value>Az e-mail cím nem megfelelő</value>
+        </data>
+        <data name="EmailNotValid-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a felhasználónak, ha az általa megadott e-mail cím nem megfelelő.</value>
+        </data>
+        <data name="NoEmailGiven-DisplayName" xml:space="preserve">
+          <value>Nem adott meg e-mail címet</value>
+        </data>
+        <data name="NoEmailGiven-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a felhasználónak, ha nem adott meg e-mail címet.</value>
+        </data>
+        <data name="ActivateByAdmin-DisplayName" xml:space="preserve">
+          <value>Aktiválás adminisztrátorként</value>
+        </data>
+        <data name="ActivateByAdmin-Description" xml:space="preserve">
+          <value>Ha be van pipálva, felhasználói regiszrációt csak adminisztrátor hagy jóvá.</value>
+        </data>
+        <data name="ActivateEmailSubject-DisplayName" xml:space="preserve">
+          <value>Aktivációs e-mail tárgya</value>
+        </data>
+        <data name="ActivateEmailSubject-Description" xml:space="preserve">
+          <value>Ez az üzenet jelenik meg a kiküldött aktivációs e-mail 'Tárgy' mezőjében.</value>
+        </data>
+        <data name="ActivateEmailTemplate-DisplayName" xml:space="preserve">
+          <value>Aktivációs e-mail sablon</value>
+        </data>
+        <data name="ActivateEmailTemplate-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="ActivateAdmins-DisplayName" xml:space="preserve">
+          <value>Aktiváló adminisztrátorok</value>
+        </data>
+        <data name="ActivateAdmins-Description" xml:space="preserve">
+          <value>Adminisztrátorok listája, akik regisztrációkat hagyhatnak jóvá.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

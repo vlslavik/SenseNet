@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Library" parentType="ContentList" handler="SenseNet.ContentRepository.ContentList" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Library,DisplayName</DisplayName>
+  <Description>$Ctd-Library,Description</Description>
+  <Icon>ContentList</Icon>
+  <Fields></Fields>
+</ContentType>

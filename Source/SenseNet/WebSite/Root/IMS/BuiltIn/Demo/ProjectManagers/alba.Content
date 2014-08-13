@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>alba</ContentName>
+  <Fields>
+    <DisplayName>albamonday</DisplayName>
+    <JobTitle>Project Manager</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>alba.monday@example.com</Email>
+    <FullName>Alba Monday</FullName>
+    <ImageRef>
+      <Path>/Root/Sites/Default_Site/demoavatars/alba.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>alba</Text>
+    </Password>
+    <SyncGuid></SyncGuid>
+    <LastSync>0001-01-01T00:00:00</LastSync>
+    <Manager>
+      <Path>/Root/IMS/BuiltIn/Demo/ProjectManagers/rupertbrown</Path>
+    </Manager>
+    <Department>Sales</Department>
+    <Languages>English, Hungarian</Languages>
+    <Phone>+001555636363</Phone>
+    <TrashDisabled>false</TrashDisabled>
+    <Gender>Female</Gender>
+    <MaritalStatus>Married</MaritalStatus>
+    <BirthDate>1984-05-10T00:00:00</BirthDate>
+    <Education><![CDATA[<ArrayOfSchoolItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SchoolItem><SchoolName>MIT</SchoolName></SchoolItem></ArrayOfSchoolItem>]]></Education>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+        <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2011-06-22T14:45:08.13</CreationDate>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2011-06-22T14:45:08</ModificationDate>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Demo/ProjectManagers/alba">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

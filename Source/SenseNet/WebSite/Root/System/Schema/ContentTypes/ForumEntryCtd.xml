@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ForumEntry" parentType="ListItem" handler="SenseNet.Portal.DiscussionForum.ForumEntry" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ForumEntry,DisplayName</DisplayName>
+  <Description>$Ctd-ForumEntry,Description</Description>
+  <Icon>forumentry</Icon>
+  <AllowIncrementalNaming>true</AllowIncrementalNaming>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-ForumEntry,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,DisplayName-Description</Description>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-ForumEntry,Description-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,Description-Description</Description>
+    </Field>
+    <Field name="ReplyTo" type="Reference">
+      <DisplayName>$Ctd-ForumEntry,ReplyTo-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,ReplyTo-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>ForumEntry</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+    <Field name="ReplyToNo" type="Integer">
+      <DisplayName>$Ctd-ForumEntry,ReplyToNo-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,ReplyToNo-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="SerialNo" type="Integer">
+      <DisplayName>$Ctd-ForumEntry,SerialNo-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,SerialNo-Description</Description>
+      <!--<Indexing>
+        <Mode>No</Mode>
+      </Indexing>-->
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="PostedBy" type="Reference">
+      <DisplayName>$Ctd-ForumEntry,PostedBy-DisplayName</DisplayName>
+      <Description>$Ctd-ForumEntry,PostedBy-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Hidden" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="TrashDisabled" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>WebContentDemo</ContentType>
+  <ContentName>expenseclaiminfo</ContentName>
+  <Fields>
+    <DisplayName>Expense claim info</DisplayName>
+    <Subtitle></Subtitle>
+    <RelatedImage />
+    <Header><![CDATA[]]></Header>
+    <Body>
+      <![CDATA[<div class="sn-infobox"><h1 class="sn-content-title sn-article-title"><img src="/Root/Global/images/icons/32/info.png" class="sn-icon sn-icon_32" alt="" />Expense claim demo</h1>
+      <p>This workspace demonstrates the <strong>automatic workflow</strong> capabilities of Sense/Net 6.3</p>
+      <h3>Draft expense claims</h3>
+      <ul>
+      <li>Select one of the pending expense claims below or create a new one.</li>
+      <li>Add or modify an existing expense claim item under the claim.</li>
+      <li>Send the expense claim for approval by selecting the <strong>Send for approval</strong> option from the menu.</li>
+      <li>A task will be created in the <strong>Tasks</strong> list and will be assigned to the <strong>Manager</strong> of the user who created the claim. If the sum of the claim is bigger than the budget limit (set on the workflow) or the user does not have a manager, the CEO will receive the task instead.</li>
+      </ul>      
+      <h3>Pending expense claims</h3>
+      <ul>
+      <li>Expense claims that are wating approval are listed here.</li>
+      <li>If you modify the claim it will interrupt the workflow and the claim will return to the first list.</li>
+      <li><strong>Approve</strong> or <strong>Reject</strong> the expense claim by pressing one of the buttons on the <strong>task browse page</strong>.</li>
+      <li>If the administrator rejected the claim it will return to the first list.</li>      
+      </ul>
+      <h3>Approved expense claims</h3>      
+      <ul>
+      <li>Approved claims are listed here</li>
+      <li>If you modify a claim it will return to the first list and has to be sent for approval again.</li>   
+      </ul>
+      </div>]]></Body>
+    <Details><a href="" target="" title=""></a></Details>
+    <Language>English</Language>
+    <Keywords><![CDATA[]]></Keywords>
+    <Author></Author>
+    <ReviewDate>0001-01-01T00:00:00</ReviewDate>
+    <ArchiveDate>0001-01-01T00:00:00</ArchiveDate>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

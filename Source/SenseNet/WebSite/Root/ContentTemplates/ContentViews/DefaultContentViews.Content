@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ContentViews</ContentType>
+  <ContentName>DefaultContentViews</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,DefaultContentViews]]></DisplayName>
+  </Fields>
+</ContentMetaData>

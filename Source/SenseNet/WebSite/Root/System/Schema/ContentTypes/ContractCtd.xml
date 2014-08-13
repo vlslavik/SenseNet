@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Contract" parentType="File" handler="SenseNet.ContentRepository.File" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Contract,DisplayName</DisplayName>
+  <Description>$Ctd-Contract,Description</Description>
+  <Icon>Document</Icon>
+  <Preview>true</Preview>
+  <Fields>
+    <Field name="ContractId" type="ShortText">
+      <DisplayName>$Ctd-Contract,ContractId-DisplayName</DisplayName>
+    </Field>
+    <Field name="Project" type="ShortText">
+      <DisplayName>$Ctd-Contract,Project-DisplayName</DisplayName>
+    </Field>
+    <Field name="Language" type="Choice">
+      <DisplayName>$Ctd-Contract,Language-DisplayName</DisplayName>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>true</AllowExtraValue>
+        <Options>
+          <Option value="hu" selected="true">Magyar</Option>
+          <Option value="en">English</Option>
+          <Option value="de">Deutsch</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="Responsee" type="Reference">
+      <DisplayName>$Ctd-Contract,Responsee-DisplayName</DisplayName>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+    <Field name="Lawyer" type="ShortText">
+      <DisplayName>$Ctd-Contract,Lawyer-DisplayName</DisplayName>
+    </Field>
+    <Field name="Keywords" type="LongText">
+      <DisplayName>$Ctd-Contract,Keywords-DisplayName</DisplayName>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.WhitespaceAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-Contract,Description-DisplayName</DisplayName>
+    </Field>
+  </Fields>
+</ContentType>

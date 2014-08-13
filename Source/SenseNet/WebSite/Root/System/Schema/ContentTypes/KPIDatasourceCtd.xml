@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="KPIDatasource" parentType="Folder" handler="SenseNet.ContentRepository.KPIDatasource" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-KPIDatasource,DisplayName</DisplayName>
+  <Description>$Ctd-KPIDatasource,Description</Description>
+  <Icon>Folder</Icon>
+  <AllowedChildTypes>
+    File
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-KPIDatasource,DisplayName-DisplayName</DisplayName>
+    </Field>
+    <Field name="KPIData" type="LongText">
+      <DisplayName>$Ctd-KPIDatasource,KPIData-DisplayName</DisplayName>
+      <Description>$Ctd-KPIDatasource,KPIData-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+  </Fields>
+</ContentType>

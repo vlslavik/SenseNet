@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="BookCalendarPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_CalendarPath_DisplayName" xml:space="preserve">
+          <value>Books path</value>
+        </data>
+        <data name="Prop_CalendarPath_Description" xml:space="preserve">
+          <value>Path of books to be displayed</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="ContentQueryPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_QueryString_DisplayName" xml:space="preserve">
+          <value>Query string 1</value>
+        </data>
+        <data name="Prop_QueryString2_DisplayName" xml:space="preserve">
+          <value>Query string 2</value>
+        </data>
+        <data name="Prop_QueryString3_DisplayName" xml:space="preserve">
+          <value>Query string 3</value>
+        </data>
+        <data name="Prop_UrlParamPreFix_DisplayName" xml:space="preserve">
+          <value>Url prefix</value>
+        </data>
+        <data name="Prop_IsSystemAccount_DisplayName" xml:space="preserve">
+          <value>Run as system</value>
+        </data>
+        <data name="Prop_EnablePaging_DisplayName" xml:space="preserve">
+          <value>Enable paging</value>
+        </data>
+        <data name="Prop_EnableSettingPageSize_DisplayName" xml:space="preserve">
+          <value>Setting page size enabled</value>
+        </data>
+        <data name="Prop_DefaultPageSize_DisplayName" xml:space="preserve">
+          <value>Default page size</value>
+        </data>
+        <data name="Prop_Top_DisplayName" xml:space="preserve">
+          <value>Top</value>
+        </data>
+        <data name="Prop_SkipFirst_DisplayName" xml:space="preserve">
+          <value>Skip first</value>
+        </data>
+        <data name="Prop_EnableAutofilters_DisplayName" xml:space="preserve">
+          <value>Enable autofilters</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_DisplayName" xml:space="preserve">
+          <value>Enable lifespan filter</value>
+        </data>
+        <data name="Prop_CvPath_DisplayName" xml:space="preserve">
+          <value>Query view path</value>
+        </data>
+        <data name="Prop_QueryString_Description" xml:space="preserve">
+          <value>Default query defining the set of content to be presented using Content Query Language</value>
+        </data>
+        <data name="Prop_QueryString2_Description" xml:space="preserve">
+          <value>Query defining the set of content to be presented using Content Query Language. This query is selected with {Url prefix=}CQPQueryNumber url parameters</value>
+        </data>
+        <data name="Prop_QueryString3_Description" xml:space="preserve">
+          <value>Query defining the set of content to be presented using Content Query Language. This query is selected with {Url prefix}CQPQueryNumber url parameters</value>
+        </data>
+        <data name="Prop_UrlParamPreFix_Description" xml:space="preserve">
+          <value>Url param prefix used to select this portlet instance. This prefix is combined with CQPQueryNumber, CQPStartIndex and CQPPageSize strings</value>
+        </data>
+        <data name="Prop_IsSystemAccount_Description" xml:space="preserve">
+          <value>Execute the query in an elevated security context</value>
+        </data>
+        <data name="Prop_EnablePaging_Description" xml:space="preserve">
+          <value>Set it to false to list all content on one page. Set it to true to show only a given number of contents simultaneously</value>
+        </data>
+        <data name="Prop_EnableSettingPageSize_Description" xml:space="preserve">
+          <value>Set it to false to always use the default page size given</value>
+        </data>
+        <data name="Prop_DefaultPageSize_Description" xml:space="preserve">
+          <value>The given number of content are listed simultaneously when pageing is enabled</value>
+        </data>
+        <data name="Prop_Top_Description" xml:space="preserve">
+          <value>The first given number of content are listed</value>
+        </data>
+        <data name="Prop_SkipFirst_Description" xml:space="preserve">
+          <value>The first given number of content are skipped</value>
+        </data>
+        <data name="Prop_EnableAutofilters_Description" xml:space="preserve">
+          <value>If autofilters are enabled, system content are not shown in the result</value>
+        </data>
+        <data name="Prop_EnableLifespanFilter_Description" xml:space="preserve">
+          <value>If lifespan filter is enabled, only content with valid StartDate and EndDate will be in the result</value>
+        </data>
+        <data name="Prop_CvPath_Description" xml:space="preserve">
+          <value>Path of the .ascx query view (SenseNet.Portal.UI.Controls.QueryView control) to render query results</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="GoogleSiteSearchResult">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_Params_DisplayName" xml:space="preserve">
+          <value>Google query parameter</value>
+        </data>
+        <data name="Prop_Params_Description" xml:space="preserve">
+          <value>Url query parameter of the request. Include 'num'(page size), 'lr'(language) and 'cx'(CSE ID)</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="SearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_ExtraQueryXML_DisplayName" xml:space="preserve">
+          <value>Extra query XML</value>
+        </data>
+        <data name="Prop_FullQueryXML_DisplayName" xml:space="preserve">
+          <value>Full query XML</value>
+        </data>
+        <data name="Prop_PageSize_DisplayName" xml:space="preserve">
+          <value>Page size</value>
+        </data>
+        <data name="Prop_SearchPaneMode_DisplayName" xml:space="preserve">
+          <value>Search pane mode</value>
+        </data>
+        <data name="Prop_CvFolderPath_DisplayName" xml:space="preserve">
+          <value>Result contentview path</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_DisplayName" xml:space="preserve">
+          <value>Allow empty search</value>
+        </data>
+        <data name="Prop_IsSystemAccount_DisplayName" xml:space="preserve">
+          <value>Run as system</value>
+        </data>
+        <data name="Prop_ExtraQueryXML_Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Prop_FullQueryXML_Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Prop_PageSize_Description" xml:space="preserve">
+          <value>The given number of content are listed simultaneously</value>
+        </data>
+        <data name="Prop_CvFolderPath_Description" xml:space="preserve">
+          <value>The contentview used to present result content</value>
+        </data>
+        <data name="Prop_AllowEmptySearch_Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Prop_IsSystemAccount_Description" xml:space="preserve">
+          <value>Execute the query in an elevated security context</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagAdminPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_Tags_DisplayName" xml:space="preserve">
+          <value>Path of tags</value>
+        </data>
+        <data name="Prop_SearchPaths_DisplayName" xml:space="preserve">
+          <value>Search paths</value>
+        </data>
+        <data name="Prop_Tags_Description" xml:space="preserve">
+          <value>Path of the folder containing tags</value>
+        </data>
+        <data name="Prop_SearchPaths_Description" xml:space="preserve">
+          <value>Only tags under these paths will be populated (separate with commas)</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagCloudPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_SearchPortletPath_DisplayName" xml:space="preserve">
+          <value>Tag search portlet path</value>
+        </data>
+        <data name="Prop_SearchPaths_DisplayName" xml:space="preserve">
+          <value>Search paths</value>
+        </data>
+        <data name="Prop_MaxCount_DisplayName" xml:space="preserve">
+          <value>Max tag count (TOP)</value>
+        </data>
+        <data name="Prop_ContentTypes_DisplayName" xml:space="preserve">
+          <value>Content Types</value>
+        </data>
+        <data name="Prop_IncludeChildren_DisplayName" xml:space="preserve">
+          <value>Including descendant types</value>
+        </data>
+        <data name="Prop_SearchPortletPath_Description" xml:space="preserve">
+          <value>Path of the portlet used for search</value>
+        </data>
+        <data name="Prop_SearchPaths_Description" xml:space="preserve">
+          <value>Only tags under these paths will be populated (separate with commas)</value>
+        </data>
+        <data name="Prop_MaxCount_Description" xml:space="preserve">
+          <value>Tha maximum number of different tags to display in the cloud based on occurrencies</value>
+        </data>
+        <data name="Prop_ContentTypes_Description" xml:space="preserve">
+          <value>Only these content types will be examined for tags (separate with commas)</value>
+        </data>
+        <data name="Prop_IncludeChildren_Description" xml:space="preserve">
+          <value>the listed content types and descendants will be examined</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="TagSearchPortlet">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Prop_SearchPaths_DisplayName" xml:space="preserve">
+          <value>Search paths</value>
+        </data>
+        <data name="Prop_ContentTypes_DisplayName" xml:space="preserve">
+          <value>Content Types</value>
+        </data>
+        <data name="Prop_IncludeChildren_DisplayName" xml:space="preserve">
+          <value>Including descendant types</value>
+        </data>
+        <data name="Prop_QueryFilter_DisplayName" xml:space="preserve">
+          <value>Children filter</value>
+        </data>
+        <data name="Prop_SearchPaths_Description" xml:space="preserve">
+          <value>Only tags under these paths will be populated (separate with commas)</value>
+        </data>
+        <data name="Prop_ContentTypes_Description" xml:space="preserve">
+          <value>Only these content types will be examined for tags (separate with commas)</value>
+        </data>
+        <data name="Prop_IncludeChildren_Description" xml:space="preserve">
+          <value>the listed content types and descendants will be examined</value>
+        </data>
+        <data name="Prop_QueryFilter_Description" xml:space="preserve">
+          <value>Optional filter for the children query</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

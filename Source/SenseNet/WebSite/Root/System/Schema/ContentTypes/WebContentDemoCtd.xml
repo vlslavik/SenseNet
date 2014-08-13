@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="WebContentDemo" parentType="WebContent" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-WebContentDemo,DisplayName</DisplayName>
+  <Description>$Ctd-WebContentDemo,Description</Description>
+  <Icon>WebContent</Icon>
+  <Fields>
+    <Field name="Subtitle" type="ShortText">
+      <DisplayName>$Ctd-WebContentDemo,Subtitle-DisplayName</DisplayName>
+    </Field>
+    <Field name="RelatedImage" type="Reference">
+      <DisplayName>$Ctd-WebContentDemo,RelatedImage-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,RelatedImage-Description</Description>
+      <Configuration>
+        <Reference multiple="disabled" nullValue="enabled">
+          <AllowedTypes>
+            <Type>File</Type>
+          </AllowedTypes>
+        </Reference>
+      </Configuration>
+    </Field>
+    <Field name="Header" type="LongText">
+      <DisplayName>$Ctd-WebContentDemo,Header-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Header-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <ControlHint>sn:RichText</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="Body" type="LongText">
+      <DisplayName>$Ctd-WebContentDemo,Body-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Body-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <ControlHint>sn:RichText</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="Details" type="HyperLink">
+      <DisplayName>$Ctd-WebContentDemo,Details-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Details-Description</Description>
+    </Field>
+    <Field name="Language" type="Choice">
+      <DisplayName>$Ctd-WebContentDemo,Language-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Language-Description</Description>
+      <Bind property="ContentLanguage" />
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>true</AllowExtraValue>
+        <Options>
+          <Option selected="true" value="English">$Ctd-WebContentDemo,Language-English</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="Keywords" type="LongText">
+      <DisplayName>$Ctd-WebContentDemo,Keywords-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Keywords-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.WhitespaceAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="Author" type="ShortText">
+      <DisplayName>$Ctd-WebContentDemo,Author-DisplayName</DisplayName>
+      <Description>$Ctd-WebContentDemo,Author-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

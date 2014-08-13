@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Group</ContentType>
+  <ContentName>Owners</ContentName>
+  <Fields>
+    <Members>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+      <Path>/Root/IMS/BuiltIn/Demo/ProjectManagers/alba</Path>
+      <Path>/Root/IMS/BuiltIn/Demo/ProjectManagers/rupertbrown</Path>
+    </Members>
+  </Fields>
+</ContentMetaData>

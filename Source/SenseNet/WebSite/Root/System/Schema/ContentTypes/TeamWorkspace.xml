@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="TeamWorkspace" parentType="Workspace" handler="SenseNet.ContentRepository.Workspaces.Workspace" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-TeamWorkspace,DisplayName</DisplayName>
+  <Description>$Ctd-TeamWorkspace,Description</Description>
+  <Icon>workspace</Icon>
+  <AllowedChildTypes>
+    Page,Folder,Blog,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,Survey,Voting,DiscussionForum,Form,CustomList,Posts
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="Manager" type="Reference">
+      <DisplayName>$Ctd-TeamWorkspace,Manager-DisplayName</DisplayName>
+    </Field>
+   
+    <Field name="Description" type="LongText"></Field>
+    
+  </Fields>
+</ContentType>

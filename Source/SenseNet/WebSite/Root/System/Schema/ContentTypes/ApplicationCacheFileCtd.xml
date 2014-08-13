@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ApplicationCacheFile" parentType="SystemFile" handler="SenseNet.ContentRepository.ApplicationCacheFile" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ApplicationCacheFile,DisplayName</DisplayName>
+  <Description>$Ctd-ApplicationCacheFile,Description</Description>
+  <Icon>File</Icon>
+  <Fields/>
+</ContentType>

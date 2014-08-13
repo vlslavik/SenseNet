@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="EventRegistrationForm" parentType="Form" handler="SenseNet.Portal.Portlets.ContentHandlers.Form" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-EventRegistrationForm,DisplayName</DisplayName>
+  <Description>$Ctd-EventRegistrationForm,Description</Description>
+  <Icon>Form</Icon>
+  <AllowedChildTypes>
+    EventRegistrationFormItem
+  </AllowedChildTypes>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationForm,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,DisplayName-Description</Description>
+    </Field>
+    <Field name="TitleSubmitter" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationForm,TitleSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,TitleSubmitter-Description</Description>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationForm,Description-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,Description-Description</Description>
+    </Field>
+    <Field name="AfterSubmitText" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationForm,AfterSubmitText-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,AfterSubmitText-Description</Description>
+    </Field>
+    <Field name="EmailList" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailList-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailList-Description</Description>
+    </Field>
+    <Field name="EmailFrom" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailFrom-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailFrom-Description</Description>
+    </Field>
+    <Field name="EmailFromSubmitter" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailFromSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailFromSubmitter-Description</Description>
+    </Field>
+    <Field name="EmailField" type="ShortText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailField-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailField-Description</Description>
+    </Field>
+    <Field name="EmailTemplate" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailTemplate-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailTemplate-Description</Description>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="EmailTemplateSubmitter" type="LongText">
+      <DisplayName>$Ctd-EventRegistrationForm,EmailTemplateSubmitter-DisplayName</DisplayName>
+      <Description>$Ctd-EventRegistrationForm,EmailTemplateSubmitter-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

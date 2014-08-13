@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>HTMLContent</ContentType>
+  <ContentName>FooterContent</ContentName>
+  <Fields>
+    <HTMLFragment>
+      <![CDATA[<div class="ui-helper-clearfix">
+            <p>
+              <strong>Sense/Net</strong>
+              <br/ >
+              1 Infopark sétány 
+              <br/ >
+              Infopark, Building "I"
+              <br/ >
+              Budapest, 1117
+              <br/ >
+              Hungary
+            </p>
+            <p>
+              <strong>Telephone:</strong>
+              <br/ >
+              +36-1-464-7070 
+              <br/ >
+              <strong>Fax:</strong>
+              <br/ >
+              +36-1-464-7080
+            </p>
+          </div>​]]></HTMLFragment>
+    <ReviewDate>2008-12-05T12:07:39.837</ReviewDate>
+    <ArchiveDate>2008-12-05T12:07:39.837</ArchiveDate>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>2008-12-05T12:07:39.837</ValidFrom>
+    <ValidTill>2008-12-05T12:07:39.837</ValidTill>
+    <DisplayName><![CDATA[FooterContent]]></DisplayName>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2012-05-21T10:32:51.073</CreationDate>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2012-05-21T10:45:18.85</ModificationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

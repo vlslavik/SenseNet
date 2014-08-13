@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-Library">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Library</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A base class for special List types for storing documents such as Document Library or Image Library.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Könyvtár</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Speciális lista típus, amely olyan listák őséül szolgál, amelyek gyermekelemei dokumentumok vagy képek.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Like">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Like</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Represents wall and content likes.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Lájk</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Fal és tartalom lájkolások tartalom típusa.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Link">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Link</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A link that navigates to an URL.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Enter a short description here.</value>
+        </data>
+        <data name="Url-DisplayName" xml:space="preserve">
+          <value>URL</value>
+        </data>
+        <data name="Url-Description" xml:space="preserve">
+          <value>Type a URL to this field to represent a link to that URL.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Notes</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Write your notes here.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Hivatkozás</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Hivatkozás, ami egy URL-re navigál.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Rövid leírás.</value>
+        </data>
+        <data name="Url-DisplayName" xml:space="preserve">
+          <value>URL</value>
+        </data>
+        <data name="Url-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Megjegyzések</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-LinkList">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Link List</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A List type for storing Links.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Hivatkozáslista</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Lista hivatkozások tárolására.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ListItem">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>List Item</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Base content type for list items.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Listaelem</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Alap listaelem típus.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ListView">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>List view</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A generic view for Lists.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Specify a name that will appear in the address bar of the browser. The name of the list view should end with an '.ascx' extension.</value>
+        </data>
+        <data name="Template-DisplayName" xml:space="preserve">
+          <value>Markup template</value>
+        </data>
+        <data name="Template-Description" xml:space="preserve">
+          <value>The Xslt template used to generate the view.</value>
+        </data>
+        <data name="Columns-DisplayName" xml:space="preserve">
+          <value>View composition</value>
+        </data>
+        <data name="Columns-Description" xml:space="preserve">
+          <value>Select the fields of the Content List to be displayed.</value>
+        </data>
+        <data name="SortBy-DisplayName" xml:space="preserve">
+          <value>Sort by</value>
+        </data>
+        <data name="SortBy-Description" xml:space="preserve">
+          <value>Select the column to sort by.</value>
+        </data>
+        <data name="GroupBy-DisplayName" xml:space="preserve">
+          <value>Group by</value>
+        </data>
+        <data name="GroupBy-Description" xml:space="preserve">
+          <value>Select the column to group by. This setting only works if the view template is capable of rendering grouped items.</value>
+        </data>
+        <data name="Flat-DisplayName" xml:space="preserve">
+          <value>Flat</value>
+        </data>
+        <data name="Flat-Description" xml:space="preserve">
+          <value>Flatten contained content structure to a single list (display content from all depths).</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>The binary content of the view. Please note that when a custom Markup template is specified this field is automatically filled - modify binary content by modifying given template.</value>
+        </data>
+        <data name="MainScenario-DisplayName" xml:space="preserve">
+          <value>Main scenario</value>
+        </data>
+        <data name="MainScenario-Description" xml:space="preserve">
+          <value>Name of the scenario that is used for the list item menus. If you leave this empty, this will be the default 'ListItem' scenario.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Lista nézet</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Alap nézet listákhoz.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Ez a név fog látszani a böngésző címsorában. A listanézet neve '.ascx'-re kell hogy végződjön.</value>
+        </data>
+        <data name="Template-DisplayName" xml:space="preserve">
+          <value>Sablon</value>
+        </data>
+        <data name="Template-Description" xml:space="preserve">
+          <value>Xslt sablon, ami az ascx lista nézet fájlt generálja.</value>
+        </data>
+        <data name="Columns-DisplayName" xml:space="preserve">
+          <value>Nézetben látható mezők</value>
+        </data>
+        <data name="Columns-Description" xml:space="preserve">
+          <value>Válassza ki, mely mezők látszódjanak a listában.</value>
+        </data>
+        <data name="SortBy-DisplayName" xml:space="preserve">
+          <value>Rendezési elv</value>
+        </data>
+        <data name="SortBy-Description" xml:space="preserve">
+          <value>Válassza ki, mely oszlopban található értékek alapján sorrendeződjenek az elemek.</value>
+        </data>
+        <data name="GroupBy-DisplayName" xml:space="preserve">
+          <value>Csoportosítás</value>
+        </data>
+        <data name="GroupBy-Description" xml:space="preserve">
+          <value>Válassza ki, mely mező értéke alapján csoportosítsa a lista elemeit. Ez a beállítás csak megfelelő listamegjelenítőkkel működik.</value>
+        </data>
+        <data name="Flat-DisplayName" xml:space="preserve">
+          <value>Kiterített</value>
+        </data>
+        <data name="Flat-Description" xml:space="preserve">
+          <value>Egy listában jeleníti meg egy mappa elemeit bármilyen mélységben.</value>
+        </data>
+        <data name="Binary-Description" xml:space="preserve">
+          <value>The binary content of the view. Please note that when a custom Markup template is specified this field is automatically filled - modify binary content by modifying given template.</value>
+        </data>
+        <data name="MainScenario-DisplayName" xml:space="preserve">
+          <value>Main scenario</value>
+        </data>
+        <data name="MainScenario-Description" xml:space="preserve">
+          <value>E scenariohoz tartozó elemek jelennek meg a listaelemek menüjében. Ha üresen marad, akkor az alapértelmezett, 'ListItem' scenariohoz tartozók lesznek láthatóak.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-LongTextFieldSetting">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Longtext field</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Hosszú szöveges mező</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-MailProcessorWorkflow">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mail Processor Workflow</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Levélfeldolgozó munkafolyamat</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-MasterPage">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Master Page</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This type is for internal use only.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Mester oldal</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Oldalak szerkezetének tárolására szolgáló típus. Csak belső használatra.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-Memo">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Memo</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A content type for short memos or posts on a subject.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Body</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Type your message here.</value>
+        </data>
+        <data name="Date-DisplayName" xml:space="preserve">
+          <value>Date</value>
+        </data>
+        <data name="Date-Description" xml:space="preserve">
+          <value>Please set the due date of the memo.</value>
+        </data>
+        <data name="MemoType-DisplayName" xml:space="preserve">
+          <value>Memo type</value>
+        </data>
+        <data name="MemoType-Description" xml:space="preserve">
+          <value>Type of the memo.</value>
+        </data>
+        <data name="MemoType-generic" xml:space="preserve">
+          <value>Generic</value>
+        </data>
+        <data name="MemoType-iso" xml:space="preserve">
+          <value>ISO</value>
+        </data>
+        <data name="MemoType-iaudit" xml:space="preserve">
+          <value>Internal audit</value>
+        </data>
+        <data name="SeeAlso-DisplayName" xml:space="preserve">
+          <value>See also...</value>
+        </data>
+        <data name="SeeAlso-Description" xml:space="preserve">
+          <value>A list of content this memo pertains to.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Emlékeztető</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Tartalom típus rövid emlékeztetők tárolására.</value>
+        </data>
+        <data name="Description-DisplayName" xml:space="preserve">
+          <value>Törzsszöveg</value>
+        </data>
+        <data name="Description-Description" xml:space="preserve">
+          <value>Írja ide az emlékeztető szövegét.</value>
+        </data>
+        <data name="Date-DisplayName" xml:space="preserve">
+          <value>Dátum</value>
+        </data>
+        <data name="Date-Description" xml:space="preserve">
+          <value>Állítsa be az emlékeztető lejárati dátumát.</value>
+        </data>
+        <data name="MemoType-DisplayName" xml:space="preserve">
+          <value>Emlékeztető típusa</value>
+        </data>
+        <data name="MemoType-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="MemoType-generic" xml:space="preserve">
+          <value>Általános</value>
+        </data>
+        <data name="MemoType-iso" xml:space="preserve">
+          <value>ISO</value>
+        </data>
+        <data name="MemoType-iaudit" xml:space="preserve">
+          <value>Belső audit</value>
+        </data>
+        <data name="SeeAlso-DisplayName" xml:space="preserve">
+          <value>Lásd még...</value>
+        </data>
+        <data name="SeeAlso-Description" xml:space="preserve">
+          <value>Vonatkozó emlékeztetők.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-MemoList">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Memo List</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A List type for storing Memos.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Emlékeztető lista</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Lista emlékeztető típusú elemek tárolására.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

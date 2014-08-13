@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>SalesWorkspace</ContentType>
+  <ContentName>Sales_Workspace</ContentName>
+  <Fields>
+    <Manager />
+    <Customer><![CDATA[]]></Customer>
+    <Description><![CDATA[]]></Description>
+    <ExpectedRevenue>0.0000</ExpectedRevenue>
+    <ChanceOfWinning>0.0000</ChanceOfWinning>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+    <Deadline>0001-01-01T00:00:00</Deadline>
+    <Contacts><![CDATA[]]></Contacts>
+    <Notes><![CDATA[]]></Notes>
+    <Completion>0</Completion>
+    <ContractSigned>false</ContractSigned>
+    <ContractSignedDate>0001-01-01T00:00:00</ContractSignedDate>
+    <DisplayName><![CDATA[$ContentTemplates,SalesWorkspace]]></DisplayName>
+    <IsActive>true</IsActive>
+    <IsCritical>false</IsCritical>
+    <IsWallContainer>false</IsWallContainer>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2012-10-25T16:42:58.827</CreationDate>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2012-10-26T09:17:56.98</ModificationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Owners">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Members">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <AddNew>Allow</AddNew>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Visitors">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

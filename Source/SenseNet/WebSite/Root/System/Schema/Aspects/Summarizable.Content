@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Aspect</ContentType>
+  <ContentName>Summarizable</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$Aspect,Summarizable-DisplayName]]></DisplayName>
+    <AspectDefinition>
+          <![CDATA[<AspectDefinition xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/AspectDefinition">
+      <Fields>
+        <AspectField name="Summary" type="LongText">
+          <DisplayName>$Aspect-Summarizable,Summary-DisplayName</DisplayName>
+          <Description>$Aspect-Summarizable,Summary-Description</Description>
+        </AspectField>
+      </Fields>
+    </AspectDefinition>]]></AspectDefinition>
+  </Fields>
+</ContentMetaData>

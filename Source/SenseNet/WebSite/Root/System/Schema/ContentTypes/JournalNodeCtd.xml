@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="JournalNode" handler="SenseNet.Portal.Workspaces.JournalNode" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-JournalNode,DisplayName</DisplayName>
+  <Description>$Ctd-JournalNode,Description</Description>
+  <Icon>Document</Icon>
+  <Fields>
+    <Field name="What" type="ShortText">
+      <DisplayName>$Ctd-JournalNode,What-DisplayName</DisplayName>
+      <Description>$Ctd-JournalNode,What-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+        <Store>No</Store>
+      </Indexing>
+    </Field>
+    <Field name="Wherewith" type="ShortText">
+      <DisplayName>$Ctd-JournalNode,Wherewith-DisplayName</DisplayName>
+      <Description>$Ctd-JournalNode,Wherewith-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+        <Store>No</Store>
+      </Indexing>
+    </Field>
+    <Field name="Who" type="ShortText">
+      <DisplayName>$Ctd-JournalNode,Who-DisplayName</DisplayName>
+      <Description>$Ctd-JournalNode,Who-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+        <Store>No</Store>
+      </Indexing>
+    </Field>
+    <Field name="When" type="DateTime">
+      <DisplayName>$Ctd-JournalNode,When-DisplayName</DisplayName>
+      <Description>$Ctd-JournalNode,When-Description</Description>
+      <Indexing>
+        <Mode>No</Mode>
+        <Store>No</Store>
+      </Indexing>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,19 @@
+<div class="sn-commentsection">
+	<div class='sn-likebox sn-commentsectiondiv' style="display:{{likeboxdisplay}};">
+		<span class='sn-likelabel'>{{likes}}</span>
+	</div>
+	<div class="sn-commentsectiondiv" style="display:{{hiddencommentboxdisplay}};">
+		<a href='javascript:' onclick="SN.Wall.viewAllComments($(this));">{{$Wall:Template_ViewAllComments}}</a>
+	</div>
+	<div class="sn-hiddencomments">
+		{{hiddencomments}}
+	</div>
+	<div class="sn-comments">
+		{{comments}}
+	</div>
+	<div class='sn-commentboxdiv sn-unfocused-commentbox' style="display:{{commentboxdisplay}};">
+		<input type="text" class="sn-commentbox sn-unfocused-postbox" onkeydown="if (SN.Wall.createComment(event, $(this))) return false;" onfocus="SN.Wall.onfocusCommentBox($(this));" onblur="SN.Wall.onblurCommentBox($(this));" value="{{$Wall:Template_WriteSomething}}" />
+		<div class="sn-wall-clear">
+		</div>
+	</div>
+</div>

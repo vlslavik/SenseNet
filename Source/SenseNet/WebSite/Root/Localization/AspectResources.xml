@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Aspect">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Summarizable-DisplayName" xml:space="preserve">
+          <value>Summarizable</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Summarizable-DisplayName" xml:space="preserve">
+          <value>Összegző</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Aspect-Summarizable">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Summary-DisplayName" xml:space="preserve">
+          <value>Summary</value>
+        </data>
+        <data name="Summary-Description" xml:space="preserve">
+          <value>Short summary of the content.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Summary-DisplayName" xml:space="preserve">
+          <value>Összegzés</value>
+        </data>
+        <data name="Summary-Description" xml:space="preserve">
+          <value>A tartalom rövid összefoglalója.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>
